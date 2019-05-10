@@ -27,7 +27,7 @@ class HomeSplash extends React.Component {
 
     const ProjectTitle = () => (
       <h2 className="projectTitle">
-        {siteConfig.mainPageBanner}
+        Horizontal logo should be here
         <small>{siteConfig.tagline}</small>
       </h2>
     );
