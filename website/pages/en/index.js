@@ -152,13 +152,13 @@ class Index extends React.Component {
             content: 'This is the content of my feature',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Michał',
           },
           {
             content: 'The content of my second feature',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Paweł',
           },
         ]}
       </Block>
