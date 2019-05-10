@@ -107,6 +107,7 @@ const siteConfig = {
   //   repoUrl: 'https://github.com/facebook/test-site',
   michalProfilePic: 'img/michal.jpg',
   pawelProfilePic: 'img/pawel.jpg',
+  mainPageBanner: 'img/logo-horizontal.jpg',
 };
 
 module.exports = siteConfig;

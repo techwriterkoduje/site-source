@@ -27,7 +27,7 @@ class HomeSplash extends React.Component {
 
     const ProjectTitle = () => (
       <h2 className="projectTitle">
-        {siteConfig.title}
+        {siteConfig.mainPageBanner}
         <small>{siteConfig.tagline}</small>
       </h2>
     );
@@ -86,7 +86,6 @@ class Index extends React.Component {
               'Podcast o technicznej stronie tworzenia dokumentacji w IT. Skupiamy się na tym jak Tech Writer może wpasować się w środowisko programistów zarówno pod kątem sposobu pracy jak i używanych technologii, narzędzi i rozwiązań. Staramy się też pokazać, że praca Tech Writera może być ciekawa i rozwijająca pod kątem umiejętności technicznych.',
             image: `${baseUrl}img/podcast.svg`,
             imageAlign: 'top',
-            title: 'Podcast',
           },
         ]}
       </Block>
