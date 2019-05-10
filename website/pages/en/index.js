@@ -83,7 +83,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'O co chodzi w tym podkaście?',
+              'O co chodzi w tym podkaście? Nie wie nikt...',
             image: `${baseUrl}img/podcast.svg`,
             imageAlign: 'right',
             title: 'Podcast',
