@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'Tech Writer koduje', // Title for your website.
   tagline: 'Bo słowa to za mało...',
   url: 'https://techwriterkoduje.github.io', // Your website URL
-  baseUrl: '/techwriterkoduje.github.io/', // Base URL for your project */
+  baseUrl: '/site-source/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
