@@ -83,7 +83,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'O co chodzi w tym podkaście? Nie wie nikt...',
+              'Podcast o technicznej stronie tworzenia dokumentacji w IT. Skupiamy się na tym jak Tech Writer może wpasować się w środowisko programistów zarówno pod kątem sposobu pracy jak i używanych technologii, narzędzi i rozwiązań. Staramy się też pokazać, że praca Tech Writera może być ciekawa i rozwijająca pod kątem umiejętności technicznych.',
             image: `${baseUrl}img/podcast.svg`,
             imageAlign: 'top',
             title: 'Podcast',
