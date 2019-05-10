@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://techwriterkoduje.github.io/techwriterkoduje.github.io/blog</id>
+    <title>Tech Writer koduje Blog</title>
+    <updated>2019-05-10T06:00:00Z</updated>
+    <generator>Feed for Node.js</generator>
+    <link rel="alternate" href="https://techwriterkoduje.github.io/techwriterkoduje.github.io/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</subtitle>
+    <logo>https://techwriterkoduje.github.io/techwriterkoduje.github.io/img/logo-square.jpg</logo>
+    <rights>Copyright © 2019 Your Name or Your Company Name</rights>
+    <entry>
+        <title type="html"><![CDATA[Docs like code - co to jest i dlaczego warto się tym zainteresować]]></title>
+        <id>https://techwriterkoduje.github.io/techwriterkoduje.github.io/blog/2019/05/10/docs-like-code.html</id>
+        <link href="https://techwriterkoduje.github.io/techwriterkoduje.github.io/blog/2019/05/10/docs-like-code.html">
+        </link>
+        <updated>2019-05-10T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Tutaj będzie podsumowanie.</p> <pre><code class="hljs"><span class="hljs-attr">przyklad.kodu</span> = fajny + przykład </code></pre> ]]></summary>
+        <author>
+            <name>Blog Author</name>
+            <uri>http://twitter.com/</uri>
+        </author>
+    </entry>
+</feed>

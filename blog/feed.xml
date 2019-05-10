@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Tech Writer koduje Blog</title>
+        <link>https://techwriterkoduje.github.io/techwriterkoduje.github.io/blog</link>
+        <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
+        <lastBuildDate>Fri, 10 May 2019 06:00:00 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>Tech Writer koduje Blog</title>
+            <url>https://techwriterkoduje.github.io/techwriterkoduje.github.io/img/logo-square.jpg</url>
+            <link>https://techwriterkoduje.github.io/techwriterkoduje.github.io/blog</link>
+        </image>
+        <copyright>Copyright © 2019 Your Name or Your Company Name</copyright>
+        <item>
+            <title><![CDATA[Docs like code - co to jest i dlaczego warto się tym zainteresować]]></title>
+            <link>https://techwriterkoduje.github.io/techwriterkoduje.github.io/blog/2019/05/10/docs-like-code.html</link>
+            <guid>https://techwriterkoduje.github.io/techwriterkoduje.github.io/blog/2019/05/10/docs-like-code.html</guid>
+            <pubDate>Fri, 10 May 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Tutaj będzie podsumowanie.</p> <pre><code class="hljs"><span class="hljs-attr">przyklad.kodu</span> = fajny + przykład </code></pre> ]]></description>
+        </item>
+    </channel>
+</rss>
