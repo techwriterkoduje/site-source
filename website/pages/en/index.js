@@ -15,23 +15,13 @@ const GridBlock = CompLibrary.GridBlock;
 
 class HomeSplash extends React.Component {
   render() {
-    const {siteConfig, language = ''} = this.props;
-    const {baseUrl, docsUrl} = siteConfig;
-    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
-    const langPart = `${language ? `${language}/` : ''}`;
-    const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
+    const { siteConfig } = this.props;
 
     const SplashContainer = props => (
       <div className="homeContainer">
         <div className="homeSplashFade">
           <div className="wrapper homeWrapper">{props.children}</div>
         </div>
-      </div>
-    );
-
-    const Logo = props => (
-      <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
       </div>
     );
 
@@ -50,23 +40,11 @@ class HomeSplash extends React.Component {
       </div>
     );
 
-    const Button = props => (
-      <div className="pluginWrapper buttonWrapper">
-        <a className="button" href={props.href} target={props.target}>
-          {props.children}
-        </a>
-      </div>
-    );
-
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -76,8 +54,8 @@ class HomeSplash extends React.Component {
 
 class Index extends React.Component {
   render() {
-    const {config: siteConfig, language = ''} = this.props;
-    const {baseUrl} = siteConfig;
+    const { config: siteConfig, language = '' } = this.props;
+    const { baseUrl } = siteConfig;
 
     const Block = props => (
       <Container
@@ -92,117 +70,56 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
+    const HostSummary = () => (
       <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>od kilku lat zajmują się zawodowo dokumentacją do oprogramowania. Właściwie od samego początku, techniczna strona tworzenia dokumentacji była dla nich najbardziej interesująca. Dlatego uwielbiają brudzić sobie ręce pisząc skrypty, konfigurując narzędzia i wymyślając rozwiązania związane z automatyzacją, które pozwalają Tech Writerom skupić się na tym co ważne. Na co dzień zastanawiają się jak świat dokumentacji może czerpać korzyści z technologii, których używa się w świecie IT.</MarkdownBlock>
+        className="productShowcaseSection paddingBottom">
+        <h2>O prowadzących</h2>
+        <MarkdownBlock>Prowadzący od kilku lat zajmują się zawodowo dokumentacją do oprogramowania. Właściwie od samego początku, techniczna strona tworzenia dokumentacji była dla nich najbardziej interesująca. Dlatego uwielbiają brudzić sobie ręce pisząc skrypty, konfigurując narzędzia i wymyślając rozwiązania związane z automatyzacją, które pozwalają Tech Writerom skupić się na tym co ważne. Na co dzień zastanawiają się jak świat dokumentacji może czerpać korzyści z technologii, których używa się w świecie IT.</MarkdownBlock>
       </div>
     );
 
-    const TryOut = () => (
-      <Block id="try">
-        {[
-          {
-            content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
-            imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
-          },
-        ]}
-      </Block>
-    );
-
-    const Description = () => (
-      <Block background="dark">
-        {[
-          {
-            content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
-            imageAlign: 'right',
-            title: 'Description',
-          },
-        ]}
-      </Block>
-    );
-
-    const LearnHow = () => (
+    const About = () => (
       <Block background="light">
         {[
           {
             content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+              'O co chodzi w tym podkaście?',
+            image: `${baseUrl}img/podcast.svg`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            title: 'Podcast',
           },
         ]}
       </Block>
     );
 
-    const Features = () => (
-      <Block layout="fourColumn">
-        {[
-          {
-            content: 'This is the content of my feature',
-            image: `https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/278281_2223337990898_6169616_o.jpg?_nc_cat=101&_nc_ht=scontent-frx5-1.xx&oh=210032a119a5cb130e704bcab0056be2&oe=5D2B011F`,
-            imageAlign: 'top',
-            title: 'Michał',
-          },
-          {
-            content: 'The content of my second feature',
-            image: `https://avatars3.githubusercontent.com/u/6593513?s=460&v=4`,
-            imageAlign: 'top',
-            title: 'Paweł',
-          },
-        ]}
-      </Block>
+    const HostCards = () => (
+      <div className="hosts">
+        <Block layout="fourColumn">
+          {[
+            {
+              content: 'Fajny gość, preferuje Pythona',
+              image: `https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/278281_2223337990898_6169616_o.jpg?_nc_cat=101&_nc_ht=scontent-frx5-1.xx&oh=210032a119a5cb130e704bcab0056be2&oe=5D2B011F`,
+              imageAlign: 'top',
+              title: 'Michał',
+            },
+            {
+              content: 'Ziomuś, który zna się na dicie',
+              image: `https://avatars3.githubusercontent.com/u/6593513?s=460&v=4`,
+              imageAlign: 'top',
+              title: 'Paweł',
+            },
+          ]}
+        </Block>
+      </div>
     );
-
-    const Showcase = () => {
-      if ((siteConfig.users || []).length === 0) {
-        return null;
-      }
-
-      const showcase = siteConfig.users
-        .filter(user => user.pinned)
-        .map(user => (
-          <a href={user.infoLink} key={user.infoLink}>
-            <img src={user.image} alt={user.caption} title={user.caption} />
-          </a>
-        ));
-
-      const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
-
-      return (
-        <div className="productShowcaseSection paddingBottom">
-          <h2>Who is Using This?</h2>
-          <p>This project is used by all these people</p>
-          <div className="logos">{showcase}</div>
-          <div className="more-users">
-            <a className="button" href={pageUrl('users.html')}>
-              More {siteConfig.title} Users
-            </a>
-          </div>
-        </div>
-      );
-    };
 
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase />
+          <About />
+          <HostCards />
+          <HostSummary />
         </div>
       </div>
     );
