@@ -85,11 +85,17 @@ class Index extends React.Component {
             content:
               'O co chodzi w tym podkaście? Nie wie nikt...',
             image: `${baseUrl}img/podcast.svg`,
-            imageAlign: 'right',
+            imageAlign: 'top',
             title: 'Podcast',
           },
         ]}
       </Block>
+    );
+
+    const Episodes = () => (
+      <Container  padding={['bottom', 'top']}>
+        <a class="btn btn-secondary btn-lg btn-block" href="blog">Posłuchaj odcinków</a>
+      </Container>
     );
 
     const HostCards = () => (
@@ -98,13 +104,13 @@ class Index extends React.Component {
           {[
             {
               content: 'Fajny gość, preferuje Pythona',
-              image: `https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/278281_2223337990898_6169616_o.jpg?_nc_cat=101&_nc_ht=scontent-frx5-1.xx&oh=210032a119a5cb130e704bcab0056be2&oe=5D2B011F`,
+              image: `${baseUrl}${siteConfig.michalProfilePic}`,
               imageAlign: 'top',
               title: 'Michał',
             },
             {
               content: 'Ziomuś, który zna się na dicie',
-              image: `https://avatars3.githubusercontent.com/u/6593513?s=460&v=4`,
+              image: `${baseUrl}${siteConfig.pawelProfilePic}`,
               imageAlign: 'top',
               title: 'Paweł',
             },
@@ -118,6 +124,7 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <About />
+          <Episodes />
           <HostCards />
           <HostSummary />
         </div>

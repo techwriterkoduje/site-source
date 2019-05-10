@@ -38,8 +38,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {page: 'users', label: 'Prowadzący'},
-    {blog: true, label: 'Odcinki'},
+    { page: 'users', label: 'Prowadzący' },
+    { blog: true, label: 'Odcinki' },
   ],
 
   // If you have users set above, you add it here:
@@ -71,7 +71,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `© ${new Date().getFullYear()} Tech Writer Koduje`,
+  copyright: `© ${new Date().getFullYear()} Tech Writer koduje`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -79,7 +79,13 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: [
+    'https://buttons.github.io/buttons.js',
+    'https://code.jquery.com/jquery-3.3.1.slim.min.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js',
+    'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
+  ],
+  stylesheets: ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
@@ -87,8 +93,8 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/undraw_online.svg',
-  twitterImage: 'img/undraw_tweetstorm.svg',
+  // ogImage: 'img/undraw_online.svg',
+  // twitterImage: 'img/undraw_tweetstorm.svg',
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
@@ -99,6 +105,8 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
+  michalProfilePic: 'img/michal.jpg',
+  pawelProfilePic: 'img/pawel.jpg',
 };
 
 module.exports = siteConfig;
