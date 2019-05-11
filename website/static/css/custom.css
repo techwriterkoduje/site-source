@@ -65,3 +65,8 @@
 .nav-footer .copyright {
     color: #DADADA;
 }
+
+.episodeButton {
+    font-size: 300%;
+    padding: 3rem;
+}
