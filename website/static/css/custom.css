@@ -10,17 +10,58 @@
 
 @media only screen and (min-width: 1500px) {}
 
-.hosts .blockImage {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
+.primaryBackground {
+    background-color: #21211F;
+    color: #DADADA;
 }
 
 .hosts img {
-    display: inline;
-    margin: 0 auto;
-    height: 100%;
-    width: auto;
+    border-radius: 50%;
+    width: 50%;
+}
+
+.hostDescription {
+    text-align: left;
+    vertical-align: middle;
+    padding-bottom: 8rem;
+}
+
+.hostCards {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.kodujeHero {
+    font-size: 400%;
+    align-content: center;
+}
+
+.heroTW {
+    color: #21211F;
+    text-align: right;
+}
+
+.kodujeTW {
+    color: #DADADA;
+    background-color: #008DD2;
+    text-align: left;
+    border: 1px solid #DADADA;
+}
+
+.podcastIcon {
+    text-align: center;
+    font-size: 400%;
+}
+
+.mainContainer {
+    padding-bottom: 0;
+}
+
+.nav-footer {
+    background-color: #008DD2;
+    padding-top: 4rem;
+}
+
+.nav-footer .copyright {
+    color: #DADADA;
 }
