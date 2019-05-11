@@ -10,9 +10,25 @@
 
 @media only screen and (min-width: 1500px) {}
 
+.primaryBackground {
+    background-color: #21211F;
+    color: #DADADA;
+}
+
 .hosts img {
     border-radius: 50%;
-    width: 100%;
+    width: 50%;
+}
+
+.hostDescription {
+    text-align: left;
+    vertical-align: middle;
+    padding-bottom: 8rem;
+}
+
+.hostCards {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .kodujeHero {
@@ -30,4 +46,22 @@
     background-color: #008DD2;
     text-align: left;
     border: 1px solid #DADADA;
+}
+
+.podcastIcon {
+    text-align: center;
+    font-size: 400%;
+}
+
+.mainContainer {
+    padding-bottom: 0;
+}
+
+.nav-footer {
+    background-color: #008DD2;
+    padding-top: 4rem;
+}
+
+.nav-footer .copyright {
+    color: #DADADA;
 }

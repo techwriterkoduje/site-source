@@ -28,12 +28,11 @@ class HomeSplash extends React.Component {
     const ProjectTitle = () => (
       <div className="container">
         <div className="row kodujeHero">
-          <div className="col heroTW">Tech.Writer.</div>
-          <div className="col">&nbsp;</div>
-        </div>
-        <div className="row kodujeHero">
-          <div className="col"></div>
-          <div className="col kodujeTW"><i class="fas fa-cube"></i> koduje</div>
+          <div className="col-sm heroTW">Tech.Writer.</div>
+          <div className="col-sm"></div>
+          <div class="w-100"></div>
+          <div className="col-sm"></div>
+          <div className="col-sm kodujeTW shadow-sm p-3 mb-5 rounded"><i class="fas fa-cube"></i> koduje</div>
         </div>
         <div className="row">
           <h2 className="projectTitle col">
@@ -82,52 +81,65 @@ class Index extends React.Component {
     );
 
     const About = () => (
-      <Block background="light">
-        {[
-          {
-            content:
-              'Podcast o technicznej stronie tworzenia dokumentacji w IT. Skupiamy się na tym jak Tech Writer może wpasować się w środowisko programistów zarówno pod kątem sposobu pracy jak i używanych technologii, narzędzi i rozwiązań. Staramy się też pokazać, że praca Tech Writera może być ciekawa i rozwijająca pod kątem umiejętności technicznych.',
-            image: `${baseUrl}img/podcast.svg`,
-            imageAlign: 'top',
-          },
-        ]}
-      </Block>
+      <div className="container lightBackground paddingBottom paddingTop">
+        <div className="row">
+          <div className="col-sm text-justify">
+            <div className="podcastIcon">
+              <i class="fas fa-microphone-alt"></i>
+            </div>
+            <div>
+              <p>
+                Podcast o technicznej stronie tworzenia dokumentacji w IT. Skupiamy się na tym jak
+                Tech Writer może wpasować się w środowisko programistów pod kątem sposobu pracy i narzędzi. 
+                Staramy się też pokazać, że praca Tech Writera może bardzo rozwijać umiejętności techniczne.
+            </p>
+            </div>
+          </div>
+          <div className="col-sm">
+            <img alt="Photo by neil godding on Unsplash" src={`${baseUrl}/img/neil-godding-179009-unsplash.jpg`} />
+          </div>
+        </div>
+      </div>
     );
 
     const Episodes = () => (
       <Container padding={['bottom', 'top']}>
-        <a class="btn btn-secondary btn-lg btn-block" href="blog">Posłuchaj odcinków</a>
+        <a class="btn btn-secondary btn-lg btn-block primaryBackground" href="blog"><i class="fas fa-headphones"></i> Posłuchaj odcinków</a>
       </Container>
     );
 
-    const HostCards = () => (
-      <Container className="hosts">
-        <div className="productShowcaseSection">
-          <h1>Prowadzący</h1>
+    const Hosts = () => (
+      <div className="productShowcaseSection primaryBackground paddingBottom">
+        <div className="hosts container">
+          <div className="row">
+            <div className="col-sm">
+              <h1>Prowadzący</h1>
+            </div>
+          </div>
+          <div className="row hostCards">
+            <div className="col-sm">
+              <img src={`${baseUrl}${siteConfig.michalProfilePic}`} />
+              <h2>Michał</h2>
+              <p>Fajny gość, preferuje Pythona</p>
+            </div>
+            <div className="col">
+              <img src={`${baseUrl}${siteConfig.pawelProfilePic}`} />
+              <h2>Paweł</h2>
+              <p>Old school, ale zna się na dicie</p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col text-justify">
+              <p>
+                Prowadzący od kilku lat zajmują się zawodowo dokumentacją do oprogramowania.
+                Właściwie od samego początku, techniczna strona tworzenia dokumentacji była dla nich najbardziej interesująca.
+                Dlatego uwielbiają pisać skrypty, konfigurować narzędzia i automatyzować.
+                Szukają rozwiązań, które pozwolą Tech Writerom skupić się na tym co ważne.
+              </p>
+              <p>Na co dzień zastanawiają się jak świat dokumentacji może czerpać korzyści z technologii, których używa się w świecie IT.</p>
+            </div>
+          </div>
         </div>
-        <Block layout="fourColumn">
-          {[
-            {
-              content: 'Fajny gość, preferuje Pythona',
-              image: `${baseUrl}${siteConfig.michalProfilePic}`,
-              imageAlign: 'top',
-              title: 'Michał',
-            },
-            {
-              content: 'Ziomuś, który zna się na dicie',
-              image: `${baseUrl}${siteConfig.pawelProfilePic}`,
-              imageAlign: 'top',
-              title: 'Paweł',
-            }
-          ]}
-        </Block>
-      </Container>
-    );
-
-    const HostSummary = () => (
-      <div
-        className="productShowcaseSection paddingBottom">
-        <MarkdownBlock>Prowadzący od kilku lat zajmują się zawodowo dokumentacją do oprogramowania. Właściwie od samego początku, techniczna strona tworzenia dokumentacji była dla nich najbardziej interesująca. Dlatego uwielbiają brudzić sobie ręce pisząc skrypty, konfigurując narzędzia i wymyślając rozwiązania związane z automatyzacją, które pozwalają Tech Writerom skupić się na tym co ważne. Na co dzień zastanawiają się jak świat dokumentacji może czerpać korzyści z technologii, których używa się w świecie IT.'</MarkdownBlock>
       </div>
     );
 
@@ -137,8 +149,7 @@ class Index extends React.Component {
         <div className="mainContainer">
           <About />
           <Episodes />
-          <HostCards />
-          <HostSummary />
+          <Hosts />
         </div>
       </div>
     );
