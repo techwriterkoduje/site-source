@@ -85,7 +85,10 @@ const siteConfig = {
     'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js',
     'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
   ],
-  stylesheets: ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'],
+  stylesheets: [
+    'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',
+    'https://use.fontawesome.com/releases/v5.8.2/css/all.css'
+  ],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',

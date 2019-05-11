@@ -26,10 +26,17 @@ class HomeSplash extends React.Component {
     );
 
     const ProjectTitle = () => (
-      <h2 className="projectTitle">
-        Horizontal logo should be here
-        <small>{siteConfig.tagline}</small>
-      </h2>
+      <div className="kodujeHero">
+          <Container
+            padding={['bottom']}>
+            <Container padding={['top']}>
+              <img src={siteConfig.mainPageBanner} alt={'tech writer koduje'} />
+            </Container>
+            <h2 className="projectTitle">
+              <small>{siteConfig.tagline}</small>
+            </h2>
+          </Container>
+        </div>
     );
 
     const PromoSection = props => (
@@ -70,14 +77,6 @@ class Index extends React.Component {
       </Container>
     );
 
-    const HostSummary = () => (
-      <div
-        className="productShowcaseSection paddingBottom">
-        <h2>O prowadzących</h2>
-        <MarkdownBlock>Prowadzący od kilku lat zajmują się zawodowo dokumentacją do oprogramowania. Właściwie od samego początku, techniczna strona tworzenia dokumentacji była dla nich najbardziej interesująca. Dlatego uwielbiają brudzić sobie ręce pisząc skrypty, konfigurując narzędzia i wymyślając rozwiązania związane z automatyzacją, które pozwalają Tech Writerom skupić się na tym co ważne. Na co dzień zastanawiają się jak świat dokumentacji może czerpać korzyści z technologii, których używa się w świecie IT.</MarkdownBlock>
-      </div>
-    );
-
     const About = () => (
       <Block background="light">
         {[
@@ -92,13 +91,16 @@ class Index extends React.Component {
     );
 
     const Episodes = () => (
-      <Container  padding={['bottom', 'top']}>
+      <Container padding={['bottom', 'top']}>
         <a class="btn btn-secondary btn-lg btn-block" href="blog">Posłuchaj odcinków</a>
       </Container>
     );
 
     const HostCards = () => (
-      <div className="hosts">
+      <Container className="hosts">
+        <div className="productShowcaseSection">
+          <h1>Prowadzący</h1>
+        </div>
         <Block layout="fourColumn">
           {[
             {
@@ -112,9 +114,16 @@ class Index extends React.Component {
               image: `${baseUrl}${siteConfig.pawelProfilePic}`,
               imageAlign: 'top',
               title: 'Paweł',
-            },
+            }
           ]}
         </Block>
+      </Container>
+    );
+
+    const HostSummary = () => (
+      <div
+        className="productShowcaseSection paddingBottom">
+        <MarkdownBlock>Prowadzący od kilku lat zajmują się zawodowo dokumentacją do oprogramowania. Właściwie od samego początku, techniczna strona tworzenia dokumentacji była dla nich najbardziej interesująca. Dlatego uwielbiają brudzić sobie ręce pisząc skrypty, konfigurując narzędzia i wymyślając rozwiązania związane z automatyzacją, które pozwalają Tech Writerom skupić się na tym co ważne. Na co dzień zastanawiają się jak świat dokumentacji może czerpać korzyści z technologii, których używa się w świecie IT.'</MarkdownBlock>
       </div>
     );
 
