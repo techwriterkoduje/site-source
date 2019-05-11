@@ -38,8 +38,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { page: 'users', label: 'Prowadzący' },
     { blog: true, label: 'Odcinki' },
+    { page: 'contact', label: 'Kontakt' },
   ],
 
   // If you have users set above, you add it here:

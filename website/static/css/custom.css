@@ -14,3 +14,20 @@
     border-radius: 50%;
     width: 100%;
 }
+
+.kodujeHero {
+    font-size: 400%;
+    align-content: center;
+}
+
+.heroTW {
+    color: #21211F;
+    text-align: right;
+}
+
+.kodujeTW {
+    color: #DADADA;
+    background-color: #008DD2;
+    text-align: left;
+    border: 1px solid #DADADA;
+}

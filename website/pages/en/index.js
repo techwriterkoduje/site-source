@@ -26,17 +26,21 @@ class HomeSplash extends React.Component {
     );
 
     const ProjectTitle = () => (
-      <div className="kodujeHero">
-          <Container
-            padding={['bottom']}>
-            <Container padding={['top']}>
-              <img src={siteConfig.mainPageBanner} alt={'tech writer koduje'} />
-            </Container>
-            <h2 className="projectTitle">
-              <small>{siteConfig.tagline}</small>
-            </h2>
-          </Container>
+      <div className="container">
+        <div className="row kodujeHero">
+          <div className="col heroTW">Tech.Writer.</div>
+          <div className="col">&nbsp;</div>
         </div>
+        <div className="row kodujeHero">
+          <div className="col"></div>
+          <div className="col kodujeTW"><i class="fas fa-cube"></i> koduje</div>
+        </div>
+        <div className="row">
+          <h2 className="projectTitle col">
+            <small>{siteConfig.tagline}</small>
+          </h2>
+        </div>
+      </div>
     );
 
     const PromoSection = props => (
