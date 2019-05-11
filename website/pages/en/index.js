@@ -96,7 +96,10 @@ class Index extends React.Component {
             </div>
           </div>
           <div className="col-sm">
-            <img alt="Photo by neil godding on Unsplash" src={`${baseUrl}/img/neil-godding-179009-unsplash.jpg`} />
+            <img 
+              alt="Photo by Neil Godding on Unsplash" 
+              title="Photo by Neil Godding on Unsplash" 
+              src={`${baseUrl}/img/neil-godding-179009-unsplash.jpg`} />
           </div>
         </div>
       </div>
