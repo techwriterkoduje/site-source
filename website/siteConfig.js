@@ -87,7 +87,8 @@ const siteConfig = {
   ],
   stylesheets: [
     'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',
-    'https://use.fontawesome.com/releases/v5.8.2/css/all.css'
+    'https://use.fontawesome.com/releases/v5.8.2/css/all.css',
+    'https://fonts.googleapis.com/css?family=Inconsolata'
   ],
 
   // On page navigation for the current documentation page.

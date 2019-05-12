@@ -32,7 +32,6 @@
 }
 
 .kodujeHero {
-    font-size: 400%;
     align-content: center;
 }
 
@@ -41,7 +40,7 @@
     text-align: right;
     font-family: 'Consolas', 'Inconsolata', 'Hack';
     font-weight: bold;
-    font-size: 1.25em;
+    font-size: 300%;
 }
 
 .kodujeTW {
@@ -51,7 +50,7 @@
     border: 1px solid #DADADA;
     font-family: 'Consolas', 'Inconsolata', 'Hack';
     font-weight: bold;
-    font-size: 1em;
+    font-size: 250%;
 }
 
 .podcastIcon {
