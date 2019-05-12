@@ -34,12 +34,8 @@ class HomeSplash extends React.Component {
           <div className="col-sm"></div>
           <div className="col-sm kodujeTW shadow-sm p-3 mb-5 rounded"><i class="fas fa-cube"></i> koduje</div>
         </div>
-        <div className="row">
-          <h2 className="projectTitle col">
-            <small>{siteConfig.tagline}</small>
-          </h2>
+          <div className="tagLine">{siteConfig.tagline}</div>
         </div>
-      </div>
     );
 
     const PromoSection = props => (
@@ -122,12 +118,12 @@ class Index extends React.Component {
           <div className="row hostCards">
             <div className="col-sm">
               <img src={`${baseUrl}${siteConfig.michalProfilePic}`} />
-              <h2>Michał</h2>
+              <h3>Michał</h3>
               <p>Fajny gość, preferuje Pythona</p>
             </div>
-            <div className="col">
+            <div className="col-sm">
               <img src={`${baseUrl}${siteConfig.pawelProfilePic}`} />
-              <h2>Paweł</h2>
+              <h3>Paweł</h3>
               <p>Old school, ale zna się na dicie</p>
             </div>
           </div>
