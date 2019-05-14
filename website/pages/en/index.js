@@ -123,12 +123,12 @@ class Index extends React.Component {
           <div className="row">
             <div className="col text-justify">
               <p>
-                Prowadzący od kilku lat zajmują się zawodowo dokumentacją do oprogramowania.
-                Właściwie od samego początku, techniczna strona tworzenia dokumentacji była dla nich najbardziej interesująca.
-                Dlatego uwielbiają pisać skrypty, konfigurować narzędzia i automatyzować.
-                Szukają rozwiązań, które pozwolą Tech Writerom skupić się na tym co ważne.
+                Od kilku lat zajmujemy się zawodowo dokumentacją do oprogramowania.
+                Właściwie od samego początku, techniczna strona tworzenia dokumentacji była dla nas najbardziej interesująca.
+                Dlatego uwielbiamy pisać skrypty, konfigurować narzędzia i automatyzować.
+                Szukamy rozwiązań, które pozwolą Tech Writerom skupić się na tym co ważne.
               </p>
-              <p>Na co dzień zastanawiają się jak świat dokumentacji może czerpać korzyści z technologii, których używa się w świecie IT.</p>
+              <p>Na co dzień zastanawiamy się jak świat dokumentacji może czerpać korzyści z technologii, których używa się w świecie IT.</p>
             </div>
           </div>
         </div>
