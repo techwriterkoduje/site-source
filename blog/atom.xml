@@ -2,22 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://techwriterkoduje.pl/blog</id>
     <title>Tech Writer koduje Blog</title>
-    <updated>2019-05-10T06:00:00Z</updated>
+    <updated>2019-05-16T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="http://techwriterkoduje.pl/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</subtitle>
     <logo>http://techwriterkoduje.pl/img/logo-square.jpg</logo>
     <rights>© 2019 Tech Writer koduje</rights>
     <entry>
-        <title type="html"><![CDATA[Docs like code - co to jest i dlaczego warto się tym zainteresować]]></title>
-        <id>http://techwriterkoduje.pl/blog/2019/05/10/docs-like-code.html</id>
-        <link href="http://techwriterkoduje.pl/blog/2019/05/10/docs-like-code.html">
+        <title type="html"><![CDATA[#1 Docs like code - rozważania praktyczne i filozoficzne]]></title>
+        <id>http://techwriterkoduje.pl/blog/2019/05/16/docs-like-code.html</id>
+        <link href="http://techwriterkoduje.pl/blog/2019/05/16/docs-like-code.html">
         </link>
-        <updated>2019-05-10T06:00:00Z</updated>
+        <updated>2019-05-16T06:00:00Z</updated>
         <summary type="html"><![CDATA[<p>&quot;Docs like code&quot; czy &quot;Docs as code&quot; to model tworzenia dokumentacji, który staje się coraz bardziej popularny wśród Tech Writerów w IT. Głównym założeniem jest traktowanie dokumentacji jak kodu pod kątem procesów oraz narzędzi, kt...</p>]]></summary>
         <author>
-            <name>Blog Author</name>
-            <uri>http://twitter.com/</uri>
+            <name>Doc Developer</name>
         </author>
     </entry>
 </feed>
