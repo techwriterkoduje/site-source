@@ -24,8 +24,10 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className="nav-footer" id="footer">
-        <section className="copyright">{this.props.config.copyright}</section>
+        <section className="copyright">
+        <p>{this.props.config.copyright}</p>
         <p>Logo podcasta stworzone przez rad89</p>
+        </section>
       </footer>
     );
   }
