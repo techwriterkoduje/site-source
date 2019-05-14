@@ -29,7 +29,7 @@ class HomeSplash extends React.Component {
       <div className="container">
       <img
       alt="Tech Writer koduje logo horizontal"
-      src={`${baseUrl}img/neil-godding-179009-unsplash.jpg`} />
+      src={`${baseUrl}img/logo-horizontal.jpg`} />
           <div className="tagLine">{siteConfig.tagline}</div>
         </div>
     );
