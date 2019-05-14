@@ -27,13 +27,9 @@ class HomeSplash extends React.Component {
 
     const ProjectTitle = () => (
       <div className="container">
-        <div className="row kodujeHero">
-          <div className="col-sm heroTW">Tech.Writer.</div>
-          <div className="col-sm"></div>
-          <div class="w-100"></div>
-          <div className="col-sm"></div>
-          <div className="col-sm kodujeTW shadow-sm p-3 mb-5 rounded"><i class="fas fa-cube"></i> koduje</div>
-        </div>
+      <img
+      alt="Tech Writer koduje logo horizontal"
+      src={`${baseUrl}img/neil-godding-179009-unsplash.jpg`} />
           <div className="tagLine">{siteConfig.tagline}</div>
         </div>
     );
