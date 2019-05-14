@@ -9,7 +9,6 @@ const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 
-const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
@@ -27,7 +26,7 @@ class HomeSplash extends React.Component {
 
     const ProjectTitle = () => (
       <div className="container">
-        <img alt="Tech Writer koduje logo horizontal" src={`${siteConfig.baseUrl}img/logo-horizontal.png`} />
+        <img className="heroImage" alt="Tech Writer koduje logo horizontal" src={`${siteConfig.baseUrl}img/logo-horizontal.png`} />
         <div className="tagLine">{siteConfig.tagline}</div>
         </div>
     );
