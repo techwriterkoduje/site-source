@@ -28,7 +28,7 @@ class HomeSplash extends React.Component {
     const ProjectTitle = () => (
       <div className="container">
         <div className="row">
-          <img alt="Tech Writer koduje logo horizontal" src={`${baseUrl}img/logo-horizontal.png`} />
+          <img alt="Tech Writer koduje logo horizontal" src={`${siteConfig.baseUrl}img/logo-horizontal.png`} />
         </div>
         <div className="tagLine">{siteConfig.tagline}</div>
         </div>
