@@ -16,7 +16,7 @@ function Contact() {
 
   const supportLinks = [
     {
-      content: 'Napisz do nas: <a href="mailto:kontakt@techwriterkoduje.pl>kontakt@techwriterkoduje.pl</a>',
+      content: 'Napisz do nas: <a href="mailto:kontakt@techwriterkoduje.pl">kontakt@techwriterkoduje.pl</a>',
       title: 'E-mail',
     },
     {
