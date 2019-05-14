@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://techwriterkoduje.github.io/site-source/blog</id>
+    <id>http://techwriterkoduje.pl/site-source/blog</id>
     <title>Tech Writer koduje Blog</title>
     <updated>2019-05-10T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
-    <link rel="alternate" href="https://techwriterkoduje.github.io/site-source/blog"/>
+    <link rel="alternate" href="http://techwriterkoduje.pl/site-source/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</subtitle>
-    <logo>https://techwriterkoduje.github.io/site-source/img/logo-square.jpg</logo>
+    <logo>http://techwriterkoduje.pl/site-source/img/logo-square.jpg</logo>
     <rights>© 2019 Tech Writer koduje</rights>
     <entry>
         <title type="html"><![CDATA[Docs like code - co to jest i dlaczego warto się tym zainteresować]]></title>
-        <id>https://techwriterkoduje.github.io/site-source/blog/2019/05/10/docs-like-code.html</id>
-        <link href="https://techwriterkoduje.github.io/site-source/blog/2019/05/10/docs-like-code.html">
+        <id>http://techwriterkoduje.pl/site-source/blog/2019/05/10/docs-like-code.html</id>
+        <link href="http://techwriterkoduje.pl/site-source/blog/2019/05/10/docs-like-code.html">
         </link>
         <updated>2019-05-10T06:00:00Z</updated>
         <summary type="html"><![CDATA[<p>&quot;Docs like code&quot; czy &quot;Docs as code&quot; to model tworzenia dokumentacji, który staje się coraz bardziej popularny wśród Tech Writerów w IT. Głównym założeniem jest traktowanie dokumentacji jak kodu pod kątem procesów oraz narzędzi, kt...</p>]]></summary>

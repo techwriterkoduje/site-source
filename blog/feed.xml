@@ -2,21 +2,21 @@
 <rss version="2.0">
     <channel>
         <title>Tech Writer koduje Blog</title>
-        <link>https://techwriterkoduje.github.io/site-source/blog</link>
+        <link>http://techwriterkoduje.pl/site-source/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
         <lastBuildDate>Fri, 10 May 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
             <title>Tech Writer koduje Blog</title>
-            <url>https://techwriterkoduje.github.io/site-source/img/logo-square.jpg</url>
-            <link>https://techwriterkoduje.github.io/site-source/blog</link>
+            <url>http://techwriterkoduje.pl/site-source/img/logo-square.jpg</url>
+            <link>http://techwriterkoduje.pl/site-source/blog</link>
         </image>
         <copyright>© 2019 Tech Writer koduje</copyright>
         <item>
             <title><![CDATA[Docs like code - co to jest i dlaczego warto się tym zainteresować]]></title>
-            <link>https://techwriterkoduje.github.io/site-source/blog/2019/05/10/docs-like-code.html</link>
-            <guid>https://techwriterkoduje.github.io/site-source/blog/2019/05/10/docs-like-code.html</guid>
+            <link>http://techwriterkoduje.pl/site-source/blog/2019/05/10/docs-like-code.html</link>
+            <guid>http://techwriterkoduje.pl/site-source/blog/2019/05/10/docs-like-code.html</guid>
             <pubDate>Fri, 10 May 2019 06:00:00 GMT</pubDate>
             <description><![CDATA[<p>&quot;Docs like code&quot; czy &quot;Docs as code&quot; to model tworzenia dokumentacji, który staje się coraz bardziej popularny wśród Tech Writerów w IT. Głównym założeniem jest traktowanie dokumentacji jak kodu pod kątem procesów oraz narzędzi, kt...</p>]]></description>
         </item>
