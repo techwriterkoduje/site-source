@@ -16,12 +16,12 @@ function Contact() {
 
   const supportLinks = [
     {
-      content: 'Napisz do nas: <a href="mailto:kontakt@techwriterkoduje.pl">kontakt@techwriterkoduje.pl</a>',
-      title: 'E-mail',
+      content: '<a href="mailto:kontakt@techwriterkoduje.pl">kontakt@techwriterkoduje.pl</a>',
+      title: '<i class="far fa-envelope"></i> E-mail',
     },
     {
-      content: 'Nasze próbki kodu i źródło tej strony na <a href="https://github.com/techwriterkoduje" target="_blank"><i class="fas fa-link"></i> GitHubie</a>',
-      title: 'Projekty',
+      content: 'Źródło tej strony na <a href="https://github.com/techwriterkoduje" target="_blank"><i class="fas fa-link"></i> GitHubie</a>',
+      title: '<i class="far fa-sticky-note"></i> Projekty',
     },
   ];
 
