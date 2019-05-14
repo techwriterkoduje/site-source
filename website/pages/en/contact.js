@@ -16,11 +16,7 @@ function Contact() {
 
   const supportLinks = [
     {
-      content: 'Znajdź nas na Facebooku itp...',
-      title: 'Media społeczniościowe',
-    },
-    {
-      content: 'Napisz do nas',
+      content: 'Napisz do nas: <a href="mailto:kontakt@techwriterkoduje.pl>kontakt@techwriterkoduje.pl</a>',
       title: 'E-mail',
     },
     {
@@ -36,7 +32,7 @@ function Contact() {
           <header className="postHeader">
             <h1>Skontaktuj się z nami!</h1>
           </header>
-          <p>Masz pomysły na odcinki? Chcesz być gościem programu?</p>
+          <p>Masz pomysł na odcinek? Chcesz być gościem programu? Chcesz nam coś przekazać?</p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>
