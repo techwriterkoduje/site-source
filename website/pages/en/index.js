@@ -95,7 +95,7 @@ class Index extends React.Component {
             <img 
               alt="Photo by Neil Godding on Unsplash" 
               title="Photo by Neil Godding on Unsplash" 
-              src={`${baseUrl}/img/neil-godding-179009-unsplash.jpg`} />
+              src={`${baseUrl}img/neil-godding-179009-unsplash.jpg`} />
           </div>
         </div>
       </div>
