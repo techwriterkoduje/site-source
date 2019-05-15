@@ -73,7 +73,7 @@ class Index extends React.Component {
       <div class="container paddingBottom paddingTop">
         <div className="row">
           <div className="col-sm"></div>
-          <div className="col-sm-5">
+          <div className="col-sm-6">
             <img
               className="aboutSplash"
               alt="Photo by Neil Godding on Unsplash"
@@ -84,7 +84,7 @@ class Index extends React.Component {
         </div>
         <div className="row podcastDescription">
           <div className="col-sm"></div>
-          <div className="col-sm-5 text-justify">
+          <div className="col-sm-6 text-justify">
             <p>
               Podcast o technicznej stronie tworzenia dokumentacji w IT. Skupiamy się na tym jak
               Tech Writer może wpasować się w środowisko programistów pod kątem sposobu pracy i narzędzi.
