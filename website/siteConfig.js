@@ -29,6 +29,7 @@ const siteConfig = {
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
   cname: 'techwriterkoduje.pl',
+  gaTrackingId: 'UA-140218567-1',
 
   // Used for publishing and more
   projectName: 'site-source',
@@ -112,7 +113,7 @@ const siteConfig = {
   //   repoUrl: 'https://github.com/facebook/test-site',
   michalProfilePic: 'img/michal.jpg',
   pawelProfilePic: 'img/pawel.jpg',
-  mainPageBanner: 'img/logo-horizontal.jpg',
+  mainPageBanner: 'img/logo-horizontal.png',
 };
 
 module.exports = siteConfig;
