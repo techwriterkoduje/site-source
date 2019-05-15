@@ -29,8 +29,8 @@ class HomeSplash extends React.Component {
         <img className="heroImage" alt="Tech Writer koduje logo horizontal" src={`${siteConfig.baseUrl}${siteConfig.mainPageBanner}`} />
         <div className="tagLine">{siteConfig.tagline}</div>
         <div className="row">
-          <div className="col-sm"><a class="btn btn-outline-primary" href="https://anchor.fm/docdeveloper target="_blank"><i class="fas fa-headphones"></i>Anchor.fm</a></div>
-          <div className="col-sm"><a class="btn btn-outline-success" href="https://open.spotify.com/show/2jhQ1Z1nAOY686RVok7O9I" target="_blank"><i class="fab fa-spotify"></i>Spotify</a></div>
+          <div className="col-sm"><a className="btn btn-outline-primary" href="https://anchor.fm/docdeveloper target="_blank"><i class="fas fa-headphones"></i>Anchor.fm</a></div>
+          <div className="col-sm"><a className="btn btn-outline-success" href="https://open.spotify.com/show/2jhQ1Z1nAOY686RVok7O9I" target="_blank"><i class="fab fa-spotify"></i>Spotify</a></div>
         </div>
       </div>
     );
