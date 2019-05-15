@@ -28,7 +28,7 @@ class HomeSplash extends React.Component {
       <div className="container">
         <img className="heroImage" alt="Tech Writer koduje logo horizontal" src={`${siteConfig.baseUrl}img/logo-horizontal.png`} />
         <div className="tagLine">{siteConfig.tagline}</div>
-        </div>
+      </div>
     );
 
     const PromoSection = props => (
@@ -70,27 +70,25 @@ class Index extends React.Component {
     );
 
     const About = () => (
-      <div className="container lightBackground paddingBottom paddingTop">
-        <div className="row">
-          <div className="col-sm text-justify">
-            <div className="podcastIcon">
-              <i class="fas fa-microphone-alt"></i>
-            </div>
-            <div>
+      <div class="container paddingBottom paddingTop"><div class="wrapper">
+        <div class="gridBlock">
+          <div class="blockElement imageAlignSide imageAlignRight twoByGridBlock">
+            <div class="blockContent">
               <p>
                 Podcast o technicznej stronie tworzenia dokumentacji w IT. Skupiamy się na tym jak
-                Tech Writer może wpasować się w środowisko programistów pod kątem sposobu pracy i narzędzi. 
+                Tech Writer może wpasować się w środowisko programistów pod kątem sposobu pracy i narzędzi.
                 Staramy się też pokazać, że praca Tech Writera może bardzo rozwijać umiejętności techniczne.
             </p>
             </div>
           </div>
-          <div className="col-sm">
-            <img 
-              alt="Photo by Neil Godding on Unsplash" 
-              title="Photo by Neil Godding on Unsplash" 
+          <div class="blockImage">
+            <img
+              alt="Photo by Neil Godding on Unsplash"
+              title="Photo by Neil Godding on Unsplash"
               src={`${baseUrl}img/neil-godding-179009-unsplash.jpg`} />
           </div>
         </div>
+      </div>
       </div>
     );
 
