@@ -93,16 +93,6 @@ class Index extends React.Component {
           </div>
           <div className="col-sm"></div>
         </div>
-        <div class="wrapper">
-          <div class="gridBlock">
-            <div class="blockElement imageAlignSide imageAlignRight twoByGridBlock">
-              <div class="blockContent">
-              </div>
-            </div>
-            <div class="blockImage">
-            </div>
-          </div>
-        </div>
       </div>
     );
 
