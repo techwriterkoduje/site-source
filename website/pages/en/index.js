@@ -70,25 +70,39 @@ class Index extends React.Component {
     );
 
     const About = () => (
-      <div class="container paddingBottom paddingTop"><div class="wrapper">
-        <div class="gridBlock">
-          <div class="blockElement imageAlignSide imageAlignRight twoByGridBlock">
-            <div class="blockContent">
-              <p>
-                Podcast o technicznej stronie tworzenia dokumentacji w IT. Skupiamy się na tym jak
-                Tech Writer może wpasować się w środowisko programistów pod kątem sposobu pracy i narzędzi.
-                Staramy się też pokazać, że praca Tech Writera może bardzo rozwijać umiejętności techniczne.
-            </p>
-            </div>
-          </div>
-          <div class="blockImage">
+      <div class="container paddingBottom paddingTop">
+        <div className="row">
+          <div className="col-sm"></div>
+          <div className="col-sm-5">
             <img
+              className="aboutSplash"
               alt="Photo by Neil Godding on Unsplash"
               title="Photo by Neil Godding on Unsplash"
               src={`${baseUrl}img/neil-godding-179009-unsplash.jpg`} />
           </div>
+          <div className="col-sm"></div>
         </div>
-      </div>
+        <div className="row podcastDescription">
+          <div className="col-sm"></div>
+          <div className="col-sm-5 text-justify">
+            <p>
+              Podcast o technicznej stronie tworzenia dokumentacji w IT. Skupiamy się na tym jak
+              Tech Writer może wpasować się w środowisko programistów pod kątem sposobu pracy i narzędzi.
+              Staramy się też pokazać, że praca Tech Writera może bardzo rozwijać umiejętności techniczne.
+            </p>
+          </div>
+          <div className="col-sm"></div>
+        </div>
+        <div class="wrapper">
+          <div class="gridBlock">
+            <div class="blockElement imageAlignSide imageAlignRight twoByGridBlock">
+              <div class="blockContent">
+              </div>
+            </div>
+            <div class="blockImage">
+            </div>
+          </div>
+        </div>
       </div>
     );
 
