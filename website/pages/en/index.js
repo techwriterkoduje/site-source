@@ -34,7 +34,7 @@ class HomeSplash extends React.Component {
               <a class="btn btn-dark mt-3 w-100 primaryBackground" href={siteConfig.anchorProfile} target="_blank"><i class="fas fa-headphones"></i> Anchor.fm</a>
             </div>
             <div className="col-sm">
-              <a class="btn btn-dark mt-3 w-100 primaryBackground" href={siteConfig.spotifyProfile} target="_blank"><i class="fab fa-spotify"></i> Spotify</a>
+              <a class="btn btn-success mt-3 w-100 primaryBackground" href={siteConfig.spotifyProfile} target="_blank"><i class="fab fa-spotify"></i> Spotify</a>
             </div>
             <div className="col-sm">
               <a class="btn btn-dark mt-3 w-100 primaryBackground" href={siteConfig.playerFmProfile} target="_blank"><i class="fas fa-play"></i> Player.fm</a>
