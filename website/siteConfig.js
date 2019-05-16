@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'Tech Writer koduje', // Title for your website.
-  tagline: 'Bo słowa to za mało...',
+  tagline: 'Kiedy słowa to za mało...',
   url: 'http://techwriterkoduje.pl', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
