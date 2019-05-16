@@ -98,3 +98,13 @@
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+.player-fm {
+    background-image: url(https://player.fm/assets/v_20190516085935/logos/playerfm-logo-32x32-7997850a076ef11aafac4844abf97f3a975c86a76810d6a4643889273be4341e.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-x: 7px;
+    background-position-y: 9px;
+    padding-left: 27px;
+}
+

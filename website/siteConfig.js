@@ -114,6 +114,10 @@ const siteConfig = {
   michalProfilePic: 'img/michal.jpg',
   pawelProfilePic: 'img/pawel.jpg',
   mainPageBanner: 'img/logo-horizontal.png',
+  anchorProfile: 'https://anchor.fm/docdeveloper/',
+  spotifyProfile: 'https://open.spotify.com/show/2jhQ1Z1nAOY686RVok7O9I',
+  playerFmProfile: 'https://player.fm/series/tech-writer-koduje',
+  rss: 'https://anchor.fm/s/8afba9c/podcast/rss'
 };
 
 module.exports = siteConfig;

@@ -28,7 +28,23 @@ class HomeSplash extends React.Component {
       <div className="container">
         <img className="heroImage" alt="Tech Writer koduje logo horizontal" src={`${siteConfig.baseUrl}${siteConfig.mainPageBanner}`} />
         <div className="tagLine">{siteConfig.tagline}</div>
-      </div>
+        <div className="container paddingTop">
+          <div className="row">
+            <div className="col-sm">
+              <a class="btn btn-outline-primary mt-3 w-100" href={siteConfig.anchorProfile} target="_blank"><i class="fas fa-headphones"></i> Anchor.fm</a>
+            </div>
+            <div className="col-sm">
+              <a class="btn btn-outline-primary mt-3 w-100" href={siteConfig.spotifyProfile} target="_blank"><i class="fab fa-spotify"></i> Spotify</a>
+            </div>
+            <div className="col-sm">
+              <a class="btn btn-outline-primary mt-3 w-100" href={siteConfig.playerFmProfile} target="_blank"><i class="fas fa-play"></i> Player.fm</a>
+            </div>
+            <div className="col-sm">
+              <a class="btn btn-outline-primary mt-3 w-100" href={siteConfig.rss} target="_blank"><i class="fas fa-rss"></i> RSS</a>
+            </div>
+          </div>
+        </div >
+      </div >
     );
 
     const PromoSection = props => (
@@ -98,7 +114,7 @@ class Index extends React.Component {
 
     const Episodes = () => (
       <Container padding={['bottom', 'top']}>
-        <a class="btn btn-secondary btn-lg btn-block primaryBackground episodeButton shadow-sm p-3 mb-5 rounded" href="blog"><i class="fas fa-headphones"></i> Posłuchaj odcinków</a>
+        <a class="btn btn-secondary btn-lg btn-block primaryBackground episodeButton shadow-sm p-3 mb-5 rounded" href="blog"><i class="fas fa-headphones"></i> Podsumowania odcinków</a>
       </Container>
     );
 
