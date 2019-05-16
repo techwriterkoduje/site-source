@@ -114,7 +114,7 @@ class Index extends React.Component {
 
     const Episodes = () => (
       <Container padding={['bottom', 'top']}>
-        <a class="btn btn-secondary btn-lg btn-block primaryBackground episodeButton shadow-sm p-3 mb-5 rounded" href="blog"><i class="fas fa-headphones"></i> Podsumowania odcinków</a>
+        <a class="btn btn-secondary btn-lg btn-block primaryBackground shadow-sm p-3 mb-5 rounded" href="blog"><i class="fas fa-headphones"></i> Podsumowania odcinków</a>
       </Container>
     );
 
