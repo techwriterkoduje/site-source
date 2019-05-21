@@ -30,7 +30,6 @@ class HomeSplash extends React.Component {
         <div className="tagLine">{siteConfig.tagline}</div>
         <div className="container paddingTop">
           <div className="row">
-            <iframe src="https://anchor.fm/docdeveloper/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
             <div className="col-sm">
               <a class="btn btn-dark mt-3 w-100 primaryBackground" href={siteConfig.anchorProfile} target="_blank"><i class="fas fa-headphones"></i> Anchor.fm</a>
             </div>
