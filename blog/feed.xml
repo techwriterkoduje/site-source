@@ -4,7 +4,7 @@
         <title>Tech Writer koduje Blog</title>
         <link>http://techwriterkoduje.pl/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
-        <lastBuildDate>Tue, 14 May 2019 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 May 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>http://techwriterkoduje.pl/blog</link>
         </image>
         <copyright>© 2019 Tech Writer koduje</copyright>
+        <item>
+            <title><![CDATA[#2 Python - przyjaciel Tech Writera]]></title>
+            <link>http://techwriterkoduje.pl/blog/2019/05/23/python.html</link>
+            <guid>http://techwriterkoduje.pl/blog/2019/05/23/python.html</guid>
+            <pubDate>Thu, 23 May 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Python to język programowania ogólnego zastosowania, który w ostatnich latach zyskuje coraz większą popularność nie tylko wśród programistów. Jednym z powodów jest niewątpliwie jego przystępna składnia przez co osoby, które nie są bardzo techniczne s...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[#1 Docs like code - rozważania praktyczne i filozoficzne]]></title>
             <link>http://techwriterkoduje.pl/blog/2019/05/14/docs-like-code.html</link>

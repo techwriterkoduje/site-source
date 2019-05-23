@@ -2,12 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://techwriterkoduje.pl/blog</id>
     <title>Tech Writer koduje Blog</title>
-    <updated>2019-05-14T06:00:00Z</updated>
+    <updated>2019-05-23T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="http://techwriterkoduje.pl/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</subtitle>
     <logo>http://techwriterkoduje.pl/img/logo-square.jpg</logo>
     <rights>© 2019 Tech Writer koduje</rights>
+    <entry>
+        <title type="html"><![CDATA[#2 Python - przyjaciel Tech Writera]]></title>
+        <id>http://techwriterkoduje.pl/blog/2019/05/23/python.html</id>
+        <link href="http://techwriterkoduje.pl/blog/2019/05/23/python.html">
+        </link>
+        <updated>2019-05-23T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Python to język programowania ogólnego zastosowania, który w ostatnich latach zyskuje coraz większą popularność nie tylko wśród programistów. Jednym z powodów jest niewątpliwie jego przystępna składnia przez co osoby, które nie są bardzo techniczne s...</p>]]></summary>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[#1 Docs like code - rozważania praktyczne i filozoficzne]]></title>
         <id>http://techwriterkoduje.pl/blog/2019/05/14/docs-like-code.html</id>
