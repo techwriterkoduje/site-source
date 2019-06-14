@@ -129,12 +129,12 @@ class Index extends React.Component {
           <div className="row hostCards">
             <div className="col-sm">
               <img src={`${baseUrl}${siteConfig.michalProfilePic}`} />
-              <h3>Michał</h3>
+              <h3>Michał Skowron</h3>
               <p>Fajny gość, preferuje Pythona</p>
             </div>
             <div className="col-sm">
               <img src={`${baseUrl}${siteConfig.pawelProfilePic}`} />
-              <h3>Paweł</h3>
+              <h3>Paweł Kowaluk</h3>
               <p>Old school, ale zna się na dicie</p>
             </div>
           </div>
