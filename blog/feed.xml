@@ -4,7 +4,7 @@
         <title>Tech Writer koduje Blog</title>
         <link>http://techwriterkoduje.pl/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
-        <lastBuildDate>Thu, 23 May 2019 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Jun 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>http://techwriterkoduje.pl/blog</link>
         </image>
         <copyright>© 2019 Tech Writer koduje</copyright>
+        <item>
+            <title><![CDATA[#3 SVG - przenieś grafikę w dokumentacji na wyższy poziom]]></title>
+            <link>http://techwriterkoduje.pl/blog/2019/06/14/svg.html</link>
+            <guid>http://techwriterkoduje.pl/blog/2019/06/14/svg.html</guid>
+            <pubDate>Fri, 14 Jun 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Scalable Vector Graphics (SVG) kryje w sobie wiele ciekawych aspektów, które Technical Writerzy mogliby potencjalnie wykorzystać. Nasz gość, Daniel Barrio Fierro, od jakiegoś czasu nie tylko pasjonuje się tym formatem, ale również wykorzystuje jego z...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[#2 Python - przyjaciel Tech Writera]]></title>
             <link>http://techwriterkoduje.pl/blog/2019/05/23/python.html</link>

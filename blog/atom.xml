@@ -2,12 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://techwriterkoduje.pl/blog</id>
     <title>Tech Writer koduje Blog</title>
-    <updated>2019-05-23T06:00:00Z</updated>
+    <updated>2019-06-14T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="http://techwriterkoduje.pl/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</subtitle>
     <logo>http://techwriterkoduje.pl/img/logo-square.svg</logo>
     <rights>© 2019 Tech Writer koduje</rights>
+    <entry>
+        <title type="html"><![CDATA[#3 SVG - przenieś grafikę w dokumentacji na wyższy poziom]]></title>
+        <id>http://techwriterkoduje.pl/blog/2019/06/14/svg.html</id>
+        <link href="http://techwriterkoduje.pl/blog/2019/06/14/svg.html">
+        </link>
+        <updated>2019-06-14T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Scalable Vector Graphics (SVG) kryje w sobie wiele ciekawych aspektów, które Technical Writerzy mogliby potencjalnie wykorzystać. Nasz gość, Daniel Barrio Fierro, od jakiegoś czasu nie tylko pasjonuje się tym formatem, ale również wykorzystuje jego z...</p>]]></summary>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[#2 Python - przyjaciel Tech Writera]]></title>
         <id>http://techwriterkoduje.pl/blog/2019/05/23/python.html</id>
