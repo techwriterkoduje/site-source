@@ -48,8 +48,8 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/logo-square.jpg',
-  footerIcon: 'img/logo-square.jpg',
+  headerIcon: 'img/logo-square.svg',
+  footerIcon: 'img/logo-square.svg',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
@@ -113,7 +113,7 @@ const siteConfig = {
   //   repoUrl: 'https://github.com/facebook/test-site',
   michalProfilePic: 'img/michal.jpg',
   pawelProfilePic: 'img/pawel.jpg',
-  mainPageBanner: 'img/logo-horizontal.png',
+  mainPageBanner: 'img/logo-horizontal.svg',
   anchorProfile: 'https://anchor.fm/docdeveloper/',
   spotifyProfile: 'https://open.spotify.com/show/2jhQ1Z1nAOY686RVok7O9I',
   playerFmProfile: 'https://player.fm/series/tech-writer-koduje',
