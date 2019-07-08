@@ -4,7 +4,7 @@
         <title>Tech Writer koduje Blog</title>
         <link>http://techwriterkoduje.pl/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
-        <lastBuildDate>Fri, 14 Jun 2019 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 Jul 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>http://techwriterkoduje.pl/blog</link>
         </image>
         <copyright>© 2019 Tech Writer koduje</copyright>
+        <item>
+            <title><![CDATA[#4 Konferencja soap! 2019 - podsumowanie]]></title>
+            <link>http://techwriterkoduje.pl/blog/2019/07/07/soap-2019.html</link>
+            <guid>http://techwriterkoduje.pl/blog/2019/07/07/soap-2019.html</guid>
+            <pubDate>Sun, 07 Jul 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>soap! to jedyna polska konferencja dla specjalistów zajmujących się szeroko pojętą treścią. Motywem przewodnim tegorocznej edycji było &quot;Content as code&quot;. W tym odcinku, dzielimy się swoimi ogólnymi wrażeniami na temat konferencji oraz rozma...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[#3 SVG - przenieś grafikę w dokumentacji na wyższy poziom]]></title>
             <link>http://techwriterkoduje.pl/blog/2019/06/14/svg.html</link>

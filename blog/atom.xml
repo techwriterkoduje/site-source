@@ -2,12 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://techwriterkoduje.pl/blog</id>
     <title>Tech Writer koduje Blog</title>
-    <updated>2019-06-14T06:00:00Z</updated>
+    <updated>2019-07-07T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="http://techwriterkoduje.pl/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</subtitle>
     <logo>http://techwriterkoduje.pl/img/logo-square.svg</logo>
     <rights>© 2019 Tech Writer koduje</rights>
+    <entry>
+        <title type="html"><![CDATA[#4 Konferencja soap! 2019 - podsumowanie]]></title>
+        <id>http://techwriterkoduje.pl/blog/2019/07/07/soap-2019.html</id>
+        <link href="http://techwriterkoduje.pl/blog/2019/07/07/soap-2019.html">
+        </link>
+        <updated>2019-07-07T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>soap! to jedyna polska konferencja dla specjalistów zajmujących się szeroko pojętą treścią. Motywem przewodnim tegorocznej edycji było &quot;Content as code&quot;. W tym odcinku, dzielimy się swoimi ogólnymi wrażeniami na temat konferencji oraz rozma...</p>]]></summary>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[#3 SVG - przenieś grafikę w dokumentacji na wyższy poziom]]></title>
         <id>http://techwriterkoduje.pl/blog/2019/06/14/svg.html</id>
