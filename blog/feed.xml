@@ -4,7 +4,7 @@
         <title>Tech Writer koduje Blog</title>
         <link>http://techwriterkoduje.pl/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
-        <lastBuildDate>Sun, 07 Jul 2019 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Jul 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>http://techwriterkoduje.pl/blog</link>
         </image>
         <copyright>© 2019 Tech Writer koduje</copyright>
+        <item>
+            <title><![CDATA[#5 Narzędzia dla Tech Writerów]]></title>
+            <link>http://techwriterkoduje.pl/blog/2019/07/24/narzedzia.html</link>
+            <guid>http://techwriterkoduje.pl/blog/2019/07/24/narzedzia.html</guid>
+            <pubDate>Wed, 24 Jul 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Mogłoby się wydawać, że Tech Writerzy nie mają dużych potrzeb jeśli chodzi o narzędzia. W końcu co może być potrzebne do napisania instrukcji? Zapewne wystarczy jakiś prosty edytor i tyle. Nic bardziej mylnego. Technical Writerzy, jak każda profesja, ...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[#4 Konferencja soap! 2019 - podsumowanie]]></title>
             <link>http://techwriterkoduje.pl/blog/2019/07/07/soap-2019.html</link>
