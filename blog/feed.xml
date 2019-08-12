@@ -4,7 +4,7 @@
         <title>Tech Writer koduje Blog</title>
         <link>http://techwriterkoduje.pl/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
-        <lastBuildDate>Wed, 24 Jul 2019 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Aug 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>http://techwriterkoduje.pl/blog</link>
         </image>
         <copyright>© 2019 Tech Writer koduje</copyright>
+        <item>
+            <title><![CDATA[#6 Konferencja EuroPython 2019 z perspektywy kodującego Tech Writera]]></title>
+            <link>http://techwriterkoduje.pl/blog/2019/08/12/europython-2019.html</link>
+            <guid>http://techwriterkoduje.pl/blog/2019/08/12/europython-2019.html</guid>
+            <pubDate>Mon, 12 Aug 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>EuroPython to największa europejska konferencja poświęcona językowi programowania Python. Tegoroczna edycja odbyła się w dniach 8-14 lipca w Bazylei (Szwajcaria). Przyglądamy się temu wydarzeniu z perspektywy Technical Writera, który od jakiegoś czas...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[#5 Narzędzia dla Tech Writerów]]></title>
             <link>http://techwriterkoduje.pl/blog/2019/07/24/narzedzia.html</link>

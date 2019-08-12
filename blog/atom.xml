@@ -2,12 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://techwriterkoduje.pl/blog</id>
     <title>Tech Writer koduje Blog</title>
-    <updated>2019-07-24T06:00:00Z</updated>
+    <updated>2019-08-12T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="http://techwriterkoduje.pl/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</subtitle>
     <logo>http://techwriterkoduje.pl/img/logo-square.svg</logo>
     <rights>© 2019 Tech Writer koduje</rights>
+    <entry>
+        <title type="html"><![CDATA[#6 Konferencja EuroPython 2019 z perspektywy kodującego Tech Writera]]></title>
+        <id>http://techwriterkoduje.pl/blog/2019/08/12/europython-2019.html</id>
+        <link href="http://techwriterkoduje.pl/blog/2019/08/12/europython-2019.html">
+        </link>
+        <updated>2019-08-12T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>EuroPython to największa europejska konferencja poświęcona językowi programowania Python. Tegoroczna edycja odbyła się w dniach 8-14 lipca w Bazylei (Szwajcaria). Przyglądamy się temu wydarzeniu z perspektywy Technical Writera, który od jakiegoś czas...</p>]]></summary>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[#5 Narzędzia dla Tech Writerów]]></title>
         <id>http://techwriterkoduje.pl/blog/2019/07/24/narzedzia.html</id>
