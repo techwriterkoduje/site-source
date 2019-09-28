@@ -153,6 +153,24 @@ class Index extends React.Component {
       </div>
     );
 
+    const Friends = () => (
+      <div class="container paddingBottom paddingTop">
+        <div className="row">
+          <div className="col-sm">
+            <h1>Szanujemy i wspieramy</h1>
+          </div>
+          <div className="col-sm-6">
+            <a href="https://www.thenotboringtechwriter.com/">
+            <img
+              alt="Logo of the Not-Boring Tech Writer podcast"
+              title="Logo of the Not-Boring Tech Writer podcast"
+              src={`${baseUrl}img/not-boring-tech-writer-logo-240px.png`} />
+            </a>
+          </div>
+        </div>
+      </div>
+    );
+
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
@@ -160,6 +178,7 @@ class Index extends React.Component {
           <About />
           <Episodes />
           <Hosts />
+          <Friends />
         </div>
       </div>
     );
