@@ -162,7 +162,7 @@ class Index extends React.Component {
         </div>
         <div className="row">
           <div className="col-sm">
-            <a href="https://www.thenotboringtechwriter.com/">
+            <a href="https://www.thenotboringtechwriter.com/" target="_blank">
             <img
               alt="Logo of the Not-Boring Tech Writer podcast"
               title="Logo of the Not-Boring Tech Writer podcast"
