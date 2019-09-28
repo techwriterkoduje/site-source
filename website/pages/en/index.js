@@ -161,7 +161,7 @@ class Index extends React.Component {
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-6">
+          <div className="col-sm">
             <a href="https://www.thenotboringtechwriter.com/">
             <img
               alt="Logo of the Not-Boring Tech Writer podcast"
