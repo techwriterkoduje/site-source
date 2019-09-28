@@ -154,21 +154,23 @@ class Index extends React.Component {
     );
 
     const Friends = () => (
-      <div class="container paddingBottom paddingTop">
-        <div className="row">
-          <div className="col-sm">
-            <h1>Szanujemy i wspieramy</h1>
+      <div className="productShowcaseSection paddingBottom">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm">
+              <h1>Szanujemy i wspieramy</h1>
+            </div>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-sm">
-            <a href="https://www.thenotboringtechwriter.com/" target="_blank">
-            <img
-              alt="Logo of the Not-Boring Tech Writer podcast"
-              title="Logo of the Not-Boring Tech Writer podcast"
-              src={`${baseUrl}img/not-boring-tech-writer-logo-240px.png`} />
-            </a>
-          </div>                             
+          <div className="row">
+            <div className="col-sm">
+              <a href="https://www.thenotboringtechwriter.com/" target="_blank">
+              <img
+                alt="Logo of the Not-Boring Tech Writer podcast"
+                title="Logo of the Not-Boring Tech Writer podcast"
+                src={`${baseUrl}img/not-boring-tech-writer-logo-240px.png`} />
+              </a>
+            </div>                             
+          </div>
         </div>
       </div>
     );
