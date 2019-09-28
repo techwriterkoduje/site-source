@@ -159,6 +159,8 @@ class Index extends React.Component {
           <div className="col-sm">
             <h1>Szanujemy i wspieramy</h1>
           </div>
+        </div>
+        <div className="row">
           <div className="col-sm-6">
             <a href="https://www.thenotboringtechwriter.com/">
             <img
@@ -166,7 +168,7 @@ class Index extends React.Component {
               title="Logo of the Not-Boring Tech Writer podcast"
               src={`${baseUrl}img/not-boring-tech-writer-logo-240px.png`} />
             </a>
-          </div>
+          </div>                             
         </div>
       </div>
     );
