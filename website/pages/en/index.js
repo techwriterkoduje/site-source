@@ -169,7 +169,15 @@ class Index extends React.Component {
                 title="Logo of the Not-Boring Tech Writer podcast"
                 src={`${baseUrl}img/not-boring-tech-writer-logo-240px.png`} />
               </a>
-            </div>                             
+            </div>
+            <div className="col-sm">
+              <a href="https://techwriter.pl/" target="_blank">
+              <img
+                alt="Logo of the Techwriter.pl portal"
+                title="Logo of the Techwriter.pl portal"
+                src={`${baseUrl}img/techwriter-pl-logo-240px.png`} />
+              </a>
+            </div>    
           </div>
         </div>
       </div>
