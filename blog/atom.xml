@@ -2,12 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://techwriterkoduje.pl/blog</id>
     <title>Tech Writer koduje Blog</title>
-    <updated>2019-08-29T06:00:00Z</updated>
+    <updated>2019-09-28T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="http://techwriterkoduje.pl/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</subtitle>
     <logo>http://techwriterkoduje.pl/img/logo-square.svg</logo>
     <rights>© 2019 Tech Writer koduje</rights>
+    <entry>
+        <title type="html"><![CDATA[#8 DITA OT - static site generator dla wtajemniczonych]]></title>
+        <id>http://techwriterkoduje.pl/blog/2019/09/28/dita-ot.html</id>
+        <link href="http://techwriterkoduje.pl/blog/2019/09/28/dita-ot.html">
+        </link>
+        <updated>2019-09-28T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Jako technoskrybi, którzy kodują, spędziliśmy trochę czasu z DITA Open Toolkit. Rozmawiamy o tym do czego służy DITA OT i jakie ma możliwości. Mówimy o wadach i zaletach. Podpowiadamy też jak zacząć pracę z tym narzędziem. Pracujesz z ditą lub chcesz...</p>]]></summary>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[#7 Programista dokumentuje, czyli nowoczesny technical writing]]></title>
         <id>http://techwriterkoduje.pl/blog/2019/08/29/programista-dokumentuje.html</id>

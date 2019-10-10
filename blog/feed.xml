@@ -4,7 +4,7 @@
         <title>Tech Writer koduje Blog</title>
         <link>http://techwriterkoduje.pl/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
-        <lastBuildDate>Thu, 29 Aug 2019 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Sep 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>http://techwriterkoduje.pl/blog</link>
         </image>
         <copyright>© 2019 Tech Writer koduje</copyright>
+        <item>
+            <title><![CDATA[#8 DITA OT - static site generator dla wtajemniczonych]]></title>
+            <link>http://techwriterkoduje.pl/blog/2019/09/28/dita-ot.html</link>
+            <guid>http://techwriterkoduje.pl/blog/2019/09/28/dita-ot.html</guid>
+            <pubDate>Sat, 28 Sep 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Jako technoskrybi, którzy kodują, spędziliśmy trochę czasu z DITA Open Toolkit. Rozmawiamy o tym do czego służy DITA OT i jakie ma możliwości. Mówimy o wadach i zaletach. Podpowiadamy też jak zacząć pracę z tym narzędziem. Pracujesz z ditą lub chcesz...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[#7 Programista dokumentuje, czyli nowoczesny technical writing]]></title>
             <link>http://techwriterkoduje.pl/blog/2019/08/29/programista-dokumentuje.html</link>
