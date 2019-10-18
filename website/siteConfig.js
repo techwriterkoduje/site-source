@@ -46,6 +46,10 @@ const siteConfig = {
 
   // If you have users set above, you add it here:
   users,
+  
+  // Blog settings
+  blogSidebarCount: 20,
+  blogSidebarTitle: { default: 'Ostatnie odcinki', all: 'Wszystkie odcinki' },
 
   /* path to images for header/footer */
   headerIcon: 'img/logo-square.svg',
