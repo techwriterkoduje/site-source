@@ -4,7 +4,7 @@
         <title>Tech Writer koduje Blog</title>
         <link>http://techwriterkoduje.pl/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
-        <lastBuildDate>Sat, 28 Sep 2019 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Oct 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>http://techwriterkoduje.pl/blog</link>
         </image>
         <copyright>© 2019 Tech Writer koduje</copyright>
+        <item>
+            <title><![CDATA[#9 Robot dokumentuje, czyli technical writing przyszłości]]></title>
+            <link>http://techwriterkoduje.pl/blog/2019/10/17/robot-dokumentuje.html</link>
+            <guid>http://techwriterkoduje.pl/blog/2019/10/17/robot-dokumentuje.html</guid>
+            <pubDate>Thu, 17 Oct 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Podobno nikt nie jest niezastąpiony, ale czy można zastąpić całą grupę zawodową? Zwłaszcza ludzi, którzy robią research, rozmawiają z innymi i piszą? O automatyzacji w technical writingu rozmawia z nami Wojtek Aleksander.</p> <p><a class="btn btn-primary" href="https://anchor.fm/docdeveloper/episodes/9-Robot-dokumentuje--czyli-technical-writing-przyszoci-e7p204/a-at2688" target="_blank"><i class="fas fa-headphones"></i> Posłuchaj</a></p> ]]></description>
+        </item>
         <item>
             <title><![CDATA[#8 DITA OT - static site generator dla wtajemniczonych]]></title>
             <link>http://techwriterkoduje.pl/blog/2019/09/28/dita-ot.html</link>
