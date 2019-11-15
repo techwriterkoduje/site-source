@@ -2,12 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://techwriterkoduje.pl/blog</id>
     <title>Tech Writer koduje Blog</title>
-    <updated>2019-10-17T06:00:00Z</updated>
+    <updated>2019-11-15T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="http://techwriterkoduje.pl/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</subtitle>
     <logo>http://techwriterkoduje.pl/img/logo-square.svg</logo>
     <rights>© 2019 Tech Writer koduje</rights>
+    <entry>
+        <title type="html"><![CDATA[#10 Docusaurus - Tech Writer dokarmia dinozaury]]></title>
+        <id>http://techwriterkoduje.pl/blog/2019/11/15/docusaurus.html</id>
+        <link href="http://techwriterkoduje.pl/blog/2019/11/15/docusaurus.html">
+        </link>
+        <updated>2019-11-15T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Docusaurus to static site generator stworzony przez Facebooka, którego główną zaletą jest prostota. Rozmawiamy o tym co oferuje to narzędzie, jakie są jego mocne i słabe strony oraz w jakich sytuacjach może się sprawdzić jako rozwiązanie do tworzenia...</p>]]></summary>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[#9 Robot dokumentuje, czyli technical writing przyszłości]]></title>
         <id>http://techwriterkoduje.pl/blog/2019/10/17/robot-dokumentuje.html</id>

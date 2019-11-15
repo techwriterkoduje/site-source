@@ -4,7 +4,7 @@
         <title>Tech Writer koduje Blog</title>
         <link>http://techwriterkoduje.pl/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
-        <lastBuildDate>Thu, 17 Oct 2019 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 Nov 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>http://techwriterkoduje.pl/blog</link>
         </image>
         <copyright>© 2019 Tech Writer koduje</copyright>
+        <item>
+            <title><![CDATA[#10 Docusaurus - Tech Writer dokarmia dinozaury]]></title>
+            <link>http://techwriterkoduje.pl/blog/2019/11/15/docusaurus.html</link>
+            <guid>http://techwriterkoduje.pl/blog/2019/11/15/docusaurus.html</guid>
+            <pubDate>Fri, 15 Nov 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Docusaurus to static site generator stworzony przez Facebooka, którego główną zaletą jest prostota. Rozmawiamy o tym co oferuje to narzędzie, jakie są jego mocne i słabe strony oraz w jakich sytuacjach może się sprawdzić jako rozwiązanie do tworzenia...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[#9 Robot dokumentuje, czyli technical writing przyszłości]]></title>
             <link>http://techwriterkoduje.pl/blog/2019/10/17/robot-dokumentuje.html</link>
