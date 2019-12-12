@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://techwriterkoduje.pl/blog</id>
     <title>Tech Writer koduje Blog</title>
-    <updated>2019-11-15T06:00:00Z</updated>
-    <generator>Feed for Node.js</generator>
+    <updated>2019-11-15T06:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://techwriterkoduje.pl/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</subtitle>
     <logo>http://techwriterkoduje.pl/img/logo-square.svg</logo>
@@ -11,111 +11,121 @@
     <entry>
         <title type="html"><![CDATA[#10 Docusaurus - Tech Writer dokarmia dinozaury]]></title>
         <id>http://techwriterkoduje.pl/blog/2019/11/15/docusaurus.html</id>
-        <link href="http://techwriterkoduje.pl/blog/2019/11/15/docusaurus.html">
-        </link>
-        <updated>2019-11-15T06:00:00Z</updated>
+        <link href="http://techwriterkoduje.pl/blog/2019/11/15/docusaurus.html"/>
+        <updated>2019-11-15T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>Docusaurus to static site generator stworzony przez Facebooka, którego główną zaletą jest prostota. Rozmawiamy o tym co oferuje to narzędzie, jakie są jego mocne i słabe strony oraz w jakich sytuacjach może się sprawdzić jako rozwiązanie do tworzenia...</p>]]></summary>
         <author>
             <name>Tech Writer koduje</name>
+            <email/>
+            <uri/>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[#9 Robot dokumentuje, czyli technical writing przyszłości]]></title>
         <id>http://techwriterkoduje.pl/blog/2019/10/17/robot-dokumentuje.html</id>
-        <link href="http://techwriterkoduje.pl/blog/2019/10/17/robot-dokumentuje.html">
-        </link>
-        <updated>2019-10-17T06:00:00Z</updated>
+        <link href="http://techwriterkoduje.pl/blog/2019/10/17/robot-dokumentuje.html"/>
+        <updated>2019-10-17T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>Podobno nikt nie jest niezastąpiony, ale czy można zastąpić całą grupę zawodową? Zwłaszcza ludzi, którzy robią research, rozmawiają z innymi i piszą? O automatyzacji w technical writingu rozmawia z nami Wojtek Aleksander.</p> <p><a class="btn btn-primary" href="https://anchor.fm/docdeveloper/episodes/9-Robot-dokumentuje--czyli-technical-writing-przyszoci-e7p204/a-at2688" target="_blank"><i class="fas fa-headphones"></i> Posłuchaj</a></p> ]]></summary>
         <author>
             <name>Tech Writer koduje</name>
+            <email/>
+            <uri/>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[#8 DITA OT - static site generator dla wtajemniczonych]]></title>
         <id>http://techwriterkoduje.pl/blog/2019/09/28/dita-ot.html</id>
-        <link href="http://techwriterkoduje.pl/blog/2019/09/28/dita-ot.html">
-        </link>
-        <updated>2019-09-28T06:00:00Z</updated>
+        <link href="http://techwriterkoduje.pl/blog/2019/09/28/dita-ot.html"/>
+        <updated>2019-09-28T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>Jako technoskrybi, którzy kodują, spędziliśmy trochę czasu z DITA Open Toolkit. Rozmawiamy o tym do czego służy DITA OT i jakie ma możliwości. Mówimy o wadach i zaletach. Podpowiadamy też jak zacząć pracę z tym narzędziem. Pracujesz z ditą lub chcesz...</p>]]></summary>
         <author>
             <name>Tech Writer koduje</name>
+            <email/>
+            <uri/>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[#7 Programista dokumentuje, czyli nowoczesny technical writing]]></title>
         <id>http://techwriterkoduje.pl/blog/2019/08/29/programista-dokumentuje.html</id>
-        <link href="http://techwriterkoduje.pl/blog/2019/08/29/programista-dokumentuje.html">
-        </link>
-        <updated>2019-08-29T06:00:00Z</updated>
+        <link href="http://techwriterkoduje.pl/blog/2019/08/29/programista-dokumentuje.html"/>
+        <updated>2019-08-29T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>W nowoczesnej firmie software’owej nie ma ani jednego Technical Writera. W takim razie czym się zajmuje nasz gość, Rafał Pawlicki, który pracuje jako Documentation Manager? Dynamiczne zmiany w świecie technologii powodują, że coraz częściej w firmach...</p>]]></summary>
         <author>
             <name>Tech Writer koduje</name>
+            <email/>
+            <uri/>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[#6 Konferencja EuroPython 2019 z perspektywy kodującego Tech Writera]]></title>
         <id>http://techwriterkoduje.pl/blog/2019/08/12/europython-2019.html</id>
-        <link href="http://techwriterkoduje.pl/blog/2019/08/12/europython-2019.html">
-        </link>
-        <updated>2019-08-12T06:00:00Z</updated>
+        <link href="http://techwriterkoduje.pl/blog/2019/08/12/europython-2019.html"/>
+        <updated>2019-08-12T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>EuroPython to największa europejska konferencja poświęcona językowi programowania Python. Tegoroczna edycja odbyła się w dniach 8-14 lipca w Bazylei (Szwajcaria). Przyglądamy się temu wydarzeniu z perspektywy Technical Writera, który od jakiegoś czas...</p>]]></summary>
         <author>
             <name>Tech Writer koduje</name>
+            <email/>
+            <uri/>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[#5 Narzędzia dla Tech Writerów]]></title>
         <id>http://techwriterkoduje.pl/blog/2019/07/24/narzedzia.html</id>
-        <link href="http://techwriterkoduje.pl/blog/2019/07/24/narzedzia.html">
-        </link>
-        <updated>2019-07-24T06:00:00Z</updated>
+        <link href="http://techwriterkoduje.pl/blog/2019/07/24/narzedzia.html"/>
+        <updated>2019-07-24T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>Mogłoby się wydawać, że Tech Writerzy nie mają dużych potrzeb jeśli chodzi o narzędzia. W końcu co może być potrzebne do napisania instrukcji? Zapewne wystarczy jakiś prosty edytor i tyle. Nic bardziej mylnego. Technical Writerzy, jak każda profesja,...</p>]]></summary>
         <author>
             <name>Tech Writer koduje</name>
+            <email/>
+            <uri/>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[#4 Konferencja soap! 2019 - podsumowanie]]></title>
         <id>http://techwriterkoduje.pl/blog/2019/07/07/soap-2019.html</id>
-        <link href="http://techwriterkoduje.pl/blog/2019/07/07/soap-2019.html">
-        </link>
-        <updated>2019-07-07T06:00:00Z</updated>
+        <link href="http://techwriterkoduje.pl/blog/2019/07/07/soap-2019.html"/>
+        <updated>2019-07-07T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>soap! to jedyna polska konferencja dla specjalistów zajmujących się szeroko pojętą treścią. Motywem przewodnim tegorocznej edycji było &quot;Content as code&quot;. W tym odcinku, dzielimy się swoimi ogólnymi wrażeniami na temat konferencji oraz rozma...</p>]]></summary>
         <author>
             <name>Tech Writer koduje</name>
+            <email/>
+            <uri/>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[#3 SVG - przenieś grafikę w dokumentacji na wyższy poziom]]></title>
         <id>http://techwriterkoduje.pl/blog/2019/06/14/svg.html</id>
-        <link href="http://techwriterkoduje.pl/blog/2019/06/14/svg.html">
-        </link>
-        <updated>2019-06-14T06:00:00Z</updated>
+        <link href="http://techwriterkoduje.pl/blog/2019/06/14/svg.html"/>
+        <updated>2019-06-14T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>Scalable Vector Graphics (SVG) kryje w sobie wiele ciekawych aspektów, które Technical Writerzy mogliby potencjalnie wykorzystać. Nasz gość, Daniel Barrio Fierro, od jakiegoś czasu nie tylko pasjonuje się tym formatem, ale również wykorzystuje jego z...</p>]]></summary>
         <author>
             <name>Tech Writer koduje</name>
+            <email/>
+            <uri/>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[#2 Python - przyjaciel Tech Writera]]></title>
         <id>http://techwriterkoduje.pl/blog/2019/05/23/python.html</id>
-        <link href="http://techwriterkoduje.pl/blog/2019/05/23/python.html">
-        </link>
-        <updated>2019-05-23T06:00:00Z</updated>
+        <link href="http://techwriterkoduje.pl/blog/2019/05/23/python.html"/>
+        <updated>2019-05-23T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>Python to język programowania ogólnego zastosowania, który w ostatnich latach zyskuje coraz większą popularność nie tylko wśród programistów. Jednym z powodów jest niewątpliwie jego przystępna składnia przez co osoby, które nie są bardzo techniczne s...</p>]]></summary>
         <author>
             <name>Tech Writer koduje</name>
+            <email/>
+            <uri/>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[#1 Docs like code - rozważania praktyczne i filozoficzne]]></title>
         <id>http://techwriterkoduje.pl/blog/2019/05/14/docs-like-code.html</id>
-        <link href="http://techwriterkoduje.pl/blog/2019/05/14/docs-like-code.html">
-        </link>
-        <updated>2019-05-14T06:00:00Z</updated>
+        <link href="http://techwriterkoduje.pl/blog/2019/05/14/docs-like-code.html"/>
+        <updated>2019-05-14T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>&quot;Docs like code&quot; czy &quot;Docs as code&quot; to model tworzenia dokumentacji, który staje się coraz bardziej popularny wśród Tech Writerów w IT. Głównym założeniem jest traktowanie dokumentacji jak kodu pod kątem procesów oraz narzędzi, kt...</p>]]></summary>
         <author>
             <name>Tech Writer koduje</name>
+            <email/>
+            <uri/>
         </author>
     </entry>
 </feed>
