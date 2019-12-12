@@ -171,7 +171,7 @@ class Index extends React.Component {
               </a>
             </div>
             <div className="col-sm">
-              <a href="https://techwriter.pl/" target="_blank">
+              <a href="http://techwriter.pl/" target="_blank">
               <img
                 alt="Logo of the Techwriter.pl portal"
                 title="Logo of the Techwriter.pl portal"
