@@ -29,7 +29,6 @@ const siteConfig = {
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
   cname: 'techwriterkoduje.pl',
-  gaTrackingId: 'UA-140218567-1',
 
   // Used for publishing and more
   projectName: 'site-source',
