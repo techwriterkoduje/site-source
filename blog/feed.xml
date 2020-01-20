@@ -4,15 +4,22 @@
         <title>Tech Writer koduje Blog</title>
         <link>http://techwriterkoduje.pl/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
-        <lastBuildDate>Thu, 12 Dec 2019 06:00:00 GMT</lastBuildDate>
-        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <lastBuildDate>Mon, 20 Jan 2020 06:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>Tech Writer koduje Blog</title>
             <url>http://techwriterkoduje.pl/img/logo-square.svg</url>
             <link>http://techwriterkoduje.pl/blog</link>
         </image>
-        <copyright>© 2019 Tech Writer koduje</copyright>
+        <copyright>© 2020 Tech Writer koduje</copyright>
+        <item>
+            <title><![CDATA[#12 Tech Writer się rekrutuje, czyli jak ważne są umiejętności techniczne]]></title>
+            <link>http://techwriterkoduje.pl/blog/2020/01/20/tech-writer-sie-rekrutuje.html</link>
+            <guid>http://techwriterkoduje.pl/blog/2020/01/20/tech-writer-sie-rekrutuje.html</guid>
+            <pubDate>Mon, 20 Jan 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Czy ogłoszenie o pracę mówi Ci co będziesz robił jako Technical Writer? Jak pracodawca sprawdzi Twoje umiejętności? Co się liczy u Technical Writera? Rozmawiamy z Tomkiem Prusem o blaskach i cieniach rekrutowania Technical Writerów starając się odpow...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[#11 Robot dokumentuje część 2 - automatyzacja kontra ludzie]]></title>
             <link>http://techwriterkoduje.pl/blog/2019/12/12/robot-dokumentuje-czesc-2.html</link>
