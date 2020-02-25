@@ -4,7 +4,7 @@
         <title>Tech Writer koduje Blog</title>
         <link>http://techwriterkoduje.pl/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
-        <lastBuildDate>Mon, 20 Jan 2020 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Feb 2020 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>http://techwriterkoduje.pl/blog</link>
         </image>
         <copyright>© 2020 Tech Writer koduje</copyright>
+        <item>
+            <title><![CDATA[#13 Full-Stack Tech Writer, czyli technoskryba kontra chmura]]></title>
+            <link>http://techwriterkoduje.pl/blog/2020/02/25/full-stack-tech-writer.html</link>
+            <guid>http://techwriterkoduje.pl/blog/2020/02/25/full-stack-tech-writer.html</guid>
+            <pubDate>Tue, 25 Feb 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Jakie są obowiązki Technical Writera? Pewnie większość z Was odpowiedziałaby, że pisanie dokumentacji. A co z budowaniem stron i hostowaniem ich w chmurze? Damy sobie z tym radę? Ten odcinek to nie rozważania teoretyczne, ale oparta na faktach histor...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[#12 Tech Writer się rekrutuje, czyli jak ważne są umiejętności techniczne]]></title>
             <link>http://techwriterkoduje.pl/blog/2020/01/20/tech-writer-sie-rekrutuje.html</link>
