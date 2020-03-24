@@ -4,7 +4,7 @@
         <title>Tech Writer koduje Blog</title>
         <link>http://techwriterkoduje.pl/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
-        <lastBuildDate>Tue, 25 Feb 2020 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Mar 2020 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>http://techwriterkoduje.pl/blog</link>
         </image>
         <copyright>© 2020 Tech Writer koduje</copyright>
+        <item>
+            <title><![CDATA[#14 Tech Writer zaczyna kodować w Pythonie, czyli o narzędziach i dobrych praktykach]]></title>
+            <link>http://techwriterkoduje.pl/blog/2020/03/24/tech-writer-zaczyna-kodowac-w-pythonie.html</link>
+            <guid>http://techwriterkoduje.pl/blog/2020/03/24/tech-writer-zaczyna-kodowac-w-pythonie.html</guid>
+            <pubDate>Tue, 24 Mar 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Rozmawiamy z Sebastianem Witowskim o tym jak ustawić sobie środowisko do kodowania w Pythonie i jakich błędów unikać zaczynając swoją przygodę z tym językiem programowania. Spora dawka wiedzy dla początkujących Pythonistów. Ale jeśli kodujesz w Pytho...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[#13 Full-Stack Tech Writer, czyli technoskryba kontra chmura]]></title>
             <link>http://techwriterkoduje.pl/blog/2020/02/25/full-stack-tech-writer.html</link>
