@@ -4,7 +4,7 @@
         <title>Tech Writer koduje Blog</title>
         <link>http://techwriterkoduje.pl/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
-        <lastBuildDate>Tue, 24 Mar 2020 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Apr 2020 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>http://techwriterkoduje.pl/blog</link>
         </image>
         <copyright>© 2020 Tech Writer koduje</copyright>
+        <item>
+            <title><![CDATA[#15 Technoskryby potyczki z SME, czyli jak zdobywać informacje potrzebne do tworzenia dokumentacji]]></title>
+            <link>http://techwriterkoduje.pl/blog/2020/04/07/technoskryby-potyczki-z-sme.html</link>
+            <guid>http://techwriterkoduje.pl/blog/2020/04/07/technoskryby-potyczki-z-sme.html</guid>
+            <pubDate>Tue, 07 Apr 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Jak Technical Writer radzi sobie ze zdobywaniem informacji? Co jeśli Subject Matter Expert (SME) jest niedostępny? A co jeśli dwóch SME nie może się zgodzić co jest najważniejsze? Rozmawiamy z Mateuszem Boryckim, który przynosi cztery prawdziwe histo...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[#14 Tech Writer zaczyna kodować w Pythonie, czyli o narzędziach i dobrych praktykach]]></title>
             <link>http://techwriterkoduje.pl/blog/2020/03/24/tech-writer-zaczyna-kodowac-w-pythonie.html</link>
