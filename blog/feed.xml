@@ -4,7 +4,7 @@
         <title>Tech Writer koduje Blog</title>
         <link>http://techwriterkoduje.pl/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
-        <lastBuildDate>Tue, 07 Apr 2020 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Apr 2020 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>http://techwriterkoduje.pl/blog</link>
         </image>
         <copyright>© 2020 Tech Writer koduje</copyright>
+        <item>
+            <title><![CDATA[16# DITA z Gita]]></title>
+            <link>http://techwriterkoduje.pl/blog/2020/04/22/dita-z-gita.html</link>
+            <guid>http://techwriterkoduje.pl/blog/2020/04/22/dita-z-gita.html</guid>
+            <pubDate>Wed, 22 Apr 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Czy szanujący się zespół dokumentacyjny używający standardu DITA może działać bez CCMSa? Czy Technical Writer odnajdzie się w gicie? Jakie wyzwania stwarza taka implementacja? Techniczna rozmowa o technical writingu.</p> <p><a class="btn btn-primary" href="https://anchor.fm/docdeveloper/episodes/16-DITA-z-Gita-ed3o8b/a-a20fl7c" target="_blank"><i class="fas fa-headphones"></i> Posłuchaj</a></p> ]]></description>
+        </item>
         <item>
             <title><![CDATA[#15 Technoskryby potyczki z SME, czyli jak zdobywać informacje potrzebne do tworzenia dokumentacji]]></title>
             <link>http://techwriterkoduje.pl/blog/2020/04/07/technoskryby-potyczki-z-sme.html</link>
