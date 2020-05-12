@@ -13,7 +13,7 @@ W świecie dokumentacji do oprogramowania, istnieje wiele miejsc, gdzie tradycyj
 
 Wyobraź sobie taki scenariusz. Zostałeś przydzielony do pewnego projektu, w którym będziesz bardzo blisko współpracował z programistami. Ustaliliście na samym początku, że za każdym razem kiedy programista zrobi zmianę w kodzie, która musi zostać udokumentowana, wrzuci do folderu `docs` plik tekstowy z opisem zmian. Plik będzie miał taką nazwę jak numer historyjki w systemie do śledzenia zadań. Na przykład, jeśli historyjka ma numer `PROJ-102` i została stworzona po to, żeby programista naprawił błąd powodujący, że aplikacja zawieszała się na kilka sekund, a następnie okno aplikacji przesuwało się poza ekran, to programista w repozytorium z kodem doda plik `docs\PROJ-102.txt`, w którym będzie taka informacja.
 
-`PROJ-102.txt`
+*PROJ-102.txt*
 ```
 Naprawiliśmy błąd, który powodował, że aplikacja zawieszała się na kilka sekund, a następnie okno aplikacji przesuwało się poza ekran przez co stawało się niewidoczne.
 ```
@@ -65,12 +65,12 @@ W dogodnej lokalizacji na swoim dysku, stwórz folder `rel-notes-generator`. W t
 
 Stwórz folder `rel-notes-generator\input`, a w nim dodaj dwa pliki tekstowe: `PROJ-101.txt` i `PROJ-102.txt` z taką zawartością jak widać poniżej. Tymi plikami "nakarmimy" nasz generator. Dzięki temu będziemy mogli sprawdzić czy działa tak jak tego chcemy.
 
-`PROJ-101.txt`
+*PROJ-101.txt*
 ``` PROJ-101.txt
 Dodaliśmy nową funkcję, która pozwala na szybkie pobieranie zasobów sieciowych.
 ```
 
-`PROJ-102.txt`
+*PROJ-102.txt*
 ``` PROJ-102.txt
 Naprawiliśmy błąd, który powodował, że aplikacja zawieszała się na kilka sekund, a następnie okno aplikacji przesuwało się poza ekran przez co stawało się niewidoczne.
 ```
@@ -79,7 +79,7 @@ Naprawiliśmy błąd, który powodował, że aplikacja zawieszała się na kilka
 
 Mamy już pliki tekstowe, z których pobierzemy treść naszych not wydania. Teraz potrzebujemy jeszcze szablonu, do którego wstawimy informacje pobrane z plików tekstowych. Stwórz plik `rel-notes-generator\release-notes-template.html` z takim kodem HTML.
 
-`release-notes-template.html`
+*release-notes-template.html*
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -122,7 +122,7 @@ Różnica jest taka, że w pierwszym sposobie importujemy cały komponent a w dr
 
 Nasz generator będzie korzystał z trzech elementów, które są w trzech różnych komponentach. Dlatego na początku naszego kodu w pliku `rel-notes-generator.py` musimy dodać takie linijki.
 
-`rel-notes-generator.py`
+*rel-notes-generator.py*
 ```
 from string import Template
 from pathlib import Path
@@ -139,7 +139,7 @@ Z komponentu `shutil` importujemy element `rmtree`, który pozwala na usuwanie f
 
 W naszym generatorze musimy ustawić trzy ścieżki w taki oto sposób.
 
-`rel-notes-generator.py`
+*rel-notes-generator.py*
 ```
 current_dir = Path(__file__).parent
 input_dir = current_dir / 'input'
@@ -182,7 +182,7 @@ Funkcja w kodzie to nic innego jak kawałek kodu, który wykonuje jakąś operac
 
 Dodaj do pliku `rel-notes-generator.py` następujący kod.
 
-`rel-notes-generator.py`
+*rel-notes-generator.py*
 ```
 def get_release_notes(source_dir):
     rel_notes = {}
@@ -224,7 +224,7 @@ W tym kroku dodamy funkcję i prosty szablon, który pozwoli nam przerobić sło
 
 Na początek, dodaj taki mały szablon.
 
-`rel-notes-generator.py`
+*rel-notes-generator.py*
 ```
 rel_note_template = Template('''<tr>
 <td>$id</td>
@@ -237,7 +237,7 @@ Szablon ma w sobie dwa elementy zastępcze, `$id` i `$description`, które będz
 
 Następnie dodaj kolejną funkcję.
 
-`rel-notes-generator.py`
+*rel-notes-generator.py*
 ```
 def generate_release_notes(release_notes):
     rel_note_table_rows = ''
@@ -277,7 +277,7 @@ Dla przypomnienia dodam, że tak jak w poprzednim kroku, tylko stworzyliśmy now
 
 To już ostatnia funkcja, której potrzebujemy. Jej zadaniem jest podstawienie wierszy tabeli do szablonu pliku HTML, a następnie zapisanie końcowego pliku HTML z notkami wydania. Dodaj taki kod to pliku `rel-notes-generator.py`.
 
-`rel-notes-generator.py`
+*rel-notes-generator.py*
 ```
 def write_release_notes(release_note_rows, target_dir):
     if target_dir.exists():
@@ -305,7 +305,7 @@ To już ostatnia prosta. Właściwie mamy już wszystko co nam potrzebne. Teraz 
 
 Żeby to zrobić, dodaj taki kod.
 
-`rel-notes-generator.py`
+*rel-notes-generator.py*
 ```
 if __name__ == '__main__':
     collected_release_notes = get_release_notes(input_dir)
