@@ -275,7 +275,7 @@ Dla przypomnienia dodam, że tak jak w poprzednim kroku, tylko stworzyliśmy now
 
 ### Krok 9: Dodaj funkcję zapisującą końcowy plik HTML
 
-To już ostatnia funkcja, której potrzebujemy. Jej zadaniem jest podstawienie wierszy tabeli do szablonu pliku HTML, a następnie zapisanie końcowego pliku HTML z notkami wydania. Dodaj taki kod to pliku `rel-notes-generator.py`.
+To już ostatnia funkcja, której potrzebujemy. Jej zadaniem jest podstawienie wierszy tabeli do szablonu pliku HTML, a następnie zapisanie końcowego pliku HTML z notkami wydania. Dodaj taki kod do pliku `rel-notes-generator.py`.
 
 *rel-notes-generator.py*
 ```
