@@ -21,4 +21,4 @@ Możesz zastąpić element `Template` z komponentu `string` bardziej zaawansowan
 
 Warto pomyśleć nad dodaniem jakichś ładnych stylów do pliku HTML. Do tego będziesz potrzebował znajomości CSS. Możesz przyjrzeć się bibliotece **Bootstrap** (https://getbootstrap.com/) rozwijanej przez Twittera. Jest ona bardzo popularna i pozwala niskim kosztem tworzyć atrakcyjne strony HTML.
 
-To już wiedza wykraczająca poza Pythona, ale na pewno przyda Ci się ona niejednokrotnie podczas tworzenia innych narzędzi w przyszłości.
+To już wiedza wykraczająca poza Pythona, ale na pewno przyda Ci się ona niejednokrotnie w przyszłości podczas tworzenia innych narzędzi.
