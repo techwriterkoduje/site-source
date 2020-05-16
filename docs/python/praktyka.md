@@ -3,7 +3,7 @@ id: praktyka
 title: Przechodzimy do praktyki
 ---
 
-Być może z rozpędu czy też przyzwyczajenia od razu przeszedłeś do części praktycznej tego przewodnika. Jeśli tak, to zachęcam Cię do przeczytania części teoretycznej, żebyś wiedział dokładnie jaki miałem cel pisząc ten przewodnik i jakie powinny być Twoje oczekiwania w stosunku do tego co tu znajdziesz.
+Być może z rozpędu czy też przyzwyczajenia od razu przeszedłeś do części praktycznej tego przewodnika. Jeśli tak, to zachęcam Cię do przeczytania [części teoretycznej](teoria), żebyś wiedział dokładnie jaki miałem cel pisząc ten przewodnik i jakie powinny być Twoje oczekiwania w stosunku do tego co tu znajdziesz.
 
 ## Co będziemy robić?
 
@@ -11,7 +11,7 @@ Jak to co? Kodować w Pythonie! :)
 
 W świecie dokumentacji do oprogramowania, istnieje wiele miejsc, gdzie tradycyjne "kopiuj-wklej" można potencjalnie zastąpić jakimś automatycznym rozwiązaniem, które odwali za nas brudną robotę.
 
-Wyobraź sobie taki scenariusz. Zostałeś przydzielony do pewnego projektu, w którym będziesz bardzo blisko współpracował z programistami. Ustaliliście na samym początku, że za każdym razem kiedy programista zrobi zmianę w kodzie, która musi zostać udokumentowana, wrzuci do folderu `docs` plik tekstowy z opisem zmian. Plik będzie miał taką nazwę jak numer historyjki w systemie do śledzenia zadań. Na przykład, jeśli historyjka ma numer `PROJ-102` i została stworzona po to, żeby programista naprawił błąd powodujący, że aplikacja zawieszała się na kilka sekund, a następnie okno aplikacji przesuwało się poza ekran, to programista w repozytorium z kodem doda plik `docs\PROJ-102.txt`, w którym będzie taka informacja.
+Wyobraź sobie taki scenariusz. Zostałeś przydzielony do pewnego projektu, w którym będziesz bardzo blisko współpracował z programistami. Ustaliliście na samym początku, że za każdym razem kiedy programista zrobi zmianę w kodzie, która musi zostać udokumentowana, doda do folderu `docs` plik tekstowy z opisem zmian. Plik będzie miał taką nazwę jak numer historyjki w systemie do śledzenia zadań. Na przykład, jeśli historyjka ma numer **PROJ-102** i została stworzona po to, żeby programista naprawił błąd powodujący, że aplikacja zawieszała się na kilka sekund, a następnie okno aplikacji przesuwało się poza ekran, to programista w repozytorium z kodem doda plik `docs\PROJ-102.txt`, w którym będzie taka informacja.
 
 *PROJ-102.txt*
 ```
@@ -31,7 +31,7 @@ I to właśnie będzie nasz cel, który będziemy krok po kroku realizować w ko
 
 ## Co nam będzie potrzebne?
 
-Starałem się ograniczyć liczbę potrzebnych komponentów do minimum, żebyśmy mogli przejść jak najszybciej do kodowania. Jednak pewnych rzeczy nie da się pominąć, dlatego będziesz potrzebował następujących rzeczy.
+Starałem się ograniczyć liczbę potrzebnych komponentów do minimum, żebyśmy mogli przejść jak najszybciej do kodowania. Jednak pewnych rzeczy nie da się pominąć, dlatego będziesz potrzebował takiego oprogramowania.
 
 ### Python
 
@@ -49,7 +49,7 @@ Możesz użyć jakiegokolwiek edytora tekstowego, żeby kodować w Pythonie. Jed
 
 Oprócz edytorów, możesz skorzystać z bardziej zaawansowanej opcji, czyli IDE (ang. *integrated development environment*). Przykładem może być PyCharm od JetBrains (https://www.jetbrains.com/pycharm/). Jednak na nasze potrzeby jest to za dużo. Nauczenie się obsługi IDE przyniesie Ci korzyści, ale na późniejszym etapie nauki Pythona. Na tym etapie, polecam edytor tekstowy.
 
-## Przechodzimy do kodowania
+## Kodowanie czas zacząć
 
 Mam nadzieję, że instalacja Pythona i edytora nie przysporzyły Ci problemów i że Twój zapał jest taki sam albo większy jak w momencie kiedy zaczynałeś czytać ten przewodnik. Skoro mamy już wszystko gotowe to zabieramy się do pracy.
 
@@ -63,7 +63,7 @@ W dogodnej lokalizacji na swoim dysku, stwórz folder `rel-notes-generator`. W t
 
 ### Krok 2: Dodaj przykładowe pliki tekstowe
 
-Stwórz folder `rel-notes-generator\input`, a w nim dodaj dwa pliki tekstowe: `PROJ-101.txt` i `PROJ-102.txt` z taką zawartością jak widać poniżej. Tymi plikami "nakarmimy" nasz generator. Dzięki temu będziemy mogli sprawdzić czy działa tak jak tego chcemy.
+Stwórz folder `rel-notes-generator\input`, a w nim dodaj dwa pliki tekstowe, `PROJ-101.txt` i `PROJ-102.txt`, z taką zawartością jak widać poniżej. Tymi plikami "nakarmimy" nasz generator. Dzięki temu będziemy mogli sprawdzić czy działa tak jak tego chcemy.
 
 *PROJ-101.txt*
 ``` PROJ-101.txt
@@ -157,10 +157,10 @@ W Pythonie możesz używać zarówno pojedynczych (`''`) jak i podwójnych (`""`
 Ale wróćmy do naszych ścieżek.
 Na początku, ustawiamy `current_dir` czyli ścieżkę do folderu, w którym znajduje się nasz plik `rel-notes-generator.py`. Robimy to za pomocą elementu `__file__` dostępnego w Pythonie. Ten element przechowuje ścieżkę do pliku. Dodając `.parent` mówimy Pythonowi, że chcemy w naszej zmiennej zapisać nie ścieżkę do naszego pliku, tylko do folderu, w którym nasz plik się znajduje. 
 
-Pewnie zastanawiasz się po co jest nam to potrzebne? Jest to ogólnie dobra praktyka. Korzystając z niej ułatwiamy sobie życie, bo nie musimy na sztywno wpisywać ścieżki do naszego pliku. Dzięki temu nie ma znaczenia gdzie znajduje się nasz plik `rel-notes-generator.py`, bo Python sam sobie rozwiąże tę ścieżkę. Ta ścieżka jest naszym punktem wyjścia dla kolejnych ścieżek. Na jej podstawie budujemy ścieżkę do folderu `input`, w którym trzymamy pliki tekstowe i do folderu `output`, w którym zapiszemy nasz końcowy plik HTML. 
+Pewnie zastanawiasz się po co jest nam to potrzebne? Jest to ogólnie dobra praktyka. Korzystając z niej ułatwiamy sobie życie, bo nie musimy na sztywno wpisywać ścieżki do naszego pliku. Dzięki temu nie ma znaczenia gdzie znajduje się nasz plik `rel-notes-generator.py`, bo Python sam sobie rozwiąże tę ścieżkę. Ta ścieżka jest naszym punktem wyjścia dla kolejnych ścieżek. Na jej podstawie budujemy ścieżkę do folderu `input`, w którym trzymamy pliki tekstowe i do folderu `output`, w którym zapisujemy nasz końcowy plik HTML. 
 
 Możliwe, że zastanawiasz się teraz czy nie dałoby się tego zrobić prościej i uniknąć tej szamanerii.  Dałoby się, ale niekoniecznie byłoby to lepsze rozwiązanie.
-Gdybyśmy nie skorzystali z elementu `__file__`, musielibyśmy ustawić ścieżki "na piechotę". Wyobraż sobie, że Twój plik `rel-notes-generator.py` znajduje się w `C:\my-apps\rel-notes-generator`. Więc ustawiasz ścieżki na sztywno w taki sposób.
+Gdybyśmy nie skorzystali z elementu `__file__`, musielibyśmy ustawić ścieżki "na piechotę". Wyobraź sobie, że Twój plik `rel-notes-generator.py` znajduje się w `C:\my-apps\rel-notes-generator`. Więc ustawiasz ścieżki na sztywno w taki sposób.
 
 ```
 current_dir = 'C:\my-apps\rel-notes-generator'
@@ -206,7 +206,7 @@ W folderze może znajdować się więcej niż jeden plik tekstowy, więc musimy 
 
 1. W zmiennej `rel_note_id` zapisał nazwę pliku (`file.stem`).
 1. Otworzył plik (`with file.open() as f`) i w zmiennej `rel_note_text` zapisał jego zawartość, którą pobrał (`f.read()`).
-1. Do słownika dodał parę z numerem zgłoszenia i opisem zmian `rel_notes[rel_note_id] = rel_note_text`.
+1. Do słownika dodał parę z numerem zgłoszenia i opisem zmian (`rel_notes[rel_note_id] = rel_note_text`).
 
 Kiedy pętla przejdzie po wszystkich plikach, funkcja zwróci nam wypełniony słownik (`return rel_notes`). W naszym testowym środowisku, funkcja zwróci nam taki słownik:
 
