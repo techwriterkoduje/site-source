@@ -39,7 +39,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'python/intro', label: 'Naucz się Pythona'},
+    {page: 'python', label: 'Naucz się Pythona'},
     { blog: true, label: 'Odcinki' },
     { page: 'contact', label: 'Kontakt' }
   ],
