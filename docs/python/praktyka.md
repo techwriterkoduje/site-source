@@ -59,11 +59,11 @@ Jeśli chcesz od razu skoczyć na głęboką wodę albo po prostu jesteś ciekaw
 
 ### Krok 1: Stwórz folder dla generatora
 
-W dogodnej lokalizacji na swoim dysku, stwórz folder `rel-notes-generator`. W tym folderze będziemy dodawać kolejne zasoby potrzebne nam do zbudowania generatora.
+W dogodnej lokalizacji na swoim dysku, stwórz folder `rel_notes_generator`. W tym folderze będziemy dodawać kolejne zasoby potrzebne nam do zbudowania generatora.
 
 ### Krok 2: Dodaj przykładowe pliki tekstowe
 
-Stwórz folder `rel-notes-generator\input`, a w nim dodaj dwa pliki tekstowe, `PROJ-101.txt` i `PROJ-102.txt`, z taką zawartością jak widać poniżej. Tymi plikami "nakarmimy" nasz generator. Dzięki temu będziemy mogli sprawdzić czy działa tak jak tego chcemy.
+Stwórz folder `rel_notes_generator\input`, a w nim dodaj dwa pliki tekstowe, `PROJ-101.txt` i `PROJ-102.txt`, z taką zawartością jak widać poniżej. Tymi plikami "nakarmimy" nasz generator. Dzięki temu będziemy mogli sprawdzić czy działa tak jak tego chcemy.
 
 *PROJ-101.txt*
 ``` PROJ-101.txt
@@ -77,9 +77,9 @@ Naprawiliśmy błąd, który powodował, że aplikacja zawieszała się na kilka
 
 ### Krok 3: Stwórz szablon dla pliku HTML
 
-Mamy już pliki tekstowe, z których pobierzemy treść naszych not wydania. Teraz potrzebujemy jeszcze szablonu, do którego wstawimy informacje pobrane z plików tekstowych. Stwórz plik `rel-notes-generator\release-notes-template.html` z takim kodem HTML.
+Mamy już pliki tekstowe, z których pobierzemy treść naszych not wydania. Teraz potrzebujemy jeszcze szablonu, do którego wstawimy informacje pobrane z plików tekstowych. Stwórz plik `rel_notes_generator\release_notes_template.html` z takim kodem HTML.
 
-*release-notes-template.html*
+*release_notes_template.html*
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -106,7 +106,7 @@ Ten prosty plik zawiera tabelkę, która póki co ma tylko jeden wiersz z dwoma 
 
 ### Krok 4: Stwórz plik dla kodu generatora
 
-Stwórz plik `rel-notes-generator\rel-notes-generator.py`. Pliki zawierające kod Pythona mają rozszerzenie `.py`. W tym pliku będzie znajdował się kod dla naszego generatora, który napiszemy w kolejnych krokach.
+Stwórz plik `rel_notes_generator\rel_notes_generator.py`. Pliki zawierające kod Pythona mają rozszerzenie `.py`. W tym pliku będzie znajdował się kod dla naszego generatora, który napiszemy w kolejnych krokach.
 
 ### Krok 5: Dodaj linki do potrzebnych komponentów Pythona
 
@@ -120,9 +120,9 @@ albo
 
 Różnica jest taka, że w pierwszym sposobie importujemy cały komponent a w drugim tylko określone elementy, których akurat potrzebujemy.
 
-Nasz generator będzie korzystał z trzech elementów, które są w trzech różnych komponentach. Dlatego na początku naszego kodu w pliku `rel-notes-generator.py` musimy dodać takie linijki.
+Nasz generator będzie korzystał z trzech elementów, które są w trzech różnych komponentach. Dlatego na początku naszego kodu w pliku `rel_notes_generator.py` musimy dodać takie linijki.
 
-*rel-notes-generator.py*
+*rel_notes_generator.py*
 ```
 from string import Template
 from pathlib import Path
@@ -139,7 +139,7 @@ Z komponentu `shutil` importujemy element `rmtree`, który pozwala na usuwanie f
 
 W naszym generatorze musimy ustawić trzy ścieżki w taki oto sposób.
 
-*rel-notes-generator.py*
+*rel_notes_generator.py*
 ```
 current_dir = Path(__file__).parent
 input_dir = current_dir / 'input'
@@ -155,22 +155,22 @@ name = 'Michał Skowron'
 W Pythonie możesz używać zarówno pojedynczych (`''`) jak i podwójnych (`""`) cudzysłowów.
 
 Ale wróćmy do naszych ścieżek.
-Na początku, ustawiamy `current_dir` czyli ścieżkę do folderu, w którym znajduje się nasz plik `rel-notes-generator.py`. Robimy to za pomocą elementu `__file__` dostępnego w Pythonie. Ten element przechowuje ścieżkę do pliku. Dodając `.parent` mówimy Pythonowi, że chcemy w naszej zmiennej zapisać nie ścieżkę do naszego pliku, tylko do folderu, w którym nasz plik się znajduje. 
+Na początku, ustawiamy `current_dir` czyli ścieżkę do folderu, w którym znajduje się nasz plik `rel_notes_generator.py`. Robimy to za pomocą elementu `__file__` dostępnego w Pythonie. Ten element przechowuje ścieżkę do pliku. Dodając `.parent` mówimy Pythonowi, że chcemy w naszej zmiennej zapisać nie ścieżkę do naszego pliku, tylko do folderu, w którym nasz plik się znajduje. 
 
-Pewnie zastanawiasz się po co jest nam to potrzebne? Jest to ogólnie dobra praktyka. Korzystając z niej ułatwiamy sobie życie, bo nie musimy na sztywno wpisywać ścieżki do naszego pliku. Dzięki temu nie ma znaczenia gdzie znajduje się nasz plik `rel-notes-generator.py`, bo Python sam sobie rozwiąże tę ścieżkę. Ta ścieżka jest naszym punktem wyjścia dla kolejnych ścieżek. Na jej podstawie budujemy ścieżkę do folderu `input`, w którym trzymamy pliki tekstowe i do folderu `output`, w którym zapisujemy nasz końcowy plik HTML. 
+Pewnie zastanawiasz się po co jest nam to potrzebne? Jest to ogólnie dobra praktyka. Korzystając z niej ułatwiamy sobie życie, bo nie musimy na sztywno wpisywać ścieżki do naszego pliku. Dzięki temu nie ma znaczenia gdzie znajduje się nasz plik `rel_notes_generator.py`, bo Python sam sobie rozwiąże tę ścieżkę. Ta ścieżka jest naszym punktem wyjścia dla kolejnych ścieżek. Na jej podstawie budujemy ścieżkę do folderu `input`, w którym trzymamy pliki tekstowe i do folderu `output`, w którym zapisujemy nasz końcowy plik HTML. 
 
 Możliwe, że zastanawiasz się teraz czy nie dałoby się tego zrobić prościej i uniknąć tej szamanerii.  Dałoby się, ale niekoniecznie byłoby to lepsze rozwiązanie.
-Gdybyśmy nie skorzystali z elementu `__file__`, musielibyśmy ustawić ścieżki "na piechotę". Wyobraź sobie, że Twój plik `rel-notes-generator.py` znajduje się w `C:\my-apps\rel-notes-generator`. Więc ustawiasz ścieżki na sztywno w taki sposób.
+Gdybyśmy nie skorzystali z elementu `__file__`, musielibyśmy ustawić ścieżki "na piechotę". Wyobraź sobie, że Twój plik `rel_notes_generator.py` znajduje się w `C:\my-apps\rel_notes_generator`. Więc ustawiasz ścieżki na sztywno w taki sposób.
 
 ```
-current_dir = 'C:\my-apps\rel-notes-generator'
+current_dir = 'C:\my-apps\rel_notes_generator'
 input_dir = current_dir + '\' + 'input'
 output_dir = current_dir + '\' + 'output'
 ```
 
 Takie rozwiązanie na pierwszy rzut oka może Ci się wydawać całkiem w porządku, ale niestety niesie ze sobą parę problemów. Generator będzie działał tylko wtedy jeśli:
 - Uruchomimy go na Windowsie
-- Nasz folder projektu będzie nazywał się `rel-notes-generator` i będzie znajdował się w `C:\my-apps`.
+- Nasz folder projektu będzie nazywał się `rel_notes_generator` i będzie znajdował się w `C:\my-apps`.
 
 Jeśli zmienimy nazwę folderu projektu albo przeniesiemy go w inne miejsce, to nasz generator przestanie działać. To dość spore ograniczenia, których możemy uniknąć stosując komponent `pathlib` i ścieżkę do folderu projektu, która sama się automatycznie rozwiązuje.
 
@@ -180,9 +180,9 @@ Teraz dodamy naszą pierwszą funkcję.
 
 Funkcja w kodzie to nic innego jak kawałek kodu, który wykonuje jakąś operację. Będzie nam ona potrzebna, żeby z naszych plików tekstowych pobrać ich nazwę i zawartość. 
 
-Dodaj do pliku `rel-notes-generator.py` następujący kod.
+Dodaj do pliku `rel_notes_generator.py` następujący kod.
 
-*rel-notes-generator.py*
+*rel_notes_generator.py*
 ```
 def get_release_notes(source_dir):
     rel_notes = {}
@@ -224,7 +224,7 @@ W tym kroku dodamy funkcję i prosty szablon, który pozwoli nam przerobić sło
 
 Na początek, dodaj taki mały szablon.
 
-*rel-notes-generator.py*
+*rel_notes_generator.py*
 ```
 rel_note_template = Template('''<tr>
 <td>$id</td>
@@ -237,7 +237,7 @@ Szablon ma w sobie dwa elementy zastępcze, `$id` i `$description`, które będz
 
 Następnie dodaj kolejną funkcję.
 
-*rel-notes-generator.py*
+*rel_notes_generator.py*
 ```
 def generate_release_notes(release_notes):
     rel_note_table_rows = ''
@@ -275,25 +275,25 @@ Dla przypomnienia dodam, że tak jak w poprzednim kroku, tylko stworzyliśmy now
 
 ### Krok 9: Dodaj funkcję zapisującą końcowy plik HTML
 
-To już ostatnia funkcja, której potrzebujemy. Jej zadaniem jest podstawienie wierszy tabeli do szablonu pliku HTML, a następnie zapisanie końcowego pliku HTML z notkami wydania. Dodaj taki kod do pliku `rel-notes-generator.py`.
+To już ostatnia funkcja, której potrzebujemy. Jej zadaniem jest podstawienie wierszy tabeli do szablonu pliku HTML, a następnie zapisanie końcowego pliku HTML z notkami wydania. Dodaj taki kod do pliku `rel_notes_generator.py`.
 
-*rel-notes-generator.py*
+*rel_notes_generator.py*
 ```
 def write_release_notes(release_note_rows, target_dir):
     if target_dir.exists():
         rmtree(target_dir)
     target_dir.mkdir()
-    with Path('release-notes-template.html').open() as rnt:
+    with Path('release_notes_template.html').open() as rnt:
         file_template = Template(rnt.read())
-    with (target_dir / 'release-notes.html').open('w') as rn:
+    with (target_dir / 'release_notes.html').open('w') as rn:
         rn.write(file_template.substitute(release_notes=release_note_rows))
 ```
 
 Na początku funkcja sprawdza czy folder docelowy, w którym zapiszemy końcowy plik już istnieje (`target_dir.exists()`). Jeśli tak, to najpierw go kasuje (`rmtree(target_dir)`). Następnie, funkcja tworzy folder docelowy (`target_dir.mkdir()`). Te wszystkie kroki możemy wykonać w łatwy sposób dzięki komponentom `pathlib` i `shutil`, które zaimportowaliśmy w kroku 5.
 
-Po przygotowaniu folderu docelowego, funkcja otwiera plik szablonu HTML (`with Path('release-notes-template.html').open() as rnt`) po czym przypisuje zawartość szablonu do zmiennej `file_template` (`file_template = Template(rnt.read())`).
+Po przygotowaniu folderu docelowego, funkcja otwiera plik szablonu HTML (`with Path('release_notes_template.html').open() as rnt`) po czym przypisuje zawartość szablonu do zmiennej `file_template` (`file_template = Template(rnt.read())`).
 
-Następnie, funkcja tworzy pusty plik końcowy o nazwie `release-notes.html` (`with (target_dir / 'release-notes.html').open('w') as rn`). Ostatnia część to zamiana w szablonie HTML elementu zastępczego `$release_notes` na właściwe wiersze tabeli i zapisanie tego kodu HTML do pliku końcowego (`rn.write(file_template.substitute(release_notes=release_note_rows))`).
+Następnie, funkcja tworzy pusty plik końcowy o nazwie `release_notes.html` (`with (target_dir / 'release_notes.html').open('w') as rn`). Ostatnia część to zamiana w szablonie HTML elementu zastępczego `$release_notes` na właściwe wiersze tabeli i zapisanie tego kodu HTML do pliku końcowego (`rn.write(file_template.substitute(release_notes=release_note_rows))`).
 
 Funkcja jest dość krótka, ale całkiem sporo się tutaj wydarzyło. To jest właśnie jedna z zalet Pythona - zwięzła i czytelna składnia, dzięki której można na niewielkiej przestrzeni zawrzeć całkiem sporo logiki.
 
@@ -305,7 +305,7 @@ To już ostatnia prosta. Właściwie mamy już wszystko co nam potrzebne. Teraz 
 
 Żeby to zrobić, dodaj taki kod.
 
-*rel-notes-generator.py*
+*rel_notes_generator.py*
 ```
 if __name__ == '__main__':
     collected_release_notes = get_release_notes(input_dir)
@@ -315,9 +315,9 @@ if __name__ == '__main__':
 
 Pierwsza linijka, `if __name__ == '__main__'`, wygląda dość enigmatycznie. W Pythonie w taki sposób określamy, że dany fragment kodu ma zostać uruchomiony tylko jeśli wywołamy plik `.py` jako skrypt z linii komend. Dzięki temu, ten fragment kodu nie zostanie wywołany jeśli zaimportujemy nasz plik `.py` do innego pliku. Zapewne to wszystko brzmi dość zagadkowo, dlatego postaram się to rozjaśnić na przykładzie.
 
-Kod naszego generatora znajduje się w pliku `rel-notes-generator.py`. W większości przypadków będziesz uruchamiał generator z linii komend jak skrypt za pomocą polecenia `python rel-notes-generator.py`. Kiedy to zrobisz, część kodu, która znajduje się pod `if __name__ == '__main__'` zostanie wykonana. Czyli wszystko się zgadza, to jest właśnie to o co nam chodzi.
+Kod naszego generatora znajduje się w pliku `rel_notes_generator.py`. W większości przypadków będziesz uruchamiał generator z linii komend jak skrypt za pomocą polecenia `python rel_notes_generator.py`. Kiedy to zrobisz, część kodu, która znajduje się pod `if __name__ == '__main__'` zostanie wykonana. Czyli wszystko się zgadza, to jest właśnie to o co nam chodzi.
 
-Po pewnym czasie, stworzysz kolejny generator, który będzie miał trochę inne funkcje niż generator, który stworzyliśmy wspólnie. Jednak pewne części będą takie same. Żeby nie pisać tego samego kodu jeszcze raz, możesz zaimportować `rel-notes-generator.py` do swojego nowego generatora w taki sam sposób jak importowałeś komponenty w kroku 5. W tej sytuacji chcesz tylko zaimportować funkcje z generatora, ale nie chcesz, żeby się uruchomiły. O tym kiedy je uruchomić, zdecydujesz w odpowiedniej części swojego nowego generatora. I właśnie użycie `if __name__ == '__main__'`, powoduje że funkcje się nie uruchomią. Podczas importu funkcji, wszystko co znajduje się poniżej tej linijki nie wykona się.
+Po pewnym czasie, stworzysz kolejny generator, który będzie miał trochę inne funkcje niż generator, który stworzyliśmy wspólnie. Jednak pewne części będą takie same. Żeby nie pisać tego samego kodu jeszcze raz, możesz zaimportować `rel_notes_generator.py` do swojego nowego generatora w taki sam sposób jak importowałeś komponenty w kroku 5. W tej sytuacji chcesz tylko zaimportować funkcje z generatora, ale nie chcesz, żeby się uruchomiły. O tym kiedy je uruchomić, zdecydujesz w odpowiedniej części swojego nowego generatora. I właśnie użycie `if __name__ == '__main__'`, powoduje że funkcje się nie uruchomią. Podczas importu funkcji, wszystko co znajduje się poniżej tej linijki nie wykona się.
 
 Skoro już wiemy po co nam ten enigmatyczny fragment kodu, zobaczmy co znajduje się pod nim. Najpierw, uruchamiamy funkcję `get_release_notes` na folderze `input`, czyli tam gdzie mamy nasze testowe pliki tekstowe. Dla przypomnienia, funkcja wyciągnie nam nazwy i zawartość plików tekstowych. Wynik uruchomienia funkcji przypisujemy do zmiennej `collected_release_notes`. Następnie, uruchamiamy funkcję `generate_release_notes`, która stworzy nam wiersze tabeli HTML z zawartości plików tekstowych, którą trzymamy w zmiennej `collected_release_notes`. Wygenerowane wiersze tabeli przypisujemy do zmiennej `generated_release_notes`. Ostatnia operacja, to uruchomienie funkcji `write_release_notes`, która zapisze to co mamy w zmiennej `generated_release_notes` do końcowego pliku HTML.
 
@@ -327,7 +327,7 @@ Nasze noty wydania są gotowe!
 
 Udało się nam przejść przez wszystkie etapy tworzenia generatora. Poniżej kompletny kod naszej aplikacji.
 
-*rel-notes-generator.py*
+*rel_notes_generator.py*
 ```
 from string import Template
 from pathlib import Path
@@ -366,9 +366,9 @@ def write_release_notes(release_note_rows, target_dir):
     if target_dir.exists():
         rmtree(target_dir)
     target_dir.mkdir()
-    with Path('release-notes-template.html').open() as rnt:
+    with Path('release_notes_template.html').open() as rnt:
         file_template = Template(rnt.read())
-    with (target_dir / 'release-notes.html').open('w') as rn:
+    with (target_dir / 'release_notes.html').open('w') as rn:
         rn.write(file_template.substitute(release_notes=release_note_rows))
 
 if __name__ == '__main__':
@@ -382,12 +382,12 @@ if __name__ == '__main__':
 W kroku 10, pojawiła się już informacja jak wywołać plik `.py` z linii komend. Jednak dla porządku, zamieszczam informację jak uruchomić generator:
 
 1. Otwórz linię komend.
-1. Przejdź do folderu `rel-notes-generator`.
+1. Przejdź do folderu `rel_notes_generator`.
 1. Uruchom poniższą komendę.
 
     ```
-    python rel-notes-generator.py
+    python rel_notes_generator.py
     ```
-    W folderze `output` pojawi się plik `release-notes.html` z gotowymi notami wydania.
+    W folderze `output` pojawi się plik `release_notes.html` z gotowymi notami wydania.
 
 > W zależności od tego w jaki sposób zainstalowałeś Pythona na swoim komputerze, komenda może się różnić. Na przykład, jeśli nie dodałeś Pythona 3 do zmiennych środowiskowych Twojego systemu operacyjnego, może uruchomić się Python 2, który już wcześniej był zainstalowany na Twoim komputerze. W innym wypadku, komenda może w ogóle nie zostać rozpoznana. Możesz wtedy spróbować użyć komendy `python3`.
