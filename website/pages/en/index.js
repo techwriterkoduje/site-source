@@ -31,16 +31,16 @@ class HomeSplash extends React.Component {
         <div className="container paddingTop">
           <div className="row">
             <div className="col-sm">
-              <a class="btn btn-dark mt-3 w-100 primaryBackground" href={siteConfig.anchorProfile} target="_blank"><i class="fas fa-headphones"></i> Anchor.fm</a>
+              <a className="btn btn-dark mt-3 w-100 primaryBackground" href={siteConfig.anchorProfile} target="_blank"><i className="fas fa-headphones"></i> Anchor.fm</a>
             </div>
             <div className="col-sm">
-              <a class="btn btn-dark mt-3 w-100 primaryBackground" href={siteConfig.spotifyProfile} target="_blank"><i class="fab fa-spotify"></i> Spotify</a>
+              <a className="btn btn-dark mt-3 w-100 primaryBackground" href={siteConfig.spotifyProfile} target="_blank"><i className="fab fa-spotify"></i> Spotify</a>
             </div>
             <div className="col-sm">
-              <a class="btn btn-dark mt-3 w-100 primaryBackground" href={siteConfig.playerFmProfile} target="_blank"><i class="fas fa-play"></i> Player.fm</a>
+              <a className="btn btn-dark mt-3 w-100 primaryBackground" href={siteConfig.playerFmProfile} target="_blank"><i className="fas fa-play"></i> Player.fm</a>
             </div>
             <div className="col-sm">
-              <a class="btn btn-dark mt-3 w-100 primaryBackground" href={siteConfig.rss} target="_blank"><i class="fas fa-rss"></i> RSS</a>
+              <a className="btn btn-dark mt-3 w-100 primaryBackground" href={siteConfig.rss} target="_blank"><i className="fas fa-rss"></i> RSS</a>
             </div>
           </div>
         </div >
@@ -86,7 +86,7 @@ class Index extends React.Component {
     );
 
     const About = () => (
-      <div class="container paddingBottom paddingTop">
+      <div className="container paddingBottom paddingTop">
         <div className="row">
           <div className="col-sm"></div>
           <div className="col-sm-6">
@@ -114,7 +114,7 @@ class Index extends React.Component {
 
     const Episodes = () => (
       <Container padding={['bottom', 'top']}>
-        <a class="btn btn-secondary btn-lg btn-block primaryBackground shadow-sm p-3 mb-5 rounded" href="blog"><i class="fas fa-headphones"></i> Podsumowania odcinków</a>
+        <a className="btn btn-secondary btn-lg btn-block primaryBackground shadow-sm p-3 mb-5 rounded" href="blog"><i className="fas fa-headphones"></i> Podsumowania odcinków</a>
       </Container>
     );
 

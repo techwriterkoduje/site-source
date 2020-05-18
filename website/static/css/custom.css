@@ -1,108 +1,177 @@
-/* your custom css */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {}
+html,
+body {
+  --footer-height: 175px;
+  --header-height: 50px;
+  --main-height: calc(100% - var(--header-height) - var(--footer-height));
+}
 
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+  div.pythonButtonLabelWrapper {
+    font-size: 1rem;
+  }
+}
 
-@media only screen and (max-width: 1023px) {}
+@media only screen and (min-width: 1024px) {
+}
 
-@media only screen and (min-width: 1400px) {}
+@media only screen and (max-width: 1023px) {
+}
 
-@media only screen and (min-width: 1500px) {}
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+.navPusher {
+  min-height: var(--main-height);
+}
 
 .primaryBackground {
-    background-color: #21211F;
-    color: #DADADA;
+  background-color: #21211f;
+  color: #dadada;
 }
 
 .hosts img {
-    border-radius: 50%;
-    width: 50%;
+  border-radius: 50%;
+  width: 50%;
 }
 
 .hostDescription {
-    text-align: left;
-    vertical-align: middle;
-    padding-bottom: 8rem;
+  text-align: left;
+  vertical-align: middle;
+  padding-bottom: 8rem;
 }
 
 .hostCards {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .kodujeHero {
-    align-content: center;
+  align-content: center;
 }
 
 .heroTW {
-    color: #21211F;
-    text-align: right;
-    font-family: 'Consolas', 'Inconsolata', 'Hack';
-    font-weight: bold;
-    font-size: 300%;
+  color: #21211f;
+  text-align: right;
+  font-family: "Consolas", "Inconsolata", "Hack";
+  font-weight: bold;
+  font-size: 300%;
 }
 
 .kodujeTW {
-    color: #DADADA;
-    background-color: #008DD2;
-    text-align: left;
-    border: 1px solid #DADADA;
-    font-family: 'Consolas', 'Inconsolata', 'Hack';
-    font-weight: bold;
-    font-size: 250%;
+  color: #dadada;
+  background-color: #008dd2;
+  text-align: left;
+  border: 1px solid #dadada;
+  font-family: "Consolas", "Inconsolata", "Hack";
+  font-weight: bold;
+  font-size: 250%;
 }
 
 .podcastIcon {
-    text-align: center;
-    font-size: 400%;
+  text-align: center;
+  font-size: 400%;
 }
 
 .mainContainer {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .nav-footer {
-    background-color: #008DD2;
-    padding-top: 4rem;
+  height: var(--footer-height);
+  background-color: #008dd2;
+  padding-top: 4rem;
 }
 
 .nav-footer .copyright {
-    color: #DADADA;
+  color: #dadada;
 }
 
 .tagLine {
-    font-size: 200%;
-    font-style: italic;
-    text-align: center;
+  font-size: 200%;
+  font-style: italic;
+  text-align: center;
 }
 
 .heroImage {
-    margin-bottom: 6rem;
-    border: 2px solid #21211F;
-    padding: 2rem;
-    max-width: 80%;
+  margin-bottom: 6rem;
+  border: 2px solid #21211f;
+  padding: 2rem;
+  max-width: 80%;
 }
 
 .aboutSplash {
-    width: 100%
+  width: 100%;
 }
 
 .podcastDescription {
-    padding-top: 3rem;
+  padding-top: 3rem;
 }
 
 .navigationSlider .slidingNav ul li a {
-    font-weight: 600;
-    font-size: 1.2rem;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 .player-fm {
-    background-image: url(https://player.fm/assets/v_20190516085935/logos/playerfm-logo-32x32-7997850a076ef11aafac4844abf97f3a975c86a76810d6a4643889273be4341e.png);
-    background-repeat: no-repeat;
-    background-size: 18px;
-    background-position-x: 7px;
-    background-position-y: 9px;
-    padding-left: 27px;
+  background-image: url(https://player.fm/assets/v_20190516085935/logos/playerfm-logo-32x32-7997850a076ef11aafac4844abf97f3a975c86a76810d6a4643889273be4341e.png);
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position-x: 7px;
+  background-position-y: 9px;
+  padding-left: 27px;
 }
 
+.pythonCoverImageWrapper {
+  height: var(--main-height);
+  --green-1: #7ed957;
+  --green-2: #38592a;
+  --background-fill: #141313;
+  margin: 0;
+  background-color: var(--background-fill);
+  display: grid;
+  place-items: center;
+}
+
+.pythonCoverImageWithbutton {
+  padding: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.pythonCoverButton {
+  width: 90%;
+  margin: auto;
+  background: linear-gradient(to right, var(--green-1), var(--green-2));
+  border-radius: 1rem;
+  padding-bottom: 0.4rem;
+  padding-right: 0.4rem;
+  padding-left: 0.3rem;
+  padding-top: 0.3rem;
+}
+
+.pythonCoverButton:hover {
+  padding-bottom: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.2rem;
+  padding-top: 0.2rem;
+}
+
+.pythonCoverButtonInner {
+  border-radius: 1rem;
+  background: var(--background-fill);
+  padding: 2rem;
+}
+
+.pythonButtonLabelWrapper {
+  color: var(--green-1);
+  font-family: "Fira Code", monospace;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  margin: auto;
+}
