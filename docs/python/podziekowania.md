@@ -7,7 +7,7 @@ Dziękuję następującym osobom za fachową i rzetelną recenzję przewodnika.
 
 ## Paweł Kowaluk
 
-Senior Technical Writer w Guidewire Software, mój dobry kolega i wieloletni współpracownik. Razem pracujemy i prowadzimy podcast "Tech Writer koduje".
+Senior Technical Writer w Guidewire Software, mój dobry kolega i wieloletni współpracownik. Na co dzień razem pracujemy, a w wolnym czasie nagrywamy podcast "Tech Writer koduje".
 
 Z Pawłem możecie się skontaktować za pomocą jego profilu na LinkedIn (https://www.linkedin.com/in/pawel-kowaluk/).
 
