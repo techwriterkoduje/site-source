@@ -4,7 +4,7 @@
         <title>Tech Writer koduje Blog</title>
         <link>http://techwriterkoduje.pl/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
-        <lastBuildDate>Wed, 22 Apr 2020 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 May 2020 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>http://techwriterkoduje.pl/blog</link>
         </image>
         <copyright>© 2020 Tech Writer koduje</copyright>
+        <item>
+            <title><![CDATA[#17 Webhelp kontra Progressive Web App]]></title>
+            <link>http://techwriterkoduje.pl/blog/2020/05/18/webhelp-kontra-pwa.html</link>
+            <guid>http://techwriterkoduje.pl/blog/2020/05/18/webhelp-kontra-pwa.html</guid>
+            <pubDate>Mon, 18 May 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Offline help, który sam się aktualizuje. Czy to w ogóle możliwe? Zastanawiamy się czy webhelp czasy świetności ma już za sobą i czy Progressive Web App (PWA) ma szansę zostać nowym królem helpów.</p> <p><a class="btn btn-primary" href="https://anchor.fm/docdeveloper/episodes/17-Webhelp-kontra-Progressive-Web-App-ee6c5i/a-a27kfjb" target="_blank"><i class="fas fa-headphones"></i> Posłuchaj</a></p> ]]></description>
+        </item>
         <item>
             <title><![CDATA[16# DITA z Gita]]></title>
             <link>http://techwriterkoduje.pl/blog/2020/04/22/dita-z-gita.html</link>
