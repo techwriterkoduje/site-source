@@ -105,7 +105,7 @@ const siteConfig = {
   // No .html extensions for paths.
   cleanUrl: true,
 
-  editUrl: 'https://github.com/techwriterkoduje/site-source/tree/add-python-guide/docs/',
+  editUrl: 'https://github.com/techwriterkoduje/site-source/tree/master/docs/',
 
   // Open Graph and Twitter card images.
   // ogImage: 'img/undraw_online.svg',
