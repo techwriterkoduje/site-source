@@ -122,7 +122,7 @@ const siteConfig = {
   //   repoUrl: 'https://github.com/facebook/test-site',
   michalProfilePic: 'img/michal.jpg',
   pawelProfilePic: 'img/pawel.jpg',
-  mainPageBanner: 'img/logo-horizontal.svg',
+  mainPageBanner: 'img/logo-horizontal.png',
   anchorProfile: 'https://anchor.fm/docdeveloper/',
   spotifyProfile: 'https://open.spotify.com/show/2jhQ1Z1nAOY686RVok7O9I',
   playerFmProfile: 'https://player.fm/series/tech-writer-koduje',
