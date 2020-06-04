@@ -3,7 +3,7 @@ id: praktyka
 title: Przechodzimy do praktyki
 ---
 
-Być może z rozpędu czy też przyzwyczajenia od razu przeszedłeś do części praktycznej tego przewodnika. Jeśli tak, to zachęcam Cię do przeczytania [części teoretycznej](teoria), żebyś wiedział dokładnie jaki miałem cel pisząc ten przewodnik i jakie powinny być Twoje oczekiwania w stosunku do tego co tu znajdziesz.
+Być może z rozpędu czy też przyzwyczajenia przejście od razu do części praktycznej tego przewodnika wydało Ci się dobrym pomysłem. Jeśli tak się stało, to zachęcam Cię do przeczytania [części teoretycznej](teoria), żeby dowiedzieć się jaki miałem cel pisząc ten przewodnik i jakie powinny być Twoje oczekiwania w stosunku do tego co tu znajdziesz.
 
 ## Co będziemy robić?
 
@@ -11,7 +11,7 @@ Jak to co? Kodować w Pythonie! :)
 
 W świecie dokumentacji do oprogramowania, istnieje wiele miejsc, gdzie tradycyjne "kopiuj-wklej" można potencjalnie zastąpić jakimś automatycznym rozwiązaniem, które odwali za nas brudną robotę.
 
-Wyobraź sobie taki scenariusz. Zostałeś przydzielony do pewnego projektu, w którym będziesz bardzo blisko współpracował z programistami. Ustaliliście na samym początku, że za każdym razem kiedy programista zrobi zmianę w kodzie, która musi zostać udokumentowana, doda do folderu `docs` plik tekstowy z opisem zmian. Plik będzie miał taką nazwę jak numer historyjki w systemie do śledzenia zadań. Na przykład, jeśli historyjka ma numer **PROJ-102** i została stworzona po to, żeby programista naprawił błąd powodujący, że aplikacja zawieszała się na kilka sekund, a następnie okno aplikacji przesuwało się poza ekran, to programista w repozytorium z kodem doda plik `docs\PROJ-102.txt`, w którym będzie taka informacja.
+Wyobraź sobie taki scenariusz. Dostajesz przydział do projektu, w którym będziesz bardzo blisko współpracować z programistami. Ustaliliście na samym początku, że za każdym razem kiedy programista zrobi zmianę w kodzie, która musi zostać udokumentowana, doda do folderu `docs` plik tekstowy z opisem zmian. Plik będzie miał taką nazwę jak numer historyjki w systemie do śledzenia zadań. Na przykład, jeśli historyjka ma numer **PROJ-102** i została stworzona po to, żeby programista naprawił błąd powodujący, że aplikacja zawieszała się na kilka sekund, a następnie okno aplikacji przesuwało się poza ekran, to programista w repozytorium z kodem doda plik `docs\PROJ-102.txt`, w którym będzie taka informacja.
 
 *PROJ-102.txt*
 ```
@@ -31,7 +31,7 @@ I to właśnie będzie nasz cel, który będziemy krok po kroku realizować w ko
 
 ## Co nam będzie potrzebne?
 
-Starałem się ograniczyć liczbę potrzebnych komponentów do minimum, żebyśmy mogli przejść jak najszybciej do kodowania. Jednak pewnych rzeczy nie da się pominąć, dlatego będziesz potrzebował takiego oprogramowania.
+Starałem się ograniczyć liczbę potrzebnych komponentów do minimum, żebyśmy mogli przejść jak najszybciej do kodowania. Jednak pewnych rzeczy nie da się pominąć, dlatego będziesz potrzebować takiego oprogramowania.
 
 ### Python
 
@@ -41,7 +41,7 @@ Instalatory znajdziesz na oficjalnej stronie Pythona (https://www.python.org/). 
 
 Wybierz dogodną dla siebie metodę instalacji. Jeśli napotkasz jakieś problemy to najlepiej poproś o pomoc kogoś kto ma doświadczenie z Pythonem albo poszukaj informacji w internecie. Biorąc pod uwagę liczbę systemów operacyjnych, potencjalna liczba problemów z instalacją jest spora, dlatego nie byłbym w stanie pokryć w tym przewodniku każdej możliwej ścieżki.
 
-Bez względu na to jaką wybierzesz metodę instalacji, zwróć uwagę, żeby dodać Pythona do zmiennych środowiskowych, czyli przypisać komendę `python` do Pythona 3, którego zainstalujesz. Robi się to różnie w zależności od systemu operacyjnego i sposobu instalacji. Na przykład, jeśli instalujesz Pythona na Windowsie za pomocą instalatora pobranego z oficjalnej strony Pythona, na jednym z ekranów będziesz miał opcję, żeby dodać Pythona do zmiennych środowiskowych (`PATH`).
+Bez względu na to jaką wybierzesz metodę instalacji, zwróć uwagę, żeby dodać Pythona do zmiennych środowiskowych, czyli przypisać komendę `python` do Pythona 3, którego zainstalujesz. Robi się to różnie w zależności od systemu operacyjnego i sposobu instalacji. Na przykład, jeśli instalujesz Pythona na Windowsie za pomocą instalatora pobranego z oficjalnej strony Pythona, na jednym z ekranów będziesz mieć opcję, żeby dodać Pythona do zmiennych środowiskowych (`PATH`).
 
 ### Edytor tekstowy
 
