@@ -51,7 +51,7 @@ Oprócz edytorów, możesz skorzystać z bardziej zaawansowanej opcji, czyli ID
 
 ## Kodowanie czas zacząć
 
-Mam nadzieję, że instalacja Pythona i edytora nie przysporzyły Ci problemów i że Twój zapał jest taki sam albo większy jak w momencie kiedy zaczynałeś czytać ten przewodnik. Skoro mamy już wszystko gotowe to zabieramy się do pracy.
+Mam nadzieję, że instalacja Pythona i edytora nie przysporzyły Ci problemów i że Twój zapał jest taki sam albo większy jak w momencie rozpoczęcia czytania tego przewodnika. Skoro mamy już wszystko gotowe to zabieramy się do pracy.
 
 Będziemy krok po kroku budować naszą aplikację. Pomimo tego, że ten przewodnik jest napisany w języku polskim i nasze pliki tekstowe zawierają w sobie polski tekst, to nasz kod będziemy pisać po angielsku. Być może wyda Ci się to dziwne, ale według mnie jest to bardziej naturalne i powszechne. Poza tym, dzięki temu, Twój kod będzie mógł bywać w świecie, bo Twoi anglojęzyczni znajomi też będą w stanie go zrozumieć.
 
@@ -129,7 +129,7 @@ from pathlib import Path
 from shutil import rmtree
 ```
 
-Z komponentu `string` importujemy element `Template`, który pozwala na obsługę szablonów. Będzie on nam potrzebny, żeby odpowiednio opakować informacje pobrane z plików tekstowych i potem je podstawić w odpowiednie miejsce w szablonie HTML. Jak pamiętasz, w kroku 3 napotkałeś na element zastępczy `$release_notes`. Dodaliśmy go do naszego szablonu po to, żeby komponent `Template` wiedział gdzie ma wstawić właściwe informacje.
+Z komponentu `string` importujemy element `Template`, który pozwala na obsługę szablonów. Będzie on nam potrzebny, żeby odpowiednio opakować informacje pobrane z plików tekstowych i potem je podstawić w odpowiednie miejsce w szablonie HTML. Jak pamiętasz, w kroku 3 pojawił się element zastępczy `$release_notes`. Dodaliśmy go do naszego szablonu po to, żeby komponent `Template` wiedział gdzie ma wstawić właściwe informacje.
 
 Z komponentu `pathlib` importujemy element `Path`, dzięki któremu w elegancki sposób będziemy mogli ustawić w naszej aplikacji ścieżki do potrzebnych zasobów.
 
@@ -198,9 +198,9 @@ W Pythonie, tworzymy funkcję za pomocą słowa `def`. Następnie podajemy nazw�
 
 W naszym wypadku funkcja nazywa się `get_release_notes`. Żeby mogła wykonać poprawnie swoje zadanie, musimy podać jej ścieżkę do folderu, w którym znajdują się pliki tekstowe (`source_dir`).
 
-Pierwsze koty za płoty. Idziemy dalej. Nasza funkcja ma za zadanie przejść przez wszystkie pliki i zebrać z nich nazwę i zawartość. Zgodnie z tym co ustaliliśmy z programistami w naszym projekcie, nazwa pliku to numer zgłoszenia, a zawartość to opis wprowadzonych zmian w kodzie aplikacji. W związku z tym, wygodnie będzie nam zapisać informacje zebrane przez naszą funkcję w formie słownika (`dict`), czyli takiego zbioru elementów `klucz: wartość`. W Pythonie, słownik to jeden z najważniejszych typów danych, który jest bardzo często używany. 
+Pierwsze koty za płoty. Idziemy dalej. Nasza funkcja ma za zadanie przejść przez wszystkie pliki i zebrać z nich nazwę i zawartość. Zgodnie z tym co zostało ustalone z programistami w Twoim projekcie, nazwa pliku to numer zgłoszenia, a zawartość to opis wprowadzonych zmian w kodzie aplikacji. W związku z tym, wygodnie będzie nam zapisać informacje zebrane przez naszą funkcję w formie słownika (`dict`), czyli takiego zbioru elementów `klucz: wartość`. W Pythonie, słownik to jeden z najważniejszych typów danych, który jest bardzo często używany. 
 
-W naszym wypadku, taka para będzie wyglądać `numer zgłoszenia: opis zmian`. Na początku dodajemy zmienną `rel_notes`, która będzie przechowywać pusty słownik (`{}`). Potem ten pusty słownik wypełnimy danymi, które nasza funkcja zbierze.
+W naszym wypadku, taka para będzie wyglądać tak: `numer zgłoszenia: opis zmian`. Na początku dodajemy zmienną `rel_notes`, która będzie przechowywać pusty słownik (`{}`). Potem ten pusty słownik wypełnimy danymi, które nasza funkcja zbierze.
 
 W folderze może znajdować się więcej niż jeden plik tekstowy, więc musimy zrobić pętlę, która przejdzie po wszystkich plikach. Innymi słowy, mówimy Pythonowi, żeby dla każdego pliku (`for file`), który ma rozszerzenie TXT (`in source_dir.glob('*.txt')`):
 
@@ -315,9 +315,9 @@ if __name__ == '__main__':
 
 Pierwsza linijka, `if __name__ == '__main__'`, wygląda dość enigmatycznie. W Pythonie w taki sposób określamy, że dany fragment kodu ma zostać uruchomiony tylko jeśli wywołamy plik `.py` jako skrypt z linii komend. Dzięki temu, ten fragment kodu nie zostanie wywołany jeśli zaimportujemy nasz plik `.py` do innego pliku. Zapewne to wszystko brzmi dość zagadkowo, dlatego postaram się to rozjaśnić na przykładzie.
 
-Kod naszego generatora znajduje się w pliku `rel_notes_generator.py`. W większości przypadków będziesz uruchamiał generator z linii komend jak skrypt za pomocą polecenia `python rel_notes_generator.py`. Kiedy to zrobisz, część kodu, która znajduje się pod `if __name__ == '__main__'` zostanie wykonana. Czyli wszystko się zgadza, to jest właśnie to o co nam chodzi.
+Kod naszego generatora znajduje się w pliku `rel_notes_generator.py`. W większości przypadków będziesz uruchamiać generator z linii komend jak skrypt za pomocą polecenia `python rel_notes_generator.py`. Kiedy to zrobisz, część kodu, która znajduje się pod `if __name__ == '__main__'` zostanie wykonana. Czyli wszystko się zgadza, to jest właśnie to o co nam chodzi.
 
-Po pewnym czasie, stworzysz kolejny generator, który będzie miał trochę inne funkcje niż generator, który stworzyliśmy wspólnie. Jednak pewne części będą takie same. Żeby nie pisać tego samego kodu jeszcze raz, możesz zaimportować `rel_notes_generator.py` do swojego nowego generatora w taki sam sposób jak importowałeś komponenty w kroku 5. W tej sytuacji chcesz tylko zaimportować funkcje z generatora, ale nie chcesz, żeby się uruchomiły. O tym kiedy je uruchomić, zdecydujesz w odpowiedniej części swojego nowego generatora. I właśnie użycie `if __name__ == '__main__'`, powoduje że funkcje się nie uruchomią. Podczas importu funkcji, wszystko co znajduje się poniżej tej linijki nie wykona się.
+Po pewnym czasie, stworzysz kolejny generator, który będzie miał trochę inne funkcje niż generator, który stworzyliśmy wspólnie. Jednak pewne części będą takie same. Żeby nie pisać tego samego kodu jeszcze raz, możesz zaimportować `rel_notes_generator.py` do swojego nowego generatora w taki sam sposób jak importowaliśmy komponenty w kroku 5. W tej sytuacji chcesz tylko zaimportować funkcje z generatora, ale nie chcesz, żeby się uruchomiły. O tym kiedy je uruchomić, zdecydujesz w odpowiedniej części swojego nowego generatora. I właśnie użycie `if __name__ == '__main__'`, powoduje że funkcje się nie uruchomią. Podczas importu funkcji, wszystko co znajduje się poniżej tej linijki nie wykona się.
 
 Skoro już wiemy po co nam ten enigmatyczny fragment kodu, zobaczmy co znajduje się pod nim. Najpierw, uruchamiamy funkcję `get_release_notes` na folderze `input`, czyli tam gdzie mamy nasze testowe pliki tekstowe. Dla przypomnienia, funkcja wyciągnie nam nazwy i zawartość plików tekstowych. Wynik uruchomienia funkcji przypisujemy do zmiennej `collected_release_notes`. Następnie, uruchamiamy funkcję `generate_release_notes`, która stworzy nam wiersze tabeli HTML z zawartości plików tekstowych, którą trzymamy w zmiennej `collected_release_notes`. Wygenerowane wiersze tabeli przypisujemy do zmiennej `generated_release_notes`. Ostatnia operacja, to uruchomienie funkcji `write_release_notes`, która zapisze to co mamy w zmiennej `generated_release_notes` do końcowego pliku HTML.
 
@@ -390,4 +390,4 @@ W kroku 10, pojawiła się już informacja jak wywołać plik `.py` z linii kome
     ```
     W folderze `output` pojawi się plik `release_notes.html` z gotowymi notami wydania.
 
-> W zależności od tego w jaki sposób zainstalowałeś Pythona na swoim komputerze, komenda może się różnić. Na przykład, jeśli nie dodałeś Pythona 3 do zmiennych środowiskowych Twojego systemu operacyjnego, może uruchomić się Python 2, który już wcześniej był zainstalowany na Twoim komputerze. W innym wypadku, komenda może w ogóle nie zostać rozpoznana. Możesz wtedy spróbować użyć komendy `python3`.
+> W zależności od tego w jaki sposób Python został zainstalowany na Twoim komputerze, komenda może się różnić. Na przykład, jeśli Python 3 nie został dodany do zmiennych środowiskowych Twojego systemu operacyjnego, może uruchomić się Python 2, który już wcześniej był zainstalowany na Twoim komputerze. W innym wypadku, komenda może w ogóle nie zostać rozpoznana. Możesz wtedy spróbować użyć komendy `python3`.
