@@ -4,7 +4,7 @@
         <title>Tech Writer koduje Blog</title>
         <link>http://techwriterkoduje.pl/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
-        <lastBuildDate>Mon, 18 May 2020 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Jun 2020 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>http://techwriterkoduje.pl/blog</link>
         </image>
         <copyright>© 2020 Tech Writer koduje</copyright>
+        <item>
+            <title><![CDATA[#18 Wyboista droga do kodowania]]></title>
+            <link>http://techwriterkoduje.pl/blog/2020/06/09/wyboista-droga-do-kodowania.html</link>
+            <guid>http://techwriterkoduje.pl/blog/2020/06/09/wyboista-droga-do-kodowania.html</guid>
+            <pubDate>Tue, 09 Jun 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Przejście od zera do kodującego Tech Writera to dość długa droga, i nie zawsze usłana różami. Jednak przy odpowiedniej motywacji i podejściu można podołać temu wyzwaniu. Rozmawiamy o tym jak zacząć naukę kodowania, przez jakie etapy trzeba przejść i ...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[#17 Webhelp kontra Progressive Web App]]></title>
             <link>http://techwriterkoduje.pl/blog/2020/05/18/webhelp-kontra-pwa.html</link>
