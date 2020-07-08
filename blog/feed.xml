@@ -4,7 +4,7 @@
         <title>Tech Writer koduje Blog</title>
         <link>http://techwriterkoduje.pl/blog</link>
         <description>The best place to stay up-to-date with the latest Tech Writer koduje news and events.</description>
-        <lastBuildDate>Tue, 09 Jun 2020 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Jul 2020 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>http://techwriterkoduje.pl/blog</link>
         </image>
         <copyright>© 2020 Tech Writer koduje</copyright>
+        <item>
+            <title><![CDATA[#19 Tech Writer pracuje zdalnie, czyli jak to się robi w GitLabie]]></title>
+            <link>http://techwriterkoduje.pl/blog/2020/07/08/tech-writer-pracuje-zdalnie.html</link>
+            <guid>http://techwriterkoduje.pl/blog/2020/07/08/tech-writer-pracuje-zdalnie.html</guid>
+            <pubDate>Wed, 08 Jul 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Trwająca od kilku miesięcy sytuacja spowodowała, że biura zostały pozamykane a praca zdalna z dnia na dzień stała się nowym standardem. Jednak istnieją też takie firmy, które już na wczesnym etapie rozwoju podjęły świadomą decyzję, że postawią na mod...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[#18 Wyboista droga do kodowania]]></title>
             <link>http://techwriterkoduje.pl/blog/2020/06/09/wyboista-droga-do-kodowania.html</link>
