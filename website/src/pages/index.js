@@ -143,6 +143,23 @@ function ShoutOut({ imageUrl, link, label }) {
   );
 }
 
+function AnimatedLogo() {
+  return (
+    <div className={styles.logoWrapper}>
+      <div className="container">
+        <div className={styles.animatedLogo}>
+          <div className={styles.logoFirst}>Tech.</div>
+          <div className={styles.logoSecond}>Writer.</div>
+          <div className={styles.logoThird}>
+            <img src="/img/cube-solid.svg" />
+            koduje
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -153,7 +170,7 @@ function Home() {
     >
       <header className={clsx("hero", styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
+          <AnimatedLogo />
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           {subscribeLinks && subscribeLinks.length > 0 && (
             <div className={styles.buttons}>
