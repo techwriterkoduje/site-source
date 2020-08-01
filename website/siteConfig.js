@@ -86,12 +86,12 @@ const siteConfig = {
 
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [
-    'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
-    '/js/code-block-buttons.js',
-    'https://buttons.github.io/buttons.js',
-    'https://code.jquery.com/jquery-3.3.1.slim.min.js',
-    'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js',
-    'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
+    {src: 'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js', async: true},
+    {src: '/js/code-block-buttons.js', async: true},
+    {src: 'https://buttons.github.io/buttons.js', async: true},
+    {src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js', async: true},
+    {src: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', async: true},
+    {src: 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', async: true}
   ],
   stylesheets: [
     'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',
