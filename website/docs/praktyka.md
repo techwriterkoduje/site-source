@@ -84,7 +84,7 @@ Mamy już pliki tekstowe, z których pobierzemy treść naszych not wydania. Ter
 
 _release_notes_template.html_
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -128,7 +128,7 @@ Nasz generator będzie korzystał z trzech elementów, które są w trzech róż
 
 _rel_notes_generator.py_
 
-```
+```python
 from string import Template
 from pathlib import Path
 from shutil import rmtree
@@ -146,7 +146,7 @@ W naszym generatorze musimy ustawić trzy ścieżki w taki oto sposób.
 
 _rel_notes_generator.py_
 
-```
+```python
 current_dir = Path(__file__).parent
 input_dir = current_dir / 'input'
 output_dir = current_dir / 'output'
@@ -154,7 +154,7 @@ output_dir = current_dir / 'output'
 
 Zanim przejdę do wyjaśnienia o co dokładnie tutaj chodzi, wspomnę tylko, że zmienne w Pythonie tworzymy poprzez przypisanie jakiejś wartości do nazwy. Na przykład, jeśli chciałbym stworzyć zmienną `name`, która będzie przechowywać w sobie moje imię i nazwisko, to muszę zrobić to tak.
 
-```
+```python
 name = 'Michał Skowron'
 ```
 
@@ -168,7 +168,7 @@ Pewnie zastanawiasz się po co jest nam to potrzebne? Jest to ogólnie dobra pra
 Możliwe, że zastanawiasz się teraz czy nie dałoby się tego zrobić prościej i uniknąć tej szamanerii. Dałoby się, ale niekoniecznie byłoby to lepsze rozwiązanie.
 Gdybyśmy nie skorzystali z elementu `__file__`, musielibyśmy ustawić ścieżki "na piechotę". Wyobraź sobie, że Twój plik `rel_notes_generator.py` znajduje się w `C:\my-apps\rel_notes_generator`. Więc ustawiasz ścieżki na sztywno w taki sposób.
 
-```
+```python
 current_dir = 'C:\my-apps\rel_notes_generator'
 input_dir = current_dir + '\' + 'input'
 output_dir = current_dir + '\' + 'output'
@@ -191,7 +191,7 @@ Dodaj do pliku `rel_notes_generator.py` następujący kod.
 
 _rel_notes_generator.py_
 
-```
+```python
 def get_release_notes(source_dir):
     rel_notes = {}
     for file in source_dir.glob('*.txt'):
@@ -218,7 +218,7 @@ W folderze może znajdować się więcej niż jeden plik tekstowy, więc musimy 
 
 Kiedy pętla przejdzie po wszystkich plikach, funkcja zwróci nam wypełniony słownik (`return rel_notes`). W naszym testowym środowisku, funkcja zwróci nam taki słownik:
 
-```
+```js
 {'PROJ-101': 'Dodaliśmy nową funkcję, która pozwala na szybkie pobieranie zasobów sieciowych.', 'PROJ-102': 'Naprawiliśmy błąd, który powodował, że aplikacja zawieszała się na kilka sekund, a następnie okno aplikacji przesuwało się poza ekran przez co stawało się niewidoczne.'}
 ```
 
@@ -234,7 +234,7 @@ Na początek, dodaj taki mały szablon.
 
 _rel_notes_generator.py_
 
-```
+```python
 rel_note_template = Template('''<tr>
 <td>$id</td>
 <td>$description</td>
@@ -248,7 +248,7 @@ Następnie dodaj kolejną funkcję.
 
 _rel_notes_generator.py_
 
-```
+```python
 def generate_release_notes(release_notes):
     rel_note_table_rows = ''
     for id, description in release_notes.items():
@@ -270,7 +270,7 @@ Następnie, mówimy Pythonowi, żeby dla każdej pary (`for id, description`) w 
 
 Kiedy pętla przejdzie po wszystkich parach w słowniku, funkcja zwróci nam zmienną z gotowymi wierszami tabeli (`return rel_note_table_rows`). W naszym testowym środowisku, funkcja zwróci nam taki kod:
 
-```
+```html
 <tr>
 <td>PROJ-101</td>
 <td>Dodaliśmy nową funkcję, która pozwala na szybkie pobieranie zasobów sieciowych.</td>
@@ -289,7 +289,7 @@ To już ostatnia funkcja, której potrzebujemy. Jej zadaniem jest podstawienie w
 
 _rel_notes_generator.py_
 
-```
+```python
 def write_release_notes(release_note_rows, target_dir):
     if target_dir.exists():
         rmtree(target_dir)
@@ -318,7 +318,7 @@ To już ostatnia prosta. Właściwie mamy już wszystko co nam potrzebne. Teraz 
 
 _rel_notes_generator.py_
 
-```
+```python
 if __name__ == '__main__':
     collected_release_notes = get_release_notes(input_dir)
     generated_table_rows = generate_release_notes(collected_release_notes)
@@ -341,7 +341,7 @@ Udało się nam przejść przez wszystkie etapy tworzenia generatora. Poniżej k
 
 _rel_notes_generator.py_
 
-```
+```python
 from string import Template
 from pathlib import Path
 from shutil import rmtree
@@ -398,7 +398,7 @@ W kroku 10, pojawiła się już informacja jak wywołać plik `.py` z linii kome
 1. Przejdź do folderu `rel_notes_generator`.
 1. Uruchom poniższą komendę.
 
-   ```
+   ```bash
    python rel_notes_generator.py
    ```
 
