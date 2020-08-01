@@ -3,7 +3,7 @@ id: praktyka
 title: Przechodzimy do praktyki
 ---
 
-Być może z rozpędu czy też przyzwyczajenia przejście od razu do części praktycznej tego przewodnika wydało Ci się dobrym pomysłem. Jeśli tak się stało, to zachęcam Cię do przeczytania [części teoretycznej](teoria), żeby dowiedzieć się jaki miałem cel pisząc ten przewodnik i jakie powinny być Twoje oczekiwania w stosunku do tego co tu znajdziesz.
+Być może z rozpędu czy też przyzwyczajenia przejście od razu do części praktycznej tego przewodnika wydało Ci się dobrym pomysłem. Jeśli tak się stało, to zachęcam Cię do przeczytania [części teoretycznej](teoria.md), żeby dowiedzieć się jaki miałem cel pisząc ten przewodnik i jakie powinny być Twoje oczekiwania w stosunku do tego co tu znajdziesz.
 
 ## Co będziemy robić?
 
@@ -13,17 +13,18 @@ W świecie dokumentacji do oprogramowania, istnieje wiele miejsc, gdzie tradycyj
 
 Wyobraź sobie taki scenariusz. Dostajesz przydział do projektu, w którym będziesz bardzo blisko współpracować z programistami. Ustaliliście na samym początku, że za każdym razem kiedy programista zrobi zmianę w kodzie, która musi zostać udokumentowana, doda do folderu `docs` plik tekstowy z opisem zmian. Plik będzie miał taką nazwę jak numer historyjki w systemie do śledzenia zadań. Na przykład, jeśli historyjka ma numer **PROJ-102** i została stworzona po to, żeby programista naprawił błąd powodujący, że aplikacja zawieszała się na kilka sekund, a następnie okno aplikacji przesuwało się poza ekran, to programista w repozytorium z kodem doda plik `docs\PROJ-102.txt`, w którym będzie taka informacja.
 
-*PROJ-102.txt*
+_PROJ-102.txt_
+
 ```
 Naprawiliśmy błąd, który powodował, że aplikacja zawieszała się na kilka sekund, a następnie okno aplikacji przesuwało się poza ekran przez co stawało się niewidoczne.
 ```
 
-Co kilka tygodni zespół publikuje nową wersję aplikacji wraz z aktualną dokumentacją, której częścią są *release notes* (noty wydania). Treść, która trafia do *release notes* pochodzi z plików tekstowych, które dodają programiści kiedy zmieniają kod. Twoim zadaniem, jako Tech Writera, jest sprawdzanie informacji w tych plikach, poprawianie ich, a na końcu wygenerowanie pliku HTML z gotowymi notami. Jest to prosty plik z tabelką przedstawiającą zmiany w aplikacji. Chodzi o coś takiego.
+Co kilka tygodni zespół publikuje nową wersję aplikacji wraz z aktualną dokumentacją, której częścią są _release notes_ (noty wydania). Treść, która trafia do _release notes_ pochodzi z plików tekstowych, które dodają programiści kiedy zmieniają kod. Twoim zadaniem, jako Tech Writera, jest sprawdzanie informacji w tych plikach, poprawianie ich, a na końcu wygenerowanie pliku HTML z gotowymi notami. Jest to prosty plik z tabelką przedstawiającą zmiany w aplikacji. Chodzi o coś takiego.
 
-|Numer zgłoszenia|Opis|
-|---|---|
-|PROJ-102|Naprawiliśmy błąd, który powodował, że aplikacja zawieszała się na kilka sekund, a następnie okno aplikacji przesuwało się poza ekran przez co stawało się niewidoczne.|
-|PROJ-101|Dodaliśmy nową funkcję, która pozwala na szybkie pobieranie zasobów sieciowych.|
+| Numer zgłoszenia | Opis                                                                                                                                                                    |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PROJ-102         | Naprawiliśmy błąd, który powodował, że aplikacja zawieszała się na kilka sekund, a następnie okno aplikacji przesuwało się poza ekran przez co stawało się niewidoczne. |
+| PROJ-101         | Dodaliśmy nową funkcję, która pozwala na szybkie pobieranie zasobów sieciowych.                                                                                         |
 
 Nie chcesz generować pliku HTML poprzez ręczne przeklejanie informacji z plików tekstowych i potem wprowadzanie pozostałych poprawek, dlatego szukasz bardziej sprytnego rozwiązania. Chcesz swój czas i energię przeznaczyć głównie na ulepszanie informacji, które dostarczają Ci programiści, a proces publikowania końcowego pliku chcesz przekazać maszynie.
 
@@ -47,7 +48,7 @@ Bez względu na to jaką wybierzesz metodę instalacji, zwróć uwagę, żeby do
 
 Możesz użyć jakiegokolwiek edytora tekstowego, żeby kodować w Pythonie. Jednak zachęcam Cię do skorzystania z edytora, który wspiera Pythona. Ułatwi Ci to znacznie życie, bo taki edytor podpowie Ci podczas pisania jakie masz opcje, automatycznie sformatuje Twój kod i da Ci znać jeśli coś będzie nie tak. Na szczęście nie ma problemu ze znalezieniem odpowiedniego edytora, który jest darmowy. Nie chcę Ci narzucać niczego, ale w momencie pisania tego przewodnika popularnym i darmowym edytorem, który oferuje wsparcie dla Pythona jest Visual Studio Code od Microsoftu (https://code.visualstudio.com/). Może ta opcja będzie dla Ciebie odpowiednia.
 
-Oprócz edytorów, możesz skorzystać z bardziej zaawansowanej opcji, czyli IDE (ang. *integrated development environment*). Przykładem może być PyCharm od JetBrains (https://www.jetbrains.com/pycharm/). Jednak na nasze potrzeby jest to za dużo. Nauczenie się obsługi IDE przyniesie Ci korzyści, ale na późniejszym etapie nauki Pythona. Na tym etapie, polecam edytor tekstowy.
+Oprócz edytorów, możesz skorzystać z bardziej zaawansowanej opcji, czyli IDE (ang. _integrated development environment_). Przykładem może być PyCharm od JetBrains (https://www.jetbrains.com/pycharm/). Jednak na nasze potrzeby jest to za dużo. Nauczenie się obsługi IDE przyniesie Ci korzyści, ale na późniejszym etapie nauki Pythona. Na tym etapie, polecam edytor tekstowy.
 
 ## Kodowanie czas zacząć
 
@@ -65,13 +66,15 @@ W dogodnej lokalizacji na swoim dysku, stwórz folder `rel_notes_generator`. W t
 
 Stwórz folder `rel_notes_generator\input`, a w nim dodaj dwa pliki tekstowe, `PROJ-101.txt` i `PROJ-102.txt`, z taką zawartością jak widać poniżej. Tymi plikami "nakarmimy" nasz generator. Dzięki temu będziemy mogli sprawdzić czy działa tak jak tego chcemy.
 
-*PROJ-101.txt*
-``` PROJ-101.txt
+_PROJ-101.txt_
+
+```PROJ-101.txt
 Dodaliśmy nową funkcję, która pozwala na szybkie pobieranie zasobów sieciowych.
 ```
 
-*PROJ-102.txt*
-``` PROJ-102.txt
+_PROJ-102.txt_
+
+```PROJ-102.txt
 Naprawiliśmy błąd, który powodował, że aplikacja zawieszała się na kilka sekund, a następnie okno aplikacji przesuwało się poza ekran przez co stawało się niewidoczne.
 ```
 
@@ -79,7 +82,8 @@ Naprawiliśmy błąd, który powodował, że aplikacja zawieszała się na kilka
 
 Mamy już pliki tekstowe, z których pobierzemy treść naszych not wydania. Teraz potrzebujemy jeszcze szablonu, do którego wstawimy informacje pobrane z plików tekstowych. Stwórz plik `rel_notes_generator\release_notes_template.html` z takim kodem HTML.
 
-*release_notes_template.html*
+_release_notes_template.html_
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -110,19 +114,20 @@ Stwórz plik `rel_notes_generator\rel_notes_generator.py`. Pliki zawierające ko
 
 ### Krok 5: Dodaj linki do potrzebnych komponentów Pythona
 
-Python zawiera w sobie bogaty zestaw gotowych komponentów, z których możemy korzystać od razu bez instalowania dodatkowego oprogramowania. Ten zestaw nazywa się **The Python Standard Library**. Żeby móc skorzystać z jakiegoś komponentu musimy go zaimportować w naszej aplikacji, czyli tak jakby dodać do niego link. Możemy to zrobić wpisując: 
+Python zawiera w sobie bogaty zestaw gotowych komponentów, z których możemy korzystać od razu bez instalowania dodatkowego oprogramowania. Ten zestaw nazywa się **The Python Standard Library**. Żeby móc skorzystać z jakiegoś komponentu musimy go zaimportować w naszej aplikacji, czyli tak jakby dodać do niego link. Możemy to zrobić wpisując:
 
-```import nazwaKomponentu```
+`import nazwaKomponentu`
 
 albo
 
-```from nazwaKomponentu import nazwaElementu```
+`from nazwaKomponentu import nazwaElementu`
 
 Różnica jest taka, że w pierwszym sposobie importujemy cały komponent a w drugim tylko określone elementy, których akurat potrzebujemy.
 
 Nasz generator będzie korzystał z trzech elementów, które są w trzech różnych komponentach. Dlatego na początku naszego kodu w pliku `rel_notes_generator.py` musimy dodać takie linijki.
 
-*rel_notes_generator.py*
+_rel_notes_generator.py_
+
 ```
 from string import Template
 from pathlib import Path
@@ -139,7 +144,8 @@ Z komponentu `shutil` importujemy element `rmtree`, który pozwala na usuwanie f
 
 W naszym generatorze musimy ustawić trzy ścieżki w taki oto sposób.
 
-*rel_notes_generator.py*
+_rel_notes_generator.py_
+
 ```
 current_dir = Path(__file__).parent
 input_dir = current_dir / 'input'
@@ -155,11 +161,11 @@ name = 'Michał Skowron'
 W Pythonie możesz używać zarówno pojedynczych (`''`) jak i podwójnych (`""`) cudzysłowów.
 
 Ale wróćmy do naszych ścieżek.
-Na początku, ustawiamy `current_dir` czyli ścieżkę do folderu, w którym znajduje się nasz plik `rel_notes_generator.py`. Robimy to za pomocą elementu `__file__` dostępnego w Pythonie. Ten element przechowuje ścieżkę do pliku. Dodając `.parent` mówimy Pythonowi, że chcemy w naszej zmiennej zapisać nie ścieżkę do naszego pliku, tylko do folderu, w którym nasz plik się znajduje. 
+Na początku, ustawiamy `current_dir` czyli ścieżkę do folderu, w którym znajduje się nasz plik `rel_notes_generator.py`. Robimy to za pomocą elementu `__file__` dostępnego w Pythonie. Ten element przechowuje ścieżkę do pliku. Dodając `.parent` mówimy Pythonowi, że chcemy w naszej zmiennej zapisać nie ścieżkę do naszego pliku, tylko do folderu, w którym nasz plik się znajduje.
 
-Pewnie zastanawiasz się po co jest nam to potrzebne? Jest to ogólnie dobra praktyka. Korzystając z niej ułatwiamy sobie życie, bo nie musimy na sztywno wpisywać ścieżki do naszego pliku. Dzięki temu nie ma znaczenia gdzie znajduje się nasz plik `rel_notes_generator.py`, bo Python sam sobie rozwiąże tę ścieżkę. Ta ścieżka jest naszym punktem wyjścia dla kolejnych ścieżek. Na jej podstawie budujemy ścieżkę do folderu `input`, w którym trzymamy pliki tekstowe i do folderu `output`, w którym zapisujemy nasz końcowy plik HTML. 
+Pewnie zastanawiasz się po co jest nam to potrzebne? Jest to ogólnie dobra praktyka. Korzystając z niej ułatwiamy sobie życie, bo nie musimy na sztywno wpisywać ścieżki do naszego pliku. Dzięki temu nie ma znaczenia gdzie znajduje się nasz plik `rel_notes_generator.py`, bo Python sam sobie rozwiąże tę ścieżkę. Ta ścieżka jest naszym punktem wyjścia dla kolejnych ścieżek. Na jej podstawie budujemy ścieżkę do folderu `input`, w którym trzymamy pliki tekstowe i do folderu `output`, w którym zapisujemy nasz końcowy plik HTML.
 
-Możliwe, że zastanawiasz się teraz czy nie dałoby się tego zrobić prościej i uniknąć tej szamanerii.  Dałoby się, ale niekoniecznie byłoby to lepsze rozwiązanie.
+Możliwe, że zastanawiasz się teraz czy nie dałoby się tego zrobić prościej i uniknąć tej szamanerii. Dałoby się, ale niekoniecznie byłoby to lepsze rozwiązanie.
 Gdybyśmy nie skorzystali z elementu `__file__`, musielibyśmy ustawić ścieżki "na piechotę". Wyobraź sobie, że Twój plik `rel_notes_generator.py` znajduje się w `C:\my-apps\rel_notes_generator`. Więc ustawiasz ścieżki na sztywno w taki sposób.
 
 ```
@@ -169,6 +175,7 @@ output_dir = current_dir + '\' + 'output'
 ```
 
 Takie rozwiązanie na pierwszy rzut oka może Ci się wydawać całkiem w porządku, ale niestety niesie ze sobą parę problemów. Generator będzie działał tylko wtedy jeśli:
+
 - Uruchomimy go na Windowsie
 - Nasz folder projektu będzie nazywał się `rel_notes_generator` i będzie znajdował się w `C:\my-apps`.
 
@@ -178,11 +185,12 @@ Jeśli zmienimy nazwę folderu projektu albo przeniesiemy go w inne miejsce, to 
 
 Teraz dodamy naszą pierwszą funkcję.
 
-Funkcja w kodzie to nic innego jak kawałek kodu, który wykonuje jakąś operację. Będzie nam ona potrzebna, żeby z naszych plików tekstowych pobrać ich nazwę i zawartość. 
+Funkcja w kodzie to nic innego jak kawałek kodu, który wykonuje jakąś operację. Będzie nam ona potrzebna, żeby z naszych plików tekstowych pobrać ich nazwę i zawartość.
 
 Dodaj do pliku `rel_notes_generator.py` następujący kod.
 
-*rel_notes_generator.py*
+_rel_notes_generator.py_
+
 ```
 def get_release_notes(source_dir):
     rel_notes = {}
@@ -198,7 +206,7 @@ W Pythonie, tworzymy funkcję za pomocą słowa `def`. Następnie podajemy nazw�
 
 W naszym wypadku funkcja nazywa się `get_release_notes`. Żeby mogła wykonać poprawnie swoje zadanie, musimy podać jej ścieżkę do folderu, w którym znajdują się pliki tekstowe (`source_dir`).
 
-Pierwsze koty za płoty. Idziemy dalej. Nasza funkcja ma za zadanie przejść przez wszystkie pliki i zebrać z nich nazwę i zawartość. Zgodnie z tym co zostało ustalone z programistami w Twoim projekcie, nazwa pliku to numer zgłoszenia, a zawartość to opis wprowadzonych zmian w kodzie aplikacji. W związku z tym, wygodnie będzie nam zapisać informacje zebrane przez naszą funkcję w formie słownika (`dict`), czyli takiego zbioru elementów `klucz: wartość`. W Pythonie, słownik to jeden z najważniejszych typów danych, który jest bardzo często używany. 
+Pierwsze koty za płoty. Idziemy dalej. Nasza funkcja ma za zadanie przejść przez wszystkie pliki i zebrać z nich nazwę i zawartość. Zgodnie z tym co zostało ustalone z programistami w Twoim projekcie, nazwa pliku to numer zgłoszenia, a zawartość to opis wprowadzonych zmian w kodzie aplikacji. W związku z tym, wygodnie będzie nam zapisać informacje zebrane przez naszą funkcję w formie słownika (`dict`), czyli takiego zbioru elementów `klucz: wartość`. W Pythonie, słownik to jeden z najważniejszych typów danych, który jest bardzo często używany.
 
 W naszym wypadku, taka para będzie wyglądać tak: `numer zgłoszenia: opis zmian`. Na początku dodajemy zmienną `rel_notes`, która będzie przechowywać pusty słownik (`{}`). Potem ten pusty słownik wypełnimy danymi, które nasza funkcja zbierze.
 
@@ -210,8 +218,8 @@ W folderze może znajdować się więcej niż jeden plik tekstowy, więc musimy 
 
 Kiedy pętla przejdzie po wszystkich plikach, funkcja zwróci nam wypełniony słownik (`return rel_notes`). W naszym testowym środowisku, funkcja zwróci nam taki słownik:
 
-``` 
-{'PROJ-101': 'Dodaliśmy nową funkcję, która pozwala na szybkie pobieranie zasobów sieciowych.', 'PROJ-102': 'Naprawiliśmy błąd, który powodował, że aplikacja zawieszała się na kilka sekund, a następnie okno aplikacji przesuwało się poza ekran przez co stawało się niewidoczne.'} 
+```
+{'PROJ-101': 'Dodaliśmy nową funkcję, która pozwala na szybkie pobieranie zasobów sieciowych.', 'PROJ-102': 'Naprawiliśmy błąd, który powodował, że aplikacja zawieszała się na kilka sekund, a następnie okno aplikacji przesuwało się poza ekran przez co stawało się niewidoczne.'}
 ```
 
 Na tym etapie, tylko stworzyliśmy nową funkcję, ale jeszcze jej nie uruchomiliśmy. To zrobimy dopiero później.
@@ -224,7 +232,8 @@ W tym kroku dodamy funkcję i prosty szablon, który pozwoli nam przerobić sło
 
 Na początek, dodaj taki mały szablon.
 
-*rel_notes_generator.py*
+_rel_notes_generator.py_
+
 ```
 rel_note_template = Template('''<tr>
 <td>$id</td>
@@ -237,7 +246,8 @@ Szablon ma w sobie dwa elementy zastępcze, `$id` i `$description`, które będz
 
 Następnie dodaj kolejną funkcję.
 
-*rel_notes_generator.py*
+_rel_notes_generator.py_
+
 ```
 def generate_release_notes(release_notes):
     rel_note_table_rows = ''
@@ -277,7 +287,8 @@ Dla przypomnienia dodam, że tak jak w poprzednim kroku, tylko stworzyliśmy now
 
 To już ostatnia funkcja, której potrzebujemy. Jej zadaniem jest podstawienie wierszy tabeli do szablonu pliku HTML, a następnie zapisanie końcowego pliku HTML z notkami wydania. Dodaj taki kod do pliku `rel_notes_generator.py`.
 
-*rel_notes_generator.py*
+_rel_notes_generator.py_
+
 ```
 def write_release_notes(release_note_rows, target_dir):
     if target_dir.exists():
@@ -305,7 +316,8 @@ To już ostatnia prosta. Właściwie mamy już wszystko co nam potrzebne. Teraz 
 
 Żeby to zrobić, dodaj taki kod.
 
-*rel_notes_generator.py*
+_rel_notes_generator.py_
+
 ```
 if __name__ == '__main__':
     collected_release_notes = get_release_notes(input_dir)
@@ -327,7 +339,8 @@ Nasze noty wydania są gotowe!
 
 Udało się nam przejść przez wszystkie etapy tworzenia generatora. Poniżej kompletny kod naszej aplikacji.
 
-*rel_notes_generator.py*
+_rel_notes_generator.py_
+
 ```
 from string import Template
 from pathlib import Path
@@ -385,9 +398,10 @@ W kroku 10, pojawiła się już informacja jak wywołać plik `.py` z linii kome
 1. Przejdź do folderu `rel_notes_generator`.
 1. Uruchom poniższą komendę.
 
-    ```
-    python rel_notes_generator.py
-    ```
-    W folderze `output` pojawi się plik `release_notes.html` z gotowymi notami wydania.
+   ```
+   python rel_notes_generator.py
+   ```
+
+   W folderze `output` pojawi się plik `release_notes.html` z gotowymi notami wydania.
 
 > W zależności od tego w jaki sposób Python został zainstalowany na Twoim komputerze, komenda może się różnić. Na przykład, jeśli Python 3 nie został dodany do zmiennych środowiskowych Twojego systemu operacyjnego, może uruchomić się Python 2, który już wcześniej był zainstalowany na Twoim komputerze. W innym wypadku, komenda może w ogóle nie zostać rozpoznana. Możesz wtedy spróbować użyć komendy `python3`.

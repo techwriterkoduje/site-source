@@ -76,6 +76,7 @@ a:hover {
 }
 
 a.listenButton {
+  display: inline-block;
   background-color: var(--brand-special);
   color: var(--brand-light);
   font-weight: 600;
@@ -87,4 +88,13 @@ a.listenButton:hover {
   color: var(--brand-light);
   text-decoration: none;
   box-shadow: 2px 1px 1px var(--brand-light);
+}
+
+
+article {
+  padding-bottom: 32px;
+}
+
+.blogPostTitle_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem- {
+  font-size: 2rem !important;
 }
