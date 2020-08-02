@@ -1,12 +1,12 @@
 module.exports = {
   title: "Tech Writer koduje",
   tagline: "Kiedy słowa to za mało",
-  url: "http://techwriterkoduje.pl",
+  url: "https://techwriterkoduje.pl",
   baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/favicon.ico",
-  organizationName: "docdeveloper", // Usually your GitHub org/user name.
-  projectName: "homepage", // Usually your repo name.
+  organizationName: "techwriterkoduje", // Usually your GitHub org/user name.
+  projectName: "site-source", // Usually your repo name.
   themeConfig: {
     colorMode: {
       disableSwitch: true,
