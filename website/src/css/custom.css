@@ -38,6 +38,10 @@ h6 {
   div.pythonButtonLabelWrapper {
     font-size: 1rem;
   }
+
+  strong.navbar__title {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
