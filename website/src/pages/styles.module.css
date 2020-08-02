@@ -1,0 +1,199 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--brand-special);
+  color: var(--brand-light);
+}
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  div.buttons,
+  div.hostAvatars,
+  div.shoutOutBadges {
+    display: block;
+    text-align: center;
+  }
+
+  div.animatedLogo {
+    display: block;
+    font-size: calc(0.8 * var(--line-size));
+  }
+
+  div.animatedLogo div {
+    text-align: center;
+  }
+
+  div.logoThird {
+    font-size: calc(0.6 * var(--line-size));
+    padding: 8px;
+  }
+
+  div.logoThird img {
+    width: calc(0.6 * var(--line-size));
+    padding: 6px;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.subscribeButton {
+  display: inline-block;
+  background-color: var(--brand-light);
+  color: var(--brand-dark);
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 16px;
+  margin: 16px;
+  min-width: 200px;
+  border-radius: 16px;
+}
+
+.subscribeButton:hover {
+  color: var(--brand-dark);
+  text-decoration: none;
+  box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.feature {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureImage {
+  height: 200px;
+  width: 200px;
+}
+
+.actionBar {
+  padding-top: 16px;
+}
+
+.actionButton {
+  background-color: var(--brand-dark);
+  color: var(--brand-light);
+  padding: 16px;
+  border-radius: 6px;
+}
+
+.actionButton:hover {
+  color: var(--brand-light);
+  text-decoration: none;
+  box-shadow: 3px 2px 2px var(--brand-light);
+}
+
+.hosts {
+  background-color: var(--brand-dark);
+  color: var(--brand-light);
+  padding-top: 64px;
+  padding-bottom: 32px;
+}
+
+.hosts h2,
+.shoutOuts h2 {
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.hostAvatars {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 32px;
+}
+
+.hostAvatar {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.hostImage {
+  border-radius: 50%;
+}
+
+.hostName {
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-bottom: 16px;
+}
+
+.aboutUs {
+  max-width: 600px;
+  margin: auto;
+}
+
+.shoutOuts {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.shoutOutBadges {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.animatedLogo {
+  --line-size: 4rem;
+  font-family: "Fira Code";
+  font-size: var(--line-size);
+  font-weight: 600;
+  margin-bottom: 64px;
+  display: grid;
+  grid-template-columns: repeat(3 fit-content);
+  grid-template-rows: auto;
+  justify-content: center;
+  grid-template-areas:
+    "first second ."
+    ". . third";
+}
+
+.logoFirst {
+  grid-area: first;
+  text-align: right;
+}
+
+.logoSecond {
+  grid-area: second;
+}
+
+.logoThird {
+  grid-area: third;
+  text-align: left;
+  background-color: var(--brand-light);
+  color: var(--brand-dark);
+  border-radius: 16px;
+  padding: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.logoThird img {
+  margin-bottom: -12px;
+  width: var(--line-size);
+  padding-right: 16px;
+}

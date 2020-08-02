@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
+
+:root {
+  --footer-height: 175px;
+  --header-height: 50px;
+  --main-height: calc(100% - var(--header-height) - var(--footer-height));
+  --brand-dark: #21211f;
+  --brand-light: #dadada;
+  --brand-special: #008dd2;
+  --brand-special-hover: #0175af;
+  /* Docusaurus vars */
+  --ifm-color-primary: var(--brand-special);
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%;
+  /* end Docusaurus vars */
+}
+
+html,
+body {
+  color: var(--brand-dark);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+  div.pythonButtonLabelWrapper {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+nav.navbar {
+  height: var(--header-height);
+}
+
+.main-wrapper {
+  min-height: var(--main-height);
+}
+
+footer.footer {
+  height: var(--footer-height);
+  background-color: var(--brand-special);
+  color: var(--brand-light);
+  padding-top: 4rem;
+}
+
+a {
+  color: var(--brand-special);
+}
+
+a:hover {
+  color: var(--brand-special-hover);
+}
+
+a.listenButton {
+  display: inline-block;
+  background-color: var(--brand-special);
+  color: var(--brand-light);
+  font-weight: 600;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+a.listenButton:hover {
+  color: var(--brand-light);
+  text-decoration: none;
+  box-shadow: 2px 1px 1px var(--brand-light);
+}
+
+
+article {
+  padding-bottom: 32px;
+}
+
+.blogPostTitle_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem- {
+  font-size: 2rem !important;
+}
