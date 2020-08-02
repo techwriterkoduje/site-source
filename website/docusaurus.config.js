@@ -25,6 +25,7 @@ module.exports = {
           position: "right",
         },
         { to: "blog", label: "Odcinki", position: "right" },
+        { to: "contact", label: "Kontakt", position: "right" },
       ],
     },
     footer: {
