@@ -20,7 +20,7 @@ const features = [
     ),
     actionLink: {
       to: "/blog/",
-      label: "Posłuchaj Odcinków",
+      label: "Posłuchaj odcinków",
     },
   },
   {
@@ -73,7 +73,7 @@ const subscribeLinks = [
     label: "Anchor.fm",
   },
   {
-    to: "Spotify",
+    to: "https://open.spotify.com/show/2jhQ1Z1nAOY686RVok7O9I",
     label: "Spotify",
   },
   {
