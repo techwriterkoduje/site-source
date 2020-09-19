@@ -1,5 +1,5 @@
 import React from "react";
-import clsx from "clsx";
+import cx from "clsx";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
@@ -56,7 +56,10 @@ function Feature({ imageUrl, title, description, actionLink }) {
             <h3>{title}</h3>
             <p>{description}</p>
             <div className={styles.actionBar}>
-              <Link className={styles.actionButton} to={actionLink.to}>
+              <Link
+                className={cx(styles.actionButton, styles.pixelButton)}
+                to={actionLink.to}
+              >
                 {actionLink.label}
               </Link>
             </div>
@@ -89,7 +92,7 @@ const subscribeLinks = [
 function SubscribeButton({ to, label }) {
   return (
     <a
-      className={styles.subscribeButton}
+      className={cx(styles.subscribeButton, styles.pixelButton)}
       href={to}
       target="_blank"
       rel="noopener noreferrer"
@@ -185,7 +188,7 @@ function Home() {
       title={`Witaj na stronie ${siteConfig.title}`}
       description="Polski podcast o technical writingu, technologiach i IT"
     >
-      <header className={clsx("hero", styles.heroBanner)}>
+      <header className={cx("hero", styles.heroBanner)}>
         <div className="container">
           <AnimatedLogo />
           <p className="hero__subtitle">{siteConfig.tagline}</p>
@@ -239,7 +242,7 @@ function Home() {
         {shoutOuts && shoutOuts.length > 0 && (
           <section className={styles.shoutOuts}>
             <h2>Szanujemy i wspieramy</h2>
-            <div className={clsx("container", styles.shoutOutBadges)}>
+            <div className={cx("container", styles.shoutOutBadges)}>
               {shoutOuts.map((props, idx) => (
                 <ShoutOut key={idx} {...props} />
               ))}
