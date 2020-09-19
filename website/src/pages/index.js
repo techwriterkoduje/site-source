@@ -148,11 +148,28 @@ function AnimatedLogo() {
     <div className={styles.logoWrapper}>
       <div className="container">
         <div className={styles.animatedLogo}>
-          <div className={styles.logoFirst}>Tech.</div>
-          <div className={styles.logoSecond}>Writer.</div>
+          <div className={styles.logoFirst}>
+            <span className={styles.logoRedBold}>T</span>
+            <span className={styles.logoBlueBold}>e</span>
+            <span className={styles.logoOrangeBold}>c</span>
+            <span className={styles.logoGreenBold}>h</span>
+          </div>
+          <div className={styles.logoSecond}>
+            <span className={styles.logoGreen}>W</span>
+            <span className={styles.logoBlue}>r</span>
+            <span className={styles.logoOrange}>i</span>
+            <span className={styles.logoRed}>t</span>
+            <span className={styles.logoGreen}>e</span>
+            <span className={styles.logoOrange}>r</span>
+          </div>
           <div className={styles.logoThird}>
             <img src="/img/cube-solid.svg" />
-            koduje
+            <span className={styles.logoBlueShadow}>k</span>
+            <span className={styles.logoOrangeShadow}>o</span>
+            <span className={styles.logoRedShadow}>d</span>
+            <span className={styles.logoGreenShadow}>u</span>
+            <span className={styles.logoOrangeShadow}>j</span>
+            <span className={styles.logoBlueShadow}>e</span>
           </div>
         </div>
       </div>

@@ -6,13 +6,13 @@
   --main-height: calc(100% - var(--header-height) - var(--footer-height));
   --brand-dark: #21211f;
   --brand-light: #dadada;
-  --brand-special: #008dd2;
-  --brand-special-hover: #0175af;
+  --brand-special: #636363;
+  --brand-special-hover: #4e4e4e;
   /* Docusaurus vars */
-  --ifm-color-primary: var(--brand-special);
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary: #02CA29;
+  --ifm-color-primary-dark: #02bd27;
+  --ifm-color-primary-darker: #01991f;
+  --ifm-color-primary-darkest: #007016;
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
@@ -93,7 +93,6 @@ a.listenButton:hover {
   text-decoration: none;
   box-shadow: 2px 1px 1px var(--brand-light);
 }
-
 
 article {
   padding-bottom: 32px;
