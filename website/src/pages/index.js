@@ -106,12 +106,12 @@ const hosts = [
   {
     name: "Michał Skowron",
     description: "Fajny gość, preferuje Pythona",
-    imageUrl: "/img/michal.jpg",
+    imageUrl: "/img/michal.gif",
   },
   {
     name: "Paweł Kowaluk",
     description: "Old school, ale zna się na dicie",
-    imageUrl: "/img/pawel.jpg",
+    imageUrl: "/img/pawel.gif",
   },
 ];
 
