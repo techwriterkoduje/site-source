@@ -7,6 +7,10 @@
   color: var(--brand-light);
 }
 
+.pageSubtitle {
+  font-family: "Press Start 2P", cursive;
+}
+
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;

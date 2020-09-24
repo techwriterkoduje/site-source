@@ -196,7 +196,7 @@ function Home() {
       <header className={cx("hero", styles.heroBanner)}>
         <div className="container">
           <AnimatedLogo />
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <p className={styles.pageSubtitle}>{siteConfig.tagline}</p>
           {subscribeLinks && subscribeLinks.length > 0 && (
             <div className={styles.buttons}>
               {subscribeLinks.map((props, idx) => (
