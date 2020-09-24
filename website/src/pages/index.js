@@ -5,6 +5,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
+import Cube from "../components/cube";
 
 const features = [
   {
@@ -171,7 +172,7 @@ function AnimatedLogo() {
             <span className={styles.logoOrange}>r</span>
           </div>
           <div className={styles.logoThird}>
-            <img src="/img/cube-solid.svg" />
+            <Cube />
             <span className={styles.logoBlueShadow}>k</span>
             <span className={styles.logoOrangeShadow}>o</span>
             <span className={styles.logoRedShadow}>d</span>
