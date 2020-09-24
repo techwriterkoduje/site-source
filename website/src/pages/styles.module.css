@@ -1,14 +1,6 @@
-/* stylelint-disable docusaurus/copyright-header */
-
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-
 :root {
-  --pixel-shadow: inset -4px -4px 0 0 #4aa52e, 8px 0 black, 4px -4px black, -8px 0 black, -4px 4px black,
-    -4px -4px black, 4px 4px black;
+  --pixel-shadow: inset -4px -4px 0 0 #4aa52e, 8px 0 black, 4px -4px black,
+    -8px 0 black, -4px 4px black, -4px -4px black, 4px 4px black;
 }
 
 .heroBanner {
@@ -140,6 +132,7 @@
 }
 
 .hostName {
+  font-family: "Press Start 2P", cursive;
   font-weight: 600;
   font-size: 1.2rem;
   padding-bottom: 16px;
