@@ -136,6 +136,10 @@
   justify-content: space-around;
 }
 
+.shoutOutBadges img {
+  min-width: 200px;
+}
+
 .animatedLogo {
   --line-size: 4rem;
   font-family: "Press Start 2P", cursive;

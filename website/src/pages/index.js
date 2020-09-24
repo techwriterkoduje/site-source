@@ -136,6 +136,11 @@ const shoutOuts = [
     link: "http://techwriter.pl/",
     label: "techwriter.pl",
   },
+  {
+    imageUrl: "/img/switkowski.svg",
+    link: "https://switowski.com/",
+    label: "Sebastian Witkowski",
+  },
 ];
 
 function ShoutOut({ imageUrl, link, label }) {
