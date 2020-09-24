@@ -102,7 +102,7 @@ article {
 .pixelButton {
   font-family: "Press Start 2P", cursive;
   text-decoration: none;
-  color: var(--brand-light);
+  color: white;
   box-shadow: var(--pixel-shadow);
   background-color: #64cf44;
 }
