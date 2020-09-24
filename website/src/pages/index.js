@@ -57,7 +57,7 @@ function Feature({ imageUrl, title, description, actionLink }) {
             <p>{description}</p>
             <div className={styles.actionBar}>
               <Link
-                className={cx(styles.actionButton, styles.pixelButton)}
+                className={cx(styles.actionButton, "pixelButton")}
                 to={actionLink.to}
               >
                 {actionLink.label}
@@ -92,7 +92,7 @@ const subscribeLinks = [
 function SubscribeButton({ to, label }) {
   return (
     <a
-      className={cx(styles.subscribeButton, styles.pixelButton)}
+      className={cx(styles.subscribeButton, "pixelButton")}
       href={to}
       target="_blank"
       rel="noopener noreferrer"
