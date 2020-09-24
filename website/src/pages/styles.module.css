@@ -36,11 +36,6 @@
     font-size: calc(0.6 * var(--line-size));
     padding: 8px;
   }
-
-  div.logoThird img {
-    width: calc(0.6 * var(--line-size));
-    padding: 6px;
-  }
 }
 
 .buttons {
@@ -240,6 +235,7 @@
 .logoThird {
   line-height: 80px;
   font-size: 80px;
+  letter-spacing: 12px;
 }
 
 .logoThird img {
