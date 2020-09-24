@@ -19,8 +19,9 @@
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
   /* end Docusaurus vars */
-  --pixel-shadow: inset -4px -4px 0 0 #4aa52e, 8px 0 black, 4px -4px black,
-    -8px 0 black, -4px 4px black, -4px -4px black, 4px 4px black;
+  --pixel-shadow: inset -4px -4px 0 0 #4aa52e, var(--pixel-shadow-flat);
+  --pixel-shadow-flat: 8px 0 black, 4px -4px black, -8px 0 black, -4px 4px black,
+    -4px -4px black, 4px 4px black;
 }
 
 html,
@@ -103,12 +104,12 @@ article {
   font-family: "Press Start 2P", cursive;
   text-decoration: none;
   color: white;
-  box-shadow: var(--pixel-shadow);
+  box-shadow: var(--pixel-shadow-flat);
   background-color: #64cf44;
 }
 
 .pixelButton:hover {
-  background-color: #72c957;
+  color: white;
   text-decoration: none;
   box-shadow: var(--pixel-shadow);
 }
