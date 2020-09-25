@@ -100,6 +100,10 @@ article {
   padding-bottom: 32px;
 }
 
+article header h2 {
+  font-size: 2rem !important;
+}
+
 .pixelButton {
   font-weight: 600;
   font-size: 1.2rem;
