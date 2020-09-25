@@ -133,6 +133,11 @@ const shoutOuts = [
     link: "http://techwriter.pl/",
     label: "techwriter.pl",
   },
+  {
+    imageUrl: "/img/switowski-com-logo.svg",
+    link: "https://switowski.com/",
+    label: "switowski.com",
+  }
 ];
 
 function ShoutOut({ imageUrl, link, label }) {
