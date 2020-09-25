@@ -4,10 +4,12 @@
   width: var(--cube-dimension);
   height: var(--cube-dimension);
   transform: translate(-70%, -16px);
+  user-select: none;
 }
 
 .cube:hover {
   transform: translate(-70%, -16px) scale(1.2);
+  cursor: pointer;
 }
 
 .cubeFace {
