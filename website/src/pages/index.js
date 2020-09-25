@@ -25,12 +25,12 @@ const features = [
     },
   },
   {
-    title: <>Naucz się pythona</>,
+    title: <>Naucz się Pythona</>,
     imageUrl: "img/python-thumb.png",
     description: (
       <>
         Jako tech writer, możesz zrobić bardzo dużo przy użyciu odrobiny
-        programowania. Nie musisz byc ekspertem, wystarczy, że umiesz użyć
+        programowania. Nie musisz być ekspertem, wystarczy, że umiesz użyć
         Pythona jako narzędzia. A zacząć jest bardzo łatwo. Udostępniamy darmowy
         poradnik szybkiego startu.
       </>
