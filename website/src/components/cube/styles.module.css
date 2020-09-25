@@ -22,7 +22,6 @@
   width: var(--cube-dimension);
   height: var(--cube-dimension);
   position: absolute;
-  opacity: 0.95;
 
   transform-origin: 50% 50%;
   -webkit-transform-origin: 50% 50%;
@@ -51,6 +50,10 @@
   font-size: 2.5rem;
   color: var(--orange-brand);
   text-shadow: var(--brand-special) 3px 3px, var(--brand-special) 6px 6px;
+}
+
+.invisibleCoin {
+  display: none;
 }
 
 .coin {
