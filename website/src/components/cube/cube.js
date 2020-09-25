@@ -12,10 +12,12 @@ export default function Cube() {
   const [playOneUp] = useSound(oneUp);
 
   function giveCoin() {
+    let animationDuration = 300;
     setCoins(coins + 1);
     coinObject.current.className = styles.coin;
 
     if (coins === 69) {
+      animationDuration = 800;
       playOneUp();
       coinObject.current.className = cx(
         styles.coin,
@@ -30,7 +32,7 @@ export default function Cube() {
 
     setTimeout(function () {
       coinObject.current.className = styles.coin;
-    }, 300);
+    }, animationDuration);
   }
 
   return (

@@ -60,6 +60,8 @@
   top: calc(50% - (var(--coin-height) / 2));
   left: calc(50% - (var(--coin-width) / 2));
   background: gold;
+  border: 2px solid black;
+  box-shadow: inset 3px 3px white;
   border-radius: 2rem;
   width: 1rem;
   height: 2rem;
@@ -71,8 +73,12 @@
 }
 
 .oneUp {
-  width: 2rem;
-  height: 4rem;
+  width: 0;
+  height: 0;
+  box-shadow: none;
+  border: none;
+  top: -100px;
+  transition: top 0.8s;
 }
 
 .oneUp::before {
@@ -86,4 +92,5 @@
   top: -50px;
   left: -10px;
   text-align: center;
+  text-shadow: 4px 4px black;
 }
