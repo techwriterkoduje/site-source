@@ -141,6 +141,10 @@
   padding-bottom: 16px;
 }
 
+.shoutOutBadges img {
+  min-width: 200px;
+}
+
 .aboutUs {
   max-width: 600px;
   margin: auto;
