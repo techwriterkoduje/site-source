@@ -9,10 +9,11 @@ export default function Cube() {
 
   return (
     <div className={cx(styles.cube)} onClick={play}>
-      <div className={cx(styles.cubeFace, styles.cubeFaceFront)} />
+      <div className={cx(styles.cubeFace, styles.cubeFaceFront)}>
+        <span className={styles.cubeText}>?</span>
+      </div>
       <div className={cx(styles.cubeFace, styles.cubeFaceLeft)} />
       <div className={cx(styles.cubeFace, styles.cubeFaceBottom)} />
-      <div className={styles.cubeText}>?</div>
     </div>
   );
 }

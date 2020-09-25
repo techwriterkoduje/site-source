@@ -36,6 +36,24 @@
     font-size: calc(0.6 * var(--line-size));
     padding: 8px;
   }
+
+  div.logoFirst {
+    line-height: 3rem;
+    font-size: 2.3rem;
+    letter-spacing: 1rem;
+  }
+  
+  div.logoSecond {
+    line-height: 3rem;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+  }
+  
+  div.logoThird {
+    line-height: 3rem;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+  }
 }
 
 .buttons {
@@ -52,7 +70,8 @@
   text-align: center;
   font-size: 16px;
   padding: 24px;
-  width: 300px;
+  min-width: 200px;
+  max-width: 300px;
   margin: 12px;
 }
 
@@ -205,20 +224,20 @@
 }
 
 .logoFirst {
-  line-height: 136px;
-  font-size: 136px;
+  line-height: 8.5rem;
+  font-size: 8.5rem;
   letter-spacing: 32px;
 }
 
 .logoSecond {
-  line-height: 95px;
-  font-size: 88px;
+  line-height: 6.4rem;
+  font-size: 5.9rem;
   letter-spacing: 16px;
 }
 
 .logoThird {
-  line-height: 90px;
-  font-size: 80px;
+  line-height: 6rem;
+  font-size: 5rem;
   letter-spacing: 12px;
 }
 

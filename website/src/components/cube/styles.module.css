@@ -1,3 +1,9 @@
+@media screen and (max-width: 966px) {
+    div.cube {
+        display: none;
+    }
+}
+
 .cube {
   --cube-dimension: 55px;
   display: inline-block;
@@ -24,6 +30,7 @@
 
 .cubeFaceFront {
   background: var(--red-brand);
+  text-align: center;
 }
 
 .cubeFaceLeft {
@@ -37,11 +44,11 @@
 }
 
 .cubeText {
-  display: block;
+  display: inline-block;
   position: absolute;
-  top: -14px;
+  top: -22px;
   left: 8px;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: var(--orange-brand);
   text-shadow: var(--brand-special) 3px 3px, var(--brand-special) 6px 6px;
 }
