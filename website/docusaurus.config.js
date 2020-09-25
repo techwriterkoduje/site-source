@@ -38,7 +38,6 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          homePageId: "teoria",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
             "https://github.com/techwriterkoduje/site-source/tree/master/website/",

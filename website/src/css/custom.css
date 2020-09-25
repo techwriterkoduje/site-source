@@ -100,8 +100,16 @@ article {
   padding-bottom: 32px;
 }
 
-.blogPostTitle_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem- {
-  font-size: 1.4rem !important;
+article > header > h1 {
+  font-size: 2rem !important;
+}
+
+div.markdown > h2 {
+  font-size: 1.5rem;
+}
+
+div.markdown > h3 {
+  font-size: 1.3rem;
 }
 
 .pixelButton {
