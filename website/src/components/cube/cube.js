@@ -6,9 +6,13 @@ import coin from "./sound/coin.wav";
 
 export default function Cube() {
   const [play] = useSound(coin);
+  function onClick() {
+    play();
+    
+  }
 
   return (
-    <div className={cx(styles.cube)} onClick={play}>
+    <div className={cx(styles.cube)} onClick={onClick}>
       <div className={styles.coin} />
       <div className={cx(styles.cubeFace, styles.cubeFaceFront)}>
         <span className={styles.cubeText}>?</span>
