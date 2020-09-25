@@ -1,0 +1,99 @@
+@media screen and (max-width: 966px) {
+  div.cube {
+    display: none;
+  }
+}
+
+.cube {
+  --cube-dimension: 55px;
+  display: inline-block;
+  width: var(--cube-dimension);
+  height: var(--cube-dimension);
+  transform: translate(-70%, -16px);
+  user-select: none;
+}
+
+.cube:hover {
+  transform: translate(-70%, -16px) scale(1.2);
+  cursor: pointer;
+}
+
+.cubeFace {
+  width: var(--cube-dimension);
+  height: var(--cube-dimension);
+  position: absolute;
+
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+}
+
+.cubeFaceFront {
+  background: var(--red-brand);
+  text-align: center;
+}
+
+.cubeFaceLeft {
+  background: var(--green-brand);
+  transform: skew(0, 45deg) translate(65%, -55%) scale(0.2, 1);
+}
+
+.cubeFaceBottom {
+  background: var(--blue-brand);
+  transform: skew(45deg) translate(-55%, 65%) scale(1, 0.2);
+}
+
+.cubeText {
+  display: inline-block;
+  position: absolute;
+  top: -22px;
+  left: 8px;
+  font-size: 2.5rem;
+  color: var(--orange-brand);
+  text-shadow: var(--brand-special) 3px 3px, var(--brand-special) 6px 6px;
+}
+
+.invisibleCoin {
+  display: none;
+}
+
+.coin {
+  --coin-width: 1rem;
+  --coin-height: 2rem;
+  position: absolute;
+  top: calc(50% - (var(--coin-height) / 2));
+  left: calc(50% - (var(--coin-width) / 2));
+  background: gold;
+  border: 2px solid black;
+  box-shadow: inset 3px 3px white;
+  border-radius: 2rem;
+  width: 1rem;
+  height: 2rem;
+}
+
+.jumpy {
+  top: -100px;
+  transition: top 0.3s;
+}
+
+.oneUp {
+  width: 0;
+  height: 0;
+  box-shadow: none;
+  border: none;
+  top: -100px;
+  transition: top 0.8s;
+}
+
+.oneUp::before {
+  content: "1up";
+  text-transform: lowercase;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  display: inline-block;
+  position: relative;
+  top: -50px;
+  left: -10px;
+  text-align: center;
+  text-shadow: 4px 4px black;
+}

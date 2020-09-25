@@ -1,10 +1,3 @@
-/* stylelint-disable docusaurus/copyright-header */
-
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -12,6 +5,10 @@
   overflow: hidden;
   background-color: var(--brand-special);
   color: var(--brand-light);
+}
+
+.pageSubtitle {
+  font-family: "Press Start 2P", cursive;
 }
 
 @media screen and (max-width: 966px) {
@@ -40,9 +37,22 @@
     padding: 8px;
   }
 
-  div.logoThird img {
-    width: calc(0.6 * var(--line-size));
-    padding: 6px;
+  div.logoFirst {
+    line-height: 3rem;
+    font-size: 2.3rem;
+    letter-spacing: 1rem;
+  }
+  
+  div.logoSecond {
+    line-height: 3rem;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+  }
+  
+  div.logoThird {
+    line-height: 3rem;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
   }
 }
 
@@ -55,20 +65,13 @@
 
 .subscribeButton {
   display: inline-block;
-  background-color: var(--brand-light);
-  color: var(--brand-dark);
-  font-size: 1.3rem;
-  font-weight: 600;
-  padding: 16px;
-  margin: 16px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  padding: 24px;
   min-width: 200px;
-  border-radius: 16px;
-}
-
-.subscribeButton:hover {
-  color: var(--brand-dark);
-  text-decoration: none;
-  box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 12px;
 }
 
 .feature {
@@ -93,16 +96,7 @@
 }
 
 .actionButton {
-  background-color: var(--brand-dark);
-  color: var(--brand-light);
   padding: 16px;
-  border-radius: 6px;
-}
-
-.actionButton:hover {
-  color: var(--brand-light);
-  text-decoration: none;
-  box-shadow: 3px 2px 2px var(--brand-light);
 }
 
 .hosts {
@@ -133,6 +127,7 @@
 
 .hostImage {
   border-radius: 50%;
+  width: 270px;
 }
 
 .hostName {
@@ -161,43 +156,95 @@
   justify-content: space-around;
 }
 
+.shoutOutBadges img {
+  min-width: 200px;
+}
+
 .animatedLogo {
   --line-size: 4rem;
-  font-family: "Fira Code";
-  font-size: var(--line-size);
+  font-family: "Press Start 2P", cursive;
+  text-transform: uppercase;
+  text-align: center;
   font-weight: 600;
-  margin-bottom: 64px;
-  display: grid;
-  grid-template-columns: repeat(3 fit-content);
-  grid-template-rows: auto;
-  justify-content: center;
-  grid-template-areas:
-    "first second ."
-    ". . third";
+  padding-bottom: 64px;
+}
+
+.logoRedShadow {
+  --shadow-color: var(--red-brand);
+  color: var(--brand-special);
+  text-shadow: 8px 12px var(--shadow-color), -6px -3px var(--shadow-color),
+    1px -3px var(--shadow-color), 2px 4px var(--shadow-color),
+    8px 0 var(--shadow-color);
+}
+
+.logoBlueShadow {
+  --shadow-color: var(--blue-brand);
+  color: var(--brand-special);
+  text-shadow: 8px 12px var(--shadow-color), -6px -3px var(--shadow-color),
+    1px -3px var(--shadow-color), 2px 4px var(--shadow-color),
+    8px 0 var(--shadow-color);
+}
+
+.logoOrangeShadow {
+  --shadow-color: var(--orange-brand);
+  color: var(--brand-special);
+  text-shadow: 8px 12px var(--shadow-color), -6px -3px var(--shadow-color),
+    1px -3px var(--shadow-color), 2px 4px var(--shadow-color),
+    8px 0 var(--shadow-color);
+}
+
+.logoGreenShadow {
+  --shadow-color: var(--green-brand);
+  color: var(--brand-special);
+  text-shadow: 8px 12px var(--shadow-color), -6px -3px var(--shadow-color),
+    1px -3px var(--shadow-color), 2px 4px var(--shadow-color),
+    8px 0 var(--shadow-color);
+}
+
+.logoRedBold {
+  --shadow-color: var(--red-brand);
+  color: var(--shadow-color);
+  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color), 8px 2px var(--shadow-color);
+}
+
+.logoBlueBold {
+  --shadow-color: var(--blue-brand);
+  color: var(--shadow-color);
+  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color), 8px 2px var(--shadow-color);
+}
+
+.logoOrangeBold {
+  --shadow-color: var(--orange-brand);
+  color: var(--shadow-color);
+  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color), 8px 2px var(--shadow-color);
+}
+
+.logoGreenBold {
+  --shadow-color: var(--green-brand);
+  color: var(--shadow-color);
+  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color), 8px 2px var(--shadow-color);
 }
 
 .logoFirst {
-  grid-area: first;
-  text-align: right;
+  line-height: 8.5rem;
+  font-size: 8.5rem;
+  letter-spacing: 32px;
 }
 
 .logoSecond {
-  grid-area: second;
+  line-height: 6.4rem;
+  font-size: 5.9rem;
+  letter-spacing: 16px;
 }
 
 .logoThird {
-  grid-area: third;
-  text-align: left;
-  background-color: var(--brand-light);
-  color: var(--brand-dark);
-  border-radius: 16px;
-  padding: 16px;
-  padding-left: 24px;
-  padding-right: 24px;
+  line-height: 6rem;
+  font-size: 5rem;
+  letter-spacing: 12px;
 }
 
 .logoThird img {
-  margin-bottom: -12px;
-  width: var(--line-size);
+  width: 94px;
   padding-right: 16px;
+  margin-bottom: -5px;
 }

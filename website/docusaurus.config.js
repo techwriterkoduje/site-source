@@ -15,7 +15,7 @@ module.exports = {
       title: "Tech Writer koduje",
       logo: {
         alt: "Logo",
-        src: "img/logo.svg",
+        src: "img/logo-square.png",
       },
       items: [
         {
@@ -38,7 +38,6 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          homePageId: "teoria",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
             "https://github.com/techwriterkoduje/site-source/tree/master/website/",

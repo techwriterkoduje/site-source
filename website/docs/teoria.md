@@ -1,6 +1,7 @@
 ---
 id: teoria
 title: Na początek trochę teorii
+slug: /
 ---
 
 Z doświadczenia wiem, że nikt nie lubi czytać wstępów. Jednak zachęcam Cię do przeczytania tych kilku krótkich sekcji. Dzięki temu, zrozumiesz co, komu i w jaki sposób chciałem przekazać za pomocą tego przewodnika.
@@ -37,6 +38,6 @@ Kiedyś przyszła mi do głowy taka analogia - Python dla Tech Writera jest jak 
 
 ## Jak będziemy się uczyć?
 
-Python jak by nie było jest językiem. Co prawda programowania, ale nadal językiem. Każdy kto uczęszczał do szkoły miał okazję uczyć się (lub być uczonym) jakiegoś języka. Dlatego chciałbym podejść do nauki Pythona jak do nauki języka angielskiego. Jednak w przeciwieństwie do tradycyjnej szkoły, w tym przewodniku "gramatyką" zajmiemy się tylko do takiego stopnia, żeby było wiadomo co się dzieje i żeby mieć poczucie komfortu w trakcie pisania kodu. Nie zrozum mnie źle, gramatyka jest ważna i jej znajomość jest jak najbardziej wartościowa, ale na etapie gdzie zaczynasz swoją przygodę z językiem skupimy się na "konwersacjach". 
+Python jak by nie było jest językiem. Co prawda programowania, ale nadal językiem. Każdy kto uczęszczał do szkoły miał okazję uczyć się (lub być uczonym) jakiegoś języka. Dlatego chciałbym podejść do nauki Pythona jak do nauki języka angielskiego. Jednak w przeciwieństwie do tradycyjnej szkoły, w tym przewodniku "gramatyką" zajmiemy się tylko do takiego stopnia, żeby było wiadomo co się dzieje i żeby mieć poczucie komfortu w trakcie pisania kodu. Nie zrozum mnie źle, gramatyka jest ważna i jej znajomość jest jak najbardziej wartościowa, ale na etapie gdzie zaczynasz swoją przygodę z językiem skupimy się na "konwersacjach".
 
 Wskoczymy na głęboką wodę i od razu zaczniemy rozmawiać z komputerem. Na początku nie będziesz do końca rozumieć co mówisz, pewne zasady być może będą dla Ciebie niejasne, ale będziesz mieć poczucie, że uczysz się czegoś praktycznego i będziesz od razu widzieć efekty tej nauki. Czyli będzie dokładnie tak jak podczas nauki angielskiego poprzez konwersacje z native speakerem. Zamiast uczyć się reguł kodowania w Pythonie, żeby potem błyszczeć w towarzystwie wiedzą teoretyczną, stworzymy razem przykładową aplikację, dzięki której nauczysz się czegoś praktycznego i zobaczysz w jakich obszarach znajomość Pythona może Ci pomóc w pracy Tech Writera. Zatem, nie przedłużając, przystąpmy do kodowania.

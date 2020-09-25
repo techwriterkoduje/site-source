@@ -1,10 +1,11 @@
 import React from "react";
-import clsx from "clsx";
+import cx from "clsx";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
+import Cube from "../components/cube";
 
 const features = [
   {
@@ -24,12 +25,12 @@ const features = [
     },
   },
   {
-    title: <>Naucz się pythona</>,
+    title: <>Naucz się Pythona</>,
     imageUrl: "img/python-thumb.png",
     description: (
       <>
         Jako tech writer, możesz zrobić bardzo dużo przy użyciu odrobiny
-        programowania. Nie musisz byc ekspertem, wystarczy, że umiesz użyć
+        programowania. Nie musisz być ekspertem, wystarczy, że umiesz użyć
         Pythona jako narzędzia. A zacząć jest bardzo łatwo. Udostępniamy darmowy
         poradnik szybkiego startu.
       </>
@@ -56,7 +57,10 @@ function Feature({ imageUrl, title, description, actionLink }) {
             <h3>{title}</h3>
             <p>{description}</p>
             <div className={styles.actionBar}>
-              <Link className={styles.actionButton} to={actionLink.to}>
+              <Link
+                className={cx(styles.actionButton, "pixelButton")}
+                to={actionLink.to}
+              >
                 {actionLink.label}
               </Link>
             </div>
@@ -89,7 +93,7 @@ const subscribeLinks = [
 function SubscribeButton({ to, label }) {
   return (
     <a
-      className={styles.subscribeButton}
+      className={cx(styles.subscribeButton, "pixelButton")}
       href={to}
       target="_blank"
       rel="noopener noreferrer"
@@ -103,12 +107,12 @@ const hosts = [
   {
     name: "Michał Skowron",
     description: "Fajny gość, preferuje Pythona",
-    imageUrl: "/img/michal.jpg",
+    imageUrl: "/img/michal.gif",
   },
   {
     name: "Paweł Kowaluk",
     description: "Old school, ale zna się na dicie",
-    imageUrl: "/img/pawel.jpg",
+    imageUrl: "/img/pawel.gif",
   },
 ];
 
@@ -124,14 +128,19 @@ function HostAvatar({ name, description, imageUrl }) {
 
 const shoutOuts = [
   {
+    imageUrl: "/img/techwriter-logo-thumb.png",
+    link: "http://techwriter.pl/",
+    label: "techwriter.pl",
+  },
+  {
     imageUrl: "/img/not-boring-logo-thumb.png",
     link: "https://www.thenotboringtechwriter.com/",
     label: "The Not-Boring Tech Writer",
   },
   {
-    imageUrl: "/img/techwriter-logo-thumb.png",
-    link: "http://techwriter.pl/",
-    label: "techwriter.pl",
+    imageUrl: "/img/switkowski.svg",
+    link: "https://switowski.com/",
+    label: "Sebastian Witkowski",
   },
   {
     imageUrl: "/img/switowski-com-logo.svg",
@@ -153,11 +162,28 @@ function AnimatedLogo() {
     <div className={styles.logoWrapper}>
       <div className="container">
         <div className={styles.animatedLogo}>
-          <div className={styles.logoFirst}>Tech.</div>
-          <div className={styles.logoSecond}>Writer.</div>
+          <div className={styles.logoFirst}>
+            <span className={styles.logoRedBold}>T</span>
+            <span className={styles.logoBlueBold}>e</span>
+            <span className={styles.logoOrangeBold}>c</span>
+            <span className={styles.logoGreenBold}>h</span>
+          </div>
+          <div className={styles.logoSecond}>
+            <span className={styles.logoGreenBold}>W</span>
+            <span className={styles.logoBlueBold}>r</span>
+            <span className={styles.logoOrangeBold}>i</span>
+            <span className={styles.logoRedBold}>t</span>
+            <span className={styles.logoGreenBold}>e</span>
+            <span className={styles.logoOrangeBold}>r</span>
+          </div>
           <div className={styles.logoThird}>
-            <img src="/img/cube-solid.svg" />
-            koduje
+            <Cube />
+            <span className={styles.logoBlueShadow}>k</span>
+            <span className={styles.logoOrangeShadow}>o</span>
+            <span className={styles.logoRedShadow}>d</span>
+            <span className={styles.logoGreenShadow}>u</span>
+            <span className={styles.logoOrangeShadow}>j</span>
+            <span className={styles.logoBlueShadow}>e</span>
           </div>
         </div>
       </div>
@@ -173,10 +199,10 @@ function Home() {
       title={`Witaj na stronie ${siteConfig.title}`}
       description="Polski podcast o technical writingu, technologiach i IT"
     >
-      <header className={clsx("hero", styles.heroBanner)}>
+      <header className={cx("hero", styles.heroBanner)}>
         <div className="container">
           <AnimatedLogo />
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <p className={styles.pageSubtitle}>{siteConfig.tagline}</p>
           {subscribeLinks && subscribeLinks.length > 0 && (
             <div className={styles.buttons}>
               {subscribeLinks.map((props, idx) => (
@@ -227,7 +253,7 @@ function Home() {
         {shoutOuts && shoutOuts.length > 0 && (
           <section className={styles.shoutOuts}>
             <h2>Szanujemy i wspieramy</h2>
-            <div className={clsx("container", styles.shoutOutBadges)}>
+            <div className={cx("container", styles.shoutOutBadges)}>
               {shoutOuts.map((props, idx) => (
                 <ShoutOut key={idx} {...props} />
               ))}

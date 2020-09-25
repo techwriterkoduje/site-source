@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 :root {
   --footer-height: 175px;
@@ -6,18 +7,25 @@
   --main-height: calc(100% - var(--header-height) - var(--footer-height));
   --brand-dark: #21211f;
   --brand-light: #dadada;
-  --brand-special: #008dd2;
-  --brand-special-hover: #0175af;
+  --brand-special: #4b4b4b;
+  --brand-special-hover: #4e4e4e;
   /* Docusaurus vars */
-  --ifm-color-primary: var(--brand-special);
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary: var(--green-brand);
+  --ifm-color-primary-dark: #02bd27;
+  --ifm-color-primary-darker: #01991f;
+  --ifm-color-primary-darkest: #007016;
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
   /* end Docusaurus vars */
+  --pixel-shadow: inset -4px -4px 0 0 #4aa52e, var(--pixel-shadow-flat);
+  --pixel-shadow-flat: 8px 0 black, 4px -4px black, -8px 0 black, -4px 4px black,
+    -4px -4px black, 4px 4px black;
+  --red-brand: #ff4844;
+  --blue-brand: #01e1fd;
+  --orange-brand: #ffcd42;
+  --green-brand: #02ca29;
 }
 
 html,
@@ -32,6 +40,7 @@ h4,
 h5,
 h6 {
   font-weight: 600;
+  font-family: "Fira Code", monospace;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
@@ -58,6 +67,7 @@ h6 {
 
 nav.navbar {
   height: var(--header-height);
+  font-family: "Fira Code", monospace;
 }
 
 .main-wrapper {
@@ -81,24 +91,30 @@ a:hover {
 
 a.listenButton {
   display: inline-block;
-  background-color: var(--brand-special);
-  color: var(--brand-light);
   font-weight: 600;
   padding: 16px;
   border-radius: 6px;
 }
 
-a.listenButton:hover {
-  color: var(--brand-light);
-  text-decoration: none;
-  box-shadow: 2px 1px 1px var(--brand-light);
-}
-
-
 article {
   padding-bottom: 32px;
 }
 
-.blogPostTitle_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem- {
+article header h2 {
   font-size: 2rem !important;
+}
+
+.pixelButton {
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  box-shadow: var(--pixel-shadow-flat);
+  background-color: #64cf44;
+}
+
+.pixelButton:hover {
+  color: white;
+  text-decoration: none;
+  box-shadow: var(--pixel-shadow);
 }
