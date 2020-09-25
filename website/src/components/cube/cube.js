@@ -9,6 +9,7 @@ export default function Cube() {
 
   return (
     <div className={cx(styles.cube)} onClick={play}>
+      <div className={styles.coin} />
       <div className={cx(styles.cubeFace, styles.cubeFaceFront)}>
         <span className={styles.cubeText}>?</span>
       </div>

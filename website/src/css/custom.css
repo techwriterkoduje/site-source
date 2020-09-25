@@ -7,7 +7,7 @@
   --main-height: calc(100% - var(--header-height) - var(--footer-height));
   --brand-dark: #21211f;
   --brand-light: #dadada;
-  --brand-special: #636363;
+  --brand-special: #4b4b4b;
   --brand-special-hover: #4e4e4e;
   /* Docusaurus vars */
   --ifm-color-primary: var(--green-brand);
@@ -39,7 +39,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Press Start 2P", cursive;
   font-weight: 600;
 }
 
@@ -67,7 +66,6 @@ h6 {
 
 nav.navbar {
   height: var(--header-height);
-  font-family: "Press Start 2P", cursive;
 }
 
 .main-wrapper {
@@ -100,24 +98,9 @@ article {
   padding-bottom: 32px;
 }
 
-article > header > h1 {
-  font-size: 2rem !important;
-}
-
-article > header > h2 {
-  font-size: 1.7rem !important;
-}
-
-div.markdown > h2 {
-  font-size: 1.5rem;
-}
-
-div.markdown > h3 {
-  font-size: 1.3rem;
-}
-
 .pixelButton {
-  font-family: "Press Start 2P", cursive;
+  font-weight: 600;
+  font-size: 1.2rem;
   text-decoration: none;
   color: white;
   box-shadow: var(--pixel-shadow-flat);

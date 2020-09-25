@@ -15,7 +15,7 @@ module.exports = {
       title: "Tech Writer koduje",
       logo: {
         alt: "Logo",
-        src: "img/logo.svg",
+        src: "img/logo-square.png",
       },
       items: [
         {

@@ -68,7 +68,6 @@
   display: inline-block;
   position: relative;
   text-align: center;
-  font-size: 16px;
   padding: 24px;
   min-width: 200px;
   max-width: 300px;
@@ -132,7 +131,6 @@
 }
 
 .hostName {
-  font-family: "Press Start 2P", cursive;
   font-weight: 600;
   font-size: 1.2rem;
   padding-bottom: 16px;
