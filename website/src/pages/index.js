@@ -164,12 +164,12 @@ function AnimatedLogo() {
             <span className={styles.logoGreenBold}>h</span>
           </div>
           <div className={styles.logoSecond}>
-            <span className={styles.logoGreen}>W</span>
-            <span className={styles.logoBlue}>r</span>
-            <span className={styles.logoOrange}>i</span>
-            <span className={styles.logoRed}>t</span>
-            <span className={styles.logoGreen}>e</span>
-            <span className={styles.logoOrange}>r</span>
+            <span className={styles.logoGreenBold}>W</span>
+            <span className={styles.logoBlueBold}>r</span>
+            <span className={styles.logoOrangeBold}>i</span>
+            <span className={styles.logoRedBold}>t</span>
+            <span className={styles.logoGreenBold}>e</span>
+            <span className={styles.logoOrangeBold}>r</span>
           </div>
           <div className={styles.logoThird}>
             <Cube />

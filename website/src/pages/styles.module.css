@@ -148,22 +148,6 @@
   padding-bottom: 64px;
 }
 
-.logoRed {
-  color: var(--red-brand);
-}
-
-.logoBlue {
-  color: var(--blue-brand);
-}
-
-.logoOrange {
-  color: var(--orange-brand);
-}
-
-.logoGreen {
-  color: var(--green-brand);
-}
-
 .logoRedShadow {
   --shadow-color: var(--red-brand);
   color: var(--brand-special);
@@ -199,25 +183,25 @@
 .logoRedBold {
   --shadow-color: var(--red-brand);
   color: var(--shadow-color);
-  text-shadow: 8px 0px var(--shadow-color), -8px 0px var(--shadow-color);
+  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color), 8px 2px var(--shadow-color);
 }
 
 .logoBlueBold {
   --shadow-color: var(--blue-brand);
   color: var(--shadow-color);
-  text-shadow: 8px 0px var(--shadow-color), -8px 0px var(--shadow-color);
+  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color), 8px 2px var(--shadow-color);
 }
 
 .logoOrangeBold {
   --shadow-color: var(--orange-brand);
   color: var(--shadow-color);
-  text-shadow: 8px 0px var(--shadow-color), -8px 0px var(--shadow-color);
+  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color), 8px 2px var(--shadow-color);
 }
 
 .logoGreenBold {
   --shadow-color: var(--green-brand);
   color: var(--shadow-color);
-  text-shadow: 8px 0px var(--shadow-color), -8px 0px var(--shadow-color);
+  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color), 8px 2px var(--shadow-color);
 }
 
 .logoFirst {
@@ -227,13 +211,13 @@
 }
 
 .logoSecond {
-  line-height: 88px;
+  line-height: 95px;
   font-size: 88px;
   letter-spacing: 16px;
 }
 
 .logoThird {
-  line-height: 80px;
+  line-height: 90px;
   font-size: 80px;
   letter-spacing: 12px;
 }
