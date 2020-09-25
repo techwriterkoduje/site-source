@@ -65,16 +65,25 @@
   height: 2rem;
 }
 
-.cube:active .coin {
+.jumpy {
   top: -100px;
-  transition: top 0.5s;
+  transition: top 0.3s;
 }
 
-@keyframes jump {
-  0% {
-    transform: translate(0);
-  }
-  100% {
-    transform: translateY(-100px);
-  }
+.oneUp {
+  width: 2rem;
+  height: 4rem;
+}
+
+.oneUp::before {
+  content: "1up";
+  text-transform: lowercase;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  display: inline-block;
+  position: relative;
+  top: -50px;
+  left: -10px;
+  text-align: center;
 }
