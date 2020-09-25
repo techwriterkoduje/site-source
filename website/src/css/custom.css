@@ -10,7 +10,7 @@
   --brand-special: #636363;
   --brand-special-hover: #4e4e4e;
   /* Docusaurus vars */
-  --ifm-color-primary: #02ca29;
+  --ifm-color-primary: var(--green-brand);
   --ifm-color-primary-dark: #02bd27;
   --ifm-color-primary-darker: #01991f;
   --ifm-color-primary-darkest: #007016;
@@ -22,6 +22,10 @@
   --pixel-shadow: inset -4px -4px 0 0 #4aa52e, var(--pixel-shadow-flat);
   --pixel-shadow-flat: 8px 0 black, 4px -4px black, -8px 0 black, -4px 4px black,
     -4px -4px black, 4px 4px black;
+  --red-brand: #ff4844;
+  --blue-brand: #01e1fd;
+  --orange-brand: #ffcd42;
+  --green-brand: #02ca29;
 }
 
 html,

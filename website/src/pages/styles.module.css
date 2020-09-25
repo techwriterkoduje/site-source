@@ -149,23 +149,23 @@
 }
 
 .logoRed {
-  color: #ff4844;
+  color: var(--red-brand);
 }
 
 .logoBlue {
-  color: #01e1fd;
+  color: var(--blue-brand);
 }
 
 .logoOrange {
-  color: #ffcd42;
+  color: var(--orange-brand);
 }
 
 .logoGreen {
-  color: #02ca29;
+  color: var(--green-brand);
 }
 
 .logoRedShadow {
-  --shadow-color: #ff4844;
+  --shadow-color: var(--red-brand);
   color: var(--brand-special);
   text-shadow: 8px 12px var(--shadow-color), -6px -3px var(--shadow-color),
     1px -3px var(--shadow-color), 2px 4px var(--shadow-color),
@@ -173,7 +173,7 @@
 }
 
 .logoBlueShadow {
-  --shadow-color: #01e1fd;
+  --shadow-color: var(--blue-brand);
   color: var(--brand-special);
   text-shadow: 8px 12px var(--shadow-color), -6px -3px var(--shadow-color),
     1px -3px var(--shadow-color), 2px 4px var(--shadow-color),
@@ -181,7 +181,7 @@
 }
 
 .logoOrangeShadow {
-  --shadow-color: #ffcd42;
+  --shadow-color: var(--orange-brand);
   color: var(--brand-special);
   text-shadow: 8px 12px var(--shadow-color), -6px -3px var(--shadow-color),
     1px -3px var(--shadow-color), 2px 4px var(--shadow-color),
@@ -189,7 +189,7 @@
 }
 
 .logoGreenShadow {
-  --shadow-color: #02ca29;
+  --shadow-color: var(--green-brand);
   color: var(--brand-special);
   text-shadow: 8px 12px var(--shadow-color), -6px -3px var(--shadow-color),
     1px -3px var(--shadow-color), 2px 4px var(--shadow-color),
@@ -197,25 +197,25 @@
 }
 
 .logoRedBold {
-  --shadow-color: #ff4844;
+  --shadow-color: var(--red-brand);
   color: var(--shadow-color);
   text-shadow: 8px 0px var(--shadow-color), -8px 0px var(--shadow-color);
 }
 
 .logoBlueBold {
-  --shadow-color: #01e1fd;
+  --shadow-color: var(--blue-brand);
   color: var(--shadow-color);
   text-shadow: 8px 0px var(--shadow-color), -8px 0px var(--shadow-color);
 }
 
 .logoOrangeBold {
-  --shadow-color: #ffcd42;
+  --shadow-color: var(--orange-brand);
   color: var(--shadow-color);
   text-shadow: 8px 0px var(--shadow-color), -8px 0px var(--shadow-color);
 }
 
 .logoGreenBold {
-  --shadow-color: #02ca29;
+  --shadow-color: var(--green-brand);
   color: var(--shadow-color);
   text-shadow: 8px 0px var(--shadow-color), -8px 0px var(--shadow-color);
 }

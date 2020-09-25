@@ -6,6 +6,10 @@
   transform: translate(-70%, -16px);
 }
 
+.cube:hover {
+  transform: translate(-70%, -16px) scale(1.2);
+}
+
 .cubeFace {
   width: var(--cube-dimension);
   height: var(--cube-dimension);
@@ -17,16 +21,16 @@
 }
 
 .cubeFaceFront {
-  background: #ff4844;
+  background: var(--red-brand);
 }
 
 .cubeFaceLeft {
-  background: #02ca29;
+  background: var(--green-brand);
   transform: skew(0, 45deg) translate(65%, -55%) scale(0.2, 1);
 }
 
 .cubeFaceBottom {
-  background: #01e1fd;
+  background: var(--blue-brand);
   transform: skew(45deg) translate(-55%, 65%) scale(1, 0.2);
 }
 
@@ -36,6 +40,6 @@
   top: -14px;
   left: 8px;
   font-size: 40px;
-  color: #ffcd42;
+  color: var(--orange-brand);
   text-shadow: var(--brand-special) 3px 3px, var(--brand-special) 6px 6px;
 }

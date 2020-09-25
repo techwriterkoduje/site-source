@@ -128,14 +128,14 @@ function HostAvatar({ name, description, imageUrl }) {
 
 const shoutOuts = [
   {
-    imageUrl: "/img/not-boring-logo-thumb.png",
-    link: "https://www.thenotboringtechwriter.com/",
-    label: "The Not-Boring Tech Writer",
-  },
-  {
     imageUrl: "/img/techwriter-logo-thumb.png",
     link: "http://techwriter.pl/",
     label: "techwriter.pl",
+  },
+  {
+    imageUrl: "/img/not-boring-logo-thumb.png",
+    link: "https://www.thenotboringtechwriter.com/",
+    label: "The Not-Boring Tech Writer",
   },
   {
     imageUrl: "/img/switkowski.svg",
