@@ -142,11 +142,6 @@ const shoutOuts = [
     link: "https://switowski.com/",
     label: "Sebastian Witkowski",
   },
-  {
-    imageUrl: "/img/switowski-com-logo.svg",
-    link: "https://switowski.com/",
-    label: "switowski.com",
-  }
 ];
 
 function ShoutOut({ imageUrl, link, label }) {
