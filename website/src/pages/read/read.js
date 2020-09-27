@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "@theme/Layout";
 import Features from "../../components/features";
 import Header from "../../components/header";
+import Title from "../../components/title";
 
 const features = [
   {
@@ -45,7 +46,9 @@ export default function Read() {
   return (
     <Layout>
       <Header>
-        <h1>Poczytaj</h1>
+        <Title
+          lines={[{ label: "poczytaj", style: "shadow", lineStyle: "cubed" }]}
+        />
       </Header>
       <main>
         <div className="container">

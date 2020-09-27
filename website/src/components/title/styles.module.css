@@ -6,40 +6,40 @@
     text-align: center;
   }
 
-  div.animatedLogo {
+  div.stylizedTitle {
     display: block;
     font-size: calc(0.8 * var(--line-size));
   }
 
-  div.animatedLogo div {
+  div.stylizedTitle div {
     text-align: center;
   }
 
-  div.logoThird {
+  div.thirdLine {
     font-size: calc(0.6 * var(--line-size));
     padding: 8px;
   }
 
-  div.logoFirst {
+  div.firstLine {
     line-height: 3rem;
     font-size: 2.3rem;
     letter-spacing: 1rem;
   }
 
-  div.logoSecond {
+  div.secondLine {
     line-height: 3rem;
     font-size: 2rem;
     letter-spacing: 0.2rem;
   }
 
-  div.logoThird {
+  div.thirdLine {
     line-height: 3rem;
     font-size: 2rem;
     letter-spacing: 0.2rem;
   }
 }
 
-.animatedLogo {
+.stylizedTitle {
   --line-size: 4rem;
   font-family: "Press Start 2P", cursive;
   text-transform: uppercase;
@@ -48,7 +48,7 @@
   padding-bottom: 64px;
 }
 
-.logoRedShadow {
+.redShadow {
   --shadow-color: var(--red-brand);
   color: var(--brand-special);
   text-shadow: 8px 12px var(--shadow-color), -6px -3px var(--shadow-color),
@@ -56,7 +56,7 @@
     8px 0 var(--shadow-color);
 }
 
-.logoBlueShadow {
+.blueShadow {
   --shadow-color: var(--blue-brand);
   color: var(--brand-special);
   text-shadow: 8px 12px var(--shadow-color), -6px -3px var(--shadow-color),
@@ -64,7 +64,7 @@
     8px 0 var(--shadow-color);
 }
 
-.logoOrangeShadow {
+.orangeShadow {
   --shadow-color: var(--orange-brand);
   color: var(--brand-special);
   text-shadow: 8px 12px var(--shadow-color), -6px -3px var(--shadow-color),
@@ -72,7 +72,7 @@
     8px 0 var(--shadow-color);
 }
 
-.logoGreenShadow {
+.greenShadow {
   --shadow-color: var(--green-brand);
   color: var(--brand-special);
   text-shadow: 8px 12px var(--shadow-color), -6px -3px var(--shadow-color),
@@ -80,54 +80,48 @@
     8px 0 var(--shadow-color);
 }
 
-.logoRedBold {
+.redBold {
   --shadow-color: var(--red-brand);
   color: var(--shadow-color);
   text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color),
     8px 2px var(--shadow-color);
 }
 
-.logoBlueBold {
+.blueBold {
   --shadow-color: var(--blue-brand);
   color: var(--shadow-color);
   text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color),
     8px 2px var(--shadow-color);
 }
 
-.logoOrangeBold {
+.orangeBold {
   --shadow-color: var(--orange-brand);
   color: var(--shadow-color);
   text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color),
     8px 2px var(--shadow-color);
 }
 
-.logoGreenBold {
+.greenBold {
   --shadow-color: var(--green-brand);
   color: var(--shadow-color);
   text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color),
     8px 2px var(--shadow-color);
 }
 
-.logoFirst {
+.bigLine {
   line-height: 8.5rem;
   font-size: 8.5rem;
   letter-spacing: 32px;
 }
 
-.logoSecond {
+.midLine {
   line-height: 6.4rem;
   font-size: 5.9rem;
   letter-spacing: 16px;
 }
 
-.logoThird {
+.cubedLine {
   line-height: 6rem;
   font-size: 5rem;
   letter-spacing: 12px;
-}
-
-.logoThird img {
-  width: 94px;
-  padding-right: 16px;
-  margin-bottom: -5px;
 }

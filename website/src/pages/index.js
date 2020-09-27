@@ -132,7 +132,13 @@ function Home() {
       description="Polski podcast o technical writingu, technologiach i IT"
     >
       <Header>
-        <Title />
+        <Title
+          lines={[
+            { label: "tech", style: "bold", lineStyle: "big" },
+            { label: "writer", style: "bold", lineStyle: "mid" },
+            { label: "koduje", style: "shadow", lineStyle: "cubed" },
+          ]}
+        />
         <p className={styles.pageSubtitle}>{siteConfig.tagline}</p>
         {subscribeLinks && subscribeLinks.length > 0 && (
           <div className={styles.buttons}>
