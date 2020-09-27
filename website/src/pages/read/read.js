@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import Features from "../../components/features";
+import Header from "../../components/header";
 
 const features = [
   {
@@ -43,9 +44,9 @@ const features = [
 export default function Read() {
   return (
     <Layout>
-      <div className="container">
+      <Header>
         <h1>Poczytaj</h1>
-      </div>
+      </Header>
       <main>
         <div className="container">
           <Features features={features} />

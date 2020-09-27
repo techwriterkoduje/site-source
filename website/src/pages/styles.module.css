@@ -1,21 +1,8 @@
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  background-color: var(--brand-special);
-  color: var(--brand-light);
-}
-
 .pageSubtitle {
   font-family: "Press Start 2P", cursive;
 }
 
 @media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-
   div.buttons,
   div.hostAvatars,
   div.shoutOutBadges {

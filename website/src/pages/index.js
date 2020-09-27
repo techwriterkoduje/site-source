@@ -5,6 +5,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./styles.module.css";
 import Features from "../components/features";
 import Cube from "../components/cube";
+import Header from "../components/header";
 
 const features = [
   {
@@ -164,19 +165,17 @@ function Home() {
       title={`Witaj na stronie ${siteConfig.title}`}
       description="Polski podcast o technical writingu, technologiach i IT"
     >
-      <header className={cx("hero", styles.heroBanner)}>
-        <div className="container">
-          <AnimatedLogo />
-          <p className={styles.pageSubtitle}>{siteConfig.tagline}</p>
-          {subscribeLinks && subscribeLinks.length > 0 && (
-            <div className={styles.buttons}>
-              {subscribeLinks.map((props, idx) => (
-                <SubscribeButton key={idx} {...props} />
-              ))}
-            </div>
-          )}
-        </div>
-      </header>
+      <Header>
+        <AnimatedLogo />
+        <p className={styles.pageSubtitle}>{siteConfig.tagline}</p>
+        {subscribeLinks && subscribeLinks.length > 0 && (
+          <div className={styles.buttons}>
+            {subscribeLinks.map((props, idx) => (
+              <SubscribeButton key={idx} {...props} />
+            ))}
+          </div>
+        )}
+      </Header>
       <main>
         <Features features={features} />
         <section className={styles.hosts}>
