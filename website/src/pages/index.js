@@ -40,6 +40,21 @@ const features = [
       label: "Poczytaj porady",
     },
   },
+  {
+    title: <>Pooglądaj</>,
+    imageUrl: "img/watch-thumb.png",
+    description: (
+      <>
+        Wystąpienia, webinary, screencasty i filmiki, które uważamy za
+        wartościową pomoc dla tech writerów. Jeżeli najlepiej uczysz się
+        wizualnie, to ta sekcja jest dla Ciebie.
+      </>
+    ),
+    actionLink: {
+      to: "/watch/",
+      label: "Pooglądaj filmiki",
+    },
+  },
 ];
 
 const subscribeLinks = [

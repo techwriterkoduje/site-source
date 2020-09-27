@@ -19,7 +19,8 @@ module.exports = {
       },
       items: [
         { to: "blog", label: "Posłuchaj", position: "right" },
-        { to: "/read", label: "Poczytaj", position: "right" },
+        { to: "read", label: "Poczytaj", position: "right" },
+        { to: "watch", label: "Pooglądaj", position: "right" },
         { to: "contact", label: "Kontakt", position: "right" },
       ],
     },
