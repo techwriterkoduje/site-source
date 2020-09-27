@@ -1,15 +1,14 @@
 import React from "react";
 import cx from "clsx";
 import Layout from "@theme/Layout";
-import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
+import Features from "../components/features";
 import Cube from "../components/cube";
 
 const features = [
   {
-    title: <>Podcast</>,
+    title: <>Posłuchaj</>,
     imageUrl: "img/podcast-thumb.png",
     description: (
       <>
@@ -25,51 +24,22 @@ const features = [
     },
   },
   {
-    title: <>Naucz się Pythona</>,
-    imageUrl: "img/python-thumb.png",
+    title: <>Poczytaj</>,
+    imageUrl: "img/read-thumb.png",
     description: (
       <>
-        Jako tech writer, możesz zrobić bardzo dużo przy użyciu odrobiny
-        programowania. Nie musisz być ekspertem, wystarczy, że umiesz użyć
-        Pythona jako narzędzia. A zacząć jest bardzo łatwo. Udostępniamy darmowy
-        poradnik szybkiego startu.
+        Jak Ty jako tech writer możesz ułatwić sobie życie na co dzień? Jak
+        możesz zacząć kodować w Pythonie? Co kodować? Jak zarządzać projektami
+        dokumentacyjnymi? Przygotowaliśmy dla Was garść poradników i artykułów
+        do poczytania.
       </>
     ),
     actionLink: {
-      to: "/docs/",
-      label: "Czytaj poradnik",
+      to: "/read/",
+      label: "Poczytaj porady",
     },
   },
 ];
-
-function Feature({ imageUrl, title, description, actionLink }) {
-  const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={styles.feature}>
-      <div className="container">
-        <div className="row">
-          {imgUrl && (
-            <div className="text--center col col--4">
-              <img className={styles.featureImage} src={imgUrl} alt={title} />
-            </div>
-          )}
-          <div className="col">
-            <h3>{title}</h3>
-            <p>{description}</p>
-            <div className={styles.actionBar}>
-              <Link
-                className={cx(styles.actionButton, "pixelButton")}
-                to={actionLink.to}
-              >
-                {actionLink.label}
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
 
 const subscribeLinks = [
   {
@@ -208,17 +178,7 @@ function Home() {
         </div>
       </header>
       <main>
-        {features && features.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
+        <Features features={features} />
         <section className={styles.hosts}>
           <div className="container">
             <h2>Prowadzący</h2>

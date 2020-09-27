@@ -1,0 +1,28 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.feature {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.featureImage {
+  height: 200px;
+  width: 200px;
+}
+
+.actionBar {
+  padding-top: 16px;
+}
+
+.actionButton {
+  padding: 16px;
+}
+
+.external {
+  background: blue;
+}

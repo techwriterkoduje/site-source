@@ -42,13 +42,13 @@
     font-size: 2.3rem;
     letter-spacing: 1rem;
   }
-  
+
   div.logoSecond {
     line-height: 3rem;
     font-size: 2rem;
     letter-spacing: 0.2rem;
   }
-  
+
   div.logoThird {
     line-height: 3rem;
     font-size: 2rem;
@@ -72,31 +72,6 @@
   min-width: 200px;
   max-width: 300px;
   margin: 12px;
-}
-
-.feature {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
-}
-
-.featureImage {
-  height: 200px;
-  width: 200px;
-}
-
-.actionBar {
-  padding-top: 16px;
-}
-
-.actionButton {
-  padding: 16px;
 }
 
 .hosts {
@@ -204,25 +179,29 @@
 .logoRedBold {
   --shadow-color: var(--red-brand);
   color: var(--shadow-color);
-  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color), 8px 2px var(--shadow-color);
+  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color),
+    8px 2px var(--shadow-color);
 }
 
 .logoBlueBold {
   --shadow-color: var(--blue-brand);
   color: var(--shadow-color);
-  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color), 8px 2px var(--shadow-color);
+  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color),
+    8px 2px var(--shadow-color);
 }
 
 .logoOrangeBold {
   --shadow-color: var(--orange-brand);
   color: var(--shadow-color);
-  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color), 8px 2px var(--shadow-color);
+  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color),
+    8px 2px var(--shadow-color);
 }
 
 .logoGreenBold {
   --shadow-color: var(--green-brand);
   color: var(--shadow-color);
-  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color), 8px 2px var(--shadow-color);
+  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color),
+    8px 2px var(--shadow-color);
 }
 
 .logoFirst {

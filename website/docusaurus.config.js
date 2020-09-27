@@ -18,13 +18,8 @@ module.exports = {
         src: "img/logo-square.png",
       },
       items: [
-        {
-          to: "python/",
-          activeBasePath: "docs",
-          label: "Naucz się Pythona",
-          position: "right",
-        },
-        { to: "blog", label: "Odcinki", position: "right" },
+        { to: "blog", label: "Posłuchaj", position: "right" },
+        { to: "/read", label: "Poczytaj", position: "right" },
         { to: "contact", label: "Kontakt", position: "right" },
       ],
     },
