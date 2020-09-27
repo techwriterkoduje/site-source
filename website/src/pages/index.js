@@ -28,10 +28,10 @@ const features = [
     imageUrl: "img/read-thumb.png",
     description: (
       <>
-        Jak Ty jako tech writer możesz ułatwić sobie życie na co dzień? Jak
+        Jak Ty, jako tech writer, możesz ułatwić sobie pracę na co dzień? Jak
         możesz zacząć kodować w Pythonie? Co kodować? Jak zarządzać projektami
-        dokumentacyjnymi? Przygotowaliśmy dla Was garść poradników i artykułów
-        do poczytania.
+        dokumentacyjnymi? Przygotowaliśmy dla Ciebie kilka poradników i
+        artykułów do poczytania.
       </>
     ),
     actionLink: {
