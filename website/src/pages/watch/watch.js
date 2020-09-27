@@ -6,7 +6,10 @@ import styles from "./styles.module.css";
 
 export default function Watch() {
   return (
-    <Layout>
+    <Layout
+      title="Pooglądaj"
+      description="Wystapienia, screencasty, webinary i inne przydatne filmiki dla tech writerów"
+    >
       <Header>
         <Title
           lines={[{ label: "pooglądaj", style: "shadow", lineStyle: "cubed" }]}

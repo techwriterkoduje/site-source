@@ -44,7 +44,10 @@ const features = [
 
 export default function Read() {
   return (
-    <Layout>
+    <Layout
+      title="Poczytaj"
+      description="Artykuły i poradniki dla tech writerów"
+    >
       <Header>
         <Title
           lines={[{ label: "poczytaj", style: "shadow", lineStyle: "cubed" }]}
