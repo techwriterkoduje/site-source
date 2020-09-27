@@ -4,7 +4,7 @@ import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./styles.module.css";
 import Features from "../components/features";
-import Cube from "../components/cube";
+import Title from "../components/title";
 import Header from "../components/header";
 
 const features = [
@@ -123,40 +123,6 @@ function ShoutOut({ imageUrl, link, label }) {
   );
 }
 
-function AnimatedLogo() {
-  return (
-    <div className={styles.logoWrapper}>
-      <div className="container">
-        <div className={styles.animatedLogo}>
-          <div className={styles.logoFirst}>
-            <span className={styles.logoRedBold}>T</span>
-            <span className={styles.logoBlueBold}>e</span>
-            <span className={styles.logoOrangeBold}>c</span>
-            <span className={styles.logoGreenBold}>h</span>
-          </div>
-          <div className={styles.logoSecond}>
-            <span className={styles.logoGreenBold}>W</span>
-            <span className={styles.logoBlueBold}>r</span>
-            <span className={styles.logoOrangeBold}>i</span>
-            <span className={styles.logoRedBold}>t</span>
-            <span className={styles.logoGreenBold}>e</span>
-            <span className={styles.logoOrangeBold}>r</span>
-          </div>
-          <div className={styles.logoThird}>
-            <Cube />
-            <span className={styles.logoBlueShadow}>k</span>
-            <span className={styles.logoOrangeShadow}>o</span>
-            <span className={styles.logoRedShadow}>d</span>
-            <span className={styles.logoGreenShadow}>u</span>
-            <span className={styles.logoOrangeShadow}>j</span>
-            <span className={styles.logoBlueShadow}>e</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -166,7 +132,7 @@ function Home() {
       description="Polski podcast o technical writingu, technologiach i IT"
     >
       <Header>
-        <AnimatedLogo />
+        <Title />
         <p className={styles.pageSubtitle}>{siteConfig.tagline}</p>
         {subscribeLinks && subscribeLinks.length > 0 && (
           <div className={styles.buttons}>
