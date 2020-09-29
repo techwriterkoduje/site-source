@@ -11,4 +11,4 @@ W niedalekiej przyszłości chcemy  rozszerzyć nasze rozwiązanie o dodatkowe f
 
 Co można jeszcze zrobić za pomocą web scrapingu? Jakie inne testy są potrzebne w świecie dokumentacji technicznej i pisania ustrukturyzowanego? Zapraszamy do słuchania.
 
-<a class="listenButton" href="https://anchor.fm/docdeveloper/episodes/21-Tech-Writer-zbiera-informacje-ze-stron--czyli-jak-mona-wykorzysta-web-scraping-ejj0ah/a-a375vf3" target="_blank" rel="noopener noreferrer">Posłuchaj</a>
+<a class="listenButton pixelButton" href="https://anchor.fm/docdeveloper/episodes/21-Tech-Writer-zbiera-informacje-ze-stron--czyli-jak-mona-wykorzysta-web-scraping-ejj0ah/a-a375vf3" target="_blank" rel="noopener noreferrer">Posłuchaj</a>
