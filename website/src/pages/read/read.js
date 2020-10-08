@@ -22,7 +22,7 @@ const features = [
     },
   },
   {
-    title: <>Dokumentacja do oprogramowania</>,
+    title: <>Dokumentacja do oprogramowania. Poradnik dla managerów.</>,
     imageUrl: "img/ddo-thumb.png",
     description: (
       <>
