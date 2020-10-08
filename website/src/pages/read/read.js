@@ -29,7 +29,7 @@ const features = [
         Ta książka została napisana z myślą o osobach odpowiedzialnych za
         dokumentację w firmie. Nieważne czy jesteś na stanowisku kierowniczym i
         prowadzisz zespół, czy jesteś product ownerem i w Twoim produkcie nie ma
-        jeszcze dokumentacji czy jesteś jedynym technical writerem w firmie.
+        jeszcze dokumentacji czy jesteś jedynym Technical Writerem w firmie.
         Czytaj online za darmo.
       </>
     ),
@@ -46,7 +46,7 @@ export default function Read() {
   return (
     <Layout
       title="Poczytaj"
-      description="Artykuły i poradniki dla tech writerów"
+      description="Artykuły i poradniki dla Tech Writerów"
     >
       <Header>
         <Title
