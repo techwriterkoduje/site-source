@@ -57,8 +57,8 @@ function Contact() {
         <section>
           <h2>Skontaktuj się z nami!</h2>
           <p>
-            Masz pomysł na odcinek? Chcesz być gościem programu? Chcesz nam coś
-            przekazać?
+            Chcesz nam coś przekazać? Masz pytanie lub sugestię? Może masz pomysł na odcinek podcasta albo chcesz być gościem naszej audycji? 
+            Po prostu napisz do nas.
           </p>
           {supportLinks && supportLinks.length > 0 && (
             <div className="container">
