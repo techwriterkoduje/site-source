@@ -29,8 +29,8 @@ const features = [
     imageUrl: "img/read-thumb.png",
     description: (
       <>
-        Jak Ty, jako tech writer, możesz ułatwić sobie pracę na co dzień? Jak
-        możesz zacząć kodować w Pythonie? Co kodować? Jak zarządzać projektami
+        Jak Ty, jako Tech Writer, możesz ułatwić sobie pracę na co dzień? Jak
+        możesz zacząć kodować w Pythonie? Jak zarządzać projektami
         dokumentacyjnymi? Przygotowaliśmy dla Ciebie kilka poradników i
         artykułów do poczytania.
       </>
@@ -46,7 +46,7 @@ const features = [
     description: (
       <>
         Wystąpienia, webinary, screencasty i filmiki, które uważamy za
-        wartościową pomoc dla tech writerów. Jeżeli najlepiej uczysz się
+        wartościową pomoc dla Tech Writerów. Jeżeli najlepiej uczysz się
         wizualnie, to ta sekcja jest dla Ciebie.
       </>
     ),
