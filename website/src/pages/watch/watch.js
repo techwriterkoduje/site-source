@@ -8,7 +8,7 @@ export default function Watch() {
   return (
     <Layout
       title="Pooglądaj"
-      description="Wystapienia, screencasty, webinary i inne przydatne filmiki dla tech writerów"
+      description="Wystąpienia, screencasty, webinary i inne przydatne filmiki dla Tech Writerów"
     >
       <Header>
         <Title
@@ -35,8 +35,8 @@ export default function Watch() {
                   Skowron &amp; Paweł Kowaluk • soap! 2019
                 </h2>
                 <p>
-                  Nasza prezentacja na konferencji soap! w 2019 roku. Więcej
-                  informacji o konferencji na stornie{" "}
+                  Nasza prezentacja z konferencji soap! w 2019 roku. Więcej
+                  informacji o konferencji na stronie{" "}
                   <a
                     href="http://soapconf.com"
                     target="_blank"
