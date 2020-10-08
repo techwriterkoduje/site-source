@@ -6,23 +6,23 @@ import Title from "../../components/title";
 
 const features = [
   {
-    title: <>Naucz się Pythona</>,
+    title: <>Tech Writer koduje w Pythonie. Przewodnik szybkiego startu.</>,
     imageUrl: "img/python-thumb.png",
     description: (
       <>
-        Jako tech writer, możesz zrobić bardzo dużo przy użyciu odrobiny
+        Jako Tech Writer, możesz zrobić bardzo dużo przy użyciu odrobiny
         programowania. Nie musisz być ekspertem, wystarczy, że umiesz użyć
         Pythona jako narzędzia. A zacząć jest bardzo łatwo. Udostępniamy darmowy
-        poradnik szybkiego startu.
+        przewodnik szybkiego startu.
       </>
     ),
     actionLink: {
       to: "/docs/teoria",
-      label: "Czytaj poradnik",
+      label: "Czytaj przewodnik",
     },
   },
   {
-    title: <>Naucz się zarządzać dokumentacją</>,
+    title: <>Dokumentacja do oprogramowania</>,
     imageUrl: "img/ddo-thumb.png",
     description: (
       <>
@@ -36,7 +36,7 @@ const features = [
     actionLink: {
       to:
         "https://pensjonatus.github.io/dokumentacja-do-oprogramowania/docs/przedslowie",
-      label: "Czytaj online",
+      label: "Czytaj książkę",
       external: true,
     },
   },
