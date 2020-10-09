@@ -20,7 +20,10 @@
 }
 
 .actionButton {
+  display: block;
   padding: 16px;
+  margin-top: 32px;
+  text-align: center;
 }
 
 .external {

@@ -17,7 +17,7 @@ function Feature({ imageUrl, title, description, actionLink, external }) {
           )}
           <div className="col">
             <h3>{title}</h3>
-            <p>{description}</p>
+            <div>{description}</div>
             <div className={styles.actionBar}>
               {external ? (
                 <a

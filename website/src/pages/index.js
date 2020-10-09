@@ -7,21 +7,50 @@ import Features from "../components/features";
 import Title from "../components/title";
 import Header from "../components/header";
 
+const subscribeLinks = [
+  {
+    to: "https://anchor.fm/docdeveloper/",
+    label: "Anchor.fm",
+  },
+  {
+    to: "https://open.spotify.com/show/2jhQ1Z1nAOY686RVok7O9I",
+    label: "Spotify",
+  },
+  {
+    to: "https://player.fm/series/tech-writer-koduje",
+    label: "Player.fm",
+  },
+  {
+    to: "https://anchor.fm/s/8afba9c/podcast/rss",
+    label: "RSS",
+  },
+];
+
 const features = [
   {
     title: <>Posłuchaj</>,
     imageUrl: "img/podcast-thumb.png",
     description: (
       <>
-        Podcast o technicznej stronie tworzenia dokumentacji w IT. Skupiamy się
-        na tym jak Tech Writer może wpasować się w środowisko programistów pod
-        kątem sposobu pracy i narzędzi. Staramy się też pokazać, że praca Tech
-        Writera może bardzo rozwijać umiejętności techniczne.
+        <p>
+          Podcast o technicznej stronie tworzenia dokumentacji w IT. Skupiamy
+          się na tym jak Tech Writer może wpasować się w środowisko programistów
+          pod kątem sposobu pracy i narzędzi. Staramy się też pokazać, że praca
+          Tech Writera może bardzo rozwijać umiejętności techniczne.
+        </p>
+        <h4 className={styles.platformLinksTitle}>Platformy</h4>
+        {subscribeLinks && subscribeLinks.length > 0 && (
+          <div className={styles.buttons}>
+            {subscribeLinks.map((props, idx) => (
+              <SubscribeButton key={idx} {...props} />
+            ))}
+          </div>
+        )}
       </>
     ),
     actionLink: {
       to: "/blog/",
-      label: "Posłuchaj odcinków",
+      label: "Lista odcinków",
     },
   },
   {
@@ -54,25 +83,6 @@ const features = [
       to: "/watch/",
       label: "Pooglądaj filmiki",
     },
-  },
-];
-
-const subscribeLinks = [
-  {
-    to: "https://anchor.fm/docdeveloper/",
-    label: "Anchor.fm",
-  },
-  {
-    to: "https://open.spotify.com/show/2jhQ1Z1nAOY686RVok7O9I",
-    label: "Spotify",
-  },
-  {
-    to: "https://player.fm/series/tech-writer-koduje",
-    label: "Player.fm",
-  },
-  {
-    to: "https://anchor.fm/s/8afba9c/podcast/rss",
-    label: "RSS",
   },
 ];
 
@@ -155,19 +165,12 @@ function Home() {
           ]}
         />
         <p className={styles.pageSubtitle}>{siteConfig.tagline}</p>
-        {subscribeLinks && subscribeLinks.length > 0 && (
-          <div className={styles.buttons}>
-            {subscribeLinks.map((props, idx) => (
-              <SubscribeButton key={idx} {...props} />
-            ))}
-          </div>
-        )}
       </Header>
       <main>
         <Features features={features} />
         <section className={styles.hosts}>
           <div className="container">
-            <h2>Prowadzący</h2>
+            <h2>Ekipa</h2>
             {hosts && hosts.length > 0 && (
               <div className={styles.hostAvatars}>
                 {hosts.map((props, idx) => (

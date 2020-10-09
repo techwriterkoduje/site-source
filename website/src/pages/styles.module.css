@@ -11,11 +11,17 @@
   }
 }
 
+.platformLinksTitle {
+  padding-top: 32px;
+  text-align: center;
+}
+
 .buttons {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
   align-items: center;
   justify-content: center;
-  padding-top: 32px;
+  padding: 32px;
 }
 
 .subscribeButton {
@@ -23,10 +29,17 @@
   display: inline-block;
   position: relative;
   text-align: center;
-  padding: 24px;
+  padding: 16px;
   min-width: 200px;
   max-width: 300px;
   margin: 12px;
+  background-color: var(--orange-brand);
+  color: black;
+}
+
+.subscribeButton:hover {
+  color: black;
+  box-shadow: inset -4px -4px 0 0 rgb(219, 145, 7), var(--pixel-shadow-flat);
 }
 
 .hosts {
