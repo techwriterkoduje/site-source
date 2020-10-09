@@ -1,7 +1,6 @@
 ---
 id: teoria
 title: Na początek trochę teorii
-slug: /
 ---
 
 Z doświadczenia wiem, że nikt nie lubi czytać wstępów. Jednak zachęcam Cię do przeczytania tych kilku krótkich sekcji. Dzięki temu, zrozumiesz co, komu i w jaki sposób chciałem przekazać za pomocą tego przewodnika.

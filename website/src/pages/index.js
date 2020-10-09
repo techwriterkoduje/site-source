@@ -1,75 +1,11 @@
 import React from "react";
 import cx from "clsx";
 import Layout from "@theme/Layout";
-import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
-import Cube from "../components/cube";
-
-const features = [
-  {
-    title: <>Podcast</>,
-    imageUrl: "img/podcast-thumb.png",
-    description: (
-      <>
-        Podcast o technicznej stronie tworzenia dokumentacji w IT. Skupiamy się
-        na tym jak Tech Writer może wpasować się w środowisko programistów pod
-        kątem sposobu pracy i narzędzi. Staramy się też pokazać, że praca Tech
-        Writera może bardzo rozwijać umiejętności techniczne.
-      </>
-    ),
-    actionLink: {
-      to: "/blog/",
-      label: "Posłuchaj odcinków",
-    },
-  },
-  {
-    title: <>Naucz się Pythona</>,
-    imageUrl: "img/python-thumb.png",
-    description: (
-      <>
-        Jako tech writer, możesz zrobić bardzo dużo przy użyciu odrobiny
-        programowania. Nie musisz być ekspertem, wystarczy, że umiesz użyć
-        Pythona jako narzędzia. A zacząć jest bardzo łatwo. Udostępniamy darmowy
-        poradnik szybkiego startu.
-      </>
-    ),
-    actionLink: {
-      to: "/docs/",
-      label: "Czytaj poradnik",
-    },
-  },
-];
-
-function Feature({ imageUrl, title, description, actionLink }) {
-  const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={styles.feature}>
-      <div className="container">
-        <div className="row">
-          {imgUrl && (
-            <div className="text--center col col--4">
-              <img className={styles.featureImage} src={imgUrl} alt={title} />
-            </div>
-          )}
-          <div className="col">
-            <h3>{title}</h3>
-            <p>{description}</p>
-            <div className={styles.actionBar}>
-              <Link
-                className={cx(styles.actionButton, "pixelButton")}
-                to={actionLink.to}
-              >
-                {actionLink.label}
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+import Features from "../components/features";
+import Title from "../components/title";
+import Header from "../components/header";
 
 const subscribeLinks = [
   {
@@ -87,6 +23,66 @@ const subscribeLinks = [
   {
     to: "https://anchor.fm/s/8afba9c/podcast/rss",
     label: "RSS",
+  },
+];
+
+const features = [
+  {
+    title: <>Posłuchaj</>,
+    imageUrl: "img/podcast-thumb.png",
+    description: (
+      <>
+        <p>
+          Podcast o technicznej stronie tworzenia dokumentacji w IT. Skupiamy
+          się na tym jak Tech Writer może wpasować się w środowisko programistów
+          pod kątem sposobu pracy i narzędzi. Staramy się też pokazać, że praca
+          Tech Writera może bardzo rozwijać umiejętności techniczne.
+        </p>
+        <h4 className={styles.platformLinksTitle}>Platformy</h4>
+        {subscribeLinks && subscribeLinks.length > 0 && (
+          <div className={styles.buttons}>
+            {subscribeLinks.map((props, idx) => (
+              <SubscribeButton key={idx} {...props} />
+            ))}
+          </div>
+        )}
+      </>
+    ),
+    actionLink: {
+      to: "/blog/",
+      label: "Lista odcinków",
+    },
+  },
+  {
+    title: <>Poczytaj</>,
+    imageUrl: "img/read-thumb.png",
+    description: (
+      <>
+        Jak Ty, jako Tech Writer, możesz ułatwić sobie pracę na co dzień? Jak
+        możesz zacząć kodować w Pythonie? Jak zarządzać projektami
+        dokumentacyjnymi? Przygotowaliśmy dla Ciebie kilka poradników i
+        artykułów do poczytania.
+      </>
+    ),
+    actionLink: {
+      to: "/read/",
+      label: "Poczytaj porady",
+    },
+  },
+  {
+    title: <>Pooglądaj</>,
+    imageUrl: "img/watch-thumb.png",
+    description: (
+      <>
+        Wystąpienia, webinary, screencasty i filmiki, które uważamy za
+        wartościową pomoc dla Tech Writerów. Jeżeli najlepiej uczysz się
+        wizualnie, to ta sekcja jest dla Ciebie.
+      </>
+    ),
+    actionLink: {
+      to: "/watch/",
+      label: "Pooglądaj filmiki",
+    },
   },
 ];
 
@@ -152,40 +148,6 @@ function ShoutOut({ imageUrl, link, label }) {
   );
 }
 
-function AnimatedLogo() {
-  return (
-    <div className={styles.logoWrapper}>
-      <div className="container">
-        <div className={styles.animatedLogo}>
-          <div className={styles.logoFirst}>
-            <span className={styles.logoRedBold}>T</span>
-            <span className={styles.logoBlueBold}>e</span>
-            <span className={styles.logoOrangeBold}>c</span>
-            <span className={styles.logoGreenBold}>h</span>
-          </div>
-          <div className={styles.logoSecond}>
-            <span className={styles.logoGreenBold}>W</span>
-            <span className={styles.logoBlueBold}>r</span>
-            <span className={styles.logoOrangeBold}>i</span>
-            <span className={styles.logoRedBold}>t</span>
-            <span className={styles.logoGreenBold}>e</span>
-            <span className={styles.logoOrangeBold}>r</span>
-          </div>
-          <div className={styles.logoThird}>
-            <Cube />
-            <span className={styles.logoBlueShadow}>k</span>
-            <span className={styles.logoOrangeShadow}>o</span>
-            <span className={styles.logoRedShadow}>d</span>
-            <span className={styles.logoGreenShadow}>u</span>
-            <span className={styles.logoOrangeShadow}>j</span>
-            <span className={styles.logoBlueShadow}>e</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -194,34 +156,21 @@ function Home() {
       title={`Witaj na stronie ${siteConfig.title}`}
       description="Polski podcast o technical writingu, technologiach i IT"
     >
-      <header className={cx("hero", styles.heroBanner)}>
-        <div className="container">
-          <AnimatedLogo />
-          <p className={styles.pageSubtitle}>{siteConfig.tagline}</p>
-          {subscribeLinks && subscribeLinks.length > 0 && (
-            <div className={styles.buttons}>
-              {subscribeLinks.map((props, idx) => (
-                <SubscribeButton key={idx} {...props} />
-              ))}
-            </div>
-          )}
-        </div>
-      </header>
+      <Header>
+        <Title
+          lines={[
+            { label: "tech", style: "bold", lineStyle: "big" },
+            { label: "writer", style: "bold", lineStyle: "mid" },
+            { label: "koduje", style: "shadow", lineStyle: "cubed" },
+          ]}
+        />
+        <p className={styles.pageSubtitle}>{siteConfig.tagline}</p>
+      </Header>
       <main>
-        {features && features.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
+        <Features features={features} />
         <section className={styles.hosts}>
           <div className="container">
-            <h2>Prowadzący</h2>
+            <h2>Ekipa</h2>
             {hosts && hosts.length > 0 && (
               <div className={styles.hostAvatars}>
                 {hosts.map((props, idx) => (

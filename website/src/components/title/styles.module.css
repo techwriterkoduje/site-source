@@ -1,0 +1,128 @@
+@media screen and (max-width: 966px) {
+  div.buttons,
+  div.hostAvatars,
+  div.shoutOutBadges {
+    display: block;
+    text-align: center;
+  }
+
+  div.stylizedTitle {
+    display: block;
+    font-size: calc(0.8 * var(--line-size));
+  }
+
+  div.stylizedTitle div {
+    text-align: center;
+  }
+
+  div.thirdLine {
+    font-size: calc(0.6 * var(--line-size));
+    padding: 8px;
+  }
+
+  div.firstLine {
+    line-height: 3rem;
+    font-size: 2.3rem;
+    letter-spacing: 1rem;
+  }
+
+  div.secondLine {
+    line-height: 3rem;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+  }
+
+  div.thirdLine {
+    line-height: 3rem;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+  }
+}
+
+.stylizedTitle {
+  --line-size: 4rem;
+  font-family: "Press Start 2P", cursive;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 64px;
+  padding-top: 64px;
+}
+
+.redShadow {
+  --shadow-color: var(--red-brand);
+  color: var(--brand-special);
+  text-shadow: 8px 12px var(--shadow-color), -6px -3px var(--shadow-color),
+    1px -3px var(--shadow-color), 2px 4px var(--shadow-color),
+    8px 0 var(--shadow-color);
+}
+
+.blueShadow {
+  --shadow-color: var(--blue-brand);
+  color: var(--brand-special);
+  text-shadow: 8px 12px var(--shadow-color), -6px -3px var(--shadow-color),
+    1px -3px var(--shadow-color), 2px 4px var(--shadow-color),
+    8px 0 var(--shadow-color);
+}
+
+.orangeShadow {
+  --shadow-color: var(--orange-brand);
+  color: var(--brand-special);
+  text-shadow: 8px 12px var(--shadow-color), -6px -3px var(--shadow-color),
+    1px -3px var(--shadow-color), 2px 4px var(--shadow-color),
+    8px 0 var(--shadow-color);
+}
+
+.greenShadow {
+  --shadow-color: var(--green-brand);
+  color: var(--brand-special);
+  text-shadow: 8px 12px var(--shadow-color), -6px -3px var(--shadow-color),
+    1px -3px var(--shadow-color), 2px 4px var(--shadow-color),
+    8px 0 var(--shadow-color);
+}
+
+.redBold {
+  --shadow-color: var(--red-brand);
+  color: var(--shadow-color);
+  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color),
+    8px 2px var(--shadow-color);
+}
+
+.blueBold {
+  --shadow-color: var(--blue-brand);
+  color: var(--shadow-color);
+  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color),
+    8px 2px var(--shadow-color);
+}
+
+.orangeBold {
+  --shadow-color: var(--orange-brand);
+  color: var(--shadow-color);
+  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color),
+    8px 2px var(--shadow-color);
+}
+
+.greenBold {
+  --shadow-color: var(--green-brand);
+  color: var(--shadow-color);
+  text-shadow: 8px 6px var(--brand-special), 11px 9px var(--shadow-color),
+    8px 2px var(--shadow-color);
+}
+
+.bigLine {
+  line-height: 8.5rem;
+  font-size: 8.5rem;
+  letter-spacing: 32px;
+}
+
+.midLine {
+  line-height: 6.4rem;
+  font-size: 5.9rem;
+  letter-spacing: 16px;
+}
+
+.cubedLine {
+  line-height: 6rem;
+  font-size: 5rem;
+  letter-spacing: 12px;
+}
