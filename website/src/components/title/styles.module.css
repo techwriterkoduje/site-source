@@ -8,7 +8,7 @@
 
   div.stylizedTitle {
     display: block;
-    font-size: calc(0.8 * var(--line-size));
+    font-size: calc(0.3 * var(--line-size));
   }
 
   div.stylizedTitle div {
@@ -16,7 +16,7 @@
   }
 
   div.thirdLine {
-    font-size: calc(0.6 * var(--line-size));
+    font-size: calc(0.3 * var(--line-size));
     padding: 8px;
   }
 
@@ -36,6 +36,11 @@
     line-height: 3rem;
     font-size: 2rem;
     letter-spacing: 0.2rem;
+  }
+
+  div.bigLine {
+    font-size: 6rem;
+    line-height: 6.3rem;
   }
 }
 

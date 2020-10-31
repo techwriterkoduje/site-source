@@ -10,7 +10,6 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
-import CookieConsent from "react-cookie-consent";
 
 function FooterLink({ to, href, label, prependBaseUrlToHref, ...props }) {
   const toUrl = useBaseUrl(to);
@@ -125,16 +124,6 @@ function Footer() {
         data-cfasync="false"
       ></script>
       <script src="/js/cookie-consent-config.js" data-cfasync="false"></script>
-      <CookieConsent
-        location="bottom"
-        buttonText="Akceptuję"
-        cookieName="myAwesomeCookieName2"
-        style={{ background: "#2B373B" }}
-        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
-        expires={150}
-      >
-        Ta strona używa plików cookies (tzw. "ciasteczka")
-      </CookieConsent>
     </footer>
   );
 }

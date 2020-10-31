@@ -22,6 +22,14 @@ const supportLinks = [
         label: "Źródło tej strony na GitHubie",
         to: "https://github.com/techwriterkoduje",
       },
+      {
+        label: "Przykład static site z Next.js + Redoc",
+        to: "https://github.com/techwriterkoduje/next-js-redoc",
+      },
+      {
+        label: "Semantyczne testy w DITA",
+        to: "https://github.com/techwriterkoduje/dita-semantic-tests",
+      },
     ],
   },
 ];
@@ -57,7 +65,8 @@ function Contact() {
         <section>
           <h2>Skontaktuj się z nami!</h2>
           <p>
-            Chcesz nam coś przekazać? Masz pytanie lub sugestię? Może masz pomysł na odcinek podcasta albo chcesz być gościem naszej audycji? 
+            Chcesz nam coś przekazać? Masz pytanie lub sugestię? Może masz
+            pomysł na odcinek podcasta albo chcesz być gościem naszej audycji?
             Po prostu napisz do nas.
           </p>
           {supportLinks && supportLinks.length > 0 && (
