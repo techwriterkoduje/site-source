@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import cx from 'clsx';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -149,23 +149,15 @@ function ShoutOut({ imageUrl, link, label }) {
 }
 
 function Home() {
-  const [width, setWidth] = useState(window.innerWidth);
-  useEffect(
-    function () {
-      setWidth(window.innerWidth);
-    },
-    [window.innerWidth]
-  );
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
-  console.log('WIDTH', window.innerWidth);
   return (
     <Layout
       title={`Witaj na stronie ${siteConfig.title}`}
       description="Polski podcast o technical writingu, technologiach i IT"
     >
       <Header>
-        {window.innerWidth > 966 ? (
+        <div className={styles.titleContainer}>
           <Title
             lines={[
               { label: 'tech', style: 'bold', lineStyle: 'big' },
@@ -173,13 +165,12 @@ function Home() {
               { label: 'koduje', style: 'shadow', lineStyle: 'cubed' },
             ]}
           />
-        ) : (
-          <img
-            src="/img/banner-image.png"
-            alt="Tech writer koduje."
-            className={styles.bannerImage}
-          />
-        )}
+        </div>
+        <img
+          src="/img/banner-image.png"
+          alt="Tech writer koduje."
+          className={styles.bannerImage}
+        />
         <p className={styles.pageSubtitle}>{siteConfig.tagline}</p>
       </Header>
       <main>
