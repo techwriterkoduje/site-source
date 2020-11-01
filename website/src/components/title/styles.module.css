@@ -46,7 +46,7 @@
 
 .stylizedTitle {
   --line-size: 4rem;
-  font-family: "Press Start 2P", cursive;
+  font-family: 'Press Start 2P', cursive;
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;

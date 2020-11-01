@@ -1,34 +1,34 @@
-import React from "react";
-import Layout from "@theme/Layout";
-import clsx from "clsx";
-import styles from "./styles.module.css";
-import Header from "../../components/header";
-import Title from "../../components/title";
+import React from 'react';
+import Layout from '@theme/Layout';
+import clsx from 'clsx';
+import styles from './styles.module.css';
+import Header from '../../components/header';
+import Title from '../../components/title';
 
 const supportLinks = [
   {
-    title: "E-mail",
+    title: 'E-mail',
     links: [
       {
-        label: "kontakt@techwriterkoduje.pl",
-        to: "mailto:kontakt@techwriterkoduje.pl",
+        label: 'kontakt@techwriterkoduje.pl',
+        to: 'mailto:kontakt@techwriterkoduje.pl',
       },
     ],
   },
   {
-    title: "Projekty",
+    title: 'Projekty',
     links: [
       {
-        label: "Źródło tej strony na GitHubie",
-        to: "https://github.com/techwriterkoduje",
+        label: 'Źródło tej strony na GitHubie',
+        to: 'https://github.com/techwriterkoduje',
       },
       {
-        label: "Przykład static site z Next.js + Redoc",
-        to: "https://github.com/techwriterkoduje/next-js-redoc",
+        label: 'Przykład static site z Next.js + Redoc',
+        to: 'https://github.com/techwriterkoduje/next-js-redoc',
       },
       {
-        label: "Semantyczne testy w DITA",
-        to: "https://github.com/techwriterkoduje/dita-semantic-tests",
+        label: 'Semantyczne testy w DITA',
+        to: 'https://github.com/techwriterkoduje/dita-semantic-tests',
       },
     ],
   },
@@ -58,10 +58,10 @@ function Contact() {
     <Layout>
       <Header>
         <Title
-          lines={[{ label: "kontakt", style: "bold", lineStyle: "cubed" }]}
+          lines={[{ label: 'kontakt', style: 'bold', lineStyle: 'cubed' }]}
         />
       </Header>
-      <div className={clsx("container", styles.contactPage)}>
+      <div className={clsx('container', styles.contactPage)}>
         <section>
           <h2>Skontaktuj się z nami!</h2>
           <p>

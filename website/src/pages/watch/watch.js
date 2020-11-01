@@ -1,8 +1,8 @@
-import React from "react";
-import Layout from "@theme/Layout";
-import Header from "../../components/header";
-import Title from "../../components/title";
-import styles from "./styles.module.css";
+import React from 'react';
+import Layout from '@theme/Layout';
+import Header from '../../components/header';
+import Title from '../../components/title';
+import styles from './styles.module.css';
 
 export default function Watch() {
   return (
@@ -12,7 +12,7 @@ export default function Watch() {
     >
       <Header>
         <Title
-          lines={[{ label: "pooglądaj", style: "shadow", lineStyle: "cubed" }]}
+          lines={[{ label: 'pooglądaj', style: 'shadow', lineStyle: 'cubed' }]}
         />
       </Header>
       <main>
@@ -36,7 +36,7 @@ export default function Watch() {
                 </h2>
                 <p>
                   Nasza prezentacja z konferencji soap! w 2019 roku. Więcej
-                  informacji o konferencji na stronie{" "}
+                  informacji o konferencji na stronie{' '}
                   <a
                     href="http://soapconf.com"
                     target="_blank"

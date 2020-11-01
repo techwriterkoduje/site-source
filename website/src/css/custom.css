@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 :root {
   --footer-height: 175px;
@@ -40,7 +40,7 @@ h4,
 h5,
 h6 {
   font-weight: 600;
-  font-family: "Fira Code", monospace;
+  font-family: 'Fira Code', monospace;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
@@ -67,7 +67,7 @@ h6 {
 
 nav.navbar {
   height: var(--header-height);
-  font-family: "Fira Code", monospace;
+  font-family: 'Fira Code', monospace;
 }
 
 .main-wrapper {

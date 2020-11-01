@@ -1,8 +1,8 @@
-import React from "react";
-import Link from "@docusaurus/Link";
-import useBaseUrl from "@docusaurus/useBaseUrl";
-import cx from "clsx";
-import styles from "./styles.module.css";
+import React from 'react';
+import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import cx from 'clsx';
+import styles from './styles.module.css';
 
 function Feature({ imageUrl, title, description, actionLink, external }) {
   const imgUrl = useBaseUrl(imageUrl);
@@ -24,7 +24,7 @@ function Feature({ imageUrl, title, description, actionLink, external }) {
                   className={cx(
                     styles.actionButton,
                     styles.external,
-                    "pixelButton"
+                    'pixelButton'
                   )}
                   href={actionLink.to}
                   rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Feature({ imageUrl, title, description, actionLink, external }) {
                 </a>
               ) : (
                 <Link
-                  className={cx(styles.actionButton, "pixelButton")}
+                  className={cx(styles.actionButton, 'pixelButton')}
                   to={actionLink.to}
                 >
                   {actionLink.label}

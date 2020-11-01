@@ -4,12 +4,12 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-import React from "react";
-import clsx from "clsx";
-import Link from "@docusaurus/Link";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import useBaseUrl from "@docusaurus/useBaseUrl";
-import styles from "./styles.module.css";
+import React from 'react';
+import clsx from 'clsx';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import styles from './styles.module.css';
 
 function FooterLink({ to, href, label, prependBaseUrlToHref, ...props }) {
   const toUrl = useBaseUrl(to);
@@ -21,8 +21,8 @@ function FooterLink({ to, href, label, prependBaseUrlToHref, ...props }) {
       className="footer__link-item"
       {...(href
         ? {
-            target: "_blank",
-            rel: "noopener noreferrer",
+            target: '_blank',
+            rel: 'noopener noreferrer',
             href: prependBaseUrlToHref ? normalizedHref : href,
           }
         : {
@@ -53,8 +53,8 @@ function Footer() {
 
   return (
     <footer
-      className={clsx("footer", {
-        "footer--dark": footer.style === "dark",
+      className={clsx('footer', {
+        'footer--dark': footer.style === 'dark',
       })}
     >
       <div className="container">

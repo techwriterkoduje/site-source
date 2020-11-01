@@ -85,7 +85,7 @@
 }
 
 .oneUp::before {
-  content: "1up";
+  content: '1up';
   text-transform: lowercase;
   color: white;
   letter-spacing: 2px;

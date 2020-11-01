@@ -1,13 +1,13 @@
-import React from "react";
-import Layout from "@theme/Layout";
-import Features from "../../components/features";
-import Header from "../../components/header";
-import Title from "../../components/title";
+import React from 'react';
+import Layout from '@theme/Layout';
+import Features from '../../components/features';
+import Header from '../../components/header';
+import Title from '../../components/title';
 
 const features = [
   {
     title: <>Tech Writer koduje w Pythonie. Przewodnik szybkiego startu.</>,
-    imageUrl: "img/python-thumb.png",
+    imageUrl: 'img/python-thumb.png',
     description: (
       <>
         Jako Tech Writer, możesz zrobić bardzo dużo przy użyciu odrobiny
@@ -17,13 +17,13 @@ const features = [
       </>
     ),
     actionLink: {
-      to: "/docs/teoria",
-      label: "Czytaj przewodnik",
+      to: '/docs/teoria',
+      label: 'Czytaj przewodnik',
     },
   },
   {
     title: <>Dokumentacja do oprogramowania. Poradnik dla managerów.</>,
-    imageUrl: "img/ddo-thumb.png",
+    imageUrl: 'img/ddo-thumb.png',
     description: (
       <>
         Ta książka została napisana z myślą o osobach odpowiedzialnych za
@@ -35,8 +35,8 @@ const features = [
     ),
     actionLink: {
       to:
-        "https://pensjonatus.github.io/dokumentacja-do-oprogramowania/docs/przedslowie",
-      label: "Czytaj książkę",
+        'https://pensjonatus.github.io/dokumentacja-do-oprogramowania/docs/przedslowie',
+      label: 'Czytaj książkę',
       external: true,
     },
   },
@@ -50,7 +50,7 @@ export default function Read() {
     >
       <Header>
         <Title
-          lines={[{ label: "poczytaj", style: "shadow", lineStyle: "cubed" }]}
+          lines={[{ label: 'poczytaj', style: 'shadow', lineStyle: 'cubed' }]}
         />
       </Header>
       <main>

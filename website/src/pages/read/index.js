@@ -1,3 +1,3 @@
-import Read from "./read";
+import Read from './read';
 
 export default Read;

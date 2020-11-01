@@ -1,35 +1,35 @@
-import React from "react";
-import cx from "clsx";
-import Layout from "@theme/Layout";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import styles from "./styles.module.css";
-import Features from "../components/features";
-import Title from "../components/title";
-import Header from "../components/header";
+import React from 'react';
+import cx from 'clsx';
+import Layout from '@theme/Layout';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import styles from './styles.module.css';
+import Features from '../components/features';
+import Title from '../components/title';
+import Header from '../components/header';
 
 const subscribeLinks = [
   {
-    to: "https://anchor.fm/docdeveloper/",
-    label: "Anchor.fm",
+    to: 'https://anchor.fm/docdeveloper/',
+    label: 'Anchor.fm',
   },
   {
-    to: "https://open.spotify.com/show/2jhQ1Z1nAOY686RVok7O9I",
-    label: "Spotify",
+    to: 'https://open.spotify.com/show/2jhQ1Z1nAOY686RVok7O9I',
+    label: 'Spotify',
   },
   {
-    to: "https://player.fm/series/tech-writer-koduje",
-    label: "Player.fm",
+    to: 'https://player.fm/series/tech-writer-koduje',
+    label: 'Player.fm',
   },
   {
-    to: "https://anchor.fm/s/8afba9c/podcast/rss",
-    label: "RSS",
+    to: 'https://anchor.fm/s/8afba9c/podcast/rss',
+    label: 'RSS',
   },
 ];
 
 const features = [
   {
     title: <>Posłuchaj</>,
-    imageUrl: "img/podcast-thumb.png",
+    imageUrl: 'img/podcast-thumb.png',
     description: (
       <>
         <p>
@@ -49,13 +49,13 @@ const features = [
       </>
     ),
     actionLink: {
-      to: "/blog/",
-      label: "Lista odcinków",
+      to: '/blog/',
+      label: 'Lista odcinków',
     },
   },
   {
     title: <>Poczytaj</>,
-    imageUrl: "img/read-thumb.png",
+    imageUrl: 'img/read-thumb.png',
     description: (
       <>
         Jak Ty, jako Tech Writer, możesz ułatwić sobie pracę na co dzień? Jak
@@ -65,13 +65,13 @@ const features = [
       </>
     ),
     actionLink: {
-      to: "/read/",
-      label: "Poczytaj porady",
+      to: '/read/',
+      label: 'Poczytaj porady',
     },
   },
   {
     title: <>Pooglądaj</>,
-    imageUrl: "img/watch-thumb.png",
+    imageUrl: 'img/watch-thumb.png',
     description: (
       <>
         Wystąpienia, webinary, screencasty i filmiki, które uważamy za
@@ -80,8 +80,8 @@ const features = [
       </>
     ),
     actionLink: {
-      to: "/watch/",
-      label: "Pooglądaj filmiki",
+      to: '/watch/',
+      label: 'Pooglądaj filmiki',
     },
   },
 ];
@@ -89,7 +89,7 @@ const features = [
 function SubscribeButton({ to, label }) {
   return (
     <a
-      className={cx(styles.subscribeButton, "pixelButton")}
+      className={cx(styles.subscribeButton, 'pixelButton')}
       href={to}
       target="_blank"
       rel="noopener noreferrer"
@@ -101,14 +101,14 @@ function SubscribeButton({ to, label }) {
 
 const hosts = [
   {
-    name: "Michał Skowron",
-    description: "Fajny gość, preferuje Pythona",
-    imageUrl: "/img/michal.gif",
+    name: 'Michał Skowron',
+    description: 'Fajny gość, preferuje Pythona',
+    imageUrl: '/img/michal.gif',
   },
   {
-    name: "Paweł Kowaluk",
-    description: "Old school, ale zna się na dicie",
-    imageUrl: "/img/pawel.gif",
+    name: 'Paweł Kowaluk',
+    description: 'Old school, ale zna się na dicie',
+    imageUrl: '/img/pawel.gif',
   },
 ];
 
@@ -124,19 +124,19 @@ function HostAvatar({ name, description, imageUrl }) {
 
 const shoutOuts = [
   {
-    imageUrl: "/img/techwriter-logo-thumb.png",
-    link: "http://techwriter.pl/",
-    label: "techwriter.pl",
+    imageUrl: '/img/techwriter-logo-thumb.png',
+    link: 'http://techwriter.pl/',
+    label: 'techwriter.pl',
   },
   {
-    imageUrl: "/img/not-boring-logo-thumb.png",
-    link: "https://www.thenotboringtechwriter.com/",
-    label: "The Not-Boring Tech Writer",
+    imageUrl: '/img/not-boring-logo-thumb.png',
+    link: 'https://www.thenotboringtechwriter.com/',
+    label: 'The Not-Boring Tech Writer',
   },
   {
-    imageUrl: "/img/switkowski.svg",
-    link: "https://switowski.com/",
-    label: "Sebastian Witkowski",
+    imageUrl: '/img/switkowski.svg',
+    link: 'https://switowski.com/',
+    label: 'Sebastian Witkowski',
   },
 ];
 
@@ -159,9 +159,9 @@ function Home() {
       <Header>
         <Title
           lines={[
-            { label: "tech", style: "bold", lineStyle: "big" },
-            { label: "writer", style: "bold", lineStyle: "mid" },
-            { label: "koduje", style: "shadow", lineStyle: "cubed" },
+            { label: 'tech', style: 'bold', lineStyle: 'big' },
+            { label: 'writer', style: 'bold', lineStyle: 'mid' },
+            { label: 'koduje', style: 'shadow', lineStyle: 'cubed' },
           ]}
         />
         <p className={styles.pageSubtitle}>{siteConfig.tagline}</p>
@@ -197,7 +197,7 @@ function Home() {
         {shoutOuts && shoutOuts.length > 0 && (
           <section className={styles.shoutOuts}>
             <h2>Szanujemy i wspieramy</h2>
-            <div className={cx("container", styles.shoutOutBadges)}>
+            <div className={cx('container', styles.shoutOutBadges)}>
               {shoutOuts.map((props, idx) => (
                 <ShoutOut key={idx} {...props} />
               ))}
