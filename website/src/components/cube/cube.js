@@ -1,9 +1,9 @@
-import React, { useRef, useState } from "react";
-import cx from "clsx";
-import useSound from "use-sound";
-import styles from "./styles.module.css";
-import coin from "./sound/coin.wav";
-import oneUp from "./sound/oneUp.wav";
+import React, { useRef, useState } from 'react';
+import cx from 'clsx';
+import useSound from 'use-sound';
+import styles from './styles.module.css';
+import coin from './sound/coin.wav';
+import oneUp from './sound/oneUp.wav';
 
 export default function Cube() {
   const coinObject = useRef(null);

@@ -1,5 +1,5 @@
 .pageSubtitle {
-  font-family: "Press Start 2P", cursive;
+  font-family: 'Press Start 2P', cursive;
 }
 
 @media screen and (max-width: 966px) {
@@ -8,6 +8,12 @@
   div.shoutOutBadges {
     display: block;
     text-align: center;
+  }
+
+  img.bannerImage {
+    display: block;
+    width: 90%;
+    margin: 1rem auto;
   }
 }
 
@@ -39,7 +45,7 @@
 
 .subscribeButton:hover {
   color: black;
-  box-shadow: inset -4px -4px 0 0 rgb(219, 145, 7), var(--pixel-shadow-flat);
+  border: 1px solid black;
 }
 
 .hosts {

@@ -8,14 +8,15 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 
 function DocPaginator(props) {
-  const {metadata} = props;
+  const { metadata } = props;
   return (
     <nav className="pagination-nav" aria-label="Blog list page navigation">
       <div className="pagination-nav__item">
         {metadata.previous && (
           <Link
             className="pagination-nav__link"
-            to={metadata.previous.permalink}>
+            to={metadata.previous.permalink}
+          >
             <div className="pagination-nav__sublabel">Poprzedni</div>
             <div className="pagination-nav__label">
               &laquo; {metadata.previous.title}

@@ -51,7 +51,7 @@
 
 .pythonButtonLabelWrapper {
   color: var(--green-1);
-  font-family: "Fira Code", monospace;
+  font-family: 'Fira Code', monospace;
   font-weight: 500;
   font-size: 2rem;
   text-align: center;

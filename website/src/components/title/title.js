@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./styles.module.css";
-import Cube from "../cube";
+import React from 'react';
+import styles from './styles.module.css';
+import Cube from '../cube';
 
 const boldClasses = [
   styles.redBold,
@@ -23,8 +23,8 @@ const lineClasses = {
 };
 
 function getLettersFromLine(line) {
-  const styles = line.style === "bold" ? boldClasses : shadowClasses;
-  return line.label.split("").map((letter, key) => (
+  const styles = line.style === 'bold' ? boldClasses : shadowClasses;
+  return line.label.split('').map((letter, key) => (
     <span key={key} className={styles[key % styles.length]}>
       {letter}
     </span>
@@ -39,7 +39,7 @@ export default function Title({ lines }) {
           {lines &&
             lines.map((line, key) => (
               <div key={key} className={lineClasses[line.lineStyle]}>
-                {line.lineStyle === "cubed" ? <Cube /> : ""}
+                {line.lineStyle === 'cubed' ? <Cube /> : ''}
                 {getLettersFromLine(line)}
               </div>
             ))}
