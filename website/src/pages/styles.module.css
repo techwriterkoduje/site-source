@@ -1,7 +1,3 @@
-.pageSubtitle {
-  font-family: 'Press Start 2P', cursive;
-}
-
 @media screen and (max-width: 966px) {
   div.buttons,
   div.hostAvatars,
@@ -15,6 +11,14 @@
     width: 90%;
     margin: 1rem auto;
   }
+
+  div.titleContainer {
+    display: none;
+  }
+}
+
+.pageSubtitle {
+  font-family: 'Press Start 2P', cursive;
 }
 
 .platformLinksTitle {
@@ -107,4 +111,8 @@
 
 .shoutOutBadges img {
   min-width: 200px;
+}
+
+.bannerImage {
+  display: none;
 }
