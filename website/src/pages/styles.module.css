@@ -9,6 +9,12 @@
     display: block;
     text-align: center;
   }
+
+  img.bannerImage {
+    display: block;
+    width: 90%;
+    margin: 1rem auto;
+  }
 }
 
 .platformLinksTitle {
@@ -39,7 +45,7 @@
 
 .subscribeButton:hover {
   color: black;
-  box-shadow: inset -4px -4px 0 0 rgb(219, 145, 7), var(--pixel-shadow-flat);
+  border: 1px solid black;
 }
 
 .hosts {

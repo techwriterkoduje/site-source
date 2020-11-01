@@ -8,39 +8,33 @@ function Feature({ imageUrl, title, description, actionLink, external }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={styles.feature}>
-      <div className="container">
-        <div className="row">
-          {imgUrl && (
-            <div className="text--center col col--4">
-              <img className={styles.featureImage} src={imgUrl} alt={title} />
-            </div>
-          )}
-          <div className="col">
-            <h3>{title}</h3>
-            <div>{description}</div>
-            <div className={styles.actionBar}>
-              {external ? (
-                <a
-                  className={cx(
-                    styles.actionButton,
-                    styles.external,
-                    'pixelButton'
-                  )}
-                  href={actionLink.to}
-                  rel="noopener noreferrer"
-                >
-                  {actionLink.label}
-                </a>
-              ) : (
-                <Link
-                  className={cx(styles.actionButton, 'pixelButton')}
-                  to={actionLink.to}
-                >
-                  {actionLink.label}
-                </Link>
+      {imgUrl && (
+        <img className={styles.featureImage} src={imgUrl} alt={title} />
+      )}
+      <div className={styles.featureBody}>
+        <h3>{title}</h3>
+        <div>{description}</div>
+        <div className={styles.actionBar}>
+          {external ? (
+            <a
+              className={cx(
+                styles.actionButton,
+                styles.external,
+                'pixelButton'
               )}
-            </div>
-          </div>
+              href={actionLink.to}
+              rel="noopener noreferrer"
+            >
+              {actionLink.label}
+            </a>
+          ) : (
+            <Link
+              className={cx(styles.actionButton, 'pixelButton')}
+              to={actionLink.to}
+            >
+              {actionLink.label}
+            </Link>
+          )}
         </div>
       </div>
     </div>

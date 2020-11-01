@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import cx from 'clsx';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -29,7 +29,7 @@ const subscribeLinks = [
 const features = [
   {
     title: <>Posłuchaj</>,
-    imageUrl: 'img/podcast-thumb.png',
+    imageUrl: 'img/listen.png',
     description: (
       <>
         <p>
@@ -55,7 +55,7 @@ const features = [
   },
   {
     title: <>Poczytaj</>,
-    imageUrl: 'img/read-thumb.png',
+    imageUrl: 'img/read.png',
     description: (
       <>
         Jak Ty, jako Tech Writer, możesz ułatwić sobie pracę na co dzień? Jak
@@ -71,7 +71,7 @@ const features = [
   },
   {
     title: <>Pooglądaj</>,
-    imageUrl: 'img/watch-thumb.png',
+    imageUrl: 'img/watch.png',
     description: (
       <>
         Wystąpienia, webinary, screencasty i filmiki, które uważamy za
@@ -103,12 +103,12 @@ const hosts = [
   {
     name: 'Michał Skowron',
     description: 'Fajny gość, preferuje Pythona',
-    imageUrl: '/img/michal.gif',
+    imageUrl: '/img/michal.png',
   },
   {
     name: 'Paweł Kowaluk',
     description: 'Old school, ale zna się na dicie',
-    imageUrl: '/img/pawel.gif',
+    imageUrl: '/img/pawel.png',
   },
 ];
 
@@ -149,21 +149,37 @@ function ShoutOut({ imageUrl, link, label }) {
 }
 
 function Home() {
+  const [width, setWidth] = useState(window.innerWidth);
+  useEffect(
+    function () {
+      setWidth(window.innerWidth);
+    },
+    [window.innerWidth]
+  );
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
+  console.log('WIDTH', window.innerWidth);
   return (
     <Layout
       title={`Witaj na stronie ${siteConfig.title}`}
       description="Polski podcast o technical writingu, technologiach i IT"
     >
       <Header>
-        <Title
-          lines={[
-            { label: 'tech', style: 'bold', lineStyle: 'big' },
-            { label: 'writer', style: 'bold', lineStyle: 'mid' },
-            { label: 'koduje', style: 'shadow', lineStyle: 'cubed' },
-          ]}
-        />
+        {window.innerWidth > 966 ? (
+          <Title
+            lines={[
+              { label: 'tech', style: 'bold', lineStyle: 'big' },
+              { label: 'writer', style: 'bold', lineStyle: 'mid' },
+              { label: 'koduje', style: 'shadow', lineStyle: 'cubed' },
+            ]}
+          />
+        ) : (
+          <img
+            src="/img/banner-image.png"
+            alt="Tech writer koduje."
+            className={styles.bannerImage}
+          />
+        )}
         <p className={styles.pageSubtitle}>{siteConfig.tagline}</p>
       </Header>
       <main>

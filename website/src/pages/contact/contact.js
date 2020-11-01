@@ -15,23 +15,6 @@ const supportLinks = [
       },
     ],
   },
-  {
-    title: 'Projekty',
-    links: [
-      {
-        label: 'Źródło tej strony na GitHubie',
-        to: 'https://github.com/techwriterkoduje',
-      },
-      {
-        label: 'Przykład static site z Next.js + Redoc',
-        to: 'https://github.com/techwriterkoduje/next-js-redoc',
-      },
-      {
-        label: 'Semantyczne testy w DITA',
-        to: 'https://github.com/techwriterkoduje/dita-semantic-tests',
-      },
-    ],
-  },
 ];
 
 function SupportLink({ title, links }) {

@@ -7,7 +7,7 @@ import Title from '../../components/title';
 const features = [
   {
     title: <>Tech Writer koduje w Pythonie. Przewodnik szybkiego startu.</>,
-    imageUrl: 'img/python-thumb.png',
+    imageUrl: 'img/python.png',
     description: (
       <>
         Jako Tech Writer, możesz zrobić bardzo dużo przy użyciu odrobiny
@@ -23,7 +23,7 @@ const features = [
   },
   {
     title: <>Dokumentacja do oprogramowania. Poradnik dla managerów.</>,
-    imageUrl: 'img/ddo-thumb.png',
+    imageUrl: 'img/managers.png',
     description: (
       <>
         Ta książka została napisana z myślą o osobach odpowiedzialnych za

@@ -1,3 +1,19 @@
+@media screen and (max-width: 966px) {
+  div.feature {
+    width: 95%;
+  }
+
+  div.featureImage {
+    width: 95%;
+  }
+
+  div.featureBody {
+    width: 90%;
+    padding: 1rem;
+    margin-top: 6rem;
+  }
+}
+
 .features {
   display: flex;
   align-items: center;
@@ -6,13 +22,29 @@
 }
 
 .feature {
+  position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
+  width: 800px;
+  margin: auto;
 }
 
 .featureImage {
-  height: 200px;
-  width: 200px;
+  position: absolute;
+  display: block;
+  width: 800px;
+  margin: auto;
+}
+
+.featureBody {
+  position: relative;
+  background-color: white;
+  z-index: 2;
+  width: 600px;
+  margin: auto;
+  margin-top: 500px;
+  padding: 50px;
+  border: 1px solid var(--brand-light);
 }
 
 .actionBar {

@@ -21,6 +21,7 @@ module.exports = {
         { to: 'blog', label: 'Posłuchaj', position: 'right' },
         { to: 'read', label: 'Poczytaj', position: 'right' },
         { to: 'watch', label: 'Pooglądaj', position: 'right' },
+        { to: 'projects', label: 'Projekty', position: 'right' },
         { to: 'contact', label: 'Kontakt', position: 'right' },
       ],
     },

@@ -109,12 +109,12 @@ article header h2 {
   font-size: 1.2rem;
   text-decoration: none;
   color: white;
-  box-shadow: var(--pixel-shadow-flat);
+  border: 1px solid var(--brand-light);
   background-color: #64cf44;
 }
 
 .pixelButton:hover {
   color: white;
   text-decoration: none;
-  box-shadow: var(--pixel-shadow);
+  border: 1px solid black;
 }
