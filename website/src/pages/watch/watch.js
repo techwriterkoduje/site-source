@@ -44,9 +44,10 @@ const videos = [
     title: 'Semantic testing in DITA',
     description: (
       <>
-        A presentation we gave at TC World 2020. DITA gives you semantics that
-        go beyond formatting text. DITA semantics allow you to test your
-        documentation against code in a more meaningful way. Example project{' '}
+        Prezentacja z TC World 2020. DITA umożliwia semantykę, która wychodzi
+        daleko poza proste "formatowanie tekstu". Semantyka w DITA pozwala na
+        pisanie testów, które sprawdzają dokumentację z kodem lub aplikacją.
+        Przykładowy projekt{' '}
         <a
           href="https://github.com/techwriterkoduje/dita-semantic-tests"
           target="_blank"
