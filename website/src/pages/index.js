@@ -177,7 +177,7 @@ function Home() {
         <Features features={features} />
         <section className={styles.hosts}>
           <div className="container">
-            <h2>Ekipa</h2>
+            <h2>Poznaj</h2>
             {hosts && hosts.length > 0 && (
               <div className={styles.hostAvatars}>
                 {hosts.map((props, idx) => (
