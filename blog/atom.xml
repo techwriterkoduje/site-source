@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://techwriterkoduje.pl/blog</id>
+    <title>Tech Writer koduje Blog</title>
+    <updated>2021-01-21T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://techwriterkoduje.pl/blog"/>
+    <subtitle>Tech Writer koduje Blog</subtitle>
+    <icon>https://techwriterkoduje.pl/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[#25 Tech Writer koduje w dokumentacji, czyli Markdown w wersji rozszerzonej]]></title>
+        <id>#25 Tech Writer koduje w dokumentacji, czyli Markdown w wersji rozszerzonej</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/01/21/tech-writer-koduje-w-dokumentacji"/>
+        <updated>2021-01-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Markdown to prosty i lekki język znaczników, który w ostatnich latach zyskał sporą popularność, szczególnie w świecie dokumentacji dla programistów. Pozwala nam on łatwo i szybko stworzyć tekst, a następnie opublikować go jako HTML. Z biegiem czasu pojawiły się różne odmiany i rozszerzenia Markdowna, pozwalające wycisnąć z niego jeszcze więcej. Jednym z nich jest MDX, który pozwala na używanie bezpośrednio w tekście elementów JSX. Takie rozwiązanie otwiera przed nami nowe możliwości, jak na przykład opcję umieszczenia w dokumentacji interaktywnej próbki kodu. Dzięki temu możemy przesunąć naszą dokumentację na wyższy poziom. Rozmawiamy o tym czym jest MDX, jakie daje nam możliwości i w jakich sytuacjach może nam się przydać.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#24 Tech Writer publikuje inaczej, czyli API do dokumentacji]]></title>
+        <id>#24 Tech Writer publikuje inaczej, czyli API do dokumentacji</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/12/23/tech-writer-publikuje-inaczej"/>
+        <updated>2020-12-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Niektóre sposoby publikowania dokumentacji są znane wśród Tech Writerów od zarania dziejów. Portale serwujące wszelakiej maści treści w formacie HTML czy PDF są niejako standardem branżowym. W sytuacji kiedy odbiorcą dokumentacji jest użytkownik produktu te formy spełniają swoje zadanie. Ale co zrobić kiedy do naszej dokumentacji potrzebuje się dobrać jakaś aplikacja? Na przykład, aplikacja webowa chce wyświetlić dokumentację w panelu, który jest jej integralną cześcią. Możemy wtedy zastosować stary dobry "iframe", jednak takie rozwiązanie nie jest zalecane, a do tego stwarza szereg problemów. A może by tak stworzyć API dla dokumentacji i serwować treść za pomocą endpointów? Rozważamy czy takie rozwiązanie jest możliwe, czy ma sens i w jakich sytuacjach mogłoby się sprawdzić.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#23 Tech Writer mierzy jakość dokumentacji, czyli co i jak sprawdzać]]></title>
+        <id>#23 Tech Writer mierzy jakość dokumentacji, czyli co i jak sprawdzać</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/11/23/tech-writer-mierzy-jakosc-dokumentacji"/>
+        <updated>2020-11-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jak zrobić najlepszą dokumentację? Ustalamy wewnętrzne standardy i się ich trzymamy, a potem sprawdzamy czy dokumentacja spełnia swoje cele. Następnie weryfikujemy standardy, żeby nasza dokumentacja spełniała założone cele coraz lepiej.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#22 Tech Writer buduje dokumentację API, czyli Next.js, ReDoc i OpenAPI w akcji]]></title>
+        <id>#22 Tech Writer buduje dokumentację API, czyli Next.js, ReDoc i OpenAPI w akcji</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/10/18/tech-writer-buduje-dokumentacje-api"/>
+        <updated>2020-10-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Next.js to framework Reacta, dzięki któremu można w elastyczny sposób tworzyć nowoczesne strony internetowe. Według rankingu na stronie staticgen.com, jest to również jeden z najpopularniejszych generatorów stron statycznych. Rozmawiamy o tym jak można połączyć Next.js z narzędziem ReDoc, żeby zbudować stronę z dokumentacją dla wielu API stworzonych przy pomocy specyfikacji OpenAPI. Zastanawiamy się też jak Next.js może nam się przydać kiedy piszemy dokumentację w standardzie DITA.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#21 Tech Writer zbiera informacje ze stron, czyli jak można wykorzystać web scraping]]></title>
+        <id>#21 Tech Writer zbiera informacje ze stron, czyli jak można wykorzystać web scraping</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/09/15/tech-writer-zbiera-informacje-ze-stron"/>
+        <updated>2020-09-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Web scraping to zbieranie danych ze stron internetowych. Google, na przykład,]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#20 Tech Writer optymalizuje, czyli web performance w dokumentacji]]></title>
+        <id>#20 Tech Writer optymalizuje, czyli web performance w dokumentacji</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/08/06/tech-writer-optymalizuje"/>
+        <updated>2020-08-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wydajność to temat rzadko poruszany w tech writingu, pomimo tego, że webowa]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#19 Tech Writer pracuje zdalnie, czyli jak to się robi w GitLabie]]></title>
+        <id>#19 Tech Writer pracuje zdalnie, czyli jak to się robi w GitLabie</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/07/08/tech-writer-pracuje-zdalnie"/>
+        <updated>2020-07-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Trwająca od kilku miesięcy sytuacja spowodowała, że biura zostały pozamykane a]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#18 Wyboista droga do kodowania]]></title>
+        <id>#18 Wyboista droga do kodowania</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/06/09/wyboista-droga-do-kodowania"/>
+        <updated>2020-06-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Przejście od zera do kodującego Tech Writera to dość długa droga, i nie zawsze]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#17 Webhelp kontra Progressive Web App]]></title>
+        <id>#17 Webhelp kontra Progressive Web App</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/05/18/webhelp-kontra-pwa"/>
+        <updated>2020-05-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Offline help, który sam się aktualizuje. Czy to w ogóle możliwe? Zastanawiamy]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[16# DITA z Gita]]></title>
+        <id>16# DITA z Gita</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/04/22/dita-z-gita"/>
+        <updated>2020-04-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Czy szanujący się zespół dokumentacyjny używający standardu DITA może działać]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#15 Technoskryby potyczki z SME, czyli jak zdobywać informacje potrzebne do tworzenia dokumentacji]]></title>
+        <id>#15 Technoskryby potyczki z SME, czyli jak zdobywać informacje potrzebne do tworzenia dokumentacji</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/04/07/technoskryby-potyczki-z-sme"/>
+        <updated>2020-04-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jak Technical Writer radzi sobie ze zdobywaniem informacji? Co jeśli Subject]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#14 Tech Writer zaczyna kodować w Pythonie, czyli o narzędziach i dobrych praktykach]]></title>
+        <id>#14 Tech Writer zaczyna kodować w Pythonie, czyli o narzędziach i dobrych praktykach</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/03/24/tech-writer-zaczyna-kodowac-w-pythonie"/>
+        <updated>2020-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Rozmawiamy z Sebastianem Witowskim o tym jak ustawić sobie środowisko do]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#13 Full-Stack Tech Writer, czyli technoskryba kontra chmura]]></title>
+        <id>#13 Full-Stack Tech Writer, czyli technoskryba kontra chmura</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/02/25/full-stack-tech-writer"/>
+        <updated>2020-02-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jakie są obowiązki Technical Writera? Pewnie większość z Was odpowiedziałaby, że]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#12 Tech Writer się rekrutuje, czyli jak ważne są umiejętności techniczne]]></title>
+        <id>#12 Tech Writer się rekrutuje, czyli jak ważne są umiejętności techniczne</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/01/20/tech-writer-sie-rekrutuje"/>
+        <updated>2020-01-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Czy ogłoszenie o pracę mówi Ci co będziesz robił jako Technical Writer? Jak]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#11 Robot dokumentuje część 2 - automatyzacja kontra ludzie]]></title>
+        <id>#11 Robot dokumentuje część 2 - automatyzacja kontra ludzie</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/12/12/robot-dokumentuje-czesc-2"/>
+        <updated>2019-12-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Spotkaliśmy się z Agatą Rygielską i rozmawialiśmy o wpływie automatyzacji na]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#10 Docusaurus - Tech Writer dokarmia dinozaury]]></title>
+        <id>#10 Docusaurus - Tech Writer dokarmia dinozaury</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/11/15/docusaurus"/>
+        <updated>2019-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus to static site generator stworzony przez Facebooka, którego główną]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#9 Robot dokumentuje, czyli technical writing przyszłości]]></title>
+        <id>#9 Robot dokumentuje, czyli technical writing przyszłości</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/10/17/robot-dokumentuje"/>
+        <updated>2019-10-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Podobno nikt nie jest niezastąpiony, ale czy można zastąpić całą grupę zawodową?]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#8 DITA OT - static site generator dla wtajemniczonych]]></title>
+        <id>#8 DITA OT - static site generator dla wtajemniczonych</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/09/28/dita-ot"/>
+        <updated>2019-09-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jako technoskrybi, którzy kodują, spędziliśmy trochę czasu z DITA Open Toolkit.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#7 Programista dokumentuje, czyli nowoczesny technical writing]]></title>
+        <id>#7 Programista dokumentuje, czyli nowoczesny technical writing</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/08/29/programista-dokumentuje"/>
+        <updated>2019-08-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[W nowoczesnej firmie software’owej nie ma ani jednego Technical Writera. W takim]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#6 Konferencja EuroPython 2019 z perspektywy kodującego Tech Writera]]></title>
+        <id>#6 Konferencja EuroPython 2019 z perspektywy kodującego Tech Writera</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/08/12/europython-2019"/>
+        <updated>2019-08-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[EuroPython to największa europejska konferencja poświęcona językowi]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#5 Narzędzia dla Tech Writerów]]></title>
+        <id>#5 Narzędzia dla Tech Writerów</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/07/24/narzedzia"/>
+        <updated>2019-07-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mogłoby się wydawać, że Tech Writerzy nie mają dużych potrzeb jeśli chodzi o]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#4 Konferencja soap! 2019 - podsumowanie]]></title>
+        <id>#4 Konferencja soap! 2019 - podsumowanie</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/07/07/soap-2019"/>
+        <updated>2019-07-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[soap! to jedyna polska konferencja dla specjalistów zajmujących się szeroko]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#3 SVG - przenieś grafikę w dokumentacji na wyższy poziom]]></title>
+        <id>#3 SVG - przenieś grafikę w dokumentacji na wyższy poziom</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/06/14/svg"/>
+        <updated>2019-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Scalable Vector Graphics (SVG) kryje w sobie wiele ciekawych aspektów, które]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#2 Python - przyjaciel Tech Writera]]></title>
+        <id>#2 Python - przyjaciel Tech Writera</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/05/23/python"/>
+        <updated>2019-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Python to język programowania ogólnego zastosowania, który w ostatnich latach]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#1 Docs like code - rozważania praktyczne i filozoficzne]]></title>
+        <id>#1 Docs like code - rozważania praktyczne i filozoficzne</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/05/14/docs-like-code"/>
+        <updated>2019-05-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA["Docs like code" czy "Docs as code" to model tworzenia dokumentacji, który staje]]></summary>
+    </entry>
+</feed>
