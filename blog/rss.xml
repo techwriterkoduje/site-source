@@ -4,9 +4,16 @@
         <title>Tech Writer koduje Blog</title>
         <link>https://techwriterkoduje.pl/blog</link>
         <description>Tech Writer koduje Blog</description>
-        <lastBuildDate>Thu, 21 Jan 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Feb 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[#26 Tech Writerzy dokumentują API]]></title>
+            <link>https://techwriterkoduje.pl/blog/2021/02/10/tech-writerzy-dokumentuja-api</link>
+            <guid>#26 Tech Writerzy dokumentują API</guid>
+            <pubDate>Wed, 10 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Pisanie dokumentacji do API to dziedzina sama w sobie, która w dzisiejszych czasach zyskuje na znaczeniu. Przyspieszony rozwój technologii cyfrowych w dobie pandemii i pracy zdalnej podniósł znaczenie dokumentacji w ogóle, a dokumentacji do API w szczególności.]]></description>
+        </item>
         <item>
             <title><![CDATA[#25 Tech Writer koduje w dokumentacji, czyli Markdown w wersji rozszerzonej]]></title>
             <link>https://techwriterkoduje.pl/blog/2021/01/21/tech-writer-koduje-w-dokumentacji</link>
