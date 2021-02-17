@@ -4,9 +4,16 @@
         <title>Tech Writer koduje Blog</title>
         <link>https://techwriterkoduje.pl/blog</link>
         <description>Tech Writer koduje Blog</description>
-        <lastBuildDate>Wed, 10 Feb 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Feb 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[#27 Tech Writer szkoli się z Pythona]]></title>
+            <link>https://techwriterkoduje.pl/blog/2021/02/17/tech-writer-szkoli-sie-z-pythona</link>
+            <guid>#27 Tech Writer szkoli się z Pythona</guid>
+            <pubDate>Wed, 17 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chcesz lepiej rozumieć kod, który opisujesz? Chcesz zautomatyzować żmudne aspekty swojej pracy? Chcesz móc powiedzieć śmiało i dumnie - znam Pythona?]]></description>
+        </item>
         <item>
             <title><![CDATA[#26 Tech Writerzy dokumentują API]]></title>
             <link>https://techwriterkoduje.pl/blog/2021/02/10/tech-writerzy-dokumentuja-api</link>
