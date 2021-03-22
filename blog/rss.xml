@@ -4,9 +4,16 @@
         <title>Tech Writer koduje Blog</title>
         <link>https://techwriterkoduje.pl/blog</link>
         <description>Tech Writer koduje Blog</description>
-        <lastBuildDate>Wed, 17 Feb 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[#28 Tech Writer wybiera narzędzie do kodowania, czyli VS Code kontra IntelliJ IDEA]]></title>
+            <link>https://techwriterkoduje.pl/blog/2021/03/22/tech-writer-wybiera-narzedzie-do-kodowania</link>
+            <guid>#28 Tech Writer wybiera narzędzie do kodowania, czyli VS Code kontra IntelliJ IDEA</guid>
+            <pubDate>Mon, 22 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Co jest lepsze do pisania kodu - komercyjne środowisko programistyczne czy darmowy edytor kodu źródłowego? Czy takie porównanie w ogóle ma sens?]]></description>
+        </item>
         <item>
             <title><![CDATA[#27 Tech Writer szkoli się z Pythona]]></title>
             <link>https://techwriterkoduje.pl/blog/2021/02/17/tech-writer-szkoli-sie-z-pythona</link>
