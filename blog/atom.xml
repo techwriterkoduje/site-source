@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://techwriterkoduje.pl/blog</id>
     <title>Tech Writer koduje Blog</title>
-    <updated>2021-03-22T00:00:00.000Z</updated>
+    <updated>2021-04-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://techwriterkoduje.pl/blog"/>
     <subtitle>Tech Writer koduje Blog</subtitle>
     <icon>https://techwriterkoduje.pl/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[#29 Tech Writer koduje według dobrych praktyk]]></title>
+        <id>#29 Tech Writer koduje według dobrych praktyk</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/04/08/tech-writer-koduje-wedlug-dobrych-praktyk"/>
+        <updated>2021-04-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Pewnego dnia czujesz nieodpartą chęć napisania jakiegoś skryptu. Otwierasz edytor, tworzysz nowy plik i w pocie czoła dodajesz kolejne linijki kodu. Zachowujesz zmiany, wprowadzasz poprawki, weryfikujesz swoje dzieło i powtarzasz cały proces aż po pewnym czasie udaje Ci się doprowadzić skrypt do stanu, w którym robi to co chcesz. Cel osiągnięty. Niby tak, ale czy taki sposób tworzenia kodu jest właściwy?]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[#28 Tech Writer wybiera narzędzie do kodowania, czyli VS Code kontra IntelliJ IDEA]]></title>
         <id>#28 Tech Writer wybiera narzędzie do kodowania, czyli VS Code kontra IntelliJ IDEA</id>
