@@ -4,9 +4,16 @@
         <title>Tech Writer koduje Blog</title>
         <link>https://techwriterkoduje.pl/blog</link>
         <description>Tech Writer koduje Blog</description>
-        <lastBuildDate>Thu, 08 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 May 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[#30 Tech Writer radzi sobie ze sprzężeniem zwrotnym, czyli feedback do dokumentacji]]></title>
+            <link>https://techwriterkoduje.pl/blog/2021/05/19/feedback-do-dokumentacji</link>
+            <guid>#30 Tech Writer radzi sobie ze sprzężeniem zwrotnym, czyli feedback do dokumentacji</guid>
+            <pubDate>Wed, 19 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Naszą dokumentację możemy poprawić tylko wtedy jeśli wiemy jakie kryją się w niej problemy. Warto zbierać i analizować dane od użytkowników, a przede wszystkim pytać ich o opinię. Nie jest to bynajmniej proste zadanie, dlatego połączyliśmy siły z Rafałem Pawlickim, żeby porozmawiać o celach, sposobach, wyzwaniach i dobrych praktykach związanych z procesem zbierania informacji na temat dokumentacji od użytkowników. Staramy się też odpowiedzieć na odwieczne pytanie - jaki jest najlepszy polski odpowiednik słowa "feedback"?]]></description>
+        </item>
         <item>
             <title><![CDATA[#29 Tech Writer koduje według dobrych praktyk]]></title>
             <link>https://techwriterkoduje.pl/blog/2021/04/08/tech-writer-koduje-wedlug-dobrych-praktyk</link>

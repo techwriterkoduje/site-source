@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://techwriterkoduje.pl/blog</id>
     <title>Tech Writer koduje Blog</title>
-    <updated>2021-04-08T00:00:00.000Z</updated>
+    <updated>2021-05-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://techwriterkoduje.pl/blog"/>
     <subtitle>Tech Writer koduje Blog</subtitle>
     <icon>https://techwriterkoduje.pl/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[#30 Tech Writer radzi sobie ze sprzężeniem zwrotnym, czyli feedback do dokumentacji]]></title>
+        <id>#30 Tech Writer radzi sobie ze sprzężeniem zwrotnym, czyli feedback do dokumentacji</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/05/19/feedback-do-dokumentacji"/>
+        <updated>2021-05-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Naszą dokumentację możemy poprawić tylko wtedy jeśli wiemy jakie kryją się w niej problemy. Warto zbierać i analizować dane od użytkowników, a przede wszystkim pytać ich o opinię. Nie jest to bynajmniej proste zadanie, dlatego połączyliśmy siły z Rafałem Pawlickim, żeby porozmawiać o celach, sposobach, wyzwaniach i dobrych praktykach związanych z procesem zbierania informacji na temat dokumentacji od użytkowników. Staramy się też odpowiedzieć na odwieczne pytanie - jaki jest najlepszy polski odpowiednik słowa "feedback"?]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[#29 Tech Writer koduje według dobrych praktyk]]></title>
         <id>#29 Tech Writer koduje według dobrych praktyk</id>
