@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://techwriterkoduje.pl/blog</id>
     <title>Tech Writer koduje Blog</title>
-    <updated>2021-05-19T00:00:00.000Z</updated>
+    <updated>2021-07-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://techwriterkoduje.pl/blog"/>
     <subtitle>Tech Writer koduje Blog</subtitle>
     <icon>https://techwriterkoduje.pl/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[#31 Prosty jak budowa cepa, czyli Tech Writer tworzy generator stron statycznych]]></title>
+        <id>#31 Prosty jak budowa cepa, czyli Tech Writer tworzy generator stron statycznych</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/07/03/prosty-jak-budowa-cepa"/>
+        <updated>2021-07-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Generatorów stron statycznych jest całkiem sporo. Jednak nie jest to powód, dla którego Tech Writer miałby zrezygnować ze stworzenia swojego. A że technoskryba z natury lubi prostotę i przejrzystość to generator też musi mieć takie cechy. Rozmawiamy o tym dlaczego zdecydowaliśmy się na stworzenie własnego rozwiązania, jakiej technologii użyliśmy, co nam to dało i czy było to warte zachodu.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[#30 Tech Writer radzi sobie ze sprzężeniem zwrotnym, czyli feedback do dokumentacji]]></title>
         <id>#30 Tech Writer radzi sobie ze sprzężeniem zwrotnym, czyli feedback do dokumentacji</id>
