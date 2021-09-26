@@ -12,22 +12,30 @@ module.exports = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'Tech Writer koduje',
+      style: 'dark',
       logo: {
         alt: 'Logo',
-        src: 'img/logo-square.png',
+        src: 'img/t-icon.png',
       },
       items: [
-        { to: 'blog', label: 'Posłuchaj', position: 'right' },
-        { to: 'read', label: 'Poczytaj', position: 'right' },
-        { to: 'watch', label: 'Pooglądaj', position: 'right' },
-        { to: 'projects', label: 'Projekty', position: 'right' },
-        { to: 'contact', label: 'Kontakt', position: 'right' },
+        {
+          type: 'dropdown',
+          label: 'Nawigacja',
+          position: 'left',
+          items: [
+            { to: '/', label: 'Start' },
+            { to: 'blog', label: 'Posłuchaj' },
+            { to: 'read', label: 'Poczytaj' },
+            { to: 'watch', label: 'Pooglądaj' },
+            { to: 'projects', label: 'Projekty' },
+            { to: 'contact', label: 'Kontakt' },
+          ],
+        },
       ],
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} Tech Writer koduje</br></br>Logo stworzone przez rad89`,
+      copyright: `Copyright © ${new Date().getFullYear()} Tech Writer koduje</br></br>Logo stworzone przez mojk`,
     },
   },
   presets: [
@@ -41,6 +49,7 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: 'Ostatnie wpisy',
           editUrl:
             'https://github.com/techwriterkoduje/site-source/tree/master/website/',
         },

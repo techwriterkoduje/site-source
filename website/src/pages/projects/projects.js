@@ -1,13 +1,11 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import Features from '../../components/features';
-import Header from '../../components/header';
-import Title from '../../components/title';
+import Desktop from '../../components/desktop/desktop';
 
-const features = [
+const files = [
   {
-    title: <>Semantyczne testy w DITA (Python)</>,
-    imageUrl: 'img/semantics.png',
+    title: 'Semantyczne testy w DITA (Python)',
+    thumb: 'python',
     description: (
       <>
         Semantyczne tagi w standardzie DITA pozwalają na na pisanie bardzo
@@ -22,8 +20,8 @@ const features = [
     },
   },
   {
-    title: <>Statyczna strona z dokumentacja do wielu API (Next.js + Redoc)</>,
-    imageUrl: 'img/next-redoc.png',
+    title: 'Statyczna strona z dokumentacja do wielu API (Next.js + Redoc)',
+    thumb: 'js',
     description: (
       <>
         Zobacz przykład strony, która wyświetla zbiór specyfikacji OpenAPI.
@@ -38,8 +36,8 @@ const features = [
     },
   },
   {
-    title: <>Źródło tej strony (Docusaurus)</>,
-    imageUrl: 'img/website.png',
+    title: 'Źródło tej strony (Docusaurus)',
+    thumb: 'js',
     description: (
       <>
         Podoba Ci się nasza strona? Chcesz stworzyć podobną? Strona opiera się o
@@ -58,16 +56,7 @@ const features = [
 export default function Projects() {
   return (
     <Layout title="Projekty" description="Przykładowe projekty na GihHubie">
-      <Header>
-        <Title
-          lines={[{ label: 'projekty', style: 'shadow', lineStyle: 'cubed' }]}
-        />
-      </Header>
-      <main>
-        <div className="container">
-          <Features features={features} />
-        </div>
-      </main>
+      <Desktop title="Projekty" files={files} />
     </Layout>
   );
 }

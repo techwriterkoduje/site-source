@@ -1,118 +1,44 @@
-@media screen and (max-width: 966px) {
-  div.buttons,
-  div.hostAvatars,
-  div.shoutOutBadges {
-    display: block;
-    text-align: center;
-  }
-
-  img.bannerImage {
-    display: block;
-    width: 90%;
-    margin: 1rem auto;
-  }
-
-  div.titleContainer {
-    display: none;
-  }
-}
-
-.pageSubtitle {
-  font-family: 'Press Start 2P', cursive;
-}
-
-.platformLinksTitle {
-  padding-top: 32px;
-  text-align: center;
-}
-
 .buttons {
-  display: grid;
-  grid-template-columns: auto auto;
-  align-items: center;
-  justify-content: center;
-  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  width: fit-content;
+  margin: auto;
+  padding: 16px;
+}
+
+@keyframes smoothHover {
+  from {
+    background-color: var(--ifm-color-primary);
+    color: white;
+  }
 }
 
 .subscribeButton {
-  display: inline-block;
-  display: inline-block;
-  position: relative;
-  text-align: center;
-  padding: 16px;
-  min-width: 200px;
-  max-width: 300px;
-  margin: 12px;
-  background-color: var(--orange-brand);
-  color: black;
+  padding: 4px 6px;
+  background-color: var(--ifm-color-primary);
+  color: white;
 }
 
 .subscribeButton:hover {
-  color: black;
-  border: 1px solid black;
-}
-
-.hosts {
-  background-color: var(--brand-dark);
-  color: var(--brand-light);
-  padding-top: 64px;
-  padding-bottom: 32px;
-}
-
-.hosts h2,
-.shoutOuts h2 {
-  text-align: center;
-  padding-bottom: 32px;
-}
-
-.hostAvatars {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding-bottom: 32px;
-}
-
-.hostAvatar {
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-
-.hostImage {
-  border-radius: 50%;
-  width: 270px;
-}
-
-.hostName {
-  font-weight: 600;
-  font-size: 1.2rem;
-  padding-bottom: 16px;
-}
-
-.shoutOutBadges img {
-  min-width: 200px;
+  animation: smoothHover;
+  animation-duration: 1s;
+  background-color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary);
+  text-decoration: none;
 }
 
 .aboutUs {
-  max-width: 600px;
-  margin: auto;
-}
-
-.shoutOuts {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 10%;
 }
 
 .shoutOutBadges {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .shoutOutBadges img {
   min-width: 200px;
-}
-
-.bannerImage {
-  display: none;
 }

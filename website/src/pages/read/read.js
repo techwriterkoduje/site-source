@@ -1,13 +1,11 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import Features from '../../components/features';
-import Header from '../../components/header';
-import Title from '../../components/title';
+import Desktop from '../../components/desktop/desktop';
 
-const features = [
+const files = [
   {
-    title: <>Tech Writer koduje w Pythonie. Przewodnik szybkiego startu.</>,
-    imageUrl: 'img/python.png',
+    title: 'Tech Writer koduje w Pythonie. Przewodnik szybkiego startu.',
+    thumb: 'python',
     description: (
       <>
         Jako Tech Writer, możesz zrobić bardzo dużo przy użyciu odrobiny
@@ -22,8 +20,8 @@ const features = [
     },
   },
   {
-    title: <>Dokumentacja do oprogramowania. Poradnik dla managerów.</>,
-    imageUrl: 'img/managers.png',
+    title: 'Dokumentacja do oprogramowania. Poradnik dla managerów.',
+    thumb: 'doc',
     description: (
       <>
         Ta książka została napisana z myślą o osobach odpowiedzialnych za
@@ -34,8 +32,7 @@ const features = [
       </>
     ),
     actionLink: {
-      to:
-        'https://pensjonatus.github.io/dokumentacja-do-oprogramowania/docs/przedslowie',
+      to: 'https://pensjonatus.github.io/dokumentacja-do-oprogramowania/docs/przedslowie',
       label: 'Czytaj książkę',
       external: true,
     },
@@ -48,16 +45,7 @@ export default function Read() {
       title="Poczytaj"
       description="Artykuły i poradniki dla Tech Writerów"
     >
-      <Header>
-        <Title
-          lines={[{ label: 'poczytaj', style: 'shadow', lineStyle: 'cubed' }]}
-        />
-      </Header>
-      <main>
-        <div className="container">
-          <Features features={features} />
-        </div>
-      </main>
+      <Desktop title="poczytaj" files={files} />
     </Layout>
   );
 }

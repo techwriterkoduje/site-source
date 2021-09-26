@@ -1,0 +1,11 @@
+.supportLinks {
+  padding-top: 32px;
+}
+
+.supportLinks h3 {
+  color: var(--ifm-color-primary);
+}
+
+.supportLinks a {
+  color: var(--ifm-color-primary-lightest);
+}

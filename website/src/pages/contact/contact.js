@@ -1,9 +1,8 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
-import styles from './styles.module.css';
-import Header from '../../components/header';
-import Title from '../../components/title';
+import styles from './contact.module.css';
+import Desktop from '../../components/desktop/desktop';
 
 const supportLinks = [
   {
@@ -19,7 +18,7 @@ const supportLinks = [
 
 function SupportLink({ title, links }) {
   return (
-    <section className="col">
+    <div>
       <h3>{title}</h3>
       {links && links.length > 0 && (
         <div>
@@ -32,37 +31,31 @@ function SupportLink({ title, links }) {
           ))}
         </div>
       )}
-    </section>
+    </div>
   );
 }
 
 function Contact() {
   return (
     <Layout>
-      <Header>
-        <Title
-          lines={[{ label: 'kontakt', style: 'bold', lineStyle: 'cubed' }]}
-        />
-      </Header>
-      <div className={clsx('container', styles.contactPage)}>
-        <section>
-          <h2>Skontaktuj się z nami!</h2>
+      <Desktop
+        title="Skontaktuj się z nami!"
+        subtitle={
           <p>
             Chcesz nam coś przekazać? Masz pytanie lub sugestię? Może masz
             pomysł na odcinek podcasta albo chcesz być gościem naszej audycji?
             Po prostu napisz do nas.
           </p>
-          {supportLinks && supportLinks.length > 0 && (
-            <div className="container">
-              <div className="row">
-                {supportLinks.map((props, idx) => (
-                  <SupportLink key={idx} {...props} />
-                ))}
-              </div>
-            </div>
-          )}
-        </section>
-      </div>
+        }
+      >
+        {supportLinks && supportLinks.length > 0 && (
+          <div className={styles.supportLinks}>
+            {supportLinks.map((props, idx) => (
+              <SupportLink key={idx} {...props} />
+            ))}
+          </div>
+        )}
+      </Desktop>
     </Layout>
   );
 }

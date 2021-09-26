@@ -1,0 +1,25 @@
+.hostAvatars {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.hostAvatar {
+  max-width: 300px;
+}
+
+.hostImage {
+  width: 128px;
+  height: 128px;
+}
+
+.hostName {
+  font-weight: 700;
+}
+
+.hostDescription {
+  font-size: 0.8rem;
+  color: gray;
+}
