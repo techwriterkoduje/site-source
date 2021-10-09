@@ -15,7 +15,7 @@ module.exports = {
       title: 'Tech Writer koduje',
       logo: {
         alt: 'Logo',
-        src: 'img/logo-square.png',
+        src: 'img/play.png',
       },
       items: [
         { to: 'blog', label: '.posłuchaj()', position: 'right' },
