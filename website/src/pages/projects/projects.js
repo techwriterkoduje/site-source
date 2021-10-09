@@ -32,7 +32,6 @@ const features = [
     actionLink: {
       to: 'https://github.com/techwriterkoduje/next-js-redoc',
       label: 'Dokumentuj API',
-      external: true,
     },
   },
   {
@@ -48,7 +47,6 @@ const features = [
     actionLink: {
       to: 'https://github.com/techwriterkoduje',
       label: 'Zainspiruj się',
-      external: true,
     },
   },
 ];

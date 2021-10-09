@@ -2,6 +2,7 @@ import React from 'react';
 import cx from 'clsx';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 import Features from '../components/features';
 
@@ -26,7 +27,7 @@ const subscribeLinks = [
 
 const features = [
   {
-    title: <>Posłuchaj</>,
+    title: <>.posłuchaj()</>,
     imageUrl: 'img/listen.png',
     description: (
       <>
@@ -52,7 +53,7 @@ const features = [
     },
   },
   {
-    title: <>Poczytaj</>,
+    title: <>.poczytaj()</>,
     imageUrl: 'img/read.png',
     description: (
       <>
@@ -68,7 +69,7 @@ const features = [
     },
   },
   {
-    title: <>Pooglądaj</>,
+    title: <>.pooglądaj()</>,
     imageUrl: 'img/watch.png',
     description: (
       <>
@@ -86,14 +87,9 @@ const features = [
 
 function SubscribeButton({ to, label }) {
   return (
-    <a
-      className={cx(styles.subscribeButton, 'pixelButton')}
-      href={to}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <Link className="brandButton" href={to}>
       {label}
-    </a>
+    </Link>
   );
 }
 

@@ -27,4 +27,4 @@ Co można jeszcze zrobić za pomocą web scrapingu? Jakie inne testy są potrzeb
 świecie dokumentacji technicznej i pisania ustrukturyzowanego? Zapraszamy do
 słuchania.
 
-<a class="listenButton pixelButton" href="https://anchor.fm/docdeveloper/episodes/21-Tech-Writer-zbiera-informacje-ze-stron--czyli-jak-mona-wykorzysta-web-scraping-ejj0ah/a-a375vf3" target="_blank" rel="noopener noreferrer">Posłuchaj</a>
+<a class="brandButton" href="https://anchor.fm/docdeveloper/episodes/21-Tech-Writer-zbiera-informacje-ze-stron--czyli-jak-mona-wykorzysta-web-scraping-ejj0ah/a-a375vf3" target="_blank" rel="noopener noreferrer">.posłuchaj()</a>

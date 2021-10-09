@@ -11,4 +11,4 @@ Writerem rozmawiamy z Marcinem Sędłakiem-Jakubowskim z firmy GitLab. Pytamy o
 procesy, narzędzia, budowanie relacji i staramy się ustalić czy jest w tym
 wszystkim jakiś haczyk.
 
-<a class="listenButton pixelButton" href="https://anchor.fm/docdeveloper/episodes/19-Tech-Writer-pracuje-zdalnie--czyli-jak-to-sie-robi-w-GitLabie-eg8gis/a-a2lebnu" target="_blank" rel="noopener noreferrer">Posłuchaj</a>
+<a class="brandButton" href="https://anchor.fm/docdeveloper/episodes/19-Tech-Writer-pracuje-zdalnie--czyli-jak-to-sie-robi-w-GitLabie-eg8gis/a-a2lebnu" target="_blank" rel="noopener noreferrer">.posłuchaj()</a>

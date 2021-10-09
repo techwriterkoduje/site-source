@@ -16,4 +16,4 @@ dostępnej na stronie <https://dominik-braun.net>, udostępnianej na podstawie
 licencji
 [Creative Commons license CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._
 
-<a class="listenButton pixelButton" href="https://anchor.fm/docdeveloper/episodes/31-Prosty-jak-budowa-cepa--czyli-Tech-Writer-tworzy-generator-stron-statycznych-e13oj0o" target="_blank" rel="noopener noreferrer">Posłuchaj</a>
+<a class="brandButton" href="https://anchor.fm/docdeveloper/episodes/31-Prosty-jak-budowa-cepa--czyli-Tech-Writer-tworzy-generator-stron-statycznych-e13oj0o" target="_blank" rel="noopener noreferrer">.posłuchaj()</a>

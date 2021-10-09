@@ -49,15 +49,7 @@
 
 .actionBar {
   padding-top: 16px;
-}
-
-.actionButton {
-  display: block;
-  padding: 16px;
-  margin-top: 32px;
-  text-align: center;
-}
-
-.external {
-  background: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

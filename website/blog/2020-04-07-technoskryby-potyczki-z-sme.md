@@ -10,4 +10,4 @@ Matter Expert (SME) jest niedostępny? A co jeśli dwóch SME nie może się zgo
 co jest najważniejsze? Rozmawiamy z Mateuszem Boryckim, który przynosi cztery
 prawdziwe historie (case studies) z życia Technical Writera.
 
-<a class="listenButton pixelButton" href="https://anchor.fm/docdeveloper/episodes/15-Technoskryby-potyczki-z-SME--czyli-jak-zdobywa-informacje-potrzebne-do-tworzenia-dokumentacji-ecel9n/a-a1sf1um" target="_blank" rel="noopener noreferrer">Posłuchaj</a>
+<a class="brandButton" href="https://anchor.fm/docdeveloper/episodes/15-Technoskryby-potyczki-z-SME--czyli-jak-zdobywa-informacje-potrzebne-do-tworzenia-dokumentacji-ecel9n/a-a1sf1um" target="_blank" rel="noopener noreferrer">.posłuchaj()</a>

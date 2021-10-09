@@ -11,4 +11,4 @@ językiem programowania. Spora dawka wiedzy dla początkujących Pythonistów. A
 jeśli kodujesz w Pythonie od jakiegoś czasu i chcesz się upewnić, że stosujesz
 dobre praktyki, to ten odcinek jest też dla Ciebie.
 
-<a class="listenButton pixelButton" href="https://anchor.fm/docdeveloper/episodes/14-Tech-Writer-zaczyna-kodowa-w-Pythonie--czyli-o-narzdziach-i-dobrych-praktykach-ebrd81/a-a1oq0t8" target="_blank" rel="noopener noreferrer">Posłuchaj</a>
+<a class="brandButton" href="https://anchor.fm/docdeveloper/episodes/14-Tech-Writer-zaczyna-kodowa-w-Pythonie--czyli-o-narzdziach-i-dobrych-praktykach-ebrd81/a-a1oq0t8" target="_blank" rel="noopener noreferrer">.posłuchaj()</a>

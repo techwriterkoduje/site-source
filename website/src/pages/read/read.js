@@ -34,7 +34,6 @@ const features = [
     actionLink: {
       to: 'https://pensjonatus.github.io/dokumentacja-do-oprogramowania/docs/przedslowie',
       label: 'Czytaj książkę',
-      external: true,
     },
   },
 ];
