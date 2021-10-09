@@ -14,9 +14,9 @@
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.4",
     "@docusaurus/preset-classic": "2.0.0-beta.4",
+    "@docusaurus/theme-search-algolia": "^2.0.0-beta.6",
     "@mdx-js/react": "^1.5.8",
     "clsx": "^1.1.1",
-    "docusaurus-lunr-search": "^2.1.6",
     "jshint": "^2.11.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
@@ -35,13 +35,7 @@
     ]
   },
   "devDependencies": {
-    "husky": "^4.3.0",
     "prettier": "^2.1.2",
     "pretty-quick": "^3.1.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
   }
 }

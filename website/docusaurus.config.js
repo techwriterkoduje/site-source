@@ -29,6 +29,11 @@ module.exports = {
       style: 'dark',
       copyright: `Copyright © ${new Date().getFullYear()} Tech Writer koduje</br></br>Logo stworzone przez rad89`,
     },
+    algolia: {
+      apiKey: '374ef9fe5ec6f4673b8bd853ebff193b',
+      indexName: 'techwriterkoduje',
+      contextualSearch: false,
+    },
   },
   presets: [
     [
@@ -50,5 +55,4 @@ module.exports = {
       },
     ],
   ],
-  plugins: [require.resolve('docusaurus-lunr-search')],
 };
