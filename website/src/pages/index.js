@@ -5,6 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 import Features from '../components/features';
+import Banner from '../components/banner/banner';
 
 const subscribeLinks = [
   {
@@ -136,9 +137,9 @@ const shoutOuts = [
 
 function ShoutOut({ imageUrl, link, label }) {
   return (
-    <a href={link} target="_blank" rel="noopener noreferrer">
+    <Link href={link} className={styles.shoutOutLink}>
       <img alt={label} src={imageUrl} />
-    </a>
+    </Link>
   );
 }
 
@@ -150,6 +151,7 @@ function Home() {
       title={`Witaj na stronie ${siteConfig.title}`}
       description="Polski podcast o technical writingu, technologiach i IT"
     >
+      <Banner initialCommand="koduje()" />
       <main>
         <Features features={features} />
         <section className={styles.hosts}>
