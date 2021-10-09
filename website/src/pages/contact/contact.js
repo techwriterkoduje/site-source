@@ -2,8 +2,6 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import styles from './styles.module.css';
-import Header from '../../components/header';
-import Title from '../../components/title';
 
 const supportLinks = [
   {
@@ -39,11 +37,6 @@ function SupportLink({ title, links }) {
 function Contact() {
   return (
     <Layout>
-      <Header>
-        <Title
-          lines={[{ label: 'kontakt', style: 'bold', lineStyle: 'cubed' }]}
-        />
-      </Header>
       <div className={clsx('container', styles.contactPage)}>
         <section>
           <h2>Skontaktuj się z nami!</h2>

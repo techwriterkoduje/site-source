@@ -4,8 +4,6 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
 import Features from '../components/features';
-import Title from '../components/title';
-import Header from '../components/header';
 
 const subscribeLinks = [
   {
@@ -156,23 +154,6 @@ function Home() {
       title={`Witaj na stronie ${siteConfig.title}`}
       description="Polski podcast o technical writingu, technologiach i IT"
     >
-      <Header>
-        <div className={styles.titleContainer}>
-          <Title
-            lines={[
-              { label: 'tech', style: 'bold', lineStyle: 'big' },
-              { label: 'writer', style: 'bold', lineStyle: 'mid' },
-              { label: 'koduje', style: 'shadow', lineStyle: 'cubed' },
-            ]}
-          />
-        </div>
-        <img
-          src="/img/banner-image.png"
-          alt="Tech writer koduje."
-          className={styles.bannerImage}
-        />
-        <p className={styles.pageSubtitle}>{siteConfig.tagline}</p>
-      </Header>
       <main>
         <Features features={features} />
         <section className={styles.hosts}>

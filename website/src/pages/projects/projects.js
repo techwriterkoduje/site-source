@@ -1,8 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Features from '../../components/features';
-import Header from '../../components/header';
-import Title from '../../components/title';
 
 const features = [
   {
@@ -58,11 +56,6 @@ const features = [
 export default function Projects() {
   return (
     <Layout title="Projekty" description="Przykładowe projekty na GihHubie">
-      <Header>
-        <Title
-          lines={[{ label: 'projekty', style: 'shadow', lineStyle: 'cubed' }]}
-        />
-      </Header>
       <main>
         <div className="container">
           <Features features={features} />

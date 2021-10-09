@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 :root {
   --footer-height: 175px;
@@ -10,13 +11,13 @@
   --brand-special: #4b4b4b;
   --brand-special-hover: #4e4e4e;
   /* Docusaurus vars */
-  --ifm-color-primary: var(--green-brand);
-  --ifm-color-primary-dark: #02bd27;
-  --ifm-color-primary-darker: #01991f;
-  --ifm-color-primary-darkest: #007016;
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #ec6858;
+  --ifm-color-primary-dark: #e94e3b;
+  --ifm-color-primary-darker: #e7412c;
+  --ifm-color-primary-darkest: #cc2b17;
+  --ifm-color-primary-light: #ef8275;
+  --ifm-color-primary-lighter: #f18f84;
+  --ifm-color-primary-lightest: #f6b7af;
   --ifm-code-font-size: 95%;
   /* end Docusaurus vars */
   --pixel-shadow: inset -4px -4px 0 0 #4aa52e, var(--pixel-shadow-flat);
