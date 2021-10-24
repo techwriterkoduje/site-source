@@ -6,7 +6,7 @@
   --footer-height: 175px;
   --header-height: 50px;
   --main-height: calc(100% - var(--header-height) - var(--footer-height));
-  --brand-dark: #21211f;
+  --brand-dark: #252322;
   --brand-light: #dadada;
   --brand-special: #4b4b4b;
   --brand-special-hover: #4e4e4e;

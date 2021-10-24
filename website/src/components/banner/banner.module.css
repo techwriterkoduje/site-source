@@ -1,69 +1,71 @@
-@media screen and (max-width: 966px) {
-  div.techWriter,
-  span.dot,
-  input.command {
-    font-size: 1.6rem;
-  }
-
-  div.form {
-    padding: 2rem 6px;
-  }
-}
-
 .wrapper {
-  background-color: var(--brand-dark);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-}
-
-.form {
-  --form-font-size: 4rem;
-  font-family: var(--brand-font);
-  display: flex;
-  flex-direction: column;
-  width: 800px;
-  max-width: 100%;
-  margin: auto;
-  padding: 64px 32px;
-}
-
-.techWriter {
-  font-size: var(--form-font-size);
+  padding: 64px 0;
+  background-color: var(--brand-dark);
   color: white;
 }
 
-.commandLine {
-  display: flex;
-}
-
-.dot {
-  display: inline;
-  color: var(--ifm-color-primary);
-  font-size: var(--form-font-size);
-}
-
-.command {
-  display: inline;
-  color: var(--ifm-color-primary);
-  font-family: var(--brand-font);
-  font-size: var(--form-font-size);
-  background-color: transparent;
-  border: none;
-}
-
-.result {
-  font-family: var(--brand-font);
-  height: var(--form-font-size);
-  overflow-y: scroll;
-  width: 1000px;
+.logo {
+  width: 300px;
   max-width: 100%;
-  margin: auto;
-  padding: 16px;
-  color: white;
 }
 
-.highlight {
-  color: var(--ifm-color-primary);
+.subtitle {
+  font-family: var(--brand-font);
+  font-size: 2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 700px;
+  max-width: 90%;
+  padding: 32px 0;
+}
+
+.button {
+  font-weight: 600;
+  text-align: center;
+  padding: 8px 12px;
+  color: white;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 4px;
+}
+
+a[target='_blank']::after {
+  display: none;
+}
+
+.button:hover {
+  color: white;
+  background-color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.pages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.pageButton {
+  padding: 6px 24px;
+  border-radius: 8px;
+  background-color: var(--ifm-color-primary);
+  color: var(--brand-light);
+  font-weight: 600;
+}
+
+.pageButton:hover {
+  color: var(--brand-light);
+  background-color: var(--ifm-color-primary-darkest);
+  text-decoration: none;
 }

@@ -1,62 +1,75 @@
-import React, { useState } from 'react';
-import styles from './banner.module.css';
-import { Redirect } from '@docusaurus/router';
+import React from 'react';
+import styles from './Banner.module.css';
+import logo from './logo.png';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-const redirectMap = {
-  'słucha()': '/blog',
-  'czyta()': '/read',
-  'ogląda()': '/watch',
-  Projekty: '/projects',
-  Kontakt: '/contact',
-};
+const subscribeLinks = [
+  {
+    to: 'https://anchor.fm/docdeveloper/',
+    label: 'Anchor.fm',
+  },
+  {
+    to: 'https://open.spotify.com/show/2jhQ1Z1nAOY686RVok7O9I',
+    label: 'Spotify',
+  },
+  {
+    to: 'https://player.fm/series/tech-writer-koduje',
+    label: 'Player.fm',
+  },
+  {
+    to: 'https://podcasts.apple.com/us/podcast/tech-writer-koduje/id1463669718?uo=4',
+    label: 'Apple Podcasts',
+  },
+  {
+    to: 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy84YWZiYTljL3BvZGNhc3QvcnNz',
+    label: 'Google Podcasts',
+  },
+  {
+    to: 'https://overcast.fm/itunes1463669718/tech-writer-koduje',
+    label: 'Overcast',
+  },
+  {
+    to: 'https://www.breaker.audio/tech-writer-koduje',
+    label: 'Breaker',
+  },
+  {
+    to: 'https://pca.st/H7El',
+    label: 'Pocket Casts',
+  },
+  {
+    to: 'https://radiopublic.com/tech-writer-koduje-6nM7mE',
+    label: 'RadioPublic',
+  },
+  {
+    to: 'https://anchor.fm/s/8afba9c/podcast/rss',
+    label: 'RSS',
+  },
+];
 
-const responseMap = {
-  prowadzący: <div>Lista prowadzących: Michał Skowron, Paweł Kowaluk</div>,
-};
-
-export default function Banner({ initialCommand }) {
-  const [command, setCommand] = useState(initialCommand);
-  const [result, setResult] = useState(undefined);
-
-  function runCommand(event) {
-    event.preventDefault();
-
-    if (redirectMap[command]) {
-      console.log('Bingo!', redirectMap[command]);
-      setResult(function () {
-        return <Redirect to={redirectMap[command]} />;
-      });
-    } else if (responseMap[command]) {
-      setResult(function () {
-        return responseMap[command];
-      });
-    } else {
-      setResult(function () {
-        return (
-          <div>
-            <span className={styles.highlight}>{command}</span> is not a
-            function.
-          </div>
-        );
-      });
-    }
-  }
+export default function Banner() {
+  const { siteConfig } = useDocusaurusContext();
+  console.log(siteConfig);
+  const pages = siteConfig.themeConfig.navbar.items;
 
   return (
     <div className={styles.wrapper}>
-      <form className={styles.form} onSubmit={runCommand}>
-        <div className={styles.techWriter}>TechWriter</div>
-        <div className={styles.commandLine}>
-          <span className={styles.dot}>.</span>
-          <input
-            type="text"
-            value={command}
-            onChange={(e) => setCommand(e.target.value)}
-            className={styles.command}
-          />
-        </div>
-        <div className={styles.result}>{result}</div>
-      </form>
+      <div className={styles.subtitle}>Podcast</div>
+      <img src={logo} alt="tech writer koduje" className={styles.logo} />
+      <div className={styles.buttons}>
+        {subscribeLinks.map(({ to, label }) => (
+          <Link to={to} className={styles.button}>
+            {label}
+          </Link>
+        ))}
+      </div>
+      <div className={styles.pages}>
+        {pages.map(({ to, label }) => (
+          <Link to={to} className={styles.pageButton}>
+            {label}
+          </Link>
+        ))}
+      </div>
     </div>
   );
 }

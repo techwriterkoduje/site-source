@@ -1,0 +1,43 @@
+.wrapper {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.shoutOutTitle {
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.shoutOutBadges {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  justify-items: center;
+  max-width: 1200px;
+  margin: auto;
+  row-gap: 24px;
+}
+
+.shoutOutLink {
+  border: 3px dotted var(--brand-light);
+  width: 200px;
+  max-width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shoutOutLink::after {
+  content: none !important;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(1);
+  }
+}
+
+.shoutOutLink:hover {
+  transform: scale(1.1);
+  animation: grow 0.6s;
+}

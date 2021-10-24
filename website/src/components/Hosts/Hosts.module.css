@@ -1,0 +1,42 @@
+.wrapper {
+  background-color: var(--brand-light);
+  padding-top: 64px;
+  padding-bottom: 32px;
+}
+
+.title {
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.body {
+  max-width: 600px;
+  margin: auto;
+}
+
+.hostAvatars {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hostAvatar {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.hostImage {
+  border-radius: 50%;
+  width: 170px;
+}
+
+.hostName {
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-bottom: 16px;
+}
+
+.aboutUs {
+  padding: 16px;
+}

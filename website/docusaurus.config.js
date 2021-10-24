@@ -18,9 +18,9 @@ module.exports = {
         src: 'img/play.png',
       },
       items: [
-        { to: 'blog', label: 'posłuchaj()', position: 'right' },
-        { to: 'read', label: 'poczytaj()', position: 'right' },
-        { to: 'watch', label: 'pooglądaj()', position: 'right' },
+        { to: 'blog', label: 'Odcinki', position: 'right' },
+        { to: 'read', label: 'Czytelnia', position: 'right' },
+        { to: 'watch', label: 'Filmiki', position: 'right' },
         { to: 'projects', label: 'Projekty', position: 'right' },
         { to: 'contact', label: 'Kontakt', position: 'right' },
       ],
