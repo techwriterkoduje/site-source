@@ -21,4 +21,6 @@ najlepiej osobno, a które w połączeniu? Które elementy może sprawdzać auto
 które powinny być weryfikowane przez człowieka? Posłuchajcie, a potem dajcie nam
 znać jakie Wy macie sposoby i pomysły na mierzenie jakości dokumentacji.
 
-<a class="brandButton" href="https://anchor.fm/docdeveloper/episodes/23-Tech-Writer-mierzy-jako-dokumentacji--czyli-co-i-jak-sprawdza-emralt" target="_blank" rel="noopener noreferrer">.posłuchaj()</a>
+import AnchorEmbed from '@site/src/components/AnchorEmbed';
+
+<AnchorEmbed episodeId="23-Tech-Writer-mierzy-jako-dokumentacji--czyli-co-i-jak-sprawdza-emralt" />

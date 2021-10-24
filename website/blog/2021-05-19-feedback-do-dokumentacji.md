@@ -18,4 +18,6 @@ dostępnej na stronie <https://dominik-braun.net>, udostępnianej na podstawie
 licencji
 [Creative Commons license CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._
 
-<a class="brandButton" href="https://anchor.fm/docdeveloper/episodes/30-Tech-Writer-radzi-sobie-ze-sprzeniem-zwrotnym--czyli-feedback-do-dokumentacji-e111ole" target="_blank" rel="noopener noreferrer">.posłuchaj()</a>
+import AnchorEmbed from '@site/src/components/AnchorEmbed';
+
+<AnchorEmbed episodeId="30-Tech-Writer-radzi-sobie-ze-sprzeniem-zwrotnym--czyli-feedback-do-dokumentacji-e111ole" />

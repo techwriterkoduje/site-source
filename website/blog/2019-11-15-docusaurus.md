@@ -8,4 +8,6 @@ zaletą jest prostota. Rozmawiamy o tym co oferuje to narzędzie, jakie są jego
 mocne i słabe strony oraz w jakich sytuacjach może się sprawdzić jako
 rozwiązanie do tworzenia dokumentacji.
 
-<a class="brandButton" href="https://anchor.fm/docdeveloper/episodes/10-Docusaurus---Tech-Writer-dokarmia-dinozaury-e90qfr/a-a11llqb" target="_blank" rel="noopener noreferrer">.posłuchaj()</a>
+import AnchorEmbed from '@site/src/components/AnchorEmbed';
+
+<AnchorEmbed episodeId="10-Docusaurus---Tech-Writer-dokarmia-dinozaury-e90qfr/a-a11llqb" />

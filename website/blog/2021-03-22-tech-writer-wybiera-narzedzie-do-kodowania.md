@@ -20,4 +20,6 @@ dostępnej na stronie <https://dominik-braun.net>, udostępnianej na podstawie
 licencji
 [Creative Commons license CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._
 
-<a class="brandButton" href="https://anchor.fm/docdeveloper/episodes/28-Tech-Writer-wybiera-narzdzie-do-kodowania--czyli-VS-Code-kontra-IntelliJ-IDEA-et3pcm" target="_blank" rel="noopener noreferrer">.posłuchaj()</a>
+import AnchorEmbed from '@site/src/components/AnchorEmbed';
+
+<AnchorEmbed episodeId="28-Tech-Writer-wybiera-narzdzie-do-kodowania--czyli-VS-Code-kontra-IntelliJ-IDEA-et3pcm" />

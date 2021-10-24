@@ -20,4 +20,6 @@ dostępnej na stronie <https://dominik-braun.net>, udostępnianej na podstawie
 licencji
 [Creative Commons license CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._
 
-<a class="brandButton" href="https://anchor.fm/docdeveloper/episodes/34-Tech-Writer-dokumentuje--testuje--koduje--lokalizuje-i-projektuje--czyli-czowiek-renesansu-w-dokumentacji-e16q3at" target="_blank" rel="noopener noreferrer">.posłuchaj()</a>
+import AnchorEmbed from '@site/src/components/AnchorEmbed';
+
+<AnchorEmbed episodeId="34-Tech-Writer-dokumentuje--testuje--koduje--lokalizuje-i-projektuje--czyli-czowiek-renesansu-w-dokumentacji-e16q3at" />

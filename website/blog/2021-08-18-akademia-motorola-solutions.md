@@ -19,4 +19,6 @@ dostępnej na stronie <https://dominik-braun.net>, udostępnianej na podstawie
 licencji
 [Creative Commons license CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._
 
-<a class="brandButton" href="https://anchor.fm/docdeveloper/episodes/33-Kodowa-kady-moe--czyli-o-Akademii-Motorola-Solutions-sw-kilka-e161nnu" target="_blank" rel="noopener noreferrer">.posłuchaj()</a>
+import AnchorEmbed from '@site/src/components/AnchorEmbed';
+
+<AnchorEmbed episodeId="33-Kodowa-kady-moe--czyli-o-Akademii-Motorola-Solutions-sw-kilka-e161nnu" />

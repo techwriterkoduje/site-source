@@ -10,4 +10,6 @@ Rozmawiamy z Tomkiem Prusem o blaskach i cieniach rekrutowania Technical
 Writerów starając się odpowiedzieć na pytanie jak ważne w naszej profesji są
 umiejętności techniczne.
 
-<a class="brandButton" href="https://anchor.fm/docdeveloper/episodes/12-Tech-Writer-si-rekrutuje--czyli-jak-wane-s-umiejtnoci-techniczne-ea9vra/a-a1b5e9o" target="_blank" rel="noopener noreferrer">.posłuchaj()</a>
+import AnchorEmbed from '@site/src/components/AnchorEmbed';
+
+<AnchorEmbed episodeId="12-Tech-Writer-si-rekrutuje--czyli-jak-wane-s-umiejtnoci-techniczne-ea9vra/a-a1b5e9o" />
