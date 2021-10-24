@@ -15,7 +15,8 @@
 
 .subtitle {
   font-family: var(--brand-font);
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
 .buttons {

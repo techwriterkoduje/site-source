@@ -49,7 +49,6 @@ const subscribeLinks = [
 
 export default function Banner() {
   const { siteConfig } = useDocusaurusContext();
-  console.log(siteConfig);
   const pages = siteConfig.themeConfig.navbar.items;
 
   return (
@@ -58,14 +57,14 @@ export default function Banner() {
       <img src={logo} alt="tech writer koduje" className={styles.logo} />
       <div className={styles.buttons}>
         {subscribeLinks.map(({ to, label }) => (
-          <Link to={to} className={styles.button}>
+          <Link to={to} className={styles.button} key={label}>
             {label}
           </Link>
         ))}
       </div>
       <div className={styles.pages}>
         {pages.map(({ to, label }) => (
-          <Link to={to} className={styles.pageButton}>
+          <Link to={to} className={styles.pageButton} key={label}>
             {label}
           </Link>
         ))}

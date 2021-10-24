@@ -5,7 +5,7 @@ export default function AnchorEmbed({ episodeId }) {
   return (
     <iframe
       src={`https://anchor.fm/docdeveloper/embed/episodes/${episodeId}`}
-      frameborder="0"
+      frameBorder="0"
       scrolling="no"
       className={styles.iframe}
     ></iframe>

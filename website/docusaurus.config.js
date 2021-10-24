@@ -7,6 +7,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'techwriterkoduje', // Usually your GitHub org/user name.
   projectName: 'site-source', // Usually your repo name.
+  i18n: { defaultLocale: 'pl', locales: ['pl'] },
   themeConfig: {
     colorMode: {
       disableSwitch: true,
@@ -48,6 +49,10 @@ module.exports = {
           showReadingTime: true,
           editUrl:
             'https://github.com/techwriterkoduje/site-source/tree/master/website/',
+          blogSidebarTitle: 'Najnowsze posty',
+          feedOptions: {
+            type: 'all',
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
