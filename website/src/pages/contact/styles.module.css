@@ -1,7 +1,20 @@
-.contactPage {
-  padding-top: 64px;
-  padding-bottom: 64px;
+.hero {
 }
 
-.supportLinks {
+.contactPage {
+  padding: 64px 16px;
+  width: 800px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.envelope {
+  fill: var(--ifm-color-primary);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
 }
