@@ -1,6 +1,5 @@
 import React from 'react';
-import styles from './Banner.module.css';
-import logo from './logo.png';
+import styles from './SubscribeButtons.module.css';
 import Link from '@docusaurus/Link';
 
 const subscribeLinks = [
@@ -46,12 +45,14 @@ const subscribeLinks = [
   },
 ];
 
-export default function Banner() {
+export default function SubscribeButtons() {
   return (
-    <div className={styles.wrapper}>
-      <div className={styles.subtitle}>Podcast</div>
-      <img src={logo} alt="tech writer koduje" className={styles.logo} />
-      
+    <div className={styles.buttons}>
+      {subscribeLinks.map(({ to, label }) => (
+        <Link to={to} className={styles.button} key={label}>
+          {label}
+        </Link>
+      ))}
     </div>
   );
 }
