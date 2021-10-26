@@ -1,12 +1,12 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Banner from '../components/Banner';
-import Hosts from '../components/Hosts/Hosts';
-import ShoutOuts from '../components/ShoutOuts/ShoutOuts';
-import Latest from '../components/Latest';
-import SubscribeButtons from '../components/SubscribeButtons/SubscribeButtons';
-import GetInTouch from '../components/GetInTouch';
+import Banner from '@site/src/components/Banner';
+import Hosts from '@site/src/components/Hosts/Hosts';
+import ShoutOuts from '@site/src/components/ShoutOuts/ShoutOuts';
+import Latest from '@site/src/components/Latest';
+import SubscribeButtons from '@site/src/components/SubscribeButtons/SubscribeButtons';
+import GetInTouch from '@site/src/components/GetInTouch';
 
 function Home() {
   const context = useDocusaurusContext();

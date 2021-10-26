@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import Features from '../../components/Features';
+import Features from '@site/src/components/Features';
 
 const features = [
   {
