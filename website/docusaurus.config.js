@@ -7,6 +7,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'techwriterkoduje', // Usually your GitHub org/user name.
   projectName: 'site-source', // Usually your repo name.
+  i18n: { defaultLocale: 'pl', locales: ['pl'] },
   themeConfig: {
     colorMode: {
       disableSwitch: true,
@@ -15,12 +16,12 @@ module.exports = {
       title: 'Tech Writer koduje',
       logo: {
         alt: 'Logo',
-        src: 'img/logo-square.png',
+        src: 'img/play.png',
       },
       items: [
-        { to: 'blog', label: 'Posłuchaj', position: 'right' },
-        { to: 'read', label: 'Poczytaj', position: 'right' },
-        { to: 'watch', label: 'Pooglądaj', position: 'right' },
+        { to: 'blog', label: 'Odcinki', position: 'right' },
+        { to: 'read', label: 'Czytelnia', position: 'right' },
+        { to: 'watch', label: 'Filmiki', position: 'right' },
         { to: 'projects', label: 'Projekty', position: 'right' },
         { to: 'contact', label: 'Kontakt', position: 'right' },
       ],
@@ -48,6 +49,10 @@ module.exports = {
           showReadingTime: true,
           editUrl:
             'https://github.com/techwriterkoduje/site-source/tree/master/website/',
+          blogSidebarTitle: 'Najnowsze posty',
+          feedOptions: {
+            type: 'all',
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -55,4 +60,5 @@ module.exports = {
       },
     ],
   ],
+  plugins: ['@docusaurus/plugin-ideal-image'],
 };

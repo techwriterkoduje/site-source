@@ -13,4 +13,6 @@ dokumentacją dla wielu API stworzonych przy pomocy specyfikacji OpenAPI.
 Zastanawiamy się też jak Next.js może nam się przydać kiedy piszemy dokumentację
 w standardzie DITA.
 
-<a class="listenButton pixelButton" href="https://anchor.fm/docdeveloper/episodes/22-Tech-Writer-buduje-dokumentacj-API--czyli-Next-js--ReDoc-i-OpenAPI-w-akcji-el3gk9" target="_blank" rel="noopener noreferrer">Posłuchaj</a>
+import AnchorEmbed from '@site/src/components/AnchorEmbed';
+
+<AnchorEmbed episodeId="22-Tech-Writer-buduje-dokumentacj-API--czyli-Next-js--ReDoc-i-OpenAPI-w-akcji-el3gk9" />

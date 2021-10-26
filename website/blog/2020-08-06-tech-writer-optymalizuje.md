@@ -11,4 +11,6 @@ performance. Zastanawiamy się co może zrobić w tej kwestii Tech Writer, a co
 musi wdrożyć programista lub inżynier DevOps. Wreszcie rozmawiamy o tym, że w
 dokumentacji performance to nie wszystko.
 
-<a class="listenButton pixelButton" href="https://anchor.fm/docdeveloper/episodes/20-Tech-Writer-optymalizuje--czyli-web-performance-w-dokumentacji-ehmto3/a-a2sk9l1" target="_blank" rel="noopener noreferrer">Posłuchaj</a>
+import AnchorEmbed from '@site/src/components/AnchorEmbed';
+
+<AnchorEmbed episodeId="20-Tech-Writer-optymalizuje--czyli-web-performance-w-dokumentacji-ehmto3/a-a2sk9l1" />

@@ -1,8 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import Features from '../../components/features';
-import Header from '../../components/header';
-import Title from '../../components/title';
+import Features from '../../components/Features';
 
 const features = [
   {
@@ -36,7 +34,6 @@ const features = [
     actionLink: {
       to: 'https://pensjonatus.github.io/dokumentacja-do-oprogramowania/docs/przedslowie',
       label: 'Czytaj książkę',
-      external: true,
     },
   },
 ];
@@ -47,11 +44,6 @@ export default function Read() {
       title="Poczytaj"
       description="Artykuły i poradniki dla Tech Writerów"
     >
-      <Header>
-        <Title
-          lines={[{ label: 'poczytaj', style: 'shadow', lineStyle: 'cubed' }]}
-        />
-      </Header>
       <main>
         <div className="container">
           <Features features={features} />

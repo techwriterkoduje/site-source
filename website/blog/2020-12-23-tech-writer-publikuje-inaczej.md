@@ -15,4 +15,6 @@ stworzyć API dla dokumentacji i serwować treść za pomocą endpointów? Rozwa
 czy takie rozwiązanie jest możliwe, czy ma sens i w jakich sytuacjach mogłoby
 się sprawdzić.
 
-<a class="listenButton pixelButton" href="https://anchor.fm/docdeveloper/episodes/24-Tech-Writer-publikuje-inaczej--czyli-API-do-dokumentacji-eo4j7f" target="_blank" rel="noopener noreferrer">Posłuchaj</a>
+import AnchorEmbed from '@site/src/components/AnchorEmbed';
+
+<AnchorEmbed episodeId="24-Tech-Writer-publikuje-inaczej--czyli-API-do-dokumentacji-eo4j7f" />

@@ -1,7 +1,5 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import Header from '../../components/header';
-import Title from '../../components/title';
 import styles from './styles.module.css';
 
 import semanticTesting from '@site/static/vid/dita_as_code_tcworld_02112020.mp4';
@@ -67,11 +65,6 @@ export default function Watch() {
       title="Pooglądaj"
       description="Wystąpienia, screencasty, webinary i inne przydatne filmiki dla Tech Writerów"
     >
-      <Header>
-        <Title
-          lines={[{ label: 'pooglądaj', style: 'shadow', lineStyle: 'cubed' }]}
-        />
-      </Header>
       <main>
         <div className="container">
           {videos.map((video, key) => (

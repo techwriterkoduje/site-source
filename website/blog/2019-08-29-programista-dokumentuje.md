@@ -13,4 +13,6 @@ o tym jak stać się elastycznym specjalistą od treśći i nie zamykać się w 
 oraz mierzymy się ze stereotypami związanymi z podejściem programistów do
 dokumentacji i z ich postrzeganiem roli Tech Writera. Posłuchajcie!
 
-<a class="listenButton pixelButton" href="https://anchor.fm/docdeveloper/episodes/7-Programista-dokumentuje--czyli-nowoczesny-technical-writing-e54pnt/a-aluh84" target="_blank" rel="noopener noreferrer">Posłuchaj</a>
+import AnchorEmbed from '@site/src/components/AnchorEmbed';
+
+<AnchorEmbed episodeId="7-Programista-dokumentuje--czyli-nowoczesny-technical-writing-e54pnt/a-aluh84" />

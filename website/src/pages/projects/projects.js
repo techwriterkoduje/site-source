@@ -1,8 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import Features from '../../components/features';
-import Header from '../../components/header';
-import Title from '../../components/title';
+import Features from '../../components/Features';
 
 const features = [
   {
@@ -34,7 +32,6 @@ const features = [
     actionLink: {
       to: 'https://github.com/techwriterkoduje/next-js-redoc',
       label: 'Dokumentuj API',
-      external: true,
     },
   },
   {
@@ -50,7 +47,6 @@ const features = [
     actionLink: {
       to: 'https://github.com/techwriterkoduje',
       label: 'Zainspiruj się',
-      external: true,
     },
   },
 ];
@@ -58,11 +54,6 @@ const features = [
 export default function Projects() {
   return (
     <Layout title="Projekty" description="Przykładowe projekty na GihHubie">
-      <Header>
-        <Title
-          lines={[{ label: 'projekty', style: 'shadow', lineStyle: 'cubed' }]}
-        />
-      </Header>
       <main>
         <div className="container">
           <Features features={features} />

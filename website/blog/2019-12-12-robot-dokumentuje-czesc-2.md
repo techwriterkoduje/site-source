@@ -10,4 +10,6 @@ marginalizacji "białkowych" tłumaczy. Jej doświadczenia doprowadziły nas do
 rozważań o przyszłości komunikacji technicznej. Czy przyszłość rysuje się
 optymistycznie dla Technical Writerów, czy raczej w ciemnych barwach?
 
-<a class="listenButton pixelButton" href="https://anchor.fm/docdeveloper/episodes/11-Robot-dokumentuje-cz-2---automatyzacja-kontra-ludzie-e9fvag/a-a15cigr" target="_blank" rel="noopener noreferrer">Posłuchaj</a>
+import AnchorEmbed from '@site/src/components/AnchorEmbed';
+
+<AnchorEmbed episodeId="11-Robot-dokumentuje-cz-2---automatyzacja-kontra-ludzie-e9fvag/a-a15cigr" />

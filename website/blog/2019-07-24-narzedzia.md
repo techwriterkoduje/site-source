@@ -12,4 +12,6 @@ odcinku przyglądamy się temu z jakich narzędzi mogą skorzystać osoby zajmuj
 się tworzeniem treści, podsumowujemy ich mocne i słabe strony i staramy się
 ustalić w jakich sytuacjach najlepiej się sprawdzają.
 
-<a class="listenButton pixelButton" href="https://anchor.fm/docdeveloper/episodes/5-Narzdzia-dla-Tech-Writerw-e4murr/a-ajdbdd" target="_blank" rel="noopener noreferrer">Posłuchaj</a>
+import AnchorEmbed from '@site/src/components/AnchorEmbed';
+
+<AnchorEmbed episodeId="5-Narzdzia-dla-Tech-Writerw-e4murr/a-ajdbdd" />

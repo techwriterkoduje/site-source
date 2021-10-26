@@ -1,8 +1,7 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import cx from 'clsx';
-import styles from './styles.module.css';
+import styles from './Features.module.css';
 
 function Feature({ imageUrl, title, description, actionLink, external }) {
   const imgUrl = useBaseUrl(imageUrl);
@@ -15,26 +14,9 @@ function Feature({ imageUrl, title, description, actionLink, external }) {
         <h3>{title}</h3>
         <div>{description}</div>
         <div className={styles.actionBar}>
-          {external ? (
-            <a
-              className={cx(
-                styles.actionButton,
-                styles.external,
-                'pixelButton'
-              )}
-              href={actionLink.to}
-              rel="noopener noreferrer"
-            >
-              {actionLink.label}
-            </a>
-          ) : (
-            <Link
-              className={cx(styles.actionButton, 'pixelButton')}
-              to={actionLink.to}
-            >
-              {actionLink.label}
-            </Link>
-          )}
+          <Link className="brandButton" to={actionLink.to}>
+            {actionLink.label}
+          </Link>
         </div>
       </div>
     </div>

@@ -1,15 +1,17 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import clsx from 'clsx';
+import Link from '@docusaurus/Link';
+import Image from '@theme/IdealImage';
 import styles from './styles.module.css';
-import Header from '../../components/header';
-import Title from '../../components/title';
+import Envelope from './mail_white_36dp.svg';
+import heroImage from './damian-zaleski-RYyr-k3Ysqg-unsplash.jpg';
 
 const supportLinks = [
   {
     title: 'E-mail',
     links: [
       {
+        icon: <Envelope className={styles.envelope} />,
         label: 'kontakt@techwriterkoduje.pl',
         to: 'mailto:kontakt@techwriterkoduje.pl',
       },
@@ -20,14 +22,15 @@ const supportLinks = [
 function SupportLink({ title, links }) {
   return (
     <section className="col">
-      <h3>{title}</h3>
+      <h3 className={styles.linkHeading}>{title}</h3>
       {links && links.length > 0 && (
         <div>
           {links.map((link, key) => (
             <p key={key}>
-              <a href={link.to} target="_blank" rel="noopener noreferrer">
+              <Link href={link.to} className={styles.link}>
+                {link.icon}
                 {link.label}
-              </a>
+              </Link>
             </p>
           ))}
         </div>
@@ -39,12 +42,8 @@ function SupportLink({ title, links }) {
 function Contact() {
   return (
     <Layout>
-      <Header>
-        <Title
-          lines={[{ label: 'kontakt', style: 'bold', lineStyle: 'cubed' }]}
-        />
-      </Header>
-      <div className={clsx('container', styles.contactPage)}>
+      <Image img={heroImage} className={styles.hero} />
+      <div className={styles.contactPage}>
         <section>
           <h2>Skontaktuj się z nami!</h2>
           <p>

@@ -1,31 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 :root {
   --footer-height: 175px;
   --header-height: 50px;
   --main-height: calc(100% - var(--header-height) - var(--footer-height));
-  --brand-dark: #21211f;
+  --brand-dark: #000000;
   --brand-light: #dadada;
   --brand-special: #4b4b4b;
   --brand-special-hover: #4e4e4e;
+  --brand-font: 'JetBrains Mono', monospace;
   /* Docusaurus vars */
-  --ifm-color-primary: var(--green-brand);
-  --ifm-color-primary-dark: #02bd27;
-  --ifm-color-primary-darker: #01991f;
-  --ifm-color-primary-darkest: #007016;
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #ec6858;
+  --ifm-color-primary-dark: #e94e3b;
+  --ifm-color-primary-darker: #e7412c;
+  --ifm-color-primary-darkest: #cc2b17;
+  --ifm-color-primary-light: #ef8275;
+  --ifm-color-primary-lighter: #f18f84;
+  --ifm-color-primary-lightest: #f6b7af;
   --ifm-code-font-size: 95%;
   /* end Docusaurus vars */
-  --pixel-shadow: inset -4px -4px 0 0 #4aa52e, var(--pixel-shadow-flat);
-  --pixel-shadow-flat: 8px 0 black, 4px -4px black, -8px 0 black, -4px 4px black,
-    -4px -4px black, 4px 4px black;
-  --red-brand: #ff4844;
-  --blue-brand: #01e1fd;
-  --orange-brand: #ffcd42;
-  --green-brand: #02ca29;
 }
 
 html,
@@ -40,7 +35,7 @@ h4,
 h5,
 h6 {
   font-weight: 600;
-  font-family: 'Fira Code', monospace;
+  font-family: var(--brand-font);
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
@@ -67,7 +62,7 @@ h6 {
 
 nav.navbar {
   height: var(--header-height);
-  font-family: 'Fira Code', monospace;
+  font-family: var(--brand-font);
 }
 
 .main-wrapper {
@@ -81,19 +76,37 @@ footer.footer {
   padding-top: 4rem;
 }
 
-a {
-  color: var(--brand-special);
-}
-
-a:hover {
-  color: var(--brand-special-hover);
-}
-
-a.listenButton {
+a.brandButton {
   display: inline-block;
   font-weight: 600;
-  padding: 16px;
-  border-radius: 6px;
+  padding: 16px 32px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes colorIn {
+  from {
+    background-color: transparent;
+    transform: scale(1.1);
+  }
+}
+
+a.brandButton:hover {
+  background-color: var(--ifm-color-primary-darkest);
+  color: white;
+  animation: colorIn 1s;
+}
+
+a[target='_blank']::after {
+  display: inline-block;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' fill='%23cc2b17' width='24px'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z'/%3E%3C/svg%3E");
+  transform: scale(0.5);
+}
+
+a.brandButton[target='_blank']:hover::after {
+  filter: brightness(0) invert(1);
 }
 
 article {
@@ -102,19 +115,4 @@ article {
 
 article header h2 {
   font-size: 2rem !important;
-}
-
-.pixelButton {
-  font-weight: 600;
-  font-size: 1.2rem;
-  text-decoration: none;
-  color: white;
-  border: 1px solid var(--brand-light);
-  background-color: #64cf44;
-}
-
-.pixelButton:hover {
-  color: white;
-  text-decoration: none;
-  border: 1px solid black;
 }

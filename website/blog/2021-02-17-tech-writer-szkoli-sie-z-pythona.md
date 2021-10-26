@@ -23,4 +23,6 @@ dostępnej na stronie <https://dominik-braun.net>, udostępnianej na podstawie
 licencji
 [Creative Commons license CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._
 
-<a class="listenButton pixelButton" href="https://anchor.fm/docdeveloper/episodes/27-Tech-Writer-szkoli-si-z-Pythona-eqaeh1" target="_blank" rel="noopener noreferrer">Posłuchaj</a>
+import AnchorEmbed from '@site/src/components/AnchorEmbed';
+
+<AnchorEmbed episodeId="27-Tech-Writer-szkoli-si-z-Pythona-eqaeh1" />
