@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './HomeBanner.module.css';
-import logo from './logo.png';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const subscribeLinks = [
   {
@@ -49,8 +49,11 @@ export default function HomeBanner() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.subtitle}>Podcast</div>
-      <img src={logo} alt="tech writer koduje" className={styles.logo} />
-      
+      <img
+        src={useBaseUrl('img/logo.png')}
+        alt="tech writer koduje"
+        className={styles.logo}
+      />
     </div>
   );
 }

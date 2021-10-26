@@ -1,29 +1,8 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
-import cx from 'clsx';
 import styles from './ShoutOuts.module.css';
-
-import techWriterLogo from './img/techwriter-logo-thumb.png';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import SwitkowskiLogo from './img/switkowski.svg';
-import notBoringLogo from './img/not-boring-logo-thumb.png';
-
-const shoutOuts = [
-  {
-    imageUrl: techWriterLogo,
-    link: 'http://techwriter.pl/',
-    label: 'techwriter.pl',
-  },
-  {
-    imageUrl: notBoringLogo,
-    link: 'https://www.thenotboringtechwriter.com/',
-    label: 'The Not-Boring Tech Writer',
-  },
-  {
-    logo: <SwitkowskiLogo />,
-    link: 'https://switowski.com/',
-    label: 'Sebastian Witkowski',
-  },
-];
 
 function ShoutOut({ imageUrl, link, label, logo }) {
   return (
@@ -35,6 +14,24 @@ function ShoutOut({ imageUrl, link, label, logo }) {
 }
 
 export default function ShoutOuts() {
+  const shoutOuts = [
+    {
+      imageUrl: useBaseUrl('img/techwriter-logo-thumb.png'),
+      link: 'http://techwriter.pl/',
+      label: 'techwriter.pl',
+    },
+    {
+      imageUrl: useBaseUrl('img/not-boring-logo-thumb.png'),
+      link: 'https://www.thenotboringtechwriter.com/',
+      label: 'The Not-Boring Tech Writer',
+    },
+    {
+      logo: <SwitkowskiLogo />,
+      link: 'https://switowski.com/',
+      label: 'Sebastian Witkowski',
+    },
+  ];
+
   return (
     <div className={styles.wrapper}>
       {shoutOuts && shoutOuts.length > 0 && (
