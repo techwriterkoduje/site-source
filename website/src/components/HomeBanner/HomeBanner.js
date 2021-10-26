@@ -1,7 +1,6 @@
 import React from 'react';
-import styles from './Banner.module.css';
+import styles from './HomeBanner.module.css';
 import logo from './logo.png';
-import Link from '@docusaurus/Link';
 
 const subscribeLinks = [
   {
@@ -46,7 +45,7 @@ const subscribeLinks = [
   },
 ];
 
-export default function Banner() {
+export default function HomeBanner() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.subtitle}>Podcast</div>

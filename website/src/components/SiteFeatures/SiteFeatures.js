@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './Features.module.css';
+import styles from './SiteFeatures.module.css';
 
 function Feature({ imageUrl, title, description, actionLink, external }) {
   const imgUrl = useBaseUrl(imageUrl);
@@ -23,7 +23,7 @@ function Feature({ imageUrl, title, description, actionLink, external }) {
   );
 }
 
-export default function Features({ features }) {
+export default function SiteFeatures({ features }) {
   return (
     <div>
       {features && features.length > 0 && (
