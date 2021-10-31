@@ -9,4 +9,4 @@ Uwaga: odcinek tylko dla ludzi o mocnych nerwach!
 
 import AnchorEmbed from '@site/src/components/AnchorEmbed';
 
-<AnchorEmbed episodeId="" />
+<AnchorEmbed episodeId="36-Tech-Writer-si-boi--czyli-Halloween-Special-2021-e19ecpv" />
