@@ -21,11 +21,6 @@ export default function ShoutOuts() {
       label: 'techwriter.pl',
     },
     {
-      imageUrl: useBaseUrl('img/not-boring-logo-thumb.png'),
-      link: 'https://www.thenotboringtechwriter.com/',
-      label: 'The Not-Boring Tech Writer',
-    },
-    {
       logo: <SwitkowskiLogo />,
       link: 'https://switowski.com/',
       label: 'Sebastian Witkowski',
