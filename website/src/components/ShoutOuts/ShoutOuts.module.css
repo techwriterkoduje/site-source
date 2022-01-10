@@ -9,12 +9,13 @@
 }
 
 .shoutOutBadges {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   max-width: 1200px;
   margin: auto;
-  row-gap: 24px;
+  gap: 24px;
 }
 
 .shoutOutLink {
