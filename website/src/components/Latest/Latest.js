@@ -5,7 +5,7 @@ import styles from './Latest.module.css';
 export default function Latest() {
   return (
     <div className={styles.wrapper}>
-      <AnchorEmbed episodeId="37-Tech-Writer-potrzebuje-wicej-dynamiki--czyli-zbyt-statyczne-strony-z-dokumentacj-e1b4hht" />
+      <AnchorEmbed episodeId="38-Tech-Writer-walczy-z-hakerami--czyli-jak-zadba-o-bezpieczestwo-dokumentacji-e1cbmce" />
     </div>
   );
 }
