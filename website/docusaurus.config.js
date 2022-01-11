@@ -7,6 +7,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'techwriterkoduje', // Usually your GitHub org/user name.
   projectName: 'site-source', // Usually your repo name.
+  trailingSlash: false,
   i18n: { defaultLocale: 'pl', locales: ['pl'] },
   themeConfig: {
     colorMode: {
