@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://techwriterkoduje.pl/blog</id>
+    <title>Tech Writer koduje Blog</title>
+    <updated>2022-01-10T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://techwriterkoduje.pl/blog"/>
+    <subtitle>Tech Writer koduje Blog</subtitle>
+    <icon>https://techwriterkoduje.pl/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[#38 Tech Writer walczy z hakerami, czyli jak zadbać o bezpieczeństwo dokumentacji]]></title>
+        <id>/2022/01/10/tech-writer-walczy-z-hakerami</id>
+        <link href="https://techwriterkoduje.pl/blog/2022/01/10/tech-writer-walczy-z-hakerami"/>
+        <updated>2022-01-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Stare porzekadło "Tańcz jakby nikt nie patrzył" niestety nie sprawdzi się w kontekście dokumentacji. Tech Writer powinien raczej stosować zasadę "Szyfruj wszystko tak jakby cały świat chciał przeczytać to co masz do ukrycia".]]></summary>
+        <content type="html"><![CDATA[<p>Stare porzekadło &quot;Tańcz jakby nikt nie patrzył&quot; niestety nie sprawdzi się w kontekście dokumentacji. Tech Writer powinien raczej stosować zasadę &quot;Szyfruj wszystko tak jakby cały świat chciał przeczytać to co masz do ukrycia&quot;.</p><p>Z Mateuszem Olejarką, specjalistą w zakresie bezpieczeństwa aplikacji webowych, rozmawiamy o tym na co powinniśmy zwracać uwagę w procesie tworzenia dokumentacji, żeby była ona bezpieczna. Dowiecie się gdzie czyhają potencjalne zagrożenia i jak sobie z nimi radzić.</p><p><em>Muzyka w intro oraz dźwięki pochodzą z kolekcji &quot;107 Free Retro Game Sounds&quot; dostępnej na stronie <a href="https://dominik-braun.net">https://dominik-braun.net</a>, udostępnianej na podstawie
+licencji <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license CC BY 4.0</a>.</em></p><p><strong>Informacje dodatkowe:</strong></p><ul><li>Amazon S3: <a href="https://aws.amazon.com/s3/">https://aws.amazon.com/s3/</a></li><li>&quot;README.md, czyli historia zbyt pomocnego pliku&quot;: <a href="http://techwriter.pl/readme-md-czyli-historia-zbyt-pomocnego-pliku/">http://techwriter.pl/readme-md-czyli-historia-zbyt-pomocnego-pliku/</a></li><li>SmartDeblur: <a href="http://smartdeblur.net/">http://smartdeblur.net/</a></li><li>Fake Name Generator: <a href="https://www.fakenamegenerator.com/">https://www.fakenamegenerator.com/</a></li><li>DumpsterDiver: <a href="https://github.com/securing/DumpsterDiver">https://github.com/securing/DumpsterDiver</a></li><li>MD5: <a href="https://pl.wikipedia.org/wiki/MD5">https://pl.wikipedia.org/wiki/MD5</a></li><li>&quot;Security agencies leak sensitive data by failing to sanitize PDF files&quot;: <a href="https://therecord.media/security-agencies-leak-sensitive-data-by-failing-to-sanitize-pdf-files/">https://therecord.media/security-agencies-leak-sensitive-data-by-failing-to-sanitize-pdf-files/</a></li><li>FOCA (Fingerprinting Organizations with Collected Archives): <a href="https://github.com/ElevenPaths/FOCA">https://github.com/ElevenPaths/FOCA</a></li><li>&quot;FBI used Instagram, an Etsy review, and LinkedIn to identify a protestor accused of arson&quot;: <a href="https://www.theverge.com/2020/6/18/21295301/philadelphia-protester-arson-identified-social-media-etsy-instagram-linkedin">https://www.theverge.com/2020/6/18/21295301/philadelphia-protester-arson-identified-social-media-etsy-instagram-linkedin</a>
+-&quot;What is typosquatting and how typosquatting attacks are responsible for malicious modules in npm&quot;: <a href="https://snyk.io/blog/typosquatting-attacks/">https://snyk.io/blog/typosquatting-attacks/</a>
+-Cross Site Scripting (XSS): <a href="https://owasp.org/www-community/attacks/xss/">https://owasp.org/www-community/attacks/xss/</a>
+-Wayback Machine: <a href="https://web.archive.org/">https://web.archive.org/</a></li><li>Okta: <a href="https://www.okta.com/">https://www.okta.com/</a></li><li>Single Page Application (SPA): <a href="https://pl.wikipedia.org/wiki/Single_Page_Application">https://pl.wikipedia.org/wiki/Single_Page_Application</a></li><li>JSON Web Token (JWT): <a href="https://jwt.io/">https://jwt.io/</a></li><li>Non-disclosure agreement (NDA): <a href="https://en.wikipedia.org/wiki/Non-disclosure_agreement">https://en.wikipedia.org/wiki/Non-disclosure_agreement</a></li><li>Kevin Mitnick: <a href="https://en.wikipedia.org/wiki/Kevin_Mitnick">https://en.wikipedia.org/wiki/Kevin_Mitnick</a></li><li>Profil Mateusza Olejarki na LinkedIn: <a href="https://pl.linkedin.com/in/molejarka">https://pl.linkedin.com/in/molejarka</a></li></ul><div episodeId="38-Tech-Writer-walczy-z-hakerami--czyli-jak-zadba-o-bezpieczestwo-dokumentacji-e1cbmce"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#37 Tech Writer potrzebuje więcej dynamiki, czyli zbyt statyczne strony z dokumentacją]]></title>
+        <id>/2021/12/06/tech-writer-potrzebuje-wiecej-dynamiki</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/12/06/tech-writer-potrzebuje-wiecej-dynamiki"/>
+        <updated>2021-12-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dostarczanie statycznych stron z dokumentacją ostatnimi czasy wraca do łask. Prawdopodobnie dlatego, że takie strony są szybkie, bezpieczne i łatwe w serwowaniu. Jednak w niektórych sytuacjach mogą nas też ograniczać i sprawiać, że aktualizowanie ich zawartości staje się czasochłonne i problematyczne. Rozmawiamy o tym kiedy strony stają się zbyt statyczne i jak można temu zaradzić.]]></summary>
+        <content type="html"><![CDATA[<p>Dostarczanie statycznych stron z dokumentacją ostatnimi czasy wraca do łask. Prawdopodobnie dlatego, że takie strony są szybkie, bezpieczne i łatwe w serwowaniu. Jednak w niektórych sytuacjach mogą nas też ograniczać i sprawiać, że aktualizowanie ich zawartości staje się czasochłonne i problematyczne. Rozmawiamy o tym kiedy strony stają się zbyt statyczne i jak można temu zaradzić.</p><p><em>Muzyka w intro oraz dźwięki pochodzą z kolekcji &quot;107 Free Retro Game Sounds&quot; dostępnej na stronie <a href="https://dominik-braun.net">https://dominik-braun.net</a>, udostępnianej na podstawie
+licencji <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license CC BY 4.0</a>.</em></p><div episodeId="37-Tech-Writer-potrzebuje-wicej-dynamiki--czyli-zbyt-statyczne-strony-z-dokumentacj-e1b4hht"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#36 Tech Writer się boi, czyli Halloween Special 2021]]></title>
+        <id>/2021/10/31/tech-writer-sie-boi</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/10/31/tech-writer-sie-boi"/>
+        <updated>2021-10-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wszyscy czegoś się boją. Zdarza się, że nawiedzają nas koszmary i zjawy z przeszłości. Tech Writerzy nie są pod tym względem wyjątkiem. Mają swoje, nierzadko osobliwe, strachy. Z okazji Halloween rozmawiamy o tym czego boi się technoskryba i co nie daje mu spać po nocach.]]></summary>
+        <content type="html"><![CDATA[<p>Wszyscy czegoś się boją. Zdarza się, że nawiedzają nas koszmary i zjawy z przeszłości. Tech Writerzy nie są pod tym względem wyjątkiem. Mają swoje, nierzadko osobliwe, strachy. Z okazji Halloween rozmawiamy o tym czego boi się technoskryba i co nie daje mu spać po nocach. </p><p>Uwaga: odcinek tylko dla ludzi o mocnych nerwach!</p><div episodeId="36-Tech-Writer-si-boi--czyli-Halloween-Special-2021-e19ecpv"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#35 Tech Writer chce kodować więcej]]></title>
+        <id>/2021/10/26/tech-writer-chce-kodowac-wiecej</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/10/26/tech-writer-chce-kodowac-wiecej"/>
+        <updated>2021-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Czy Tech Writer, który trochę koduje może kodować więcej? Jakie ma opcje rozwoju zawodowego jeśli interesują go głównie skrypty, narzędzia i inne techniczne aspekty tworzenia dokumentacji?]]></summary>
+        <content type="html"><![CDATA[<p>Czy Tech Writer, który trochę koduje może kodować więcej? Jakie ma opcje rozwoju zawodowego jeśli interesują go głównie skrypty, narzędzia i inne techniczne aspekty tworzenia dokumentacji?</p><p>Bazując na własnych doświadczeniach, rozważamy trzy możliwe scenariusze dla technoskrybów z zapędami programistycznymi. Pojawia się też kilka czerstwych żartów i nawiązań do zamierzchłych czasów.</p><p><em>Muzyka w intro oraz dźwięki pochodzą z kolekcji &quot;107 Free Retro Game Sounds&quot; dostępnej na stronie <a href="https://dominik-braun.net">https://dominik-braun.net</a>, udostępnianej na podstawie
+licencji <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license CC BY 4.0</a>.</em></p><div episodeId="35-Tech-Writer-chce-kodowa-wicej-e198b1g"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#34 Tech Writer dokumentuje, testuje, koduje, lokalizuje i projektuje, czyli człowiek renesansu w dokumentacji]]></title>
+        <id>/2021/09/07/tech-writer-czlowiek-renesansu</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/09/07/tech-writer-czlowiek-renesansu"/>
+        <updated>2021-09-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Czym na co dzień zajmuje się Technical Writer? A może lepiej zapytać czym się]]></summary>
+        <content type="html"><![CDATA[<p>Czym na co dzień zajmuje się Technical Writer? A może lepiej zapytać czym się
+nie zajmuje?</p><p>Patrycja Pyrek studiuje informatykę i ekonometrię, uczy języka japońskiego i
+jednocześnie jako stażystka zdobywa techwriterskie doświadczenie. Ta
+różnorodność zainteresowań przejawia się również podczas jej stażu. Patrycja,
+poza tworzeniem dokumentacji, ma jeszcze szereg innych zadań, które pozwalają
+jej się rozwijać w obszarach testowania, lokalizacji i projektowania. Zresztą
+posłuchajcie sami!</p><p><em>Muzyka w intro oraz dźwięki pochodzą z kolekcji &quot;107 Free Retro Game Sounds&quot;
+dostępnej na stronie <a href="https://dominik-braun.net">https://dominik-braun.net</a>, udostępnianej na podstawie
+licencji
+<a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license CC BY 4.0</a>.</em></p><div episodeId="34-Tech-Writer-dokumentuje--testuje--koduje--lokalizuje-i-projektuje--czyli-czowiek-renesansu-w-dokumentacji-e16q3at"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#33 Kodować każdy może, czyli o Akademii Motorola Solutions słów kilka]]></title>
+        <id>/2021/08/18/akademia-motorola-solutions</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/08/18/akademia-motorola-solutions"/>
+        <updated>2021-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Czy w kilka miesięcy można nauczyć się kodowania i zostać zatrudnionym jako]]></summary>
+        <content type="html"><![CDATA[<p>Czy w kilka miesięcy można nauczyć się kodowania i zostać zatrudnionym jako
+młodszy programista w międzynarodowej korporacji? Dzięki Akademii Motorola
+Solutions taki scenariusz jest możliwy. Na początku sierpnia 2021 wystartowała
+druga edycja tego programu szkoleniowego stworzonego dla osób, które marzą o
+zmianie kariery i wejściu do świata IT.</p><p>W tym odcinku rozmawiamy z Jackiem Drabikiem, prezesem Motorola Solutions w
+Polsce, oraz Klaudią Rydzanicz i Pawłem Kózką, uczestnikami pierwszej edycji
+Akademii, m.in. o tym kto może wziąć udział w programie oraz jak wygląda
+rekrutacja i proces przygotowania do nowego zawodu.</p><p><em>Muzyka w intro oraz dźwięki pochodzą z kolekcji &quot;107 Free Retro Game Sounds&quot;
+dostępnej na stronie <a href="https://dominik-braun.net">https://dominik-braun.net</a>, udostępnianej na podstawie
+licencji
+<a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license CC BY 4.0</a>.</em></p><div episodeId="33-Kodowa-kady-moe--czyli-o-Akademii-Motorola-Solutions-sw-kilka-e161nnu"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#32 Tech Writer zatrudnia asystenta, czyli sztuczna inteligencja w służbie dokumentacji]]></title>
+        <id>/2021/07/29/tech-writer-zatrudnia-asystenta</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/07/29/tech-writer-zatrudnia-asystenta"/>
+        <updated>2021-07-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Od dawna mówi się o tym, że maszyny zastąpią ludzi i zajmą ich miejsce jako]]></summary>
+        <content type="html"><![CDATA[<p>Od dawna mówi się o tym, że maszyny zastąpią ludzi i zajmą ich miejsce jako
+korona stworzenia. Jednak zanim to nastąpi, możemy wykorzystać sztuczną
+inteligencję do własnych celów. Przyglądamy się obecnie dostępnym modelom
+językowym, a szczególnie GPT-3, rozmawiamy o tym co potrafią i rozważamy jak
+można by je wykorzystać w tworzeniu dokumentacji technicznej.</p><p>Czy kodujący Tech Writer może zrobić ze sztucznej inteligencji swojego
+asystenta? Co mógłby robić taki asystent? Co jest najbardziej wartościowe w
+pracy Tech Writera, a które obowiązki warto cedować na algorytmy? Jak
+praktycznie się za to zabrać?</p><p><em>Muzyka w intro oraz dźwięki pochodzą z kolekcji &quot;107 Free Retro Game Sounds&quot;
+dostępnej na stronie <a href="https://dominik-braun.net">https://dominik-braun.net</a>, udostępnianej na podstawie
+licencji
+<a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license CC BY 4.0</a>.</em></p><div episodeId="32-Tech-Writer-zatrudnia-asystenta--czyli-sztuczna-inteligencja-w-subie-dokumentacji-e14sn4p"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#31 Prosty jak budowa cepa, czyli Tech Writer tworzy generator stron statycznych]]></title>
+        <id>/2021/07/03/prosty-jak-budowa-cepa</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/07/03/prosty-jak-budowa-cepa"/>
+        <updated>2021-07-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Generatorów stron statycznych jest całkiem sporo. Jednak nie jest to powód, dla]]></summary>
+        <content type="html"><![CDATA[<p>Generatorów stron statycznych jest całkiem sporo. Jednak nie jest to powód, dla
+którego Tech Writer miałby zrezygnować ze stworzenia swojego. A że technoskryba
+z natury lubi prostotę i przejrzystość to generator też musi mieć takie cechy.
+Rozmawiamy o tym dlaczego zdecydowaliśmy się na stworzenie własnego rozwiązania,
+jakiej technologii użyliśmy, co nam to dało i czy było to warte zachodu.</p><p><em>Muzyka w intro oraz dźwięki pochodzą z kolekcji &quot;107 Free Retro Game Sounds&quot;
+dostępnej na stronie <a href="https://dominik-braun.net">https://dominik-braun.net</a>, udostępnianej na podstawie
+licencji
+<a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license CC BY 4.0</a>.</em></p><div episodeId="31-Prosty-jak-budowa-cepa--czyli-Tech-Writer-tworzy-generator-stron-statycznych-e13oj0o"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#30 Tech Writer radzi sobie ze sprzężeniem zwrotnym, czyli feedback do dokumentacji]]></title>
+        <id>/2021/05/19/feedback-do-dokumentacji</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/05/19/feedback-do-dokumentacji"/>
+        <updated>2021-05-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Naszą dokumentację możemy poprawić tylko wtedy jeśli wiemy jakie kryją się w]]></summary>
+        <content type="html"><![CDATA[<p>Naszą dokumentację możemy poprawić tylko wtedy jeśli wiemy jakie kryją się w
+niej problemy. Warto zbierać i analizować dane od użytkowników, a przede
+wszystkim pytać ich o opinię. Nie jest to bynajmniej proste zadanie, dlatego
+połączyliśmy siły z Rafałem Pawlickim, żeby porozmawiać o celach, sposobach,
+wyzwaniach i dobrych praktykach związanych z procesem zbierania informacji na
+temat dokumentacji od użytkowników. Staramy się też odpowiedzieć na odwieczne
+pytanie - jaki jest najlepszy polski odpowiednik słowa &quot;feedback&quot;?</p><p><em>Muzyka w intro oraz dźwięki pochodzą z kolekcji &quot;107 Free Retro Game Sounds&quot;
+dostępnej na stronie <a href="https://dominik-braun.net">https://dominik-braun.net</a>, udostępnianej na podstawie
+licencji
+<a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license CC BY 4.0</a>.</em></p><div episodeId="30-Tech-Writer-radzi-sobie-ze-sprzeniem-zwrotnym--czyli-feedback-do-dokumentacji-e111ole"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#29 Tech Writer koduje według dobrych praktyk]]></title>
+        <id>/2021/04/08/tech-writer-koduje-wedlug-dobrych-praktyk</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/04/08/tech-writer-koduje-wedlug-dobrych-praktyk"/>
+        <updated>2021-04-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Pewnego dnia czujesz nieodpartą chęć napisania jakiegoś skryptu. Otwierasz]]></summary>
+        <content type="html"><![CDATA[<p>Pewnego dnia czujesz nieodpartą chęć napisania jakiegoś skryptu. Otwierasz
+edytor, tworzysz nowy plik i w pocie czoła dodajesz kolejne linijki kodu.
+Zachowujesz zmiany, wprowadzasz poprawki, weryfikujesz swoje dzieło i powtarzasz
+cały proces aż po pewnym czasie udaje Ci się doprowadzić skrypt do stanu, w
+którym robi to co chcesz. Cel osiągnięty. Niby tak, ale czy taki sposób
+tworzenia kodu jest właściwy?</p><p>Rozmawiamy o dobrych praktykach, które kodujący Tech Writer może wdrożyć, żeby
+łatwiej tworzyć, utrzymywać, zmieniać, ulepszać i udostępniać swoje skrypty i
+aplikacje.</p><p><em>Muzyka w intro oraz dźwięki pochodzą z kolekcji &quot;107 Free Retro Game Sounds&quot;
+dostępnej na stronie <a href="https://dominik-braun.net">https://dominik-braun.net</a>, udostępnianej na podstawie
+licencji
+<a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license CC BY 4.0</a>.</em></p><div episodeId="29-Tech-Writer-koduje-wedug-dobrych-praktyk-eubau2"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#28 Tech Writer wybiera narzędzie do kodowania, czyli VS Code kontra IntelliJ IDEA]]></title>
+        <id>/2021/03/22/tech-writer-wybiera-narzedzie-do-kodowania</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/03/22/tech-writer-wybiera-narzedzie-do-kodowania"/>
+        <updated>2021-03-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Co jest lepsze do pisania kodu - komercyjne środowisko programistyczne czy]]></summary>
+        <content type="html"><![CDATA[<p>Co jest lepsze do pisania kodu - komercyjne środowisko programistyczne czy
+darmowy edytor kodu źródłowego? Czy takie porównanie w ogóle ma sens?</p><p>Michał na co dzień pracuje w IntelliJ IDEA, a Paweł, jak spora część
+programistów, w VS Code. W tej subiektywnej rozmowie na bardzo subiektywny temat
+nie staramy się rozstrzygnąć, która aplikacja jest lepsza. Zamiast tego
+opowiadamy o tym dlaczego zaczęliśmy używać właśnie tych rozwiązań, co w nich
+lubimy, a co nam przeszkadza i w jakich sytuacjach według nas najlepiej się
+sprawdzają.</p><p><em>Muzyka w intro oraz dźwięki pochodzą z kolekcji &quot;107 Free Retro Game Sounds&quot;
+dostępnej na stronie <a href="https://dominik-braun.net">https://dominik-braun.net</a>, udostępnianej na podstawie
+licencji
+<a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license CC BY 4.0</a>.</em></p><div episodeId="28-Tech-Writer-wybiera-narzdzie-do-kodowania--czyli-VS-Code-kontra-IntelliJ-IDEA-et3pcm"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#27 Tech Writer szkoli się z Pythona]]></title>
+        <id>/2021/02/17/tech-writer-szkoli-sie-z-pythona</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/02/17/tech-writer-szkoli-sie-z-pythona"/>
+        <updated>2021-02-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chcesz lepiej rozumieć kod, który opisujesz? Chcesz zautomatyzować żmudne]]></summary>
+        <content type="html"><![CDATA[<p>Chcesz lepiej rozumieć kod, który opisujesz? Chcesz zautomatyzować żmudne
+aspekty swojej pracy? Chcesz móc powiedzieć śmiało i dumnie - znam Pythona?</p><p>W tym odcinku rozmawiamy z Adrianem Gonciarzem, który prowadzi szkolenia z
+Pythona dla tech writerów i testerów, oraz Basią Czyż, technical writerką, która
+wzięła udział w tym szkoleniu.</p><p>Szkolenie odbyło się w pełni online i składało się z dwugodzinnych bloków trzy
+razy w tygodniu. W jego toku, uczestnicy stworzyli dwa projekty i nauczyli się
+solidnych podstaw Pythona. Od naszych gości dowiadujemy się jak szkolenie
+wygląda od kulis oraz jaką wiedzę można z niego wynieść. Dostajemy opinię
+organizatora i uczestnika, a przy tym jesteśmy świadkami bardzo ciekawej
+dyskusji o roli kodowania w pracy technical writera oraz o przyszłości tego
+zawodu.</p><p><em>Muzyka w intro oraz dźwięki pochodzą z kolekcji &quot;107 Free Retro Game Sounds&quot;
+dostępnej na stronie <a href="https://dominik-braun.net">https://dominik-braun.net</a>, udostępnianej na podstawie
+licencji
+<a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license CC BY 4.0</a>.</em></p><div episodeId="27-Tech-Writer-szkoli-si-z-Pythona-eqaeh1"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#26 Tech Writerzy dokumentują API]]></title>
+        <id>/2021/02/10/tech-writerzy-dokumentuja-api</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/02/10/tech-writerzy-dokumentuja-api"/>
+        <updated>2021-02-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Pisanie dokumentacji do API to dziedzina sama w sobie, która w dzisiejszych]]></summary>
+        <content type="html"><![CDATA[<p>Pisanie dokumentacji do API to dziedzina sama w sobie, która w dzisiejszych
+czasach zyskuje na znaczeniu. Przyspieszony rozwój technologii cyfrowych w dobie
+pandemii i pracy zdalnej podniósł znaczenie dokumentacji w ogóle, a dokumentacji
+do API w szczególności.</p><p>Z naszymi gośćmi, Jadwigą Sitnicką z LogMeIn, Mateuszem Wiktorem z PubNub i
+Pawłem Krentowskim z Ocado Technology, rozmawiamy m.in. o tym z jakich elementów
+składa się dokumentacja do API, kto i w jaki sposób tworzy poszczególne części,
+jakie są najczęstsze problemy i wyzwania podczas tworzenia tego typu
+dokumentacji oraz jakie narzędzia warto znać.</p><p><em>Muzyka w intro oraz dźwięki pochodzą z kolekcji &quot;107 Free Retro Game Sounds&quot;
+dostępnej na stronie <a href="https://dominik-braun.net">https://dominik-braun.net</a>, udostępnianej na podstawie
+licencji
+<a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license CC BY 4.0</a>.</em></p><div episodeId="26-Tech-Writerzy-dokumentuj-API-epsajn"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#25 Tech Writer koduje w dokumentacji, czyli Markdown w wersji rozszerzonej]]></title>
+        <id>/2021/01/21/tech-writer-koduje-w-dokumentacji</id>
+        <link href="https://techwriterkoduje.pl/blog/2021/01/21/tech-writer-koduje-w-dokumentacji"/>
+        <updated>2021-01-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Markdown to prosty i lekki język znaczników, który w ostatnich latach zyskał]]></summary>
+        <content type="html"><![CDATA[<p>Markdown to prosty i lekki język znaczników, który w ostatnich latach zyskał
+sporą popularność, szczególnie w świecie dokumentacji dla programistów. Pozwala
+nam on łatwo i szybko stworzyć tekst, a następnie opublikować go jako HTML. Z
+biegiem czasu pojawiły się różne odmiany i rozszerzenia Markdowna, pozwalające
+wycisnąć z niego jeszcze więcej. Jednym z nich jest MDX, który pozwala na
+używanie bezpośrednio w tekście elementów JSX. Takie rozwiązanie otwiera przed
+nami nowe możliwości, jak na przykład opcję umieszczenia w dokumentacji
+interaktywnej próbki kodu. Dzięki temu możemy przesunąć naszą dokumentację na
+wyższy poziom. Rozmawiamy o tym czym jest MDX, jakie daje nam możliwości i w
+jakich sytuacjach może nam się przydać.</p><p><em>Muzyka w intro oraz dźwięki pochodzą z kolekcji &quot;107 Free Retro Game Sounds&quot;
+dostępnej na stronie <a href="https://dominik-braun.net">https://dominik-braun.net</a>, udostępnianej na podstawie
+licencji
+<a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license CC BY 4.0</a>.</em></p><div episodeId="25-Tech-Writer-koduje-w-dokumentacji--czyli-Markdown-w-wersji-rozszerzonej-ep7cpm"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#24 Tech Writer publikuje inaczej, czyli API do dokumentacji]]></title>
+        <id>/2020/12/23/tech-writer-publikuje-inaczej</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/12/23/tech-writer-publikuje-inaczej"/>
+        <updated>2020-12-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Niektóre sposoby publikowania dokumentacji są znane wśród Tech Writerów od]]></summary>
+        <content type="html"><![CDATA[<p>Niektóre sposoby publikowania dokumentacji są znane wśród Tech Writerów od
+zarania dziejów. Portale serwujące wszelakiej maści treści w formacie HTML czy
+PDF są niejako standardem branżowym. W sytuacji kiedy odbiorcą dokumentacji jest
+użytkownik produktu te formy spełniają swoje zadanie. Ale co zrobić kiedy do
+naszej dokumentacji potrzebuje się dobrać jakaś aplikacja? Na przykład,
+aplikacja webowa chce wyświetlić dokumentację w panelu, który jest jej
+integralną cześcią. Możemy wtedy zastosować stary dobry &quot;iframe&quot;, jednak takie
+rozwiązanie nie jest zalecane, a do tego stwarza szereg problemów. A może by tak
+stworzyć API dla dokumentacji i serwować treść za pomocą endpointów? Rozważamy
+czy takie rozwiązanie jest możliwe, czy ma sens i w jakich sytuacjach mogłoby
+się sprawdzić.</p><div episodeId="24-Tech-Writer-publikuje-inaczej--czyli-API-do-dokumentacji-eo4j7f"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#23 Tech Writer mierzy jakość dokumentacji, czyli co i jak sprawdzać]]></title>
+        <id>/2020/11/23/tech-writer-mierzy-jakosc-dokumentacji</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/11/23/tech-writer-mierzy-jakosc-dokumentacji"/>
+        <updated>2020-11-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jak zrobić najlepszą dokumentację? Ustalamy wewnętrzne standardy i się ich]]></summary>
+        <content type="html"><![CDATA[<p>Jak zrobić najlepszą dokumentację? Ustalamy wewnętrzne standardy i się ich
+trzymamy, a potem sprawdzamy czy dokumentacja spełnia swoje cele. Następnie
+weryfikujemy standardy, żeby nasza dokumentacja spełniała założone cele coraz
+lepiej.</p><p>Wydaje się proste, ale diabeł tkwi w szczegółach. Z Rafałem Pawlickim
+zastanawiamy się jak utrzymywać wewnętrzne standardy jednocześnie ucząc ludzi
+pisania dobrej dokumentacji oraz w jaki sposób mierzyć efektywność dokumentacji.
+Rozmawiamy o tym jak stworzyć model oceny dokumentacji pod kątem jakości i
+dojrzałości, a następnie jak wykorzystać te informacje do planowania pracy
+dokumentacyjnej. Przyglądamy się też zbieraniu danych od użytkowników oraz
+wykorzystywaniu ich do wdrażania zmian w organizacji.</p><p>Które metryki najlepiej sprawdzały się dla nas do tej pory? Które działają
+najlepiej osobno, a które w połączeniu? Które elementy może sprawdzać automat, a
+które powinny być weryfikowane przez człowieka? Posłuchajcie, a potem dajcie nam
+znać jakie Wy macie sposoby i pomysły na mierzenie jakości dokumentacji.</p><div episodeId="23-Tech-Writer-mierzy-jako-dokumentacji--czyli-co-i-jak-sprawdza-emralt"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#22 Tech Writer buduje dokumentację API, czyli Next.js, ReDoc i OpenAPI w akcji]]></title>
+        <id>/2020/10/18/tech-writer-buduje-dokumentacje-api</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/10/18/tech-writer-buduje-dokumentacje-api"/>
+        <updated>2020-10-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Next.js to framework Reacta, dzięki któremu można w elastyczny sposób tworzyć]]></summary>
+        <content type="html"><![CDATA[<p>Next.js to framework Reacta, dzięki któremu można w elastyczny sposób tworzyć
+nowoczesne strony internetowe. Według rankingu na stronie staticgen.com, jest to
+również jeden z najpopularniejszych generatorów stron statycznych. Rozmawiamy o
+tym jak można połączyć Next.js z narzędziem ReDoc, żeby zbudować stronę z
+dokumentacją dla wielu API stworzonych przy pomocy specyfikacji OpenAPI.
+Zastanawiamy się też jak Next.js może nam się przydać kiedy piszemy dokumentację
+w standardzie DITA.</p><div episodeId="22-Tech-Writer-buduje-dokumentacj-API--czyli-Next-js--ReDoc-i-OpenAPI-w-akcji-el3gk9"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#21 Tech Writer zbiera informacje ze stron, czyli jak można wykorzystać web scraping]]></title>
+        <id>/2020/09/15/tech-writer-zbiera-informacje-ze-stron</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/09/15/tech-writer-zbiera-informacje-ze-stron"/>
+        <updated>2020-09-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Web scraping to zbieranie danych ze stron internetowych. Google, na przykład,]]></summary>
+        <content type="html"><![CDATA[<p>Web scraping to zbieranie danych ze stron internetowych. Google, na przykład,
+robi to, żeby indeksować cały internet w swojej wyszukiwarce. Web scraping
+wykorzystuje się też do monitorowania cen w konkurencyjnych sklepach
+internetowych.</p><p>U nas w firmie używamy web scrapingu, żeby indeksować dokumentację dla naszej
+wyszukiwarki. To samo rozwiązanie wykorzystujemy też, żeby sprawdzać czy
+wszystkie linki działają. Wyniki web scrapingu zapisujemy w Elasticsearchu, a
+potem analizujemy je za pomocą raportów i filtrów w Kibanie. Dzięki temu
+stworzyliśmy zalążek panelu kontrolnego, na którym widać aktualną jakość naszej
+dokumentacji.</p><p>W niedalekiej przyszłości chcemy rozszerzyć nasze rozwiązanie o dodatkowe
+funkcje. Planujemy, na przykład, testować strony pod kątem wymaganych elementów
+i zgodności z regułami naszego style guide’a. Kolejną opcją jest sprawdzanie czy
+w treści nie ma błędów gramatycznych i stylistycznych oraz czy język, którego
+używamy do tworzenia instrukcji jest wystarczająco przejrzysty.</p><p>Co można jeszcze zrobić za pomocą web scrapingu? Jakie inne testy są potrzebne w
+świecie dokumentacji technicznej i pisania ustrukturyzowanego? Zapraszamy do
+słuchania.</p><div episodeId="21-Tech-Writer-zbiera-informacje-ze-stron--czyli-jak-mona-wykorzysta-web-scraping-ejj0ah/a-a375vf3"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#20 Tech Writer optymalizuje, czyli web performance w dokumentacji]]></title>
+        <id>/2020/08/06/tech-writer-optymalizuje</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/08/06/tech-writer-optymalizuje"/>
+        <updated>2020-08-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wydajność to temat rzadko poruszany w tech writingu, pomimo tego, że webowa]]></summary>
+        <content type="html"><![CDATA[<p>Wydajność to temat rzadko poruszany w tech writingu, pomimo tego, że webowa
+forma dokumentacji jest bardzo popularna. Czy szybkość ładowania stron ma
+znaczenie dla naszych odbiorców? A jeśli tak, to czy Tech Writer ma jakiś wpływ
+na wydajność dokumentacji? Rozmawiamy o tym jak mierzyć i poprawiać web
+performance. Zastanawiamy się co może zrobić w tej kwestii Tech Writer, a co
+musi wdrożyć programista lub inżynier DevOps. Wreszcie rozmawiamy o tym, że w
+dokumentacji performance to nie wszystko.</p><div episodeId="20-Tech-Writer-optymalizuje--czyli-web-performance-w-dokumentacji-ehmto3/a-a2sk9l1"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#19 Tech Writer pracuje zdalnie, czyli jak to się robi w GitLabie]]></title>
+        <id>/2020/07/08/tech-writer-pracuje-zdalnie</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/07/08/tech-writer-pracuje-zdalnie"/>
+        <updated>2020-07-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Trwająca od kilku miesięcy sytuacja spowodowała, że biura zostały pozamykane a]]></summary>
+        <content type="html"><![CDATA[<p>Trwająca od kilku miesięcy sytuacja spowodowała, że biura zostały pozamykane a
+praca zdalna z dnia na dzień stała się nowym standardem. Jednak istnieją też
+takie firmy, które już na wczesnym etapie rozwoju podjęły świadomą decyzję, że
+postawią na model pracy bez tradycyjnych biur. O byciu w pełni zdalnym Technical
+Writerem rozmawiamy z Marcinem Sędłakiem-Jakubowskim z firmy GitLab. Pytamy o
+procesy, narzędzia, budowanie relacji i staramy się ustalić czy jest w tym
+wszystkim jakiś haczyk.</p><div episodeId="19-Tech-Writer-pracuje-zdalnie--czyli-jak-to-sie-robi-w-GitLabie-eg8gis/a-a2lebnu"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#18 Wyboista droga do kodowania]]></title>
+        <id>/2020/06/09/wyboista-droga-do-kodowania</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/06/09/wyboista-droga-do-kodowania"/>
+        <updated>2020-06-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Przejście od zera do kodującego Tech Writera to dość długa droga, i nie zawsze]]></summary>
+        <content type="html"><![CDATA[<p>Przejście od zera do kodującego Tech Writera to dość długa droga, i nie zawsze
+usłana różami. Jednak przy odpowiedniej motywacji i podejściu można podołać temu
+wyzwaniu. Rozmawiamy o tym jak zacząć naukę kodowania, przez jakie etapy trzeba
+przejść i jak radzić sobie z problemami i pułapkami.</p><div episodeId="18-Wyboista-droga-do-kodowania-ef4tjd/a-a2dv5c1"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#17 Webhelp kontra Progressive Web App]]></title>
+        <id>/2020/05/18/webhelp-kontra-pwa</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/05/18/webhelp-kontra-pwa"/>
+        <updated>2020-05-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Offline help, który sam się aktualizuje. Czy to w ogóle możliwe? Zastanawiamy]]></summary>
+        <content type="html"><![CDATA[<p>Offline help, który sam się aktualizuje. Czy to w ogóle możliwe? Zastanawiamy
+się czy webhelp czasy świetności ma już za sobą i czy Progressive Web App (PWA)
+ma szansę zostać nowym królem helpów.</p><div episodeId="17-Webhelp-kontra-Progressive-Web-App-ee6c5i/a-a27kfjb"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[16# DITA z Gita]]></title>
+        <id>/2020/04/22/dita-z-gita</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/04/22/dita-z-gita"/>
+        <updated>2020-04-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Czy szanujący się zespół dokumentacyjny używający standardu DITA może działać]]></summary>
+        <content type="html"><![CDATA[<p>Czy szanujący się zespół dokumentacyjny używający standardu DITA może działać
+bez CCMSa? Czy Technical Writer odnajdzie się w gicie? Jakie wyzwania stwarza
+taka implementacja? Techniczna rozmowa o technical writingu.</p><div episodeId="16-DITA-z-Gita-ed3o8b/a-a20fl7c"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#15 Technoskryby potyczki z SME, czyli jak zdobywać informacje potrzebne do tworzenia dokumentacji]]></title>
+        <id>/2020/04/07/technoskryby-potyczki-z-sme</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/04/07/technoskryby-potyczki-z-sme"/>
+        <updated>2020-04-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jak Technical Writer radzi sobie ze zdobywaniem informacji? Co jeśli Subject]]></summary>
+        <content type="html"><![CDATA[<p>Jak Technical Writer radzi sobie ze zdobywaniem informacji? Co jeśli Subject
+Matter Expert (SME) jest niedostępny? A co jeśli dwóch SME nie może się zgodzić
+co jest najważniejsze? Rozmawiamy z Mateuszem Boryckim, który przynosi cztery
+prawdziwe historie (case studies) z życia Technical Writera.</p><div episodeId="15-Technoskryby-potyczki-z-SME--czyli-jak-zdobywa-informacje-potrzebne-do-tworzenia-dokumentacji-ecel9n/a-a1sf1um"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#14 Tech Writer zaczyna kodować w Pythonie, czyli o narzędziach i dobrych praktykach]]></title>
+        <id>/2020/03/24/tech-writer-zaczyna-kodowac-w-pythonie</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/03/24/tech-writer-zaczyna-kodowac-w-pythonie"/>
+        <updated>2020-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Rozmawiamy z Sebastianem Witowskim o tym jak ustawić sobie środowisko do]]></summary>
+        <content type="html"><![CDATA[<p>Rozmawiamy z Sebastianem Witowskim o tym jak ustawić sobie środowisko do
+kodowania w Pythonie i jakich błędów unikać zaczynając swoją przygodę z tym
+językiem programowania. Spora dawka wiedzy dla początkujących Pythonistów. Ale
+jeśli kodujesz w Pythonie od jakiegoś czasu i chcesz się upewnić, że stosujesz
+dobre praktyki, to ten odcinek jest też dla Ciebie.</p><div episodeId="14-Tech-Writer-zaczyna-kodowa-w-Pythonie--czyli-o-narzdziach-i-dobrych-praktykach-ebrd81/a-a1oq0t8"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#13 Full-Stack Tech Writer, czyli technoskryba kontra chmura]]></title>
+        <id>/2020/02/25/full-stack-tech-writer</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/02/25/full-stack-tech-writer"/>
+        <updated>2020-02-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jakie są obowiązki Technical Writera? Pewnie większość z Was odpowiedziałaby, że]]></summary>
+        <content type="html"><![CDATA[<p>Jakie są obowiązki Technical Writera? Pewnie większość z Was odpowiedziałaby, że
+pisanie dokumentacji. A co z budowaniem stron i hostowaniem ich w chmurze? Damy
+sobie z tym radę? Ten odcinek to nie rozważania teoretyczne, ale oparta na
+faktach historia o tym jak trzech Technical Writerów ogarnęło cały stack
+technologiczny i devops dla portalu z dokumentacją.</p><div episodeId="13-Full-Stack-Tech-Writer--czyli-technoskryba-kontra-chmura-eb28ch/a-a1iptc1"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#12 Tech Writer się rekrutuje, czyli jak ważne są umiejętności techniczne]]></title>
+        <id>/2020/01/20/tech-writer-sie-rekrutuje</id>
+        <link href="https://techwriterkoduje.pl/blog/2020/01/20/tech-writer-sie-rekrutuje"/>
+        <updated>2020-01-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Czy ogłoszenie o pracę mówi Ci co będziesz robił jako Technical Writer? Jak]]></summary>
+        <content type="html"><![CDATA[<p>Czy ogłoszenie o pracę mówi Ci co będziesz robił jako Technical Writer? Jak
+pracodawca sprawdzi Twoje umiejętności? Co się liczy u Technical Writera?
+Rozmawiamy z Tomkiem Prusem o blaskach i cieniach rekrutowania Technical
+Writerów starając się odpowiedzieć na pytanie jak ważne w naszej profesji są
+umiejętności techniczne.</p><div episodeId="12-Tech-Writer-si-rekrutuje--czyli-jak-wane-s-umiejtnoci-techniczne-ea9vra/a-a1b5e9o"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#11 Robot dokumentuje część 2 - automatyzacja kontra ludzie]]></title>
+        <id>/2019/12/12/robot-dokumentuje-czesc-2</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/12/12/robot-dokumentuje-czesc-2"/>
+        <updated>2019-12-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Spotkaliśmy się z Agatą Rygielską i rozmawialiśmy o wpływie automatyzacji na]]></summary>
+        <content type="html"><![CDATA[<p>Spotkaliśmy się z Agatą Rygielską i rozmawialiśmy o wpływie automatyzacji na
+ludzi i ich pracę. Agata jest Technical Writerką od 2 lat, a wcześniej pracowała
+w branży tłumaczeniowej. Widziała jak automatyzacja doprowadziła do
+marginalizacji &quot;białkowych&quot; tłumaczy. Jej doświadczenia doprowadziły nas do
+rozważań o przyszłości komunikacji technicznej. Czy przyszłość rysuje się
+optymistycznie dla Technical Writerów, czy raczej w ciemnych barwach?</p><div episodeId="11-Robot-dokumentuje-cz-2---automatyzacja-kontra-ludzie-e9fvag/a-a15cigr"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#10 Docusaurus - Tech Writer dokarmia dinozaury]]></title>
+        <id>/2019/11/15/docusaurus</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/11/15/docusaurus"/>
+        <updated>2019-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus to static site generator stworzony przez Facebooka, którego główną]]></summary>
+        <content type="html"><![CDATA[<p>Docusaurus to static site generator stworzony przez Facebooka, którego główną
+zaletą jest prostota. Rozmawiamy o tym co oferuje to narzędzie, jakie są jego
+mocne i słabe strony oraz w jakich sytuacjach może się sprawdzić jako
+rozwiązanie do tworzenia dokumentacji.</p><div episodeId="10-Docusaurus---Tech-Writer-dokarmia-dinozaury-e90qfr/a-a11llqb"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#9 Robot dokumentuje, czyli technical writing przyszłości]]></title>
+        <id>/2019/10/17/robot-dokumentuje</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/10/17/robot-dokumentuje"/>
+        <updated>2019-10-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Podobno nikt nie jest niezastąpiony, ale czy można zastąpić całą grupę zawodową?]]></summary>
+        <content type="html"><![CDATA[<p>Podobno nikt nie jest niezastąpiony, ale czy można zastąpić całą grupę zawodową?
+Zwłaszcza ludzi, którzy robią research, rozmawiają z innymi i piszą? O
+automatyzacji w technical writingu rozmawia z nami Wojtek Aleksander.</p><div episodeId="9-Robot-dokumentuje--czyli-technical-writing-przyszoci-e7p204/a-at2688"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#8 DITA OT - static site generator dla wtajemniczonych]]></title>
+        <id>/2019/09/28/dita-ot</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/09/28/dita-ot"/>
+        <updated>2019-09-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jako technoskrybi, którzy kodują, spędziliśmy trochę czasu z DITA Open Toolkit.]]></summary>
+        <content type="html"><![CDATA[<p>Jako technoskrybi, którzy kodują, spędziliśmy trochę czasu z DITA Open Toolkit.
+Rozmawiamy o tym do czego służy DITA OT i jakie ma możliwości. Mówimy o wadach i
+zaletach. Podpowiadamy też jak zacząć pracę z tym narzędziem. Pracujesz z ditą
+lub chcesz dowiedzieć się o niej więcej? To jest odcinek dla Ciebie.</p><div episodeId="8-DITA-OT---static-site-generator-dla-wtajemniczonych-e5kpb2/a-ap19v5"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#7 Programista dokumentuje, czyli nowoczesny technical writing]]></title>
+        <id>/2019/08/29/programista-dokumentuje</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/08/29/programista-dokumentuje"/>
+        <updated>2019-08-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[W nowoczesnej firmie software’owej nie ma ani jednego Technical Writera. W takim]]></summary>
+        <content type="html"><![CDATA[<p>W nowoczesnej firmie software’owej nie ma ani jednego Technical Writera. W takim
+razie czym się zajmuje nasz gość, Rafał Pawlicki, który pracuje jako
+Documentation Manager? Dynamiczne zmiany w świecie technologii powodują, że
+coraz częściej w firmach wytwarzających oprogramowanie granice między
+tradycyjnie zdefiniowanymi rolami zaczynają się zacierać. Nierzadko Tech Writer
+koduje, a programista dokumentuje. Rozmawiamy o przyszłości Technical Writerów,
+o tym jak stać się elastycznym specjalistą od treśći i nie zamykać się w silosie
+oraz mierzymy się ze stereotypami związanymi z podejściem programistów do
+dokumentacji i z ich postrzeganiem roli Tech Writera. Posłuchajcie!</p><div episodeId="7-Programista-dokumentuje--czyli-nowoczesny-technical-writing-e54pnt/a-aluh84"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#6 Konferencja EuroPython 2019 z perspektywy kodującego Tech Writera]]></title>
+        <id>/2019/08/12/europython-2019</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/08/12/europython-2019"/>
+        <updated>2019-08-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[EuroPython to największa europejska konferencja poświęcona językowi]]></summary>
+        <content type="html"><![CDATA[<p>EuroPython to największa europejska konferencja poświęcona językowi
+programowania Python. Tegoroczna edycja odbyła się w dniach 8-14 lipca w Bazylei
+(Szwajcaria). Przyglądamy się temu wydarzeniu z perspektywy Technical Writera,
+który od jakiegoś czasu korzysta z Pythona w swojej pracy, ale nie jest
+zawodowym programistą. Rozmawiamy o tym co się działo podczas EuroPython 2019 i
+czego można było się tam nauczyć.</p><div episodeId="6-Konferencja-EuroPython-2019-z-perspektywy-kodujcego-Tech-Writera-e4tons/a-akl07j"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#5 Narzędzia dla Tech Writerów]]></title>
+        <id>/2019/07/24/narzedzia</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/07/24/narzedzia"/>
+        <updated>2019-07-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mogłoby się wydawać, że Tech Writerzy nie mają dużych potrzeb jeśli chodzi o]]></summary>
+        <content type="html"><![CDATA[<p>Mogłoby się wydawać, że Tech Writerzy nie mają dużych potrzeb jeśli chodzi o
+narzędzia. W końcu co może być potrzebne do napisania instrukcji? Zapewne
+wystarczy jakiś prosty edytor i tyle. Nic bardziej mylnego. Technical Writerzy,
+jak każda profesja, również mają swoje rozwiązania, które pozwalają im tworzyć,
+dostarczać i łatwiej utrzymywać profesjonalną dokumentację. W dzisiejszym
+odcinku przyglądamy się temu z jakich narzędzi mogą skorzystać osoby zajmujące
+się tworzeniem treści, podsumowujemy ich mocne i słabe strony i staramy się
+ustalić w jakich sytuacjach najlepiej się sprawdzają.</p><div episodeId="5-Narzdzia-dla-Tech-Writerw-e4murr/a-ajdbdd"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#4 Konferencja soap! 2019 - podsumowanie]]></title>
+        <id>/2019/07/07/soap-2019</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/07/07/soap-2019"/>
+        <updated>2019-07-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[soap! to jedyna polska konferencja dla specjalistów zajmujących się szeroko]]></summary>
+        <content type="html"><![CDATA[<p>soap! to jedyna polska konferencja dla specjalistów zajmujących się szeroko
+pojętą treścią. Motywem przewodnim tegorocznej edycji było &quot;Content as code&quot;. W
+tym odcinku, dzielimy się swoimi ogólnymi wrażeniami na temat konferencji oraz
+rozmawiamy o prezentacjach, które najbardziej zapadły nam w pamięć.</p><div episodeId="4-Konferencja-soap--2019---podsumowanie-e4hk4c"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#3 SVG - przenieś grafikę w dokumentacji na wyższy poziom]]></title>
+        <id>/2019/06/14/svg</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/06/14/svg"/>
+        <updated>2019-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Scalable Vector Graphics (SVG) kryje w sobie wiele ciekawych aspektów, które]]></summary>
+        <content type="html"><![CDATA[<p>Scalable Vector Graphics (SVG) kryje w sobie wiele ciekawych aspektów, które
+Technical Writerzy mogliby potencjalnie wykorzystać. Nasz gość, Daniel Barrio
+Fierro, od jakiegoś czasu nie tylko pasjonuje się tym formatem, ale również
+wykorzystuje jego zalety pracując nad dokumentacją. W tym odcinku rozmawiamy z
+Danielem o tym jak Technical Writerzy mogą zmienić podejście do elementów
+graficznych w dokumentacji i utrzymywać je sprytniej wykorzystując format SVG.</p><div episodeId="3-SVG---przenie-grafik-w-dokumentacji-na-wyszy-poziom-e4b4kv"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#2 Python - przyjaciel Tech Writera]]></title>
+        <id>/2019/05/23/python</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/05/23/python"/>
+        <updated>2019-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Python to język programowania ogólnego zastosowania, który w ostatnich latach]]></summary>
+        <content type="html"><![CDATA[<p>Python to język programowania ogólnego zastosowania, który w ostatnich latach
+zyskuje coraz większą popularność nie tylko wśród programistów. Jednym z powodów
+jest niewątpliwie jego przystępna składnia przez co osoby, które nie są bardzo
+techniczne są w stanie dość szybko opanować podstawy kodowania w tym języku.
+Dlatego też Python wydaje się być dobrą propozycją dla Technical Writerów,
+którzy chcą tworzyć narzędzia wspomagające proces tworzenia treści.</p><div episodeId="2-Python---przyjaciel-Tech-Writera-e41e6l"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#1 Docs like code - rozważania praktyczne i filozoficzne]]></title>
+        <id>/2019/05/14/docs-like-code</id>
+        <link href="https://techwriterkoduje.pl/blog/2019/05/14/docs-like-code"/>
+        <updated>2019-05-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA["Docs like code" czy "Docs as code" to model tworzenia dokumentacji, który staje]]></summary>
+        <content type="html"><![CDATA[<p>&quot;Docs like code&quot; czy &quot;Docs as code&quot; to model tworzenia dokumentacji, który staje
+się coraz bardziej popularny wśród Tech Writerów w IT. Głównym założeniem jest
+traktowanie dokumentacji jak kodu pod kątem procesów oraz narzędzi, których
+używamy do jej tworzenia. Ale czy to wszystko? Staramy się przyjrzeć dokładniej
+temu trendowi, żeby odkryć co jeszcze może się za nim kryć.</p><div episodeId="1-Docs-like-code---rozwaania-praktyczne-i-filozoficzne-e41dsc"></div>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
+</feed>
