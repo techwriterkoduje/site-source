@@ -7,7 +7,7 @@ Stare porzekadło "Tańcz jakby nikt nie patrzył" niestety nie sprawdzi się w 
 
 Z Mateuszem Olejarką, specjalistą w zakresie bezpieczeństwa aplikacji webowych, rozmawiamy o tym na co powinniśmy zwracać uwagę w procesie tworzenia dokumentacji, żeby była ona bezpieczna. Dowiecie się gdzie czyhają potencjalne zagrożenia i jak sobie z nimi radzić.
 
-_Muzyka w intro oraz dźwięki pochodzą z kolekcji "107 Free Retro Game Sounds" dostępnej na stronie <https://dominik-braun.net>, udostępnianej na podstawie
+_Dźwięki wykorzystane w audycji pochodzą z kolekcji "107 Free Retro Game Sounds" dostępnej na stronie https://dominik-braun.net, udostępnianej na podstawie
 licencji [Creative Commons license CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._
 
 **Informacje dodatkowe:**
