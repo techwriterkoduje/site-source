@@ -4,6 +4,24 @@ import Features from '@site/src/components/SiteFeatures';
 
 const features = [
   {
+    title: <>DITA as code - a modern approach to the classic standard</>,
+    imageUrl: 'img/dita-as-code.jpg',
+    description: (
+      <>
+        (Napisaliśmy ten artykuł po angielsku!) This article aims to show how
+        you can use DITA in the docs as code model. Unlike some of the more
+        accessible but simpler markup languages like Markdown, DITA offers a
+        structured framework for content creation. At the same time, it has
+        enough flexibility to fit modern workflows and create a collaborative
+        space for cross-functional teams.
+      </>
+    ),
+    actionLink: {
+      to: '/dita-as-code',
+      label: 'Czytaj artykuł',
+    },
+  },
+  {
     title: <>Tech Writer koduje w Pythonie. Przewodnik szybkiego startu.</>,
     imageUrl: 'img/python.png',
     description: (

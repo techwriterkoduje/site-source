@@ -32,8 +32,8 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Tech Writer koduje</br></br>Logo stworzone przez rad89`,
     },
     algolia: {
-      appId: process.env.ALGOLIA_APP_ID,
-      apiKey: process.env.ALGOLIA_API_KEY,
+      appId: process.env.ALGOLIA_APP_ID || 'fake',
+      apiKey: process.env.ALGOLIA_API_KEY || 'fake',
       indexName: 'techwriterkoduje',
       contextualSearch: false,
     },
