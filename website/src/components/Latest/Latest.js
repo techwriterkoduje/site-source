@@ -5,7 +5,7 @@ import styles from './Latest.module.css';
 export default function Latest() {
   return (
     <div className={styles.wrapper}>
-      <AnchorEmbed episodeId="38-Tech-Writer-walczy-z-hakerami--czyli-jak-zadba-o-bezpieczestwo-dokumentacji-e1cbmce" />
+      <AnchorEmbed episodeId="39-DITA-as-code--czyli-klasyczny-standard-w-nowoczesnym-wydaniu-e1e6nvo" />
     </div>
   );
 }
