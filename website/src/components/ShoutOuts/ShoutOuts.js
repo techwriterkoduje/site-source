@@ -21,6 +21,11 @@ export default function ShoutOuts() {
       label: 'techwriter.pl',
     },
     {
+      imageUrl: useBaseUrl('img/soap-logo.png'),
+      link: 'https://soapconf.com/',
+      label: 'soap! conference',
+    },
+    {
       logo: <SwitkowskiLogo />,
       link: 'https://switowski.com/',
       label: 'Sebastian Witkowski',
