@@ -31,6 +31,7 @@ licencji [Creative Commons license CC BY 4.0](https://creativecommons.org/licens
 - "Creative writing with GitHub copilot", Chris Ward: https://www.youtube.com/watch?v=V_CmYyvaMqE
 - "Lint, Lint and Away! Linters for the English Language", Chris Ward: https://dzone.com/articles/lint-lint-and-away-linters-for-the-english-languag
 - Code Spell Checker: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+- Gremlins Tracker for Visual Studio Code: https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins
 - "Meet Grazie: the ultimate spelling, grammar, and style checker for IntelliJ IDEA", The IntelliJ IDEAL Blog: https://blog.jetbrains.com/idea/2019/11/meet-grazie-the-ultimate-spelling-grammar-and-style-checker-for-intellij-idea/
 - Pandoc: https://pandoc.org/
 - "DITA as code - a modern approach to the classic standard", Tech Writer koduje: https://techwriterkoduje.pl/dita-as-code
