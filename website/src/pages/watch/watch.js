@@ -19,7 +19,7 @@ const videos = [
       </>
     ),
     title:
-      'Doing docs like code in the real world – a case study • Michał Skowron &amp; Paweł Kowaluk • soap! 2019',
+      'Doing docs like code in the real world – a case study • Michał Skowron & Paweł Kowaluk • soap! 2019',
     description: (
       <>
         Nasza prezentacja z konferencji soap! w 2019 roku. Więcej informacji o
