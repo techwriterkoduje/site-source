@@ -9,7 +9,7 @@ Rozmawiamy o tym co do tej pory udało nam się zrobić, żeby w naszej organiza
 
 Jeśli "DITA z gita" jest bliska Waszemu sercu to zapraszamy do odsłuchu.
 
-_Dźwięki wykorzystane w audycji pochodzą z kolekcji "107 Free Retro Game Sounds" dostępnej na stronie https://dominik-braun.net, udostępnianej na podstawie licencji Creative Commons license CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)_
+_Dźwięki wykorzystane w audycji pochodzą z kolekcji "107 Free Retro Game Sounds" dostępnej na stronie https://dominik-braun.net, udostępnianej na podstawie licencji Creative Commons license CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)._
 
 **Informacje dodatkowe:**
 
