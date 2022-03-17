@@ -28,10 +28,6 @@ const subscribeLinks = [
     label: 'Overcast',
   },
   {
-    to: 'https://www.breaker.audio/tech-writer-koduje',
-    label: 'Breaker',
-  },
-  {
     to: 'https://pca.st/H7El',
     label: 'Pocket Casts',
   },
