@@ -26,7 +26,7 @@ export default function ShoutOuts() {
       label: 'soap! conference',
     },
     {
-      imageUrl: useBaseUrl('img/itcf-logo.jpg'),
+      imageUrl: useBaseUrl('img/itcqf-logo.jpg'),
       link: 'https://itcqf.org/',
       label: 'ITCQF - International Technical Communication Qualifications Foundation',
     },
