@@ -26,6 +26,11 @@ export default function ShoutOuts() {
       label: 'soap! conference',
     },
     {
+      imageUrl: useBaseUrl('img/itcf-logo.png'),
+      link: 'https://itcqf.org/',
+      label: 'ITCQF - International Technical Communication Qualifications Foundation',
+    },
+    {
       logo: <SwitkowskiLogo />,
       link: 'https://switowski.com/',
       label: 'Sebastian Witkowski',
