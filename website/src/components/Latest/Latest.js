@@ -5,7 +5,7 @@ import styles from './Latest.module.css';
 export default function Latest() {
   return (
     <div className={styles.wrapper}>
-      <AnchorEmbed episodeId="41-Tech-Writer-rozwaa-podobiestwa-i-rnice-midzy-kodowaniem-a-pisaniem-dokumentacji-e1hpf98" />
+      <AnchorEmbed episodeId="42-Konferencja-soap--2022---podsumowanie-e1ju8jq" />
     </div>
   );
 }
