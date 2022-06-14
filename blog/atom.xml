@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://techwriterkoduje.pl/blog</id>
     <title>Tech Writer koduje Blog</title>
-    <updated>2022-05-02T00:00:00.000Z</updated>
+    <updated>2022-06-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://techwriterkoduje.pl/blog"/>
     <subtitle>Tech Writer koduje Blog</subtitle>
     <icon>https://techwriterkoduje.pl/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[#42 Konferencja soap! 2022 - podsumowanie]]></title>
+        <id>/2022/06/14/soap-2022</id>
+        <link href="https://techwriterkoduje.pl/blog/2022/06/14/soap-2022"/>
+        <updated>2022-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Konferencja soap! to święto każdego Tech Writera. Razem z Edytą Rakowską, technoskrybką z Wrocławia, omawiamy nasze ulubione warsztaty i wystąpienia z edycji 2022.]]></summary>
+        <content type="html"><![CDATA[<p>Konferencja soap! to święto każdego Tech Writera. Razem z Edytą Rakowską, technoskrybką z Wrocławia, omawiamy nasze ulubione warsztaty i wystąpienia z edycji 2022.</p><p>Rozmawiamy o sztucznej inteligencji, planowaniu ContentOps, umiejętnościach, które pozwolą nam przetrwać czwartą rewolucję przemysłową i narzędziach. Łączymy ze sobą niepowiązane tematy, odkrywamy nowe dziedziny do zbadania i nie stronimy od rożnej jakości żartów.</p><p><em>Dźwięki wykorzystane w audycji pochodzą z kolekcji "107 Free Retro Game Sounds" dostępnej na stronie <a href="https://dominik-braun.net" target="_blank" rel="noopener noreferrer">https://dominik-braun.net</a>, udostępnianej na podstawie licencji Creative Commons license CC BY 4.0 (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">https://creativecommons.org/licenses/by/4.0/</a>).</em></p><p><strong>Informacje dodatkowe:</strong></p><ul><li>Konferencja soap!: <a href="https://soapconf.com/" target="_blank" rel="noopener noreferrer">https://soapconf.com/</a></li><li>"Event-driven vs REST API interactions": <a href="https://blog.axway.com/amplify-products/api-management/event-driven-vs-rest-api-interactions" target="_blank" rel="noopener noreferrer">https://blog.axway.com/amplify-products/api-management/event-driven-vs-rest-api-interactions</a></li><li>AsyncAPI: <a href="https://www.asyncapi.com/" target="_blank" rel="noopener noreferrer">https://www.asyncapi.com/</a></li><li>Application programming interface (API): <a href="https://pl.wikipedia.org/wiki/Interfejs_programowania_aplikacji" target="_blank" rel="noopener noreferrer">https://pl.wikipedia.org/wiki/Interfejs_programowania_aplikacji</a></li><li>OpenAI: <a href="https://openai.com/" target="_blank" rel="noopener noreferrer">https://openai.com/</a></li><li>"#32 Tech Writer zatrudnia asystenta, czyli sztuczna inteligencja w służbie dokumentacji", Tech Writer koduje: <a href="https://techwriterkoduje.pl/blog/2021/07/29/tech-writer-zatrudnia-asystenta" target="_blank" rel="noopener noreferrer">https://techwriterkoduje.pl/blog/2021/07/29/tech-writer-zatrudnia-asystenta</a></li><li>DALL-E 2: <a href="https://openai.com/dall-e-2/" target="_blank" rel="noopener noreferrer">https://openai.com/dall-e-2/</a></li><li>OBS (Open Broadcaster Software): <a href="https://obsproject.com/" target="_blank" rel="noopener noreferrer">https://obsproject.com/</a></li><li>Restream: <a href="https://restream.io/" target="_blank" rel="noopener noreferrer">https://restream.io/</a></li><li>"What Is ContentOps?": <a href="https://heretto.com/what-is-contentops/" target="_blank" rel="noopener noreferrer">https://heretto.com/what-is-contentops/</a></li><li>"These are the top 10 job skills of tomorrow – and how long it takes to learn them": <a href="https://www.weforum.org/agenda/2020/10/top-10-work-skills-of-tomorrow-how-long-it-takes-to-learn-them/" target="_blank" rel="noopener noreferrer">https://www.weforum.org/agenda/2020/10/top-10-work-skills-of-tomorrow-how-long-it-takes-to-learn-them/</a></li></ul><iframe src="https://anchor.fm/docdeveloper/embed/episodes/42-Konferencja-soap--2022---podsumowanie-e1ju8jq" frameborder="0" scrolling="no" class="iframe_P0Je"></iframe>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[#41 Tech Writer rozważa podobieństwa i różnice między kodowaniem a pisaniem dokumentacji]]></title>
         <id>/2022/05/02/pisanie-dokumentacji-kodowanie</id>
