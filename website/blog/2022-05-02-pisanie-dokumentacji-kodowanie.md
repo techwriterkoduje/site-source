@@ -13,7 +13,7 @@ _Dźwięki wykorzystane w audycji pochodzą z kolekcji "107 Free Retro Game Soun
 
 * "Docs like code", Anne Gentle:  https://www.docslikecode.com/book/
 * "Docs as code", Write the Docs:  https://www.writethedocs.org/guide/docs-as-code/
-* #39 DITA as code, czyli klasyczny standard w nowoczesnym wydaniu", Tech Writer koduje: https://techwriterkoduje.pl/blog/2022/02/14/dita-as-code
+* "#39 DITA as code, czyli klasyczny standard w nowoczesnym wydaniu", Tech Writer koduje: https://techwriterkoduje.pl/blog/2022/02/14/dita-as-code
 * Standard DITA (Darwin Information Typing Architecture): https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture
 * Oxygen XML: https://www.oxygenxml.com/#bidx-xml-author
 * IntelliJ IDEA: https://www.jetbrains.com/idea/
