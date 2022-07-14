@@ -45,7 +45,7 @@ const features = [
       </>
     ),
     actionLink: {
-      to: 'https://github.com/techwriterkoduje',
+      to: 'https://github.com/techwriterkoduje/site-source',
       label: 'Zainspiruj się',
     },
   },
