@@ -40,7 +40,7 @@ const features = [
     description: (
       <>
         Podoba Ci się nasza strona? Chcesz stworzyć podobną? Strona opiera się o
-        platformę Docusaurus i pliki Markdown. hest deployowana za pomocą Circle
+        platformę Docusaurus i pliki Markdown. Jest deployowana za pomocą Circle
         CI i hostowana na GitHub pages.
       </>
     ),
