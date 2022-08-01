@@ -26,4 +26,4 @@ _Dźwięki wykorzystane w audycji pochodzą z kolekcji "107 Free Retro Game Soun
 
 import AnchorEmbed from '@site/src/components/AnchorEmbed';
 
-<AnchorEmbed episodeId="44-Rekrutacja-Tech-Writerw-w-praktyce--czyli-prawie-wszystko-co-chciaby-wiedzie-o-rynku-pracy-dla-technoskrybw-w-Polsce-e1ltot4" />
+<AnchorEmbed episodeId="44-Rekrutacja-Tech-Writerw-w-praktyce--czyli-prawie-wszystko-co-trzeba-wiedzie-o-rynku-pracy-dla-technoskrybw-w-Polsce-e1ltot4" />
