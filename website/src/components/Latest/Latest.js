@@ -5,7 +5,7 @@ import styles from './Latest.module.css';
 export default function Latest() {
   return (
     <div className={styles.wrapper}>
-      <AnchorEmbed episodeId="43-Tech-Writer-buduje-stron-z-dokumentacj--czyli-prosty-przepis-jak-zacz-od-zera-e1l2qb1" />
+      <AnchorEmbed episodeId="44-Rekrutacja-Tech-Writerw-w-praktyce--czyli-prawie-wszystko-co-trzeba-wiedzie-o-rynku-pracy-dla-technoskrybw-w-Polsce-e1ltot4" />
     </div>
   );
 }
