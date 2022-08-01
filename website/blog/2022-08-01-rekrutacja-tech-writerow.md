@@ -1,5 +1,5 @@
 ---
-title: '#44 Rekrutacja Tech Writerów w praktyce, czyli prawie wszystko co chciałbyś wiedzieć o rynku pracy dla technoskrybów w Polsce'
+title: '#44 Rekrutacja Tech Writerów w praktyce, czyli prawie wszystko co trzeba wiedzieć o rynku pracy dla technoskrybów w Polsce'
 author: Tech Writer koduje
 ---
 
