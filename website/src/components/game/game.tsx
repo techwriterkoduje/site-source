@@ -3,7 +3,6 @@ import { Grid } from '@mui/material';
 import { SyntheticEvent, useEffect, useState } from 'react';
 import styles from './game.module.css';
 import SizeSelector, { availableSizes } from './sizeSelector';
-import LevelSelector, { availableLevels } from './levelSelector';
 import TileButton, { TileButtonProps } from './tileButton';
 import Victory from './victory';
 import Reset from './reset';
@@ -49,7 +48,6 @@ export default function Game() {
   const [numberToClick, setNumberToClick] = useState<number>(1);
   const [gameIsWon, setGameIsWon] = useState(false);
   const [gridSize, setGridSize] = useState<number>();
-  const [difficultyLevel, setDifficultyLevel] = useState<number>();
   const [tiles, setTiles] = useState<TileButtonProps[]>([]);
   const [bestTime, setBestTime] = useState<number | undefined>(undefined);
   const [gameStarted, setGameStarted] = useState(false);
@@ -59,10 +57,6 @@ export default function Game() {
     const initialGridSize =
       Number(localStorage.getItem(storageItems.gridSize)) || availableSizes[0];
     setGridSize(initialGridSize);
-    setDifficultyLevel(
-      Number(localStorage.getItem(storageItems.difficultyLevel)) ||
-        availableLevels[0].code
-    );
     setBestTime(
       Number(
         localStorage.getItem(`${storageItems.bestTime}${initialGridSize}`)
@@ -83,18 +77,6 @@ export default function Game() {
       }
     },
     [gridSize]
-  );
-
-  useEffect(
-    function () {
-      if (difficultyLevel) {
-        localStorage.setItem(
-          storageItems.difficultyLevel,
-          `${difficultyLevel}`
-        );
-      }
-    },
-    [difficultyLevel]
   );
 
   function resetBoard(backToHomeScreen: boolean) {
@@ -153,11 +135,9 @@ export default function Game() {
     }
   }
 
-  if (!gameStarted && difficultyLevel && gridSize) {
+  if (!gameStarted && gridSize) {
     return (
       <StartScreen
-        currentLevel={difficultyLevel}
-        setLevel={setDifficultyLevel}
         currentSize={gridSize}
         setSize={setGridSize}
         handleStart={setGameStarted}
@@ -170,12 +150,6 @@ export default function Game() {
       <div className={styles.toolbar}>
         {gridSize && (
           <SizeSelector currentSize={gridSize} setSize={setGridSize} />
-        )}
-        {difficultyLevel && (
-          <LevelSelector
-            currentLevel={difficultyLevel}
-            setLevel={setDifficultyLevel}
-          />
         )}
         {bestTime && <BestTime time={bestTime} />}
       </div>
