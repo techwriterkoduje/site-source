@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Features from '@site/src/components/SiteFeatures';
+import Link from '@docusaurus/Link';
 
 const features = [
   {
@@ -35,13 +36,32 @@ const features = [
     },
   },
   {
+    title: <>Focus Grid</>,
+    imageUrl: 'img/focus-grid.png',
+    description: (
+      <>
+        <p>
+          Gra poprawiająca koncentrację. Wybierz rozmiar tablicy i odsłoń
+          kolejne liczby w jak najkrótszym czasie.
+        </p>
+        <p>
+          <Link to="">Źródło gry</Link>
+        </p>
+      </>
+    ),
+    actionLink: {
+      to: '/focusgrid',
+      label: 'Zagraj',
+    },
+  },
+  {
     title: <>Źródło tej strony (Docusaurus)</>,
     imageUrl: 'img/website.png',
     description: (
       <>
         Podoba Ci się nasza strona? Chcesz stworzyć podobną? Strona opiera się o
-        platformę Docusaurus i pliki Markdown. Jest deployowana za pomocą GitHub Actions
-        i hostowana na GitHub Pages.
+        platformę Docusaurus i pliki Markdown. Jest deployowana za pomocą GitHub
+        Actions i hostowana na GitHub Pages.
       </>
     ),
     actionLink: {

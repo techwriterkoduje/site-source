@@ -4,7 +4,7 @@
 }
 
 .square:after {
-  content: "";
+  content: '';
   display: block;
   padding-bottom: 100%;
 }
@@ -92,6 +92,7 @@
   color: #202020;
   width: 100%;
   height: 100%;
+  min-height: 80vh;
   max-width: 1000px;
   display: flex;
   flex-direction: column;
@@ -100,4 +101,14 @@
   text-align: center;
   gap: 3rem;
   padding: 2rem 1rem;
+  background-image: url('/img/focus-grid.png');
+  background-position: top;
+  background-size: cover;
+  color: white;
+}
+
+.sizeSelector {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 6px;
 }

@@ -1,11 +1,11 @@
-import React from "react";
-import SizeSelector, { SizeSelectorProps } from "./sizeSelector";
-import styles from "./game.module.css";
-import { Dispatch, SetStateAction } from "react";
+import React from 'react';
+import SizeSelector, { SizeSelectorProps } from './sizeSelector';
+import styles from './game.module.css';
+import { Dispatch, SetStateAction } from 'react';
 
 type StartScreenProps = SizeSelectorProps & {
-    handleStart: Dispatch<SetStateAction<boolean>>;
-  };
+  handleStart: Dispatch<SetStateAction<boolean>>;
+};
 
 export default function StartScreen({
   currentSize,
@@ -18,10 +18,12 @@ export default function StartScreen({
         <h1>Focus Grid</h1>
         <p>Ćwicz koncentrację</p>
       </div>
-      <SizeSelector currentSize={currentSize} setSize={setSize} />
+      <div className={styles.sizeSelector}>
+        <SizeSelector currentSize={currentSize} setSize={setSize} />
+      </div>
       <button
         className={styles.button}
-        style={{ border: "1px solid gray", borderRadius: "6px" }}
+        style={{ border: '1px solid gray', borderRadius: '6px' }}
         onClick={() => handleStart(true)}
       >
         Start
