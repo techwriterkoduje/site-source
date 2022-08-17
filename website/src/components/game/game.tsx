@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid } from '@mui/material';
+import { Grid, TextField } from '@mui/material';
 import { SyntheticEvent, useEffect, useState } from 'react';
 import styles from './game.module.css';
 import SizeSelector, { availableSizes } from './sizeSelector';
@@ -149,7 +149,12 @@ export default function Game() {
     <>
       <div className={styles.toolbar}>
         {gridSize && (
-          <SizeSelector currentSize={gridSize} setSize={setGridSize} />
+          <TextField
+            disabled
+            id="outlined"
+            label="Rozmiar"
+            defaultValue={`${Math.sqrt(gridSize)}x${Math.sqrt(gridSize)}`}
+          />
         )}
         {bestTime && <BestTime time={bestTime} />}
       </div>

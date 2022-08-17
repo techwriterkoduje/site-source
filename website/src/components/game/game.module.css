@@ -84,7 +84,7 @@
   border-radius: 6px;
   border: 1px solid gray;
   margin: 1rem auto;
-  padding: 5px 8px;
+  padding: 8px;
 }
 
 .startScreen {
@@ -101,10 +101,14 @@
   text-align: center;
   gap: 3rem;
   padding: 2rem 1rem;
-  background-image: url('/img/focus-grid.png');
   background-position: top;
   background-size: cover;
   color: white;
+}
+
+.gameTitle {
+  font-size: 4rem;
+  text-shadow: 1px 1px 2px black;
 }
 
 .sizeSelector {
