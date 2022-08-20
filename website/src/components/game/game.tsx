@@ -119,7 +119,6 @@ export default function Game() {
         setTimeout(() => {
           setGameIsWon(true);
         }, 1000);
-        document.body.style.overflow = 'hidden';
         return;
       }
       setNumberToClick(numberToClick + 1);
