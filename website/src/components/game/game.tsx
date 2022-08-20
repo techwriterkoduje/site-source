@@ -153,6 +153,7 @@ export default function Game() {
             id='outlined'
             label='Rozmiar'
             defaultValue={`${Math.sqrt(gridSize)}x${Math.sqrt(gridSize)}`}
+            size='small'
           />
         )}
         <StopWatch stopwatch={stopwatch} />
