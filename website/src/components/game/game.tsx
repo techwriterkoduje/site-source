@@ -154,6 +154,7 @@ export default function Game() {
             label='Rozmiar'
             defaultValue={`${Math.sqrt(gridSize)}x${Math.sqrt(gridSize)}`}
             size='small'
+            style={{ width: '100px' }}
           />
         )}
         <StopWatch stopwatch={stopwatch} />
