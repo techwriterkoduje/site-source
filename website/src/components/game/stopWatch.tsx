@@ -15,7 +15,7 @@ export default function StopWatch({ stopwatch }: StopWatchProps) {
 
   return (
     <Chip
-      style={{ fontSize: "1.2rem", margin: "1rem auto" }}
+      style={{ fontSize: "1.2rem" }}
       label={`Czas: ${format(hours)}:${format(minutes)}:${format(seconds)}`}
     />
   );

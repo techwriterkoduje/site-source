@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { SyntheticEvent, useEffect, useState } from 'react';
 import { Grid, TextField } from '@mui/material';
-import { SyntheticEvent, useEffect, useState } from 'react';
 import styles from './game.module.css';
-import SizeSelector, { availableSizes } from './sizeSelector';
+import { availableSizes } from './sizeSelector';
 import TileButton, { TileButtonProps } from './tileButton';
 import Victory from './victory';
 import Reset from './reset';
@@ -31,7 +30,7 @@ function createTiles(size: number): TileButtonProps[] {
     id: i,
     label: `${i}`,
     done: false,
-    fontSize: `${i < 100 ? 180 / Math.sqrt(size) : 130 / Math.sqrt(size)}px`,
+    fontSize: `${i < 100 ? 180 / Math.sqrt(size) : 130 / Math.sqrt(size)}px`
   }));
 
   return range;
@@ -41,7 +40,7 @@ const storageItems = {
   score: 'score',
   gridSize: 'gridSize',
   difficultyLevel: 'difficultyLevel',
-  bestTime: 'bestTime-',
+  bestTime: 'bestTime-'
 };
 
 export default function Game() {
@@ -53,7 +52,7 @@ export default function Game() {
   const [gameStarted, setGameStarted] = useState(false);
   const stopwatch = useStopwatch({ autoStart: true });
 
-  useEffect(function () {
+  useEffect(function() {
     const initialGridSize =
       Number(localStorage.getItem(storageItems.gridSize)) || availableSizes[0];
     setGridSize(initialGridSize);
@@ -65,14 +64,14 @@ export default function Game() {
   }, []);
 
   useEffect(
-    function () {
+    function() {
       if (gridSize) {
         localStorage.setItem(storageItems.gridSize, `${gridSize}`);
         setTiles(createTiles(gridSize));
         setNumberToClick(1);
         setBestTime(
           Number(localStorage.getItem(`${storageItems.bestTime}${gridSize}`)) ||
-            undefined
+          undefined
         );
       }
     },
@@ -128,7 +127,7 @@ export default function Game() {
         [
           { transform: 'rotate(10deg)' },
           { transform: 'rotate(-10deg)' },
-          { transform: 'rotate(0)' },
+          { transform: 'rotate(0)' }
         ],
         { duration: 100, iterations: 1 }
       );
@@ -151,24 +150,24 @@ export default function Game() {
         {gridSize && (
           <TextField
             disabled
-            id="outlined"
-            label="Rozmiar"
+            id='outlined'
+            label='Rozmiar'
             defaultValue={`${Math.sqrt(gridSize)}x${Math.sqrt(gridSize)}`}
           />
         )}
-        {bestTime && <BestTime time={bestTime} />}
+        <StopWatch stopwatch={stopwatch} />
       </div>
       {gridSize && (
         <Grid
           container
           spacing={1 / Math.sqrt(gridSize)}
           columns={Math.sqrt(gridSize)}
-          width="100%"
-          alignItems="center"
-          justifyContent="center"
+          width='100%'
+          alignItems='center'
+          justifyContent='center'
           maxWidth={1200}
-          overflow="hidden"
-          margin="auto"
+          overflow='hidden'
+          margin='auto'
         >
           {tiles.map((props) => (
             <Grid item key={props.id} xs={1} xl={1} lg={1} sm={1} md={1}>
@@ -178,10 +177,10 @@ export default function Game() {
         </Grid>
       )}
       <div className={styles.toolbar}>
-        <StopWatch stopwatch={stopwatch} />
+        <Reset handleReset={() => resetBoard(true)} />
       </div>
       <div className={styles.toolbar}>
-        <Reset handleReset={() => resetBoard(true)} />
+        <BestTime time={bestTime} />
       </div>
       {gameIsWon && (
         <Victory

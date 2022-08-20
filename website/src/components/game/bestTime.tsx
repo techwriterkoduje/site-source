@@ -6,9 +6,14 @@ type BestTimeProps = {
 };
 
 export function getTimeDisplayFromNumber(seconds: number): string {
-  return new Date(seconds * 1000).toISOString().slice(11, 19);
+  return seconds ? new Date(seconds * 1000).toISOString().slice(11, 19) : 'brak';
 }
 
 export default function BestTime({ time }: BestTimeProps) {
-  return <Chip label={getTimeDisplayFromNumber(time)} />;
+  return (
+    <Chip
+      style={{ fontSize: '1.2rem', margin: '1rem auto' }}
+      label={`Najlepszy czas: ${getTimeDisplayFromNumber(time)}`}
+    />
+  );
 }

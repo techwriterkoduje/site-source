@@ -111,8 +111,12 @@
   text-shadow: 1px 1px 2px black;
 }
 
-.sizeSelector {
+.sizeSelector, .gameDescription {
   background-color: white;
   padding: 1rem;
   border-radius: 6px;
+}
+
+.gameDescription {
+    color: black;
 }

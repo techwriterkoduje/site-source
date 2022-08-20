@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { Dispatch, SetStateAction } from 'react';
 import SizeSelector, { SizeSelectorProps } from './sizeSelector';
 import styles from './game.module.css';
-import { Dispatch, SetStateAction } from 'react';
 import splashImage from '@site/static/img/focus-grid.png';
 
 type StartScreenProps = SizeSelectorProps & {
@@ -9,10 +8,10 @@ type StartScreenProps = SizeSelectorProps & {
 };
 
 export default function StartScreen({
-  currentSize,
-  setSize,
-  handleStart,
-}: StartScreenProps) {
+                                      currentSize,
+                                      setSize,
+                                      handleStart
+                                    }: StartScreenProps) {
   return (
     <div
       className={styles.startScreen}
@@ -20,6 +19,10 @@ export default function StartScreen({
     >
       <div>
         <h1 className={styles.gameTitle}>Focus Grid</h1>
+      </div>
+      <div className={styles.gameDescription}>
+        Gra poprawiająca koncentrację. Wybierz rozmiar tablicy i odsłoń
+        kolejne liczby w jak najkrótszym czasie.
       </div>
       <div className={styles.sizeSelector}>
         <SizeSelector currentSize={currentSize} setSize={setSize} />
