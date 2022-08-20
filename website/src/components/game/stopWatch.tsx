@@ -1,9 +1,9 @@
-import React from "react";
-import { Chip } from "@mui/material";
-import { StopwatchResult } from "react-timer-hook";
+import React from 'react';
+import { Chip } from '@mui/material';
+import { StopwatchResult } from 'react-timer-hook';
 
 function format(input: number) {
-  return input.toLocaleString("en-US", { minimumIntegerDigits: 2 });
+  return input.toLocaleString('en-US', { minimumIntegerDigits: 2 });
 }
 
 type StopWatchProps = {
@@ -16,7 +16,7 @@ export default function StopWatch({ stopwatch }: StopWatchProps) {
   return (
     <Chip
       style={{ fontSize: "1rem" }}
-      label={`Czas: ${format(hours)}:${format(minutes)}:${format(seconds)}`}
+      label={`${format(hours)}:${format(minutes)}:${format(seconds)}`}
     />
   );
 }
