@@ -87,6 +87,22 @@ export default function Game() {
     [gridSize]
   );
 
+  useEffect(
+    function () {
+      if (gameIsWon) {
+        document.body.classList.add(styles.noOverflow);
+      } else {
+        document.body.classList.remove(styles.noOverflow);
+      }
+
+      return () => {
+        document.body.classList.remove(styles.noOverflow);
+        
+      };
+    },
+    [gameIsWon]
+  );
+
   function resetBoard(backToHomeScreen: boolean) {
     if (gridSize) {
       setNumberToClick(1);

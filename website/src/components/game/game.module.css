@@ -3,6 +3,10 @@
   width: 100%;
 }
 
+.noOverflow {
+  overflow: hidden !important;
+}
+
 .square:after {
   content: '';
   display: block;
@@ -111,12 +115,13 @@
   text-shadow: 1px 1px 2px black;
 }
 
-.sizeSelector, .gameDescription {
+.sizeSelector,
+.gameDescription {
   background-color: white;
   padding: 1rem;
   border-radius: 6px;
 }
 
 .gameDescription {
-    color: black;
+  color: black;
 }
