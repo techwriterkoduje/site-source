@@ -39,19 +39,7 @@
   transform: rotate(90deg);
 }
 
-.modalBackground {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.modal {
+.victory {
   border: 2px solid rgb(165, 163, 163);
   background-color: black;
   color: white;
@@ -62,18 +50,6 @@
   flex-direction: column;
   gap: 2rem;
   align-items: center;
-  text-align: center;
-}
-
-.button {
-  padding: 1rem 2rem;
-  background-color: white;
-  color: black;
-  cursor: pointer;
-  border: none;
-  border-radius: 1px;
-  font-size: 1.3rem;
-  font-weight: 500;
   text-align: center;
 }
 

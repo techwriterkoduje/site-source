@@ -1,18 +1,11 @@
-import React from "react";
-import styles from "./game.module.css";
+import { Button } from '@mui/material';
+import React from 'react';
+import styles from './game.module.css';
 
 type ResetProps = {
   handleReset(): void;
 };
 
 export default function Reset({ handleReset }: ResetProps) {
-  return (
-    <button
-      className={styles.button}
-      style={{ width: "100%" }}
-      onClick={handleReset}
-    >
-      Resetuj grę
-    </button>
-  );
+  return <Button fullWidth onClick={handleReset}>Resetuj grę</Button>;
 }

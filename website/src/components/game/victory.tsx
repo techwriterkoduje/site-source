@@ -1,9 +1,11 @@
+import { Button, Dialog, Modal } from '@mui/material';
 import React from 'react';
 import { getTimeDisplayFromNumber } from './bestTime';
 import { getTimeInSeconds } from './game';
 import styles from './game.module.css';
 
 type VictoryProps = {
+  open: boolean;
   startNewGame: () => void;
   seconds: number;
   minutes: number;
@@ -13,6 +15,7 @@ type VictoryProps = {
 
 export default function Victory({
   startNewGame,
+  open,
   seconds,
   minutes,
   hours,
@@ -20,8 +23,8 @@ export default function Victory({
 }: VictoryProps) {
   const resultInSeconds = getTimeInSeconds(seconds, minutes, hours);
   return (
-    <div className={styles.modalBackground}>
-      <div className={styles.modal}>
+    <Dialog open={open}>
+      <div className={styles.victory}>
         <h1>Wynik: {getTimeDisplayFromNumber(resultInSeconds)}</h1>
         {bestTime && (
           <p>
@@ -30,10 +33,10 @@ export default function Victory({
           </p>
         )}
         <p>Spróbuj swoich sił z innym rozmiarem planszy.</p>
-        <button className={styles.button} onClick={startNewGame}>
+        <Button onClick={startNewGame} variant="contained">
           Graj dalej
-        </button>
+        </Button>
       </div>
-    </div>
+    </Dialog>
   );
 }

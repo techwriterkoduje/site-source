@@ -87,22 +87,6 @@ export default function Game() {
     [gridSize]
   );
 
-  useEffect(
-    function () {
-      if (gameIsWon) {
-        document.body.classList.add(styles.noOverflow);
-      } else {
-        document.body.classList.remove(styles.noOverflow);
-      }
-
-      return () => {
-        document.body.classList.remove(styles.noOverflow);
-        
-      };
-    },
-    [gameIsWon]
-  );
-
   function resetBoard(backToHomeScreen: boolean) {
     if (gridSize) {
       setNumberToClick(1);
@@ -209,15 +193,14 @@ export default function Game() {
       <div className={styles.toolbar}>
         <BestTime time={bestTime} />
       </div>
-      {gameIsWon && (
-        <Victory
-          startNewGame={() => resetBoard(false)}
-          seconds={stopwatch.seconds}
-          minutes={stopwatch.minutes}
-          hours={stopwatch.hours}
-          bestTime={bestTime}
-        />
-      )}
+      <Victory
+        startNewGame={() => resetBoard(false)}
+        open={gameIsWon}
+        seconds={stopwatch.seconds}
+        minutes={stopwatch.minutes}
+        hours={stopwatch.hours}
+        bestTime={bestTime}
+      />
     </>
   );
 }

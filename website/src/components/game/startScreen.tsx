@@ -2,16 +2,17 @@ import React, { Dispatch, SetStateAction } from 'react';
 import SizeSelector, { SizeSelectorProps } from './sizeSelector';
 import styles from './game.module.css';
 import splashImage from '@site/static/img/focus-grid.png';
+import { Button } from '@mui/material';
 
 type StartScreenProps = SizeSelectorProps & {
   handleStart: Dispatch<SetStateAction<boolean>>;
 };
 
 export default function StartScreen({
-                                      currentSize,
-                                      setSize,
-                                      handleStart
-                                    }: StartScreenProps) {
+  currentSize,
+  setSize,
+  handleStart,
+}: StartScreenProps) {
   return (
     <div
       className={styles.startScreen}
@@ -21,19 +22,15 @@ export default function StartScreen({
         <h1 className={styles.gameTitle}>Focus Grid</h1>
       </div>
       <div className={styles.gameDescription}>
-        Gra poprawiająca koncentrację. Wybierz rozmiar tablicy i odsłoń
-        kolejne liczby w jak najkrótszym czasie.
+        Gra poprawiająca koncentrację. Wybierz rozmiar tablicy i odsłoń kolejne
+        liczby w jak najkrótszym czasie.
       </div>
       <div className={styles.sizeSelector}>
         <SizeSelector currentSize={currentSize} setSize={setSize} />
       </div>
-      <button
-        className={styles.button}
-        style={{ border: '1px solid gray', borderRadius: '6px' }}
-        onClick={() => handleStart(true)}
-      >
+      <Button variant="contained" size="large" onClick={() => handleStart(true)}>
         Start
-      </button>
+      </Button>
     </div>
   );
 }
