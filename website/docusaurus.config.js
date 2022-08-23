@@ -68,7 +68,7 @@ const config = {
       }),
     ],
   ],
-  plugins: ['@docusaurus/plugin-ideal-image'],
+  plugins: [],
 };
 
 module.exports = config;

@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import Image from '@theme/IdealImage';
 import styles from './styles.module.css';
 import Envelope from './mail_white_36dp.svg';
 import heroImage from './damian-zaleski-RYyr-k3Ysqg-unsplash.jpg';
@@ -13,15 +12,15 @@ const supportLinks = [
       {
         icon: <Envelope className={styles.envelope} />,
         label: 'kontakt@techwriterkoduje.pl',
-        to: 'mailto:kontakt@techwriterkoduje.pl',
-      },
-    ],
-  },
+        to: 'mailto:kontakt@techwriterkoduje.pl'
+      }
+    ]
+  }
 ];
 
 function SupportLink({ title, links }) {
   return (
-    <section className="col">
+    <section className='col'>
       <h3 className={styles.linkHeading}>{title}</h3>
       {links && links.length > 0 && (
         <div>
@@ -42,7 +41,7 @@ function SupportLink({ title, links }) {
 function Contact() {
   return (
     <Layout>
-      <Image img={heroImage} className={styles.hero} />
+      <img src={heroImage} className={styles.hero} alt={"An image showing hands on a keyboard, a mouse, and a wristwatch"} />
       <div className={styles.contactPage}>
         <section>
           <h2>Skontaktuj się z nami!</h2>
@@ -52,8 +51,8 @@ function Contact() {
             Po prostu napisz do nas.
           </p>
           {supportLinks && supportLinks.length > 0 && (
-            <div className="container">
-              <div className="row">
+            <div className='container'>
+              <div className='row'>
                 {supportLinks.map((props, idx) => (
                   <SupportLink key={idx} {...props} />
                 ))}
