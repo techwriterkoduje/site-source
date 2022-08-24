@@ -22,7 +22,7 @@ export default function TileButton({
     <div className={styles.square}>
       <button
         key={id}
-        id={label}
+        id={id.toString()}
         onClick={markAsDone}
         className={clsx(
           styles.tileButton,

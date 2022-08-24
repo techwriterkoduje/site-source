@@ -36,7 +36,8 @@
 }
 
 .infinity {
-  transform: rotate(90deg);
+  transform: rotateY(0) !important;
+  transform: rotate(90deg) !important;
 }
 
 .victory {
