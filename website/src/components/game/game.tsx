@@ -50,6 +50,7 @@ export default function Game() {
   const [tiles, setTiles] = useState<TileButtonProps[]>([]);
   const [bestTime, setBestTime] = useState<number | undefined>(undefined);
   const [gameStarted, setGameStarted] = useState(false);
+  const [resetDisabled, setResetDisabled] = useState(false);
   const stopwatch = useStopwatch({ autoStart: true });
 
   useEffect(function () {
@@ -67,6 +68,7 @@ export default function Game() {
     function () {
       if (gameStarted) {
         stopwatch.start();
+        setResetDisabled(false);
       }
     },
     [gameStarted]
@@ -89,6 +91,7 @@ export default function Game() {
 
   function resetBoard(backToHomeScreen: boolean) {
     if (gridSize) {
+      setResetDisabled(false);
       setNumberToClick(1);
       setGameIsWon(false);
       setTiles(createTiles(gridSize));
@@ -124,6 +127,7 @@ export default function Game() {
       if (tileNumber === gridSize) {
         // GAME WON!!!
         stopwatch.pause();
+        setResetDisabled(true);
         saveBestTime();
         setTimeout(() => {
           setGameIsWon(true);
@@ -188,7 +192,7 @@ export default function Game() {
         </Grid>
       )}
       <div className={styles.toolbar}>
-        <Reset handleReset={() => resetBoard(true)} />
+        <Reset handleReset={() => resetBoard(true)} disabled={resetDisabled} />
       </div>
       <div className={styles.toolbar}>
         <BestTime time={bestTime} />
