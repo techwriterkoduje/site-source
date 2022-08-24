@@ -1,7 +1,6 @@
 import React, { Dispatch, SetStateAction } from 'react';
 import SizeSelector, { SizeSelectorProps } from './sizeSelector';
 import styles from './game.module.css';
-import splashImage from '@site/static/img/focus-grid.png';
 import { Button } from '@mui/material';
 
 type StartScreenProps = SizeSelectorProps & {
@@ -16,7 +15,6 @@ export default function StartScreen({
   return (
     <div
       className={styles.startScreen}
-      style={{ backgroundImage: `url(${splashImage})` }}
     >
       <div>
         <h1 className={styles.gameTitle}>Focus Grid</h1>

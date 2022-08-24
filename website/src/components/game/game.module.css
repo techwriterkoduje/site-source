@@ -83,6 +83,7 @@
   padding: 2rem 1rem;
   background-position: top;
   background-size: cover;
+  background-image: url('/img/focus-grid.png');
   color: white;
 }
 
