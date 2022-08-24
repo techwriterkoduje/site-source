@@ -1,7 +1,7 @@
-import React from "react";
-import clsx from "clsx";
-import { MouseEventHandler } from "react";
-import styles from "./game.module.css";
+import React from 'react';
+import clsx from 'clsx';
+import { MouseEventHandler } from 'react';
+import styles from './game.module.css';
 
 export type TileButtonProps = {
   id: number;

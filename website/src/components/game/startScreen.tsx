@@ -13,9 +13,7 @@ export default function StartScreen({
   handleStart,
 }: StartScreenProps) {
   return (
-    <div
-      className={styles.startScreen}
-    >
+    <div className={styles.startScreen}>
       <div>
         <h1 className={styles.gameTitle}>Focus Grid</h1>
       </div>
@@ -26,7 +24,11 @@ export default function StartScreen({
       <div className={styles.sizeSelector}>
         <SizeSelector currentSize={currentSize} setSize={setSize} />
       </div>
-      <Button variant="contained" size="large" onClick={() => handleStart(true)}>
+      <Button
+        variant="contained"
+        size="large"
+        onClick={() => handleStart(true)}
+      >
         Start
       </Button>
     </div>

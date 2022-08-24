@@ -1,4 +1,4 @@
-import { Button, Dialog, Modal } from '@mui/material';
+import { Button, Dialog } from '@mui/material';
 import React from 'react';
 import { getTimeDisplayFromNumber } from './bestTime';
 import { getTimeInSeconds } from './game';
@@ -25,7 +25,9 @@ export default function Victory({
   return (
     <Dialog open={open}>
       <div className={styles.victory}>
-        <h1 className={styles.victoryHeading}>Wynik: {getTimeDisplayFromNumber(resultInSeconds)}</h1>
+        <h1 className={styles.victoryHeading}>
+          Wynik: {getTimeDisplayFromNumber(resultInSeconds)}
+        </h1>
         {bestTime && (
           <p>
             Twój najlepszy czas dla planszy o tym rozmiarze to{' '}
