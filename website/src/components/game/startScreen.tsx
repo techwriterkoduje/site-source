@@ -14,23 +14,21 @@ export default function StartScreen({
 }: StartScreenProps) {
   return (
     <div className={styles.startScreen}>
-      <div>
-        <h1 className={styles.gameTitle}>Focus Grid</h1>
-      </div>
       <div className={styles.gameDescription}>
-        Gra poprawiająca koncentrację. Wybierz rozmiar tablicy i odsłoń kolejne
-        liczby w jak najkrótszym czasie.
-      </div>
-      <div className={styles.sizeSelector}>
+        <h1 className={styles.gameTitle}>Focus Grid</h1>
+        <p>
+          Ćwicz koncentrację! Wybierz rozmiar tablicy i odsłoń
+          kolejne liczby jak najszybciej.
+        </p>
         <SizeSelector currentSize={currentSize} setSize={setSize} />
+        <Button
+          variant="contained"
+          size="large"
+          onClick={() => handleStart(true)}
+        >
+          Start
+        </Button>
       </div>
-      <Button
-        variant="contained"
-        size="large"
-        onClick={() => handleStart(true)}
-      >
-        Start
-      </Button>
     </div>
   );
 }
