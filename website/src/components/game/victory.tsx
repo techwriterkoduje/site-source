@@ -25,7 +25,7 @@ export default function Victory({
   return (
     <Dialog open={open}>
       <div className={styles.victory}>
-        <h1>Wynik: {getTimeDisplayFromNumber(resultInSeconds)}</h1>
+        <h1 className={styles.victoryHeading}>Wynik: {getTimeDisplayFromNumber(resultInSeconds)}</h1>
         {bestTime && (
           <p>
             Twój najlepszy czas dla planszy o tym rozmiarze to{' '}
