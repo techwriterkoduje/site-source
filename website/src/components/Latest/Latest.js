@@ -5,7 +5,7 @@ import styles from './Latest.module.css';
 export default function Latest() {
   return (
     <div className={styles.wrapper}>
-      <AnchorEmbed episodeId="45-Tech-Writer-wybiera-pomidzy-narzdziami-open-source-a-enterprise--czyli-jak-zbudowa-tech-stack-z-przyszoci-e1ncemn" />
+      <AnchorEmbed episodeId="46-Zosta-hakerem-w-subie-pokoju--czyli-o-Hack-for-Peace-sw-kilka-e1noug3" />
     </div>
   );
 }
