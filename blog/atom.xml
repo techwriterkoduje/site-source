@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://techwriterkoduje.pl/blog</id>
     <title>Tech Writer koduje Blog</title>
-    <updated>2022-09-06T00:00:00.000Z</updated>
+    <updated>2022-09-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://techwriterkoduje.pl/blog"/>
     <subtitle>Tech Writer koduje Blog</subtitle>
     <icon>https://techwriterkoduje.pl/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[#46 Zostań hakerem w służbie pokoju, czyli o "Hack for Peace" słów kilka]]></title>
+        <id>/2022/09/15/hack-for-peace</id>
+        <link href="https://techwriterkoduje.pl/blog/2022/09/15/hack-for-peace"/>
+        <updated>2022-09-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Trzy dni, pięć lokalizacji w różnych częściach Europy i jeden cel -  stworzenie produktów technologicznych, które pozwolą na rozwiązanie  problemów związanych z wojną. "Hack for Peace" to wydarzenie dla wszystkich, którzy pracują z technologią i chcieliby wykorzystać swoje umiejętności dla wspólnego dobra.]]></summary>
+        <content type="html"><![CDATA[<p>Trzy dni, pięć lokalizacji w różnych częściach Europy i jeden cel -  stworzenie produktów technologicznych, które pozwolą na rozwiązanie  problemów związanych z wojną. "Hack for Peace" to wydarzenie dla wszystkich, którzy pracują z technologią i chcieliby wykorzystać swoje umiejętności dla wspólnego dobra.
+Na koniec, jury składające się z przedstawicieli organizatorów i partnerów wybierze trzech zwycięzców, którzy będą mieli możliwość rozwijania swoich pomysłów pod opieką mentorów. Przewidziane są również nagrody pieniężne od "House of Europe".</p><p>Posłuchajcie naszej krótkiej rozmowy z Olgą Sulik z firmy Sigma Software, w której staramy się Wam przybliżyć tę zacną ideę.</p><p><em>Dźwięki wykorzystane w audycji pochodzą z kolekcji "107 Free Retro Game Sounds" dostępnej na stronie <a href="https://dominik-braun.net" target="_blank" rel="noopener noreferrer">https://dominik-braun.net</a>, udostępnianej na podstawie licencji Creative Commons license CC BY 4.0 (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">https://creativecommons.org/licenses/by/4.0/</a>).</em></p><p><strong>Informacje dodatkowe:</strong></p><ul><li>Sigma Software: <a href="https://sigma.software/" target="_blank" rel="noopener noreferrer">https://sigma.software/</a></li><li>"Hack for Peace": <a href="https://hackforpeace.net/" target="_blank" rel="noopener noreferrer">https://hackforpeace.net/</a></li><li>Informacja prasowa o "Hack for Peace": <a href="https://docs.google.com/document/d/1-brngt30XlNYUTnfhfMPe3QVp1ZF5U-A/edit" target="_blank" rel="noopener noreferrer">https://docs.google.com/document/d/1-brngt30XlNYUTnfhfMPe3QVp1ZF5U-A/edit</a> </li><li>Femmegineering Meetup w Krakowie: <a href="https://www.eventbrite.co.uk/e/femmegineering-meetup-in-search-of-the-eternal-code-tickets-415343793467?aff=ebdsoporgprofile" target="_blank" rel="noopener noreferrer">https://www.eventbrite.co.uk/e/femmegineering-meetup-in-search-of-the-eternal-code-tickets-415343793467?aff=ebdsoporgprofile</a></li></ul><iframe src="https://anchor.fm/docdeveloper/embed/episodes/46-Zosta-hakerem-w-subie-pokoju--czyli-o-Hack-for-Peace-sw-kilka-e1noug3" frameborder="0" scrolling="no" class="iframe_P0Je"></iframe>]]></content>
+        <author>
+            <name>Tech Writer koduje</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[#45 Tech Writer wybiera pomiędzy narzędziami open source a enterprise, czyli jak zbudować tech stack z przyszłością]]></title>
         <id>/2022/09/06/open-source-vs-enterprise</id>
