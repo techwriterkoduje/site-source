@@ -4,7 +4,7 @@ WORKDIR /app/website
 
 EXPOSE 3000 35729
 COPY ./docs /app/docs
-COPY ./website /app/website
+COPY . /app
 RUN yarn install
 
 CMD ["yarn", "start"]
