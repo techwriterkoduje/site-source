@@ -51,12 +51,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/techwriterkoduje/site-source/tree/master/website/',
+            'https://github.com/techwriterkoduje/site-source/tree/master/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/techwriterkoduje/site-source/tree/master/website/',
+            'https://github.com/techwriterkoduje/site-source/tree/master/',
           blogSidebarTitle: 'Najnowsze posty',
           feedOptions: {
             type: 'all',
