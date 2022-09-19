@@ -50,13 +50,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/techwriterkoduje/site-source/tree/main/',
+          editUrl: 'https://github.com/techwriterkoduje/site-source/tree/main/',
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/techwriterkoduje/site-source/tree/main/',
+          editUrl: 'https://github.com/techwriterkoduje/site-source/tree/main/',
           blogSidebarTitle: 'Najnowsze posty',
           feedOptions: {
             type: 'all',
@@ -69,6 +67,9 @@ const config = {
     ],
   ],
   plugins: [],
+  customFields: {
+    email: 'techwriterkoduje@gmail.com',
+  },
 };
 
 module.exports = config;

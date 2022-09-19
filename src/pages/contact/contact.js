@@ -4,23 +4,11 @@ import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 import Envelope from './mail_white_36dp.svg';
 import heroImage from './damian-zaleski-RYyr-k3Ysqg-unsplash.jpg';
-
-const supportLinks = [
-  {
-    title: 'E-mail',
-    links: [
-      {
-        icon: <Envelope className={styles.envelope} />,
-        label: 'kontakt@techwriterkoduje.pl',
-        to: 'mailto:kontakt@techwriterkoduje.pl'
-      }
-    ]
-  }
-];
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 function SupportLink({ title, links }) {
   return (
-    <section className='col'>
+    <section className="col">
       <h3 className={styles.linkHeading}>{title}</h3>
       {links && links.length > 0 && (
         <div>
@@ -39,9 +27,28 @@ function SupportLink({ title, links }) {
 }
 
 function Contact() {
+  const { siteConfig } = useDocusaurusContext();
+  const { email } = siteConfig.customFields;
+  const supportLinks = [
+    {
+      title: 'E-mail',
+      links: [
+        {
+          icon: <Envelope className={styles.envelope} />,
+          label: email,
+          to: `mailto:${email}`,
+        },
+      ],
+    },
+  ];
+
   return (
     <Layout>
-      <img src={heroImage} className={styles.hero} alt={"An image showing hands on a keyboard, a mouse, and a wristwatch"} />
+      <img
+        src={heroImage}
+        className={styles.hero}
+        alt={'An image showing hands on a keyboard, a mouse, and a wristwatch'}
+      />
       <div className={styles.contactPage}>
         <section>
           <h2>Skontaktuj się z nami!</h2>
@@ -51,8 +58,8 @@ function Contact() {
             Po prostu napisz do nas.
           </p>
           {supportLinks && supportLinks.length > 0 && (
-            <div className='container'>
-              <div className='row'>
+            <div className="container">
+              <div className="row">
                 {supportLinks.map((props, idx) => (
                   <SupportLink key={idx} {...props} />
                 ))}
