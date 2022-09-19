@@ -2,8 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [master]
-    paths: [./**]
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -15,14 +15,10 @@ jobs:
         with:
           node-version: 16.16.0
           cache: yarn
-          cache-dependency-path: yarn.lock
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
       - name: Build website
-        env:
-          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
-          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-        run: |
-          yarn install --frozen-lockfile
-          yarn build
+        run: yarn build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus

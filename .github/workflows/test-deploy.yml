@@ -2,8 +2,8 @@ name: Test deployment
 
 on:
   pull_request:
-    branches: [master]
-    paths: [./**]
+    branches:
+      - main
 
 jobs:
   test-deploy:
@@ -15,11 +15,10 @@ jobs:
         with:
           node-version: 16.16.0
           cache: yarn
-          cache-dependency-path: ./yarn.lock
-      - name: Test build
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Test build website
         env:
           ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-        run: |
-          yarn install --frozen-lockfile
-          yarn build
+        run: yarn build
