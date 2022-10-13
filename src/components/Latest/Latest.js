@@ -5,7 +5,7 @@ import styles from './Latest.module.css';
 export default function Latest() {
   return (
     <div className={styles.wrapper}>
-      <AnchorEmbed episodeId="46-Zosta-hakerem-w-subie-pokoju--czyli-o-Hack-for-Peace-sw-kilka-e1noug3" />
+      <AnchorEmbed episodeId="47-Tech-Writer-zgbia-tajniki-dostpnoci-cyfrowej--czyli-jak-tworzy-dokumentacj-dla-wszystkich-e1p1kbg" />
     </div>
   );
 }
