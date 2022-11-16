@@ -5,7 +5,7 @@ import styles from './Latest.module.css';
 export default function Latest() {
   return (
     <div className={styles.wrapper}>
-      <AnchorEmbed episodeId="47-Tech-Writer-zgbia-tajniki-dostpnoci-cyfrowej--czyli-jak-tworzy-dokumentacj-dla-wszystkich-e1p1kbg" />
+      <AnchorEmbed episodeId="48-Tech-Writer-uczy-si-frontendu--czyli-jak-wykorzysta-technologie-webowe-w-dokumentacji-e1qhrkc" />
     </div>
   );
 }
